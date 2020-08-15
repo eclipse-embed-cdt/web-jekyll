@@ -49,6 +49,9 @@ function do_before_install() {
 
   cd "${HOME}"
 
+  run_verbose gem install bundler
+  run_verbose bundler --version
+  
   run_verbose gem install html-proofer
   run_verbose htmlproofer --version
 

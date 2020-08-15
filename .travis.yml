@@ -1,3 +1,6 @@
+# To check the status of the CI job:
+# https://travis-ci.org/github/gnu-mcu-eclipse/web-jekyll
+
 # Travis CI configuration file to validate and deploy 
 # the Eclipse Embedded CDT Jekyll site.
 # https://docs.travis-ci.com/user/getting-started/

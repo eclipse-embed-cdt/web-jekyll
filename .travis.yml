@@ -1,5 +1,5 @@
 # Travis CI configuration file to validate and deploy 
-# the GNU MCU Eclipse Jekyll site.
+# the Eclipse Embedded CDT Jekyll site.
 # https://docs.travis-ci.com/user/getting-started/
 
 # https://docs.travis-ci.com/user/multi-os/
@@ -7,8 +7,8 @@ os:
   - linux
 
 # https://docs.travis-ci.com/user/trusty-ci-environment/
-# Use the new Debian 14 containers.
-dist: trusty
+# Use the new Debian 18 containers.
+dist: bionic
 sudo: false
 
 # https://docs.travis-ci.com/user/languages/ruby/
@@ -27,7 +27,7 @@ git:
 
 env:
   global:
-    - GITHUB_DEST_REPO="gnu-mcu-eclipse/gnu-mcu-eclipse.github.io"
+    - GITHUB_DEST_REPO="gnu-mcu-eclipse/web-preview"
     - GIT_COMMIT_USER_EMAIL="ilg@livius.net"
     - GIT_COMMIT_USER_NAME="Travis CI"
     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true

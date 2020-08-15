@@ -50,11 +50,13 @@ exclude:
   - .idea/
   - .gitignore
   - vendor
-  - README.md
+  - README*.md
   - docker-compose.yml
   - Dockerfile
   - Gemfile*
   - scripts/
+  - jekyll*.mac.command
+
 
 feedback_subject_line: [Embedded CDT]
 

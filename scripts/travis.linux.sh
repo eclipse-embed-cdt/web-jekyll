@@ -49,9 +49,10 @@ function do_before_install() {
 
   cd "${HOME}"
 
-  run_verbose gem install bundler
-  run_verbose bundler --version
-  
+  # Not needed, already available.
+  # run_verbose gem install bundler
+  # run_verbose bundler --version
+
   run_verbose gem install html-proofer
   run_verbose htmlproofer --version
 
@@ -96,7 +97,10 @@ function do_script() {
     # run_verbose bundle exec htmlproofer --only-4xx "${site}"
     # run_verbose bundle exec htmlproofer --url-ignore "/img.shields.io/,/uk.farnell.com/,/blogs.msdn.com/,/sourceforge.net/,/bintray.com/,/www.amazon.com/,/gnuarmeclipse.livius.net/,/www.oracle.com/,/my.st.com/,/community.st.com/,/stm32duino.com/,/reference.digilentinc.com/" "${site}"
     # External links are not stable, to disable checks use --disable_external
-    run_verbose bundle exec htmlproofer --disable_external "${site}"
+    run_verbose bundle exec htmlproofer \
+      --allow_hash_href \
+      --disable_external \
+      "${site}"
   fi
 
   # ---------------------------------------------------------------------------

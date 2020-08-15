@@ -26,6 +26,22 @@ Although not mandatory, but highly recommended, the second prerequisite
 is **xpm** (the xPack Package Manager), which is a **Node.js**
 portable application.
 
+To build projects, on Windows it is necessary to install **make**, available
+from the **Windows Build Tools**.
+
+To build Arm projects, an **Arm toolchain** is required; similarly, for
+RISC-V projects, a **RISC-V toolchain** is required.
+
+To debug projects, a JTAG probe is necessary together with the software
+to access it,
+for example the **SEGGER J-Link** software, or **OpenOCD**.
+
+To run debug sessions without actual hardware, the **QEMU Arm** emulator is
+necessary (the blinky tutorial mandates it).
+
+All of these additional tools can be installed as xPacks, which makes
+**xpm** a very convenient tool.
+
 ## Prerequisites
 
 The following section covers the common Windows/macOS/Linux platforms;
@@ -47,7 +63,7 @@ In the **Builds** section, download the **Windows/x64** .zip file.
 
 Create a new folder
 
-```bash
+```plain
 mkdir %APPDATA%\Oracle
 ```
 
@@ -55,7 +71,7 @@ And extract the archive content into `...\AppData\Roaming\Oracle\jdk-{{ page.jdk
 
 To set the path, in a cmd.exe terminal, issue the following:
 
-```bash
+```plain
 set Path=%APPDATA%\Oracle\jdk-{{ page.jdk }}.0.1\bin;%Path%
 setx Path "%APPDATA%\Oracle\jdk-{{ page.jdk }}.0.1\bin;%Path%"
 ```
@@ -232,9 +248,15 @@ Install **xpm**:
 npm install --global xpm@latest
 ```
 
+On Windows, install **make** and the rest of the build tools:
+
+```bash
+xpm install --global @xpack-dev-tools/windows-build-tools@latest
+```
+
 Install the toolchain and the other tools; don't skip qemu, since it is used
-by the tutorial; openocd may also be useful; the riscv toolchain is
-necessary only for RISC-V projects:
+by the blinky tutorial; openocd may also be useful to run debug sessions;
+the riscv toolchain is necessary only for RISC-V projects.
 
 ```bash
 xpm install --global @xpack-dev-tools/arm-none-eabi-gcc@latest
@@ -243,14 +265,8 @@ xpm install --global @xpack-dev-tools/openocd@latest
 xpm install --global @xpack-dev-tools/riscv-none-embed-gcc@latest
 ```
 
-On Windows, install **make** and the rest of the build tools:
-
-```bash
-xpm install --global @xpack-dev-tools/windows-build-tools@latest
-```
-
 All xPacks are installed in a central folder in the user home; check
 the xpm output for the actual location.
 
-Since xPacks are installed in _dot_ folders, configure your file manager
-to show hidden files.
+{% include tip.html content="Since xPacks are installed in _dot_ folders,
+be sure you configure your file manager to show hidden files." %}

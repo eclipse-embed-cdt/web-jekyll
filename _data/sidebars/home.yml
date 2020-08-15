@@ -54,9 +54,6 @@ entries:
     - title: Overview
       url: /develop/
       output: web
-    - title: JavaScript Style Guide
-      url: /develop/js-style-guide/
-      output: web
     - title: Links
       url: /develop/links/
       output: web

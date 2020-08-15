@@ -23,6 +23,34 @@
   
   
   <url>
+    <loc>http://localhost:4001/eclipse/project/assign-device/</loc>
+    <lastmod></lastmod>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4001/tutorials/blinky-arm/</loc>
+    <lastmod></lastmod>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4001/templates/cortexm/</loc>
+    <lastmod></lastmod>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4001/support/faq/</loc>
+    <lastmod>2020-07-16T11:45:12+03:00</lastmod>
+  </url>
+  
+  
+  
+  <url>
     <loc>http://localhost:4001/plugins/features/</loc>
     <lastmod>2015-09-10T19:59:00+03:00</lastmod>
   </url>
@@ -32,6 +60,18 @@
   
   
   
+  
+  <url>
+    <loc>http://localhost:4001/templates/</loc>
+    <lastmod></lastmod>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4001/debug/</loc>
+    <lastmod></lastmod>
+  </url>
   
   
   
@@ -49,9 +89,60 @@
   
   
   
+  
+  
+  <url>
+    <loc>http://localhost:4001/support/</loc>
+    <lastmod>2020-07-16T11:45:12+03:00</lastmod>
+  </url>
+  
+  
+  
   <url>
     <loc>http://localhost:4001/maintain/</loc>
     <lastmod>2019-12-06T22:15:37+02:00</lastmod>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4001/plugins/install/</loc>
+    <lastmod></lastmod>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4001/debug/install/</loc>
+    <lastmod></lastmod>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4001/debug/jlink/install/</loc>
+    <lastmod></lastmod>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4001/debug/jlink/</loc>
+    <lastmod></lastmod>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4001/templates/klxx/</loc>
+    <lastmod></lastmod>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4001/support/known-issues/</loc>
+    <lastmod>2020-07-16T11:45:12+03:00</lastmod>
   </url>
   
   
@@ -67,13 +158,62 @@
   
   
   
+  <url>
+    <loc>http://localhost:4001/plugins/mbs/</loc>
+    <lastmod></lastmod>
+  </url>
+  
   
   
   
   
   <url>
-    <loc>http://localhost:4001/support/</loc>
-    <lastmod>2020-07-16T11:45:12+03:00</lastmod>
+    <loc>http://localhost:4001/debug/openocd/riscv/</loc>
+    <lastmod></lastmod>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4001/debug/openocd/</loc>
+    <lastmod></lastmod>
+  </url>
+  
+  
+  
+  
+  
+  <url>
+    <loc>http://localhost:4001/plugins/packs-manager/</loc>
+    <lastmod></lastmod>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4001/toolchain/path/</loc>
+    <lastmod></lastmod>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4001/debug/peripheral-registers/</loc>
+    <lastmod></lastmod>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4001/eclipse/project/portability/</loc>
+    <lastmod></lastmod>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4001/eclipse/workspace/preferences/</loc>
+    <lastmod></lastmod>
   </url>
   
   
@@ -87,6 +227,10 @@
   
   
   
+  <url>
+    <loc>http://localhost:4001/debug/qemu/</loc>
+    <lastmod></lastmod>
+  </url>
   
   
   
@@ -94,6 +238,16 @@
   
   
   
+  
+  
+  
+  
+  
+  
+  <url>
+    <loc>http://localhost:4001/templates/stm32f/</loc>
+    <lastmod></lastmod>
+  </url>
   
   
   
@@ -125,13 +279,6 @@
   
   <url>
     <loc>http://localhost:4001/redirects.json</loc>
-    <lastmod></lastmod>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4001/README-MAINTAINER/</loc>
     <lastmod></lastmod>
   </url>
   

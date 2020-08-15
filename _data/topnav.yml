@@ -12,10 +12,15 @@ topnav:
 topnav_dropdowns:
 - title: Topnav dropdowns
   folders:
-    - title: Projects
+    - title: Links
       folderitems:
-        - title: xpm
-          external_url: https://github.com/xpack/xpm/
+        - title: Eclipse Marketplace
+          external_url: https://marketplace.eclipse.org/content/eclipse-embedded-cdt
+        - title: Jenkins
+          external_url: https://ci.eclipse.org/embed-cdt/
+        - title: Analytics
+          external_url: https://dev.eclipse.org/committers/committertools/stats.php
+
     - title: GitHub
       folderitems:
         - title: Eclipse Embedded CDT

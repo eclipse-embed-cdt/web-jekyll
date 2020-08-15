@@ -17,6 +17,50 @@
 
 
 {
+"title": "Associate a device to the project",
+"tags": "",
+"keywords": "",
+"url": "/eclipse/project/assign-device/",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Tutorial: Create a Blinky Arm test project",
+"tags": "",
+"keywords": "",
+"url": "/tutorials/blinky-arm/",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Generic Cortex-M template",
+"tags": "",
+"keywords": "",
+"url": "/templates/cortexm/",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "FAQ",
+"tags": "",
+"keywords": "",
+"url": "/support/faq/",
+"summary": ""
+}
+,
+
+
+
+{
 "title": "Eclipse Embedded CDT Plug-ins Features",
 "tags": "",
 "keywords": "",
@@ -30,6 +74,26 @@
 
 
 
+
+{
+"title": "Templates",
+"tags": "",
+"keywords": "",
+"url": "/templates/",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Debugging",
+"tags": "",
+"keywords": "",
+"url": "/debug/",
+"summary": ""
+}
+,
 
 
 
@@ -55,12 +119,91 @@
 
 
 
+
+
+{
+"title": "How to get support",
+"tags": "",
+"keywords": "",
+"url": "/support/",
+"summary": ""
+}
+,
+
+
+
 {
 "title": "Maintainer info",
 "tags": "",
 "keywords": "",
 "url": "/maintain/",
 "summary": "<p>Resources for the projects maintainers.</p>"
+}
+,
+
+
+
+{
+"title": "How to install the Eclipse Embedded CDT plug-ins",
+"tags": "",
+"keywords": "",
+"url": "/plugins/install/",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "How to install the debugging components?",
+"tags": "",
+"keywords": "",
+"url": "/debug/install/",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "How to install the SEGGER J-Link?",
+"tags": "",
+"keywords": "",
+"url": "/debug/jlink/install/",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "The J-Link debugging Eclipse plug-in",
+"tags": "",
+"keywords": "",
+"url": "/debug/jlink/",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "KLxx template",
+"tags": "",
+"keywords": "",
+"url": "/templates/klxx/",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Known issues",
+"tags": "",
+"keywords": "",
+"url": "/support/known-issues/",
+"summary": ""
 }
 ,
 
@@ -81,15 +224,92 @@
 
 
 
+{
+"title": "How to use the managed build plug-ins?",
+"tags": "",
+"keywords": "",
+"url": "/plugins/mbs/",
+"summary": ""
+}
+,
+
 
 
 
 
 {
-"title": "How to get support",
+"title": "OpenOCD configurations for RISC-V",
 "tags": "",
 "keywords": "",
-"url": "/support/",
+"url": "/debug/openocd/riscv/",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "The OpenOCD debugging Eclipse plug-in",
+"tags": "",
+"keywords": "",
+"url": "/debug/openocd/",
+"summary": ""
+}
+,
+
+
+
+
+
+{
+"title": "The CMSIS Packs manager",
+"tags": "",
+"keywords": "",
+"url": "/plugins/packs-manager/",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Toolchain path management",
+"tags": "",
+"keywords": "",
+"url": "/toolchain/path/",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "The peripherals registers view",
+"tags": "",
+"keywords": "",
+"url": "/debug/peripheral-registers/",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Project portability",
+"tags": "",
+"keywords": "",
+"url": "/eclipse/project/portability/",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Workspace preferences",
+"tags": "",
+"keywords": "",
+"url": "/eclipse/workspace/preferences/",
 "summary": ""
 }
 ,
@@ -109,6 +329,14 @@
 
 
 
+{
+"title": "The QEMU debugging Eclipse plug-in",
+"tags": "",
+"keywords": "",
+"url": "/debug/qemu/",
+"summary": ""
+}
+,
 
 
 
@@ -116,6 +344,20 @@
 
 
 
+
+
+
+
+
+
+{
+"title": "STM32Fxx templates",
+"tags": "",
+"keywords": "",
+"url": "/templates/stm32f/",
+"summary": ""
+}
+,
 
 
 
@@ -158,17 +400,6 @@
 "tags": "",
 "keywords": "",
 "url": "/redirects.json",
-"summary": ""
-}
-,
-
-
-
-{
-"title": "Maintainer info",
-"tags": "",
-"keywords": "",
-"url": "/README-MAINTAINER/",
 "summary": ""
 }
 ,

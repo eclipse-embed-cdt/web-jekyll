@@ -1,0 +1,190 @@
+[
+
+
+{
+"title": "About",
+"tags": "",
+"keywords": "",
+"url": "/about/",
+"summary": "<p>Perfekt ist nicht gut genug.</p>"
+}
+,
+
+
+
+
+
+
+
+{
+"title": "Eclipse Embedded CDT Plug-ins Features",
+"tags": "",
+"keywords": "",
+"url": "/plugins/features/",
+"summary": ""
+}
+,
+
+
+
+
+
+
+
+
+
+{
+"title": "Developer info",
+"tags": "",
+"keywords": "",
+"url": "/develop/",
+"summary": "<p>Resources for Eclipse plug-ins developers.</p>"
+}
+,
+
+
+
+{
+"title": "Eclipse Embedded CDT",
+"tags": "",
+"keywords": "eclipsedevelopmentc/c++embeddedarmrisc-vopenocdqemu",
+"url": "/",
+"summary": "<p>Eclipse Embedded C/C++ Development Tools (formerly GNU MCU/ARM Eclipse).</p>"
+}
+,
+
+
+
+{
+"title": "Maintainer info",
+"tags": "",
+"keywords": "",
+"url": "/maintain/",
+"summary": "<p>Resources for the projects maintainers.</p>"
+}
+,
+
+
+
+{
+"title": "Links",
+"tags": "",
+"keywords": "",
+"url": "/develop/links/",
+"summary": ""
+}
+,
+
+
+
+
+
+
+
+
+
+
+
+{
+"title": "How to get support",
+"tags": "",
+"keywords": "",
+"url": "/support/",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "How to install the Eclipse prerequisites",
+"tags": "",
+"keywords": "npmxpackinstall",
+"url": "/plugins/prerequisites/",
+"summary": ""
+}
+,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+"title": "Page Title",
+"tags": "",
+"keywords": "",
+"url": "/test/",
+"summary": ""
+}
+,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+"title": "",
+"tags": "",
+"keywords": "",
+"url": "/assets/css/style.css",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "",
+"tags": "",
+"keywords": "",
+"url": "/redirects.json",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Maintainer info",
+"tags": "",
+"keywords": "",
+"url": "/README-MAINTAINER/",
+"summary": ""
+}
+,
+
+
+
+
+
+{
+"title": "The Eclipse Embedded CDT project web has a new look!",
+"tags": "newsweb",
+"keywords": "",
+"url": "/blog/2020/08/05/new-web-look/",
+"summary": ""
+}
+
+
+
+]

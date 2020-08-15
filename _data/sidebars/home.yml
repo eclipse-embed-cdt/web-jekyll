@@ -1,0 +1,92 @@
+# This is the top sidebar TOC.
+# The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  folders:
+
+  - title: Getting Started
+    output: web
+    folderitems:
+
+    - title: Overview
+      output: web
+      url: /
+      type: homepage
+    - title: Features
+      output: web
+      url: /plugins/features/
+    - title: Install prerequisites
+      output: web
+      url: /plugins/prerequisites/
+    - title: About
+      output: web
+      url: /about/
+
+  - title: News
+    output: web
+    folderitems:
+    - title: Latest News
+      url: /news/
+      output: web
+    - title: Archive
+      url: /news/archive/
+      output: web
+    - title: Tags
+      url: /tags/
+      output: web
+
+  - title: Support
+    output: web
+    folderitems:
+
+    - title: Overview
+      url: /support/
+      output: web
+    - title: The xPack Forums
+      output: web
+      external_url: https://www.tapatalk.com/groups/xpack/
+
+  - title: Developer Info
+    output: web
+    folderitems:
+
+    - title: Overview
+      url: /develop/
+      output: web
+    - title: JavaScript Style Guide
+      url: /develop/js-style-guide/
+      output: web
+    - title: Links
+      url: /develop/links/
+      output: web
+
+  - title: Maintainer Info
+    output: web
+    folderitems:
+
+    - title: Overview
+      url: /maintain/
+      output: web
+
+  - title: License
+    output: web
+    folderitems:
+
+    - title: Eclipse Public License 2.0
+      output: web
+      external_url: https://www.eclipse.org/legal/epl-2.0/
+
+  - title: Home
+    output: web
+    folderitems:
+
+    - title: Eclipse Embedded CDT
+      url: /
+      output: web
+    - title: The xPack Project
+      external_url: https://xpack.github.io
+      output: web
+    - title: GNU MCU Eclipse
+      external_url: https://gnu-mcu-eclipse.github.io
+      output: web

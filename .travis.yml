@@ -1,0 +1,76 @@
+# Travis CI configuration file to validate and deploy 
+# the GNU MCU Eclipse Jekyll site.
+# https://docs.travis-ci.com/user/getting-started/
+
+# https://docs.travis-ci.com/user/multi-os/
+os:
+  - linux
+
+# https://docs.travis-ci.com/user/trusty-ci-environment/
+# Use the new Debian 14 containers.
+dist: trusty
+sudo: false
+
+# https://docs.travis-ci.com/user/languages/ruby/
+language: ruby
+rvm:
+  - 2.5.3
+
+addons:
+  apt:
+    packages:
+    - libcurl4-openssl-dev
+
+# all commits required for jekyll-last-modified-at
+git:
+  depth: 999999999
+
+env:
+  global:
+    - GITHUB_DEST_REPO="gnu-mcu-eclipse/gnu-mcu-eclipse.github.io"
+    - GIT_COMMIT_USER_EMAIL="ilg@livius.net"
+    - GIT_COMMIT_USER_NAME="Travis CI"
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+    # The secure token is 'GITHUB_TOKEN=...' generated for 
+    # gnu-mcu-eclipse/gnu-mcu-eclipse.github.io-source
+    - secure: "HHSqyP8NHHcwJxx+W7/tyVsRbaCakC1JLnAyPtIJTqSGZkaTd7v8pICT7luEciuAV6sXTjN0Qlmt1tOEMKMpUW5cktQzBclgBo/EUNwRrD6pZ3zf5KFUx4A9bH8UoxiQ0lTWoz0GiWJFkkQTvm0RoyvTzO4DooC5npKx1hYbBOPiWp2sR5JWw650aiMlp58cCOnZJLKDKuSdyGbbIG5yz0fR71ZBrbkFY9lOpX2g1Uydf4INaGs5oGXqyZI4BsvtmLE2OR3Yg5S/Hn1AB/ADhTRI3d4C+MdROPy5KZDUcDChi+FsmXzjhOD9ZjpWrkDcZvhrs+HYsSeHIr+wWCy/paVVyOdK3/V65mHAMaqjGqvEJBU0hrHQwjBW4ro1Q4ax4LDoGaF0AOW1SwBySB3gUH2M5X9wglaHt62CjwOYHt1sQ+aDOxjoLiEwlGIKYjuNVib4Hz4eLgvUkXCygeE25OcZslI0m88way2D0+8F+UffZfyrxbxQnmWKvzhQ/xFCcQr6il1HVkuAJe4A5fQZuNUQe9MAUeIQRkIzctSsSRPFBZ3UjAxX1Ti/9JjusahZUp+h0N548MGeh/S6afV7/Uu9oZ9Y6NHJ9J1DRdJxAREiYrGH1vyA8p5zHUIc0Nkg24Jv4W+FKOovR1VEwNVff/iLBDanKUMPeACBuMUP10I="
+
+notifications:
+  email:
+    on_success: always # default: change
+    on_failure: always # default: always
+    
+cache: 
+  bundler: true
+
+# -----------------------------------------------------------------------------
+
+before_install:
+  - bash scripts/travis.linux.sh before_install
+
+before_script:
+  - bash scripts/travis.linux.sh before_script
+
+script:
+  - bash scripts/travis.linux.sh script
+
+# -----------------------------------------------------------------------------
+# Unused.
+
+# after_success:
+#  - bash scripts/travis.linux.sh after_success
+
+# after_failure:
+#  - bash scripts/travis.linux.sh after_failure
+
+# Deploy via script not functional (or not understood).
+# deploy:
+#  provider: script
+#  script: bash scripts/travis.linux.sh deploy
+#  on:
+#    branch: master
+  
+# after_script:
+#  - bash scripts/travis.linux.sh after_script
+
+# -----------------------------------------------------------------------------

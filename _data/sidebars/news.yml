@@ -1,0 +1,34 @@
+# This is the news sidebar TOC.
+# The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  # product: News
+  folders:
+
+  - title: News
+    output: web
+    folderitems:
+    - title: Latest News
+      url: /news/
+      output: web
+    - title: Archive
+      url: /news/archive/
+      output: web
+    - title: Tags
+      url: /tags/
+      output: web
+
+  - title: Back Home
+    output: web
+    folderitems:
+
+    - title: Eclipse Embedded CDT
+      url: /
+      output: web
+    - title: The xPack Project
+      external_url: https://xpack.github.io
+      output: web
+    - title: GNU MCU Eclipse
+      external_url: https://gnu-mcu-eclipse.github.io
+      output: web

@@ -1,11 +1,11 @@
 ---
-title: "Web"
+title: "web"
 permalink: /tags/web/
 
 tagName: web
 
-date: 2019-06-30 10:08:00 +0300
-last_updated: 2019-06-30 10:30:21 +0300
+date: 2020-08-15 23:07:20 +0300
+last_updated: 2020-08-15 23:07:20 +0300
 
 ---
 

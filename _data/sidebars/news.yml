@@ -29,6 +29,6 @@ entries:
     - title: The xPack Project
       external_url: https://xpack.github.io
       output: web
-    - title: GNU MCU Eclipse
+    - title: GNU MCU Eclipse (deprecated)
       external_url: https://gnu-mcu-eclipse.github.io
       output: web

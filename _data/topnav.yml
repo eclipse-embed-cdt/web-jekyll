@@ -16,9 +16,9 @@ topnav_dropdowns:
       folderitems:
         - title: Eclipse Marketplace
           external_url: https://marketplace.eclipse.org/content/eclipse-embedded-cdt
-        - title: Jenkins
+        - title: Eclipse Jenkins
           external_url: https://ci.eclipse.org/embed-cdt/
-        - title: Analytics
+        - title: Eclipse Analytics
           external_url: https://dev.eclipse.org/committers/committertools/stats.php
 
     - title: GitHub

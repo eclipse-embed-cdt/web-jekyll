@@ -2,7 +2,7 @@
 
 cd "$(dirname "$0")"
 
-site="../web-html.git/docs"
+site="../web-html/docs"
 
 rm -rf "${site}"
 mkdir -p "${site}"
@@ -17,7 +17,7 @@ export NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 # --disable_external
 bundle exec htmlproofer \
   --allow_hash_href \
-  --url_ignore="/www.eclipse.org/embed-cdt/" \
+  --url_ignore="/www.eclipse.org/embed-cdt/,/github.com/gnu-mcu-eclipse/" \
   "${site}"
 
 echo

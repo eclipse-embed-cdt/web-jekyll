@@ -136,7 +136,7 @@ function do_script() {
   # run_verbose git diff
 
   run_verbose git add --all .
-  run_verbose git commit -m "Travis CI Deploy of ${TRAVIS_COMMIT}" 
+  run_verbose git commit -m "Travis CI Deploy of ${TRAVIS_COMMIT_MESSAGE} ${TRAVIS_COMMIT}" 
 
   # git status
 

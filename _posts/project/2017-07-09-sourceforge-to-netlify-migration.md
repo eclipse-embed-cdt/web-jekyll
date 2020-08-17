@@ -9,8 +9,8 @@ categories:
 
 tags:
   - featured
-  - SourceForge
-  - Netlify
+  - sourceforge
+  - netlify
   - downloads
   - update
 

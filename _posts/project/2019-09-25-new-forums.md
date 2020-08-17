@@ -6,12 +6,12 @@ date:   2019-09-25 23:08:00 +0300
 categories:
   - news
   - project
-  - support
+
 
 tags:
   - forum
   - support
-  - Tapatalk
+  - tapatalk
 
 ---
 

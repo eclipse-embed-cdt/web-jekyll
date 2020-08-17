@@ -1,11 +1,11 @@
 ---
-title: "ADuCM36x"
-permalink: /tags/ADuCM36x/
+title: "aducm36x"
+permalink: /tags/aducm36x/
 
-tagName: ADuCM36x
+tagName: aducm36x
 
-date: 2020-08-15 23:02:27 +0300
-last_updated: 2020-08-15 23:02:27 +0300
+date: 2020-08-17 14:59:58 +0300
+last_updated: 2020-08-17 14:59:58 +0300
 
 ---
 

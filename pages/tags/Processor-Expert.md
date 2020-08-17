@@ -1,11 +1,11 @@
 ---
-title: "Processor-Expert"
-permalink: /tags/Processor-Expert/
+title: "processor-expert"
+permalink: /tags/processor-expert/
 
-tagName: Processor-Expert
+tagName: processor-expert
 
-date: 2020-08-15 23:13:24 +0300
-last_updated: 2020-08-15 23:13:24 +0300
+date: 2020-08-17 14:59:59 +0300
+last_updated: 2020-08-17 14:59:59 +0300
 
 ---
 

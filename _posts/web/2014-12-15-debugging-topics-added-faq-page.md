@@ -3,7 +3,6 @@ title: Debugging topics added to the FAQ page
 
 date: 2014-12-15 12:00:00 +0300
 
-
 categories:
   - news
   - web

@@ -1,11 +1,11 @@
 ---
-title: "AArch64"
-permalink: /tags/AArch64/
+title: "aarch64"
+permalink: /tags/aarch64/
 
-tagName: AArch64
+tagName: aarch64
 
-date: 2020-08-15 23:02:27 +0300
-last_updated: 2020-08-15 23:02:27 +0300
+date: 2020-08-17 14:59:58 +0300
+last_updated: 2020-08-17 14:59:58 +0300
 
 ---
 

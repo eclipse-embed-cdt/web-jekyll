@@ -9,8 +9,8 @@ categories:
 
 tags:
   - featured
-  - SourceForge
-  - Bintray
+  - sourceforge
+  - bintray
   - downloads
   - update
 

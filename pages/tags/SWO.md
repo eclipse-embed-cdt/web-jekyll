@@ -1,11 +1,11 @@
 ---
-title: "SWO"
-permalink: /tags/SWO/
+title: "swo"
+permalink: /tags/swo/
 
-tagName: SWO
+tagName: swo
 
-date: 2020-08-15 23:02:27 +0300
-last_updated: 2020-08-15 23:02:27 +0300
+date: 2020-08-17 14:59:59 +0300
+last_updated: 2020-08-17 14:59:59 +0300
 
 ---
 

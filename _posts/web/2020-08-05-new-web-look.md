@@ -5,12 +5,13 @@ date: 2020-08-05 12:47:00 +0300
 last_updated: 2019-12-06 22:15:38 +0200
 
 categories:
+  - news
+  - web
+
+tags:
   - jekyll
   - update
 
-tags:
-  - news
-  - web
 
 ---
 

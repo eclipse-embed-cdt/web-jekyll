@@ -8,12 +8,12 @@ categories:
   - plugins
 
 tags:
-  - GNU
-  - ARM
-  - Eclipse
-  - SourceForge
-  - Oracle
-  - JDK
+  - gnu
+  - arm
+  - eclipse
+  - sourceforge
+  - oracle
+  - jdk
 
 ---
 

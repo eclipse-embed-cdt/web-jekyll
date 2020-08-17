@@ -1,11 +1,11 @@
 ---
-title: "STM32F4-Discovery"
-permalink: /tags/STM32F4-Discovery/
+title: "stm32f4-discovery"
+permalink: /tags/stm32f4-discovery/
 
-tagName: STM32F4-Discovery
+tagName: stm32f4-discovery
 
-date: 2020-08-15 23:02:27 +0300
-last_updated: 2020-08-15 23:02:27 +0300
+date: 2020-08-17 14:59:59 +0300
+last_updated: 2020-08-17 14:59:59 +0300
 
 ---
 

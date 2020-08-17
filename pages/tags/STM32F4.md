@@ -1,11 +1,11 @@
 ---
-title: "STM32F4"
-permalink: /tags/STM32F4/
+title: "stm32f4"
+permalink: /tags/stm32f4/
 
-tagName: STM32F4
+tagName: stm32f4
 
-date: 2020-08-15 23:02:27 +0300
-last_updated: 2020-08-15 23:02:27 +0300
+date: 2020-08-17 14:59:59 +0300
+last_updated: 2020-08-17 14:59:59 +0300
 
 ---
 

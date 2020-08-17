@@ -1,5 +1,5 @@
 # Note:
-# If you are using the createtag script, don't leave an blank line at the end of this file.
+# If you are using the createtag script, don't leave a blank line at the end of this file.
 # In other words, the last line must be the last tag in the allowed-tags list.
 allowed-tags:
   - news
@@ -20,7 +20,6 @@ allowed-tags:
   - support
   - sourceforge
   - registers
-  - pyOCD
   - plug-in
   - peripheral
   - packs
@@ -43,44 +42,39 @@ allowed-tags:
   - article
   - arm
   - dso_handle
-  - Tapatalk
-  - SourceForge
-  - SWO
-  - STM43F4
-  - STM32F746G-DISCO
-  - STM32F7
-  - STM32F4
-  - STM32F4-Discovery
-  - STM32F
-  - STM32746G-EVAL
-  - STM
-  - SEGGER
-  - RISC-V
-  - Peripherals-view
-  - Packs
-  - Pack
-  - Oracle
-  - Netlify
-  - Neon
-  - MCU
-  - Jumper
-  - JDK
-  - J-Link
-  - GNU
-  - Freescale
-  - Eclipse
-  - Cortex-M7
-  - Cortex-M
-  - CMSIS
-  - CMSIS-Pack
-  - C++
-  - Bintray
-  - ARM
-  - ADuCM36x
-  - AArch64
   - web
   - qemu
   - openocd
   - news
-  - OpenOCD
-  - Processor-Expert
+  - packs
+  - eclipse
+  - gnu
+  - jekyll
+  - jumper
+  - mcu
+  - risc-v
+  - aarch64
+  - aducm36x
+  - bintray
+  - c++
+  - cmsis-packs
+  - cmsis
+  - cortex-m7
+  - j-link
+  - jekyll
+  - jumper
+  - neon
+  - netlify
+  - oracle
+  - peripherals-view
+  - processor-expert
+  - pyocd
+  - segger
+  - stm
+  - stm32f4-discovery
+  - stm32f4
+  - stm32f7
+  - stm32f746g-disco
+  - stm32f746g-eval
+  - swo
+  - jdk

@@ -1,11 +1,11 @@
 ---
-title: "Cortex-M7"
-permalink: /tags/Cortex-M7/
+title: "cortex-m7"
+permalink: /tags/cortex-m7/
 
-tagName: Cortex-M7
+tagName: cortex-m7
 
-date: 2020-08-15 23:02:27 +0300
-last_updated: 2020-08-15 23:02:27 +0300
+date: 2020-08-17 14:59:59 +0300
+last_updated: 2020-08-17 14:59:59 +0300
 
 ---
 

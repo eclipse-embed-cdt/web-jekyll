@@ -1,11 +1,11 @@
 ---
-title: "C++"
-permalink: /tags/C++/
+title: "c++"
+permalink: /tags/c++/
 
-tagName: C++
+tagName: c++
 
-date: 2020-08-15 23:02:27 +0300
-last_updated: 2020-08-15 23:02:27 +0300
+date: 2020-08-17 14:59:59 +0300
+last_updated: 2020-08-17 14:59:59 +0300
 
 ---
 

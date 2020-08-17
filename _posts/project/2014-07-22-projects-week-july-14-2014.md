@@ -9,7 +9,7 @@ categories:
 
 tags:
   - community
-  - SourceForge
+  - sourceforge
 
 ---
 

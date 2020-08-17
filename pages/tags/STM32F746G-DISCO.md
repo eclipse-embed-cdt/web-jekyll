@@ -1,11 +1,11 @@
 ---
-title: "STM32F746G-DISCO"
-permalink: /tags/STM32F746G-DISCO/
+title: "stm32f746g-disco"
+permalink: /tags/stm32f746g-disco/
 
-tagName: STM32F746G-DISCO
+tagName: stm32f746g-disco
 
-date: 2020-08-15 23:02:27 +0300
-last_updated: 2020-08-15 23:02:27 +0300
+date: 2020-08-17 14:59:59 +0300
+last_updated: 2020-08-17 14:59:59 +0300
 
 ---
 

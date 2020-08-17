@@ -1,11 +1,11 @@
 ---
-title: "Cortex-M"
-permalink: /tags/Cortex-M/
+title: "cortex-m"
+permalink: /tags/cortex-m/
 
-tagName: Cortex-M
+tagName: cortex-m
 
-date: 2020-08-15 23:02:27 +0300
-last_updated: 2020-08-15 23:02:27 +0300
+date: 2020-08-17 16:09:16 +0300
+last_updated: 2020-08-17 16:09:16 +0300
 
 ---
 

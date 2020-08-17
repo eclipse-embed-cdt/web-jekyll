@@ -78,3 +78,9 @@ allowed-tags:
   - stm32f746g-eval
   - swo
   - jdk
+  - arm
+  - cortex-m
+  - freescale
+  - openocd
+  - sourceforge
+  - tapatalk

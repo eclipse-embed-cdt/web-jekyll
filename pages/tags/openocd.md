@@ -1,11 +1,11 @@
 ---
-title: "OpenOCD"
-permalink: /tags/OpenOCD/
+title: "openocd"
+permalink: /tags/openocd/
 
-tagName: OpenOCD
+tagName: openocd
 
-date: 2020-08-15 23:07:20 +0300
-last_updated: 2020-08-15 23:07:20 +0300
+date: 2020-08-17 16:09:16 +0300
+last_updated: 2020-08-17 16:09:16 +0300
 
 ---
 

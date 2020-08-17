@@ -1,11 +1,11 @@
 ---
-title: "Tapatalk"
-permalink: /tags/Tapatalk/
+title: "tapatalk"
+permalink: /tags/tapatalk/
 
-tagName: Tapatalk
+tagName: tapatalk
 
-date: 2020-08-15 23:02:27 +0300
-last_updated: 2020-08-15 23:02:27 +0300
+date: 2020-08-17 16:09:16 +0300
+last_updated: 2020-08-17 16:09:16 +0300
 
 ---
 

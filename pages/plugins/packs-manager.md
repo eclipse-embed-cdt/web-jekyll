@@ -71,8 +71,8 @@ button available on the Eclipse toolbar:
 
 Alternatively you can:
 
-* go to the _Eclipse_ menu → **Window** → **Open Perspective** → **Other...**
-* select the Packs perspective in the list.
+- go to the _Eclipse_ menu → **Window** → **Open Perspective** → **Other...**
+- select the Packs perspective in the list.
 
 The result is a window like this:
 
@@ -91,15 +91,15 @@ After a few minutes, the window will change and show the list of packages:
 
 The structure of this window is generally in line with usual Eclipse guidelines:
 
-* the middle part shows the available packages, and here various actions 
+- the middle part shows the available packages, and here various actions 
   (install/remove/show outline) can be applied
-* the left part is dedicated to various filtering criteria, like Device, 
+- the left part is dedicated to various filtering criteria, like Device, 
   Board and Keyword; clicking on any filtering nodes updates the list of 
   packages to only those having relevance to the filtering criteria 
   (multiple selection is allowed)
-* the right part is dedicated to displaying various outline views
-* centrally, below the main view, is the place where editors can be opened
-* the bottom part is used to display the packs console, where various 
+- the right part is dedicated to displaying various outline views
+- centrally, below the main view, is the place where editors can be opened
+- the bottom part is used to display the packs console, where various 
   actions related to packs activity are displayed.
 
 ## Filtering

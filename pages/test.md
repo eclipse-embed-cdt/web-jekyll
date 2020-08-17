@@ -21,12 +21,12 @@ Text `code` text.
 
 A list:
 
-* one
+- one
 
     indented continuation
 
         Indented Code line
-* two
+- two
 
 Another list:
 

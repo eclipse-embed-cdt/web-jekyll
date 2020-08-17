@@ -16,7 +16,7 @@ entries:
     - title: Features
       output: web
       url: /plugins/features/
-    - title: Install prerequisites
+    - title: Prerequisites
       output: web
       url: /plugins/prerequisites/
     - title: About

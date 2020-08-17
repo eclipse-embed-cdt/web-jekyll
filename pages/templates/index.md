@@ -10,9 +10,9 @@ date: 2015-09-11 22:35:00 +0300
 
 If you know what this is all about and you only need to go to specific templates:
 
-* [Cortex-M template][1]
-* [STM32Fxx templates][2]
-* [Kinetis KLxx templates][3]
+- [Cortex-M template][1]
+- [STM32Fxx templates][2]
+- [Kinetis KLxx templates][3]
 
 ## Overview
 
@@ -26,10 +26,10 @@ One of the main requirements is to build correctly, even if functionality is onl
 
 The template plug-ins are installed using the same procedure as the other plug-ins:
 
-* in the _Eclipse_ menu, go to **Help** → **Install New Software**
-* select *Work with:* **GNU MCU Eclipse Plug-ins**
-* extend the **GNU ARM C/C++ Cross Development Tools**
-* be sure the desired **... Project Template** are selected
+- in the _Eclipse_ menu, go to **Help** → **Install New Software**
+- select *Work with:* **GNU MCU Eclipse Plug-ins**
+- extend the **GNU ARM C/C++ Cross Development Tools**
+- be sure the desired **... Project Template** are selected
 
 ![Install the template plug-ins]({{ site.baseurl }}/assets/images/2014/02/InstallTemplatePlugins.png)
 
@@ -47,11 +47,11 @@ The GNU MCU Eclipse plug-in uses the CMSIS-CORE code in all templates, as jointl
 
 Based on a long tradition among the embedded application developers, the first challenge when encountering a new board is to make it blink a LED. It doesn't seem much, but in fact there are many details that must fit together for this to work:
 
-* the startup code must be functional
-* the manufacturer CMSIS initialisations must set the desired clock
-* the GPIO definitions/drivers must be available
-* the memory map and the linker scripts must match the actual hardware
-* eventualy the newlib printf() must be directed to an available device for viewing the trace messages
+- the startup code must be functional
+- the manufacturer CMSIS initialisations must set the desired clock
+- the GPIO definitions/drivers must be available
+- the memory map and the linker scripts must match the actual hardware
+- eventualy the newlib printf() must be directed to an available device for viewing the trace messages
 
 The **Blinky** templates do exactly this, take care of all these details. The observed functionality is relatively simple, the board blinks a LED with 1Hz. To exercise the interrupts, the time base is obtained with the SysTick configured at 1000Hz, with the delay() function counting ticks.
 
@@ -80,20 +80,20 @@ Various libraries are grouped in the **system** folder. According to ARM specif
 
 ### Generic templates
 
-* [Cortex-M template][1]
+- [Cortex-M template][1]
 
 ### ST Micro templates
 
-* STM32F0xx template
-* STM32F1xx template
-* STM32F2xx template
-* STM32F3xx template
-* [STM32F4xx template][2]
+- STM32F0xx template
+- STM32F1xx template
+- STM32F2xx template
+- STM32F3xx template
+- [STM32F4xx template][2]
 
 ### Freescale templates
 
-* [Kinetis KLxx templates][3]
-* Processor Expert template
+- [Kinetis KLxx templates][3]
+- Processor Expert template
 
 Adding new templates
 

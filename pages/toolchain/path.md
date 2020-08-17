@@ -30,9 +30,9 @@ Most of the commercial IDEs include the toolchain packed in the distribution, an
 
 By default, the Eclipse managed build plug-ins do not handle the toolchain path at all, and rely on the proper setting of the environment PATH to reach the toolchain binaries. The PATH can be set in different places:
 
-* in the environment where Eclipse is started (either a system global setting or a per user setting)
-* in the Eclipse workspace, common for all projects
-* in the project build configuration
+- in the environment where Eclipse is started (either a system global setting or a per user setting)
+- in the Eclipse workspace, common for all projects
+- in the project build configuration
 
 This mechanism can be both flexible and a source of nuisance. When only a single toolchain is installed, any global setting is acceptable and the exact method makes no real difference.
 

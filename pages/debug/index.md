@@ -12,13 +12,13 @@ If you know all about debugging, and all you need is how to install/configure/us
 
 In short, for bare metal embedded development, we highly recommend solutions that can be used on all major platforms (Windows, macOS and GNU/Linux), with hardware probes that implement the SWD protocol and support tracing via the SWO pin. The preferred probes that match the above requirements are [J-Link EDU](http://www.segger.com/j-link-edu.html)/[J-Link](http://www.segger.com/jlink_base.html), from [SEGGER](http://www.segger.com/).
 
-* [J-Link install]({{ site.baseurl }}/debug/jlink/install/)
-* [J-Link plug-in usage]({{ site.baseurl }}/debug/jlink/)
-* [xPack OpenOCD install](https://xpack.github.io/openocd/install/)
-* [xPack OpenOCD plug-in usage]({{ site.baseurl }}/debug/openocd/)
-* [xPack QEMU Arm install](https://xpack.github.io/qemu-arm/)
-* [xPack QEMU Arm plug-in usage]({{ site.baseurl }}/debug/qemu/)
-* [The Peripherals registers view]({{ site.baseurl }}/debug/peripheral-registers/)
+- [J-Link install]({{ site.baseurl }}/debug/jlink/install/)
+- [J-Link plug-in usage]({{ site.baseurl }}/debug/jlink/)
+- [xPack OpenOCD install](https://xpack.github.io/openocd/install/)
+- [xPack OpenOCD plug-in usage]({{ site.baseurl }}/debug/openocd/)
+- [xPack QEMU Arm install](https://xpack.github.io/qemu-arm/)
+- [xPack QEMU Arm plug-in usage]({{ site.baseurl }}/debug/qemu/)
+- [The Peripherals registers view]({{ site.baseurl }}/debug/peripheral-registers/)
 
 ## Overview
 
@@ -26,8 +26,8 @@ Although it varies a lot depending on personal skills and experience, debugging 
 
 Generally there are two approaches:
 
-* manually stepping through the code to check the program flow and inspect various status variables
-* letting the program run and automatically collect various tracing messages (like the traditional printf() calls) and/or execution events (enter/exit interrupt handlers, memory location change, etc)
+- manually stepping through the code to check the program flow and inspect various status variables
+- letting the program run and automatically collect various tracing messages (like the traditional printf() calls) and/or execution events (enter/exit interrupt handlers, memory location change, etc)
 
 To be noted that these approaches are not exclusive, but complement each other, since they better serve different purposes, and have specific advantages and disadvantages.
 

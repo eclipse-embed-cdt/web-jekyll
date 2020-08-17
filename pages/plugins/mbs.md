@@ -122,18 +122,18 @@ In addition to executable applications, this plug-in can also be used to build l
 
 To create a new project, go to _Eclipse_ menu, **File** → **New** (or the button in the upper left corner), and select the **C Project** and in the C Project window:
 
-* in the *Project name:* field enter the name of the new project, for example **staticLib**
-* in the *Project type:* section expand the **Static Library** type and select **Empty Project**
-* in the *Toolchains:* section select **Cross ARM GCC**
-* click the **Next >** button
+- in the *Project name:* field enter the name of the new project, for example **staticLib**
+- in the *Project type:* section expand the **Static Library** type and select **Empty Project**
+- in the *Toolchains:* section select **Cross ARM GCC**
+- click the **Next >** button
 
 ![Create a static library C project]({{ site.baseurl }}/assets/images/2013/10/StaticCLib.png)
 
 In the *Select Configurations* page
 
-* accept the *Debug/Release* configurations and click the **Next >** button
-* in the *Cross GNU ARM Toolchain* select the toolchain and enter the path
-* click the **Finish** button
+- accept the *Debug/Release* configurations and click the **Next >** button
+- in the *Cross GNU ARM Toolchain* select the toolchain and enter the path
+- click the **Finish** button
 
 When building static libraries, after all source files are compiled, instead of the link step, the make process calls the archiver to pack all objects together.
 

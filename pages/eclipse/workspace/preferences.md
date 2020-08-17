@@ -20,23 +20,23 @@ Eclipse has lots of settings, and they are a bit confusing for beginners. Apart 
 
 Sometimes users are very confused to see that after the edit/compile/run cycle nothing changed in the program behaviour, although the editor clearly shows the changes. Usually the main reason is that the file was not actually saved and the build process used the previous version of the file. To automatically save edited files before build,
 
-* go to the _Eclipse_ menu → **(Windows →) Preferences** → **General** → **Workspace**
-* enable **Save automatically before build**
+- go to the _Eclipse_ menu → **(Windows →) Preferences** → **General** → **Workspace**
+- enable **Save automatically before build**
 
 In the same page, select the default text file encoding to **UTF-8**. Without this setting, special characters like diacritics, are generally replaced with question marks (for example the µOS++ name used in the template generated source files is shown as ??OS++ or even ��OS++).
 
-* in the **Text file encoding** section
-* click the **Other** button
-* select **UTF-8** in the combo box
+- in the **Text file encoding** section
+- click the **Other** button
+- select **UTF-8** in the combo box
 
 It is also recommended to:
 
-* check the **New text file line delimiter** to be set to Unix
-* disable the **Build automatically** option
+- check the **New text file line delimiter** to be set to Unix
+- disable the **Build automatically** option
 
 When you're done:
 
-* click the **Apply** button
+- click the **Apply** button
 
 ![Preferences: Save automatically]({{ site.baseurl }}/assets/images/2014/06/PreferencesSave.png)
 
@@ -44,11 +44,11 @@ When you're done:
 
 Although not critical, while editing source files, it is useful to see the line numbers, and also a hint that the line may be too long:
 
-* go to the _Eclipse_ menu → **(Window →) Preferences** → **General** → **Editors** → **Text Editors**
-* enable **Show line numbers**
-* enable **Show print margin**
-* set the **Print margin column** at 80
-* click the **Apply** button
+- go to the _Eclipse_ menu → **(Window →) Preferences** → **General** → **Editors** → **Text Editors**
+- enable **Show line numbers**
+- enable **Show print margin**
+- set the **Print margin column** at 80
+- click the **Apply** button
 
 ![Editor preferences]({{ site.baseurl }}/assets/images/2014/06/PreferencesLineNumbers.png)
 
@@ -56,9 +56,9 @@ Although not critical, while editing source files, it is useful to see the line 
 
 Eclipse CDT has a very powerful indexer, which parses the source code on the fly and provides hints, auto-completion help, error reporting, etc while editing, without having to start the build process. For this indexer to be accurate, it must be in sync with the compiler, in terms of options and environment. For the indexer to automatically sync when changing from one configuration to another, check if the indexer was set to use the active configuration:
 
-* go to the _Eclipse_ menu → **(Window →) Preferences** → **C/C++** → **Indexer**
-* enable **Use active build configuration**
-* click the **Apply** button
+- go to the _Eclipse_ menu → **(Window →) Preferences** → **C/C++** → **Indexer**
+- enable **Use active build configuration**
+- click the **Apply** button
 
 ![Indexer: Use active build configuration]({{ site.baseurl }}/assets/images/2014/06/PreferencesIndexer.png)
 
@@ -66,9 +66,9 @@ Eclipse CDT has a very powerful indexer, which parses the source code on the fly
 
 To better view the entire content of the source files, it is recommended to disable editor folding:
 
-* go to the _Eclipse_ menu → **(Window →) Preferences** → **C/C++** → **Editor** → **Folding**
-* disable **Header Comments** (in fact it is recommended to disable all foldings)
-* click the **Apply** button
+- go to the _Eclipse_ menu → **(Window →) Preferences** → **C/C++** → **Editor** → **Folding**
+- disable **Header Comments** (in fact it is recommended to disable all foldings)
+- click the **Apply** button
 
 ![Disable folding]({{ site.baseurl }}/assets/images/2014/06/PreferencesFolding.png)
 
@@ -76,8 +76,8 @@ To better view the entire content of the source files, it is recommended to disa
 
 Eclipse CDT has a very useful feature allowing to automatically reformat a piece of code to comply to a given style. The recommended style is GNU. To set it:
 
-* go to the _Eclipse_ menu → **(Window →) Preferences** → **C/C++** → **Code Style** → **Formatter**
-* in the **Active profile:** field, select **GNU [built-in]**
+- go to the _Eclipse_ menu → **(Window →) Preferences** → **C/C++** → **Code Style** → **Formatter**
+- in the **Active profile:** field, select **GNU [built-in]**
 
 ![Preferences Formatter]({{ site.baseurl }}/assets/images/2014/06/PreferencesFormatter1.png)
 
@@ -97,8 +97,8 @@ When done, click the **OK** button twice.
 
 To reformat a file:
 
-* select the file in the
-* go to the _Eclipse_ menu → **Source** → **Format**
+- select the file in the
+- go to the _Eclipse_ menu → **Source** → **Format**
 
 The same action can be triggered with a right click and a **Source** → **Format** or even easier, with a keyboard shortcut (**cmd+shift+F** on macOS).
 
@@ -114,11 +114,11 @@ The build console is the place where the progress of the build process is presen
 
 The CDT defaults need some tweaks, to increase the number of lines and to make the lines wrap:
 
-* go to the _Eclipse_ menu → **(Window →) Preferences** → **C/C++** → **Build** → **Console**
-* enable **Wrap lines on the console**
-* enable **Bring console to top when building**
-* increase the **Limit console output:** field, for example from 500 to 5000 lines
-* click the **Apply** button
+- go to the _Eclipse_ menu → **(Window →) Preferences** → **C/C++** → **Build** → **Console**
+- enable **Wrap lines on the console**
+- enable **Bring console to top when building**
+- increase the **Limit console output:** field, for example from 500 to 5000 lines
+- click the **Apply** button
 
 ![Build console preferences]({{ site.baseurl }}/assets/images/2014/06/PreferencesBuildConsole.png)
 
@@ -128,8 +128,8 @@ When all settings are done, click the **OK** button.
 
 To enable support for documentation tool comments:
 
-* go to the _Eclipse_ menu → **(Window →) Preferences** → **C/C++** → **Editor**
-* select **Doxygen** in the Documentation tool comments
+- go to the _Eclipse_ menu → **(Window →) Preferences** → **C/C++** → **Editor**
+- select **Doxygen** in the Documentation tool comments
 
 This will allow, for example, auto-completion for Doxygen comments, you can type only **/**** and the rest of the comment is automatically inserted.
 
@@ -143,8 +143,8 @@ Another Eclipse default that needs to be changed is the way programs are debugge
 
 To change this setting:
 
-* go to the _Eclipse_ menu → **(Window →) Preferences** → **Run/Debug** → **Launching**
-* select **Always launch the previously launched application** in the **Launch Operation** section.
+- go to the _Eclipse_ menu → **(Window →) Preferences** → **Run/Debug** → **Launching**
+- select **Always launch the previously launched application** in the **Launch Operation** section.
 
 ![Launch previously used application]({{ site.baseurl }}/assets/images/2014/06/LaunchPrevious.png)
 
@@ -152,8 +152,8 @@ To change this setting:
 
 For large projects, with many source folders, you might want to disable showing the source folders:
 
-* go to the _Eclipse_ menu → **(Window →) Preferences** → **C/C++** → **Appearance**
-* disable **Show source roots at top of project**.
+- go to the _Eclipse_ menu → **(Window →) Preferences** → **C/C++** → **Appearance**
+- disable **Show source roots at top of project**.
 
 ![Show source roots]({{ site.baseurl }}/assets/images/2017/preferences-show-source-roots.png)
 

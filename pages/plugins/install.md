@@ -11,18 +11,18 @@ date: 2015-09-11 22:06:00 +0300
 
 If you know what this is all about, you can do one of the following:
 
-* use the **Eclipse IDE for Embedded C/C++ Developers** packages, which
+- use the **Eclipse IDE for Embedded C/C++ Developers** packages, which
 packs Eclipse with the plug-ins; for this go to
 [Eclipse](https://projects.eclipse.org/projects/iot.embed-cdt/downloads/)
 and download the binary for your platform;
-* go to the _Eclipse_ menu → **Help** → **Eclipse Marketplace…**,
+- go to the _Eclipse_ menu → **Help** → **Eclipse Marketplace**,
 find *Embedded CDT* and install
 
 If, for any reason, this does not work and you have to do it manually,
 you only need the update site details:
 
-* name: **Eclipse Embedded CDT Plug-ins**
-* URL: `https://download.eclipse.org/embed-cdt/updates/neon/`
+- name: **Eclipse Embedded CDT Plug-ins**
+- URL: `https://download.eclipse.org/embed-cdt/updates/neon/`
 
 Note: as the name implies, this URL is only valid for Eclipse **Neon** or
 later; the old URL `http://gnuarmeclipse.sourceforge.net/updates/` is now

@@ -40,9 +40,9 @@ For more details, please visit the [separate page][3].
 
 With the device associated to the build configuration, the debug configuration is created and started the usual way:
 
-* select the .elf file
-* right click, **Debug As** → **Debug Configurations...**
-* double click the **GDB SEGGER J-Link Debugging** (or OpenOCD, or QEMU)
+- select the .elf file
+- right click, **Debug As** → **Debug Configurations...**
+- double click the **GDB SEGGER J-Link Debugging** (or OpenOCD, or QEMU)
 
 **Device name automatic configuration**
 
@@ -78,11 +78,11 @@ The difference comes in the custom rendering, represented as a tree in the right
 
 According to the SVD specifications, this tree can have the following nodes:
 
-* clusters of registers,
-* arrays of clusters,
-* registers
-* arrays of registers
-* bit fields.
+- clusters of registers,
+- arrays of clusters,
+- registers
+- arrays of registers
+- bit fields.
 
 All of them are currently supported and depicted in a hierarchical way.
 

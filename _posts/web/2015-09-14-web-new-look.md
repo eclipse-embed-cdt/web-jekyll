@@ -23,11 +23,11 @@ Migrating the repositories was the easiest part, each project was pushed into it
 
 The current project repositories are:
 
-* [plug-ins](https://github.com/gnu-mcu-eclipse/eclipse-plugins)
-* [windows-build-tools](https://github.com/gnu-mcu-eclipse/windows-build-tools)
-* [openocd](https://github.com/gnu-mcu-eclipse/openocd)
-* [qemu](https://github.com/gnu-mcu-eclipse/qemu)
-* [build-scripts](https://github.com/gnu-mcu-eclipse/build-scripts)
+- [plug-ins](https://github.com/gnu-mcu-eclipse/eclipse-plugins)
+- [windows-build-tools](https://github.com/gnu-mcu-eclipse/windows-build-tools)
+- [openocd](https://github.com/gnu-mcu-eclipse/openocd)
+- [qemu](https://github.com/gnu-mcu-eclipse/qemu)
+- [build-scripts](https://github.com/gnu-mcu-eclipse/build-scripts)
 
 ![GNU ARM Eclipse GitHub Projects]({{ site.baseurl }}/assets/images/2015/github-gae-projects.png)
 
@@ -75,8 +75,8 @@ Given the complexity of this migration, we are aware that it is very likely that
 
 The web site has two dedicated projects:
 
-* [gnuarmeclipse.github.io](https://github.com/gnu-mcu-eclipse/gnu-mcu-eclipse.github.io)
-* [gnuarmeclipse.github.io-source](https://github.com/gnu-mcu-eclipse/gnu-mcu-eclipse.github.io-source)
+- [gnuarmeclipse.github.io](https://github.com/gnu-mcu-eclipse/gnu-mcu-eclipse.github.io)
+- [gnuarmeclipse.github.io-source](https://github.com/gnu-mcu-eclipse/gnu-mcu-eclipse.github.io-source)
 
 The first one stores the actual static pages of the Web site and the second stores the Jekyll source files for generating the Web site.
 
@@ -88,5 +88,5 @@ We are aware that a lot of links to the previous sites are in use. To avoid brea
 
 The previous WordPress and MediaWiki sites were moved back to SourceForge and, for historical reasons, will be preserved there, but will no longer be maintained:
 
-* `http://gnuarmeclipse.sourceforge.net/blog/`
-* `http://gnuarmeclipse.sourceforge.net/wiki/`
+- `http://gnuarmeclipse.sourceforge.net/blog/`
+- `http://gnuarmeclipse.sourceforge.net/wiki/`

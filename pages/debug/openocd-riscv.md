@@ -18,17 +18,17 @@ The RISC-V specific configuration files must be entered in the **Config options:
 
 For boards with integrated JTAG adapters (like SiFive HiFive1), use the board file
 
-* `-f "board/sifive-hifive1.cfg"`
+- `-f "board/sifive-hifive1.cfg"`
 
 For the Arty synthesised boards, use multiple commands, with separate interface and board files, for example for **E31Arty** with Olimex USB probes:
 
-* `-c "adapter_khz 5000" -f "interface/ftdi/olimex-arm-usb-tiny-h.cfg" -f "board/sifive-e31arty.cfg"`
-* `-c "adapter_khz 5000" -f "interface/ftdi/olimex-arm-usb-ocd.cfg" -f "board/sifive-e31arty.cfg"`
+- `-c "adapter_khz 5000" -f "interface/ftdi/olimex-arm-usb-tiny-h.cfg" -f "board/sifive-e31arty.cfg"`
+- `-c "adapter_khz 5000" -f "interface/ftdi/olimex-arm-usb-ocd.cfg" -f "board/sifive-e31arty.cfg"`
 
 Similarly for **E51Arty** with Olimex USB probes:
 
-* `-c "adapter_khz 5000" -f "interface/ftdi/olimex-arm-usb-tiny-h.cfg" -f "board/sifive-e51arty.cfg"`
-* `-c "adapter_khz 5000" -f "interface/ftdi/olimex-arm-usb-ocd.cfg" -f "board/sifive-e51arty.cfg"`
+- `-c "adapter_khz 5000" -f "interface/ftdi/olimex-arm-usb-tiny-h.cfg" -f "board/sifive-e51arty.cfg"`
+- `-c "adapter_khz 5000" -f "interface/ftdi/olimex-arm-usb-ocd.cfg" -f "board/sifive-e51arty.cfg"`
 
 For the SiFive configuration files, future OpenOCD are expected to include them in the distribution. If they are not yet there, please download them from [GitHub](https://github.com/gnu-mcu-eclipse/openocd/tree/gnu-mcu-eclipse-dev/tcl/board) and copy them to the openOCD `scripts` folder.
 

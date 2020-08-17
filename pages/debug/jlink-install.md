@@ -10,16 +10,16 @@ date: 2015-09-11 20:50:00 +0300
 
 In case you wonder why GNU MCU Eclipse decided to provide support to SEGGER J-Link, the short answer is: **because of [J-Link EDU](http://www.segger.com/j-link-edu.html) and of SWO.** The long answer may include the following:
 
-* **wide processor support** (there is probably no unsupported ARM processor in the entire galaxy, and if you find one in a remote quadrant, I'm pretty sure it'll be shortly added to the list)
-* it is a true **multi-platform** solution, providing drivers for **Windows**, **macOS** and **GNU/Linux**
-* it comes with a **standard GDB server** implementation, compatible with existing ARM toolchains
-* in addition to the classical **JTAG** protocol, it implements the new **SWD** protocol
-* when SWD is selected, it is capable to sample the **SWO** pin, for trace messages and other ARM specific debugging
-* it is fast, up to **15 MHz** for **JTAG** clock and up to **7.5 MHz SWO** sampling frequency for the new **V9** hardware (12 MHz JTAG / 6 MHz SWO for V8, and even up to **100 MHz SWO** for the high-performance **ULTRA+, PRO** models)
-* it supports all possible target voltages, from **1.2V to 5V**
-* in addition to the regular debugging functionality, it is also able to write the internal flash, and, even more, it uses a smart flash writing algorithm, to avoid useless writes if the flash blocks did not change
-* it is a mature, proven product, with a great support team
-* it provides an entire range of probes, [J-Link](http://www.segger.com/jlink_base.html), [J-Link Pro](http://www.segger.com/jlink-pro.html), including a **special priced version for educational use**, the [J-Link EDU](http://www.segger.com/j-link-edu.html) (available from many distributors, for example from Farnell)
+- **wide processor support** (there is probably no unsupported ARM processor in the entire galaxy, and if you find one in a remote quadrant, I'm pretty sure it'll be shortly added to the list)
+- it is a true **multi-platform** solution, providing drivers for **Windows**, **macOS** and **GNU/Linux**
+- it comes with a **standard GDB server** implementation, compatible with existing ARM toolchains
+- in addition to the classical **JTAG** protocol, it implements the new **SWD** protocol
+- when SWD is selected, it is capable to sample the **SWO** pin, for trace messages and other ARM specific debugging
+- it is fast, up to **15 MHz** for **JTAG** clock and up to **7.5 MHz SWO** sampling frequency for the new **V9** hardware (12 MHz JTAG / 6 MHz SWO for V8, and even up to **100 MHz SWO** for the high-performance **ULTRA+, PRO** models)
+- it supports all possible target voltages, from **1.2V to 5V**
+- in addition to the regular debugging functionality, it is also able to write the internal flash, and, even more, it uses a smart flash writing algorithm, to avoid useless writes if the flash blocks did not change
+- it is a mature, proven product, with a great support team
+- it provides an entire range of probes, [J-Link](http://www.segger.com/jlink_base.html), [J-Link Pro](http://www.segger.com/jlink-pro.html), including a **special priced version for educational use**, the [J-Link EDU](http://www.segger.com/j-link-edu.html) (available from many distributors, for example from Farnell)
 
 The J-Link was present on the JTAG market for many years, but, considering the initial prices, only the big companies could afford them. After a fierce fight against Chinese clones, sold for a fraction of the price, in 2012 [SEGGER](http://www.segger.com/) decided to introduce a low price version, [J-Link EDU](http://www.segger.com/j-link-edu.html), restricted to educational and non-commercial usage, making it the JTAG probe of choice for open source GNU ARM development.
 
@@ -41,11 +41,11 @@ The J-Link GDB server is documented in the [UM08001](https://www.segger.com/dow
 
 The Windows file is a ZIP archive, named like `Setup_JLinkARM_V480.zip`. After unpacking it, a Windows executable file is obtained, named like `Setup_JLinkARM_V480.exe`.
 
-* double click it to start the installation process
-* enter the administrative password
-* accept the license
-* accept the destination folder (`C:\Program Files\SEGGER\JLinkARM_V480`)
-* accept the default USB driver
+- double click it to start the installation process
+- enter the administrative password
+- accept the license
+- accept the destination folder (`C:\Program Files\SEGGER\JLinkARM_V480`)
+- accept the default USB driver
 
 The result of the install is a folder (a new folder for each new version installed), and a set of driver files installed in the system folders, overwritten with each new install.
 
@@ -58,9 +58,9 @@ Please note that on Windows, SEGGER provides both graphical interface and **com
 
 The macOS download is an macOS package installer, like `JLink_MacOSX_V480.pkg`.
 
-* double click it to start the installation process
-* accept the license
-* enter the administrative password, required to write in the global `/Applications` folder
+- double click it to start the installation process
+- accept the license
+- enter the administrative password, required to write in the global `/Applications` folder
 
 The result of the install is a folder like `/Applications/SEGGER/JLink_V641b/` (a different folder for each version) where all executables and libraries are stored; please note that, as for many macOS applications, no other driver files are installed in the system folders, but some symbolic links are created in the `/usr/local/bin` folder.
 

@@ -2,6 +2,8 @@
 title: How to install the Eclipse prerequisites
 permalink: /plugins/prerequisites/
 
+summary: ""
+
 toc: false
 comments: true
 keywords:

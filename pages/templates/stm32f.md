@@ -14,8 +14,8 @@ STM provides a large range of Cortex-M micro-controllers, grouped in several fam
 
 The template can create both C and C++ projects. To create a new C++ project:
 
-* in the _Eclipse_ menu, go to **File** → **New → C++ Project**
-* in the *Executables* group, select the **STM32F4xx C/C++ Project**
+- in the _Eclipse_ menu, go to **File** → **New → C++ Project**
+- in the *Executables* group, select the **STM32F4xx C/C++ Project**
 
 ![New STM32F4 project]({{ site.baseurl }}/assets/images/2014/04/NewF4Project.png)
 
@@ -82,7 +82,7 @@ For more details on debugging, please refer to the specific [debug][1] pages.
 
 The usual sources for build failures are:
 
-* a wrong or missing toolchain path; go to the project properties, C/C++ Build → Setting → the Toolchains tab and define the correct path;
-* missing build tools (make & rm) on Windows; install the build tools.
+- a wrong or missing toolchain path; go to the project properties, C/C++ Build → Setting → the Toolchains tab and define the correct path;
+- missing build tools (make & rm) on Windows; install the build tools.
 
  [1]: {{ site.baseurl }}/debug/ "Debugging"

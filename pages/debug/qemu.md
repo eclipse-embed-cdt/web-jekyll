@@ -10,8 +10,8 @@ date: 2015-09-11 22:15:00 +0300
 
 If you already know what are the features of the new plug-in and only want to know how to install/use it, you can directly skip to:
 
-* [xPack QEMU Arm install](https://xpack.github.io/qemu-arm/install/)
-* [QEMU plug-in usage]({{ site.baseurl }}/debug/qemu/#qemu-plug-in-usage)
+- [xPack QEMU Arm install](https://xpack.github.io/qemu-arm/install/)
+- [QEMU plug-in usage]({{ site.baseurl }}/debug/qemu/#qemu-plug-in-usage)
 
 ## Why a new plug-in?
 
@@ -21,9 +21,9 @@ The short answer is: because a debugging plug-in provides the best integration o
 
 Before being able to use QEMU with the GNU MCU Eclipse plug-ins, you must separately install:
 
-* the QEMU debugging plug-in
-* the GDB debugger (client) application, as part of a GNU toolchain
-* the xPack QEMU Arm.
+- the QEMU debugging plug-in
+- the GDB debugger (client) application, as part of a GNU toolchain
+- the xPack QEMU Arm.
 
 If you did not do it yet, please follow the instructions in the [xPack QEMU Arm install](https://xpack.github.io/qemu-arm/install/) page and return when completed.
 
@@ -35,15 +35,15 @@ The presence of a GDB as part of a GNU toolchain is mandatory, and it is recomm
 
 Before starting work with QEMU, it is required to define the path to the QEMU folder.
 
-* in the _Eclipse_ menu, go to **(Window →) Preferences** → **MCU** → **Global QEMU Path** (or **Workspace QEMU Path**)
+- in the _Eclipse_ menu, go to **(Window →) Preferences** → **MCU** → **Global QEMU Path** (or **Workspace QEMU Path**)
 
   ![The QEMU preferences page]({{ site.baseurl }}/assets/images/2018/qemu-preferences.png)
 
-* click the **Restore Defaults** button
-* the plug-in will suggest the default values computed when Eclipse started; if a new version of GNU MCU Eclipse QEMU was installed while Eclipse was active, restart Eclipse and click again the Restore Defaults button
-* check the *Executable:* field; it must define the name of the QEMU executable; in most cases it should be already set correctly; if not, edit it to match the correct name;
-* check the *Folder:* field; it must point to the actual folder where the xPack QEMU Arm was installed on your system, for example `/Users/ilg/opt/xPacks/qemu-arm/<version>/bin` on macOS
-* click the **OK** button
+- click the **Restore Defaults** button
+- the plug-in will suggest the default values computed when Eclipse started; if a new version of GNU MCU Eclipse QEMU was installed while Eclipse was active, restart Eclipse and click again the Restore Defaults button
+- check the *Executable:* field; it must define the name of the QEMU executable; in most cases it should be already set correctly; if not, edit it to match the correct name;
+- check the *Folder:* field; it must point to the actual folder where the xPack QEMU Arm was installed on your system, for example `/Users/ilg/opt/xPacks/qemu-arm/<version>/bin` on macOS
+- click the **OK** button
 
 By default, the GDB server is defined as `${qemu_path}/${qemu_executable}`; these two macros are automatically set by the above preference page; for portability reasons, it is recommended to keep this definition in all your debug configurations, and also to have a single place to update the path when a new version of the xPack QEMU Arm is released.
 
@@ -59,28 +59,28 @@ Follow the steps in the separate page [Associate a device to the project]({{ sit
 
 Being a standard debugger, this plug-in also uses the Eclipse standard method of creating debugger configurations for each application. After you successfully build your application, you can create a new debug configuration following these steps:
 
-* select the project
-* build it and ensure the executable file is available
-* expand either the Debug or the Release folder and select the executable you want to debug
-* in the _Eclipse_ menu, go to **Run** → **Debug Configurations…** or select the down arrow at the right of the bug icon.
+- select the project
+- build it and ensure the executable file is available
+- expand either the Debug or the Release folder and select the executable you want to debug
+- in the _Eclipse_ menu, go to **Run** → **Debug Configurations…** or select the down arrow at the right of the bug icon.
 
   ![The build result]({{ site.baseurl }}/assets/images/2013/10/HelloBuildResult.png)
 
-* double click the **GDB QEMU Debugging** group, or select it and click the top leftmost **New** button.
+- double click the **GDB QEMU Debugging** group, or select it and click the top leftmost **New** button.
 
   ![Create a new QEMU launch configuration]({{ site.baseurl }}/assets/images/2015/04/QEMU_Debugging.png)
 
-* a multi-tab page will be displayed;
-* if you started this procedure with the project selected and the project was previously built, the first tab, named **Main**, should be already filled in with the project name (for example hello) and the application file name and location (for example `Debug/hello.elf`).
+- a multi-tab page will be displayed;
+- if you started this procedure with the project selected and the project was previously built, the first tab, named **Main**, should be already filled in with the project name (for example hello) and the application file name and location (for example `Debug/hello.elf`).
 
   ![The Main tab]({{ site.baseurl }}/assets/images/2015/04/HelloMainTab.png)
 
-* click the second tab, named **Debugger**, which contains the configuration options required to start QEMU as a GDB server and the GDB client.
+- click the second tab, named **Debugger**, which contains the configuration options required to start QEMU as a GDB server and the GDB client.
 
   ![The Debugger tab at first run]({{ site.baseurl }}/assets/images/2015/04/HelloDebuggerTab.png)
 
-* at your first run it is recommended to leave the Board name: field as it is, with a question mark, for the emulator to display the list of supported boards.
-* although not mandatory, it is recommended to change the location where the launcher file is stored; for this,
+- at your first run it is recommended to leave the Board name: field as it is, with a question mark, for the emulator to display the list of supported boards.
+- although not mandatory, it is recommended to change the location where the launcher file is stored; for this,
   * select the **Common** tab,
   * set the *Save as:* field to **Shared file**
   * accept the current project name.
@@ -88,7 +88,7 @@ Being a standard debugger, this plug-in also uses the Eclipse standard method of
 
   ![Store the debug configuration in the project]({{ site.baseurl }}/assets/images/2015/04/HelloCommonTab.png)      
 
-* click the **Close** button.
+- click the **Close** button.
 
 With the above settings, the debug configuration will be saved in the project, not in the workspace storage.
 
@@ -98,10 +98,10 @@ With the above settings, the debug configuration will be saved in the project, n
 
 With all the above steps completed properly, you can start the debug session:
 
-* in the _Eclipse_ menu, go to **Run** → **Debug Configurations...**
-* if necessary, expand the** GDB QEMU Debugging** group
-* select the newly defined **hello** configuration
-* click the bottom **Debug** button
+- in the _Eclipse_ menu, go to **Run** → **Debug Configurations...**
+- if necessary, expand the** GDB QEMU Debugging** group
+- select the newly defined **hello** configuration
+- click the bottom **Debug** button
 
 Alternatively, on subsequent runs, you can use the bug specific icon. By default this will start the previously used debug launch configuration; to start a different configuration, use the down arrow button:
 
@@ -115,15 +115,15 @@ This happened because by default the *Board name:* field contains a question mar
 
 Further configure the debug configuration
 
-* in the _Eclipse_ menu, go to **Run** → **Debug Configurations...**
-* select **hello**
-* select the **Debugger** tab
-* in the *Board name:* field, enter **STM32-H103** (a popular Olimex STM32F103 board)
-* in the Command line: field, after hello, add `3 2 1`, as an example
+- in the _Eclipse_ menu, go to **Run** → **Debug Configurations...**
+- select **hello**
+- select the **Debugger** tab
+- in the *Board name:* field, enter **STM32-H103** (a popular Olimex STM32F103 board)
+- in the Command line: field, after hello, add `3 2 1`, as an example
 
   ![The Debugger tab with the board name filled-in]({{ site.baseurl }}/assets/images/2015/04/HelloDebuggerTabH103.png)
 
-* click the Debug button
+- click the Debug button
 
 If everything is ok, after a few seconds required to start the server, to allow it to connect to the target, start the gdb client, download the application and start the debugging session, you should see something like this:
 
@@ -143,14 +143,14 @@ Once the debug session started and execution stopped in the first breakpoint (by
 
 The most common operations are:
 
-* single step over one source instruction (click the **Step Over** button)
-* single step into the next function called (click the **Step Into** button)
-* single step out of the current function (click the **Step Return** button)
-* set breakpoints (click the grey side area at the left of the source lines)
-* run (click the **Resume** button)
-* halt a running program (click the **Suspend** button)
-* inspect processor registers (use the **Registers** view)
-* inspect memory (use the **Memory** view)
+- single step over one source instruction (click the **Step Over** button)
+- single step into the next function called (click the **Step Into** button)
+- single step out of the current function (click the **Step Return** button)
+- set breakpoints (click the grey side area at the left of the source lines)
+- run (click the **Resume** button)
+- halt a running program (click the **Suspend** button)
+- inspect processor registers (use the **Registers** view)
+- inspect memory (use the **Memory** view)
 
 For more details please read the [Running and debugging projects](http://help.eclipse.org/luna/index.jsp?topic=%2Forg.eclipse.cdt.doc.user%2Ftasks%2Fcdt_t_debug_prog.htm) section in the Eclipse documentation.
 

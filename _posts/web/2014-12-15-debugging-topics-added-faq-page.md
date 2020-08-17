@@ -11,9 +11,9 @@ categories:
 
 Three new entries were added to the FAQ page.
 
-* Why my breakpoints are not effective and execution stops somewhere else?
-* How to single-step empty loops?
-* Why the debugging flow with -Og is sometimes jumpy?
+- Why my breakpoints are not effective and execution stops somewhere else?
+- How to single-step empty loops?
+- Why the debugging flow with -Og is sometimes jumpy?
 
 
 These problems are caused by bugs, or at least odd behaviours, of GCC+GDB or Eclipse.

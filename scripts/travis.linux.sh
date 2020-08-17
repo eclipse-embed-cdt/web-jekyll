@@ -57,7 +57,10 @@ function do_before_install() {
   run_verbose htmlproofer --version
 
   # run_verbose gem update --system
-  
+
+  echo "env..."
+  env | sort
+
   return 0
 }
 

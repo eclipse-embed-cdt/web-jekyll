@@ -101,7 +101,7 @@ function do_script() {
     run_verbose bundle exec htmlproofer \
       --allow_hash_href \
       --disable_external \
-      "${site}"
+      "${site}" || true
   fi
 
   # ---------------------------------------------------------------------------

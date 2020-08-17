@@ -34,9 +34,10 @@ env:
     - GIT_COMMIT_USER_EMAIL="ilg@livius.net"
     - GIT_COMMIT_USER_NAME="Travis CI"
     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
-    # The secure token is 'GITHUB_TOKEN=...' generated for 
-    # gnu-mcu-eclipse/gnu-mcu-eclipse.github.io-source
-    - secure: "HHSqyP8NHHcwJxx+W7/tyVsRbaCakC1JLnAyPtIJTqSGZkaTd7v8pICT7luEciuAV6sXTjN0Qlmt1tOEMKMpUW5cktQzBclgBo/EUNwRrD6pZ3zf5KFUx4A9bH8UoxiQ0lTWoz0GiWJFkkQTvm0RoyvTzO4DooC5npKx1hYbBOPiWp2sR5JWw650aiMlp58cCOnZJLKDKuSdyGbbIG5yz0fR71ZBrbkFY9lOpX2g1Uydf4INaGs5oGXqyZI4BsvtmLE2OR3Yg5S/Hn1AB/ADhTRI3d4C+MdROPy5KZDUcDChi+FsmXzjhOD9ZjpWrkDcZvhrs+HYsSeHIr+wWCy/paVVyOdK3/V65mHAMaqjGqvEJBU0hrHQwjBW4ro1Q4ax4LDoGaF0AOW1SwBySB3gUH2M5X9wglaHt62CjwOYHt1sQ+aDOxjoLiEwlGIKYjuNVib4Hz4eLgvUkXCygeE25OcZslI0m88way2D0+8F+UffZfyrxbxQnmWKvzhQ/xFCcQr6il1HVkuAJe4A5fQZuNUQe9MAUeIQRkIzctSsSRPFBZ3UjAxX1Ti/9JjusahZUp+h0N548MGeh/S6afV7/Uu9oZ9Y6NHJ9J1DRdJxAREiYrGH1vyA8p5zHUIc0Nkg24Jv4W+FKOovR1VEwNVff/iLBDanKUMPeACBuMUP10I="
+    # https://docs.travis-ci.com/user/encryption-keys/
+    # The secure token generated with:
+    # travis encrypt -r gnu-mcu-eclipse/web-jekyll GITHUB_TOKEN=XX...XX 
+    - secure: "SY8OaC78WZ23OfVv5jEn6EAAVHhismY8aQeGsexCzchvoCFZgkb582VcmyZYc2lbOg1gNHg3feBeAm14Sage3v4qdykNQkFi2+rdwe3nIjh+AaSKMshnpkSSAND4HRe9fUC5GNlxFHyYlZknHbkdzFqVj0XrS3JVEhBr6uPkVVdWKopC8Nq+tbuxSiOQai8uNxlsO3ocDmpE7y1J1ka8ZDK9MqB37hmtk7Ax3BMzl3NJESpyKLwmMKNCT06evIKINjNTW0FiaVUD4TmdS2Xlg6N+CBth3SKWBI7iMldtiLI/xu5mKwxrXql+7OiNvEKLQbARfvwgLHWBgMslISCuPtNpWdROSVivsMyfWZpJohtmSFHYMZfwQx7vEu5kNgli65syOi/Femr9zSUVD51sauaxu1x68Ma9O3tYh5ca6uQN7R1frwCrTG2G/ZgR38vN4B/Yt4g22Lu60NfJRfj3dzrhqduZHoEfmdtP0dpd3VXhh0cgmGTqRCDREJFsFienyXBzIjIe0wBoIIHBoXeEqUxNZjbPBjNbXbBJkOsELKrVwuY9zzYMWCqTJhGbOhCayXWZjh4w6uyXS08f1T98zRegZcGby8y6VWq8QQsohf8K8ebmpAkopRT5UbnZdWbxLCFJB6sPbErLvNJ3WTXTxV8j40h4H0FN51jfKXVaJFI="
 
 notifications:
   email:

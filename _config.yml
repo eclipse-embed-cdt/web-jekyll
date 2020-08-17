@@ -1,7 +1,7 @@
 # url: https://www.eclipse.org
 # baseurl: /embed-cdt
 url: https://gnu-mcu-eclipse.github.io
-baseurl: /web-preview
+# baseurl: /web-preview
 
 xpack_url: https://xpack.github.io
 

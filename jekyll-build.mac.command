@@ -2,13 +2,14 @@
 
 cd "$(dirname "$0")"
 
-site="../web-html/docs"
+base="../web-html"
+site="${base}/docs"
 export PATH="$HOME/opt/homebrew/jekyll/bin":$PATH
 
-rm -rf "${site}"
+rm -rf "${base}"
 mkdir -p "${site}"
 
-bundle exec jekyll build --destination "${site}"
+bundle exec jekyll build --destination "${site}/web-preview" --baseurl "/web-preview"
 
 export NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 

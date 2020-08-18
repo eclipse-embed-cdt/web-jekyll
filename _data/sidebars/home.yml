@@ -19,9 +19,59 @@ entries:
     - title: Prerequisites
       output: web
       url: /plugins/prerequisites/
+    - title: Install A New Eclipse
+      output: web
+      url: /plugins/install/
+    - title: Update An Existing Eclipse
+      output: web
+      url: /plugins/update/
+    - title: Alternate Installs
+      output: web
+      url: /plugins/install-alternate/
+    - title: Workspace Preferences
+      output: web
+      url: /eclipse/workspace/preferences/
+    - title: Blinky Arm Tutorial
+      output: web
+      url: /tutorials/blinky-arm/
+    - title: CMSIS Packs
+      output: web
+      url: /plugins/packs-manager/
+    - title: SEGGER J-Link
+      output: web
+      url: /debug/jlink/install/
+    - title: Troubleshoot
+      output: web
+      url: /plugins/troubleshoot/
     - title: About
       output: web
       url: /about/
+
+  - title: Debug
+    output: web
+    folderitems:
+
+    - title: Overview
+      url: /debug/
+      output: web
+    - title: Install
+      url: /debug/install/
+      output: web
+    - title: J-Link
+      url: /debug/jlink/
+      output: web
+    - title: OpenOCD
+      url: /debug/openocd/
+      output: web
+    - title: QEMU Arm
+      url: /debug/qemu/
+      output: web
+    - title: Assign CMSIS Device
+      url: /eclipse/project/assign-device/
+      output: web
+    - title: Peripheral Registers
+      url: /debug/peripheral-registers/
+      output: web
 
   - title: News
     output: web

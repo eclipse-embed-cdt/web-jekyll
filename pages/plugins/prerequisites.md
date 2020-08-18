@@ -2,14 +2,17 @@
 title: How to install the Eclipse prerequisites
 permalink: /plugins/prerequisites/
 
-summary: ""
+summary: "Install Java 11, xpm, toolchains and debugging tools."
 
-toc: false
+toc: true
 comments: true
 keywords:
   - npm
   - xpack
   - install
+  - java
+  - jdk
+  - xpm
 
 jdk: 14
 
@@ -59,6 +62,8 @@ Follow the **Download** link in the Oracle page, which currently points to
 
 {% capture windows %}
 
+Current Windows distributions do not include Java.
+
 {{ openjdk }}
 
 In the **Builds** section, download the **Windows/x64** .zip file.
@@ -90,6 +95,8 @@ which one to use by controlling the Path.
 {% endcapture %}
 
 {% capture macos %}
+
+The current macOS releases no longer pack Java.
 
 {{ openjdk }}
 
@@ -133,7 +140,8 @@ sudo launchctl config user path /Library/Java/JavaVirtualMachines/jdk-{{ page.jd
 sudo reboot
 ```
 
-For this configuration to become effective, it is necessary to reboot.
+As shown before, for this configuration to become effective, it is
+necessary to reboot.
 
 To check if the new path was configured properly:
 
@@ -153,8 +161,16 @@ export PATH=/Library/Java/JavaVirtualMachines/jdk-{{ page.jdk }}.0.1.jdk/Content
 
 {% capture linux %}
 
-On most modern Linux distributions, OpenJDK is available as a package,
-and can be installed via the sytem package manager.
+On most modern Linux distributions, OpenJDK is available as a package.
+
+To check if it is already installed, ask the version:
+
+```
+java -version
+```
+
+If it is not installed, or it is not at least Java 11,
+install it via the package manager.
 
 For example on Ubuntu:
 
@@ -199,7 +215,8 @@ If your Windows Manager allows to start Eclipse with clicks in the file
 manager without using a shell, you might need to set the GUI path in a way
 specific to the window manager.
 
-TODO: give some examples.
+On some distributions (like Ubuntu) this can be achieved via `~/.xsessionrc`,
+sourced from one of the files in `/etc/X11/Xsession.d/`.
 
 It is possible to install multiple versions on the same system, and chose
 which one to use by controlling the PATH.
@@ -208,12 +225,15 @@ which one to use by controlling the PATH.
 
 {% include platform-tabs.html %}
 
-## Alternate solutions
+## Alternate Java distributions
 
 For those who prefer alternate solutions, the second recommendation
 goes to [AdoptOpenJDK](https://adoptopenjdk.net/)
 which provides prebuilt OpenJDK binaries for an even wider
 range of platforms.
+
+{% include tip.html content="Since recent Eclipses are all 64-bit, be sure
+you install a 64-bit Java." %}
 
 ## Install node & xpm
 
@@ -234,7 +254,8 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
 exit
 ```
 
-In a new terminal, to benefit from the definitions added by the script:
+In a new terminal, to benefit from the environment variables
+added by the script:
 
 ```bash
 nvm install --lts node
@@ -270,5 +291,22 @@ xpm install --global @xpack-dev-tools/riscv-none-embed-gcc@latest
 All xPacks are installed in a central folder in the user home; check
 the xpm output for the actual location.
 
-{% include tip.html content="Since xPacks are installed in _dot_ folders,
-be sure you configure your file manager to show hidden files." %}
+{% include tip.html content="Since xPacks are installed in _.dot_ folders,
+be sure to configure the file manager to show hidden files." %}
+
+## Miscellaneous
+
+### Discontinued 32-bit support
+
+All recent Eclipses are 64-bit and require 64-bit platforms; using older
+32-bit systems is still possible with older Eclipse versions, but is
+discouraged.
+
+### Eclipse Neon and later
+
+The Embedded CDT plug-ins are based on the API defined in CDT 9.2.1, which
+was published with [Eclipse 4.6 Neon](https://www.eclipse.org/neon/), released
+in 2016.
+
+If, for any reason, you need to use an older Eclipse (like, for example,
+for running on a 32-bit system), be sure it includes at least CDT 9.2.1.

@@ -81,10 +81,10 @@ Being a standard debugger, this plug-in also uses the Eclipse standard method of
 
 - at your first run it is recommended to leave the Board name: field as it is, with a question mark, for the emulator to display the list of supported boards.
 - although not mandatory, it is recommended to change the location where the launcher file is stored; for this,
-  * select the **Common** tab,
-  * set the *Save as:* field to **Shared file**
-  * accept the current project name.
-  * click the **Apply** button
+  - select the **Common** tab,
+  - set the *Save as:* field to **Shared file**
+  - accept the current project name.
+  - click the **Apply** button
 
   ![Store the debug configuration in the project]({{ site.baseurl }}/assets/images/2015/04/HelloCommonTab.png)      
 

@@ -125,11 +125,11 @@ By completing the above steps, the Eclipse environment is ready, and you
 can start creating projects right away. However, for being able to build
 and debug these projects, you also need to install:
 
-* the [Arm toolchain](https://xpack.github.io/arm-none-eabi-gcc/install/) or
+- the [Arm toolchain](https://xpack.github.io/arm-none-eabi-gcc/install/) or
 [RISC-V toolchain](https://xpack.github.io/riscv-none-embed-gcc/install/)
-* the optional [build tools](https://xpack.github.io/windows-build-tools/)
+- the optional [build tools](https://xpack.github.io/windows-build-tools/)
 (if you are running on Windows)
-* the [debugging]({{ site.baseurl }}/debug/) tools
+- the [debugging]({{ site.baseurl }}/debug/) tools
 
 ## The CMSIS Packs Manager
 

@@ -50,11 +50,11 @@ _Eclipse_ menu and go to **Help** → **Install New Software**
 
 ![Install new software]({{ site.baseurl }}/assets/images/2016/install-new-software.png)
 
-* select *Work with:* **Neon** (or more recent)
-* if the *Group items by category* is enabled, expand the **Programming
+- select *Work with:* **Neon** (or more recent)
+- if the *Group items by category* is enabled, expand the **Programming
 Languages** group
-* select the **C/C++ Development Tools** feature
-* click the **Next** button and follow the usual installation procedure
+- select the **C/C++ Development Tools** feature
+- click the **Next** button and follow the usual installation procedure
 
 ![CDT install]({{ site.baseurl }}/assets/images/2017/install-cdt.png)
 
@@ -66,9 +66,9 @@ requirements** and **Cannot satisfy dependency**." %}
 
 The easiest way to install/update the plug-ins is to use the Eclipse Marketplace:
 
-* go to the _Eclipse_ menu → **Help** → **Eclipse Marketplace...**
-* in the Find field, enter **Eclipse Embedded CDT**
-* click the **Go** button
+- go to the _Eclipse_ menu → **Help** → **Eclipse Marketplace...**
+- in the Find field, enter **Eclipse Embedded CDT**
+- click the **Go** button
 
 This should identify Eclipse Embedded CDT and offer to Install/Update/Uninstall 
 assets:
@@ -79,17 +79,17 @@ assets:
 
 The classical way to install the Eclipse Embedded CDT plug-ins is to use the Eclipse standard install/update mechanism in the _Eclipse_ menu → **Help** → **Install New Software...**
 
-* in the *Install* window, click the **Add...** button (on future updates, select the URL in the **Work with:** combo)
-* fill in *Name:* with **Eclipse Embedded CDT Plug-ins**
-* fill in *Location:* with **https://download.eclipse.org/embed-cdt/updates/neon/**
-* click the **OK** button
+- in the *Install* window, click the **Add...** button (on future updates, select the URL in the **Work with:** combo)
+- fill in *Name:* with **Eclipse Embedded CDT Plug-ins**
+- fill in *Location:* with **https://download.eclipse.org/embed-cdt/updates/neon/**
+- click the **OK** button
 
 ![AddRepository]({{ site.baseurl }}/assets/images/2017/add-repository.png)
 
-* normally the main window should list a group named **GNU ARM & RISC-V Cross Development Tools**; expand it
-* (in case the main window will list *There are no categorized items*, you are probably using a very old version; disable the Group items by category option)
-* select all the plug-ins (the one marked *End of life* is needed only for compatibility with previous version, normally can be safely skipped)
-* click the **Next** button and follow the usual installation procedure
+- normally the main window should list a group named **GNU ARM & RISC-V Cross Development Tools**; expand it
+- (in case the main window will list *There are no categorized items*, you are probably using a very old version; disable the Group items by category option)
+- select all the plug-ins (the one marked *End of life* is needed only for compatibility with previous version, normally can be safely skipped)
+- click the **Next** button and follow the usual installation procedure
 
 ![Plug-ins install]({{ site.baseurl }}/assets/images/2017/plugins-install.png)
 
@@ -99,12 +99,12 @@ Once you define the update site URL, further updates are greatly simplified (**H
 
 If, for any reason, you need to install a specific version of the plug-in, the solution is to download the `ilg.gnumcueclipse.repository-<version>.zip` archive from [Eclipse servers](https://projects.eclipse.org/projects/iot.embed-cdt/governance/); for releases pre v5.1.1 use [GitHub Releases](https://github.com/eclipse-embed-cdt/eclipse-plugins/releases), or, for even older releases, from [SourceForge Files](http://sourceforge.net/projects/gnuarmeclipse/files/Current%20Releases/) and to point the Eclipse update mechanism to the local archive: In the _Eclipse_ menu → **Help** → **Install New Software...**
 
-* in the *Install* window, click the **Add...** button
-* in the *Add Repository* window, click the **Archive...** button
-          * in the *Repository archive* window, select the downloaded .zip archive
-          * click the **OK** button
-* click the OK button
-* follow the usual installation procedure
+- in the *Install* window, click the **Add...** button
+- in the *Add Repository* window, click the **Archive...** button
+    - in the *Repository archive* window, select the downloaded .zip archive
+    - click the **OK** button
+- click the OK button
+- follow the usual installation procedure
 
 ![Add repository from archive]({{ site.baseurl }}/assets/images/2013/10/AddArchiveRepository.png)
 

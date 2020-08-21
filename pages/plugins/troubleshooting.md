@@ -109,11 +109,11 @@ longer maintained.
 
 Similarly:
 
-* starting with 3.1.x, compatibility with Eclipses previous than 4.4 Luna
+- starting with 3.1.x, compatibility with Eclipses previous than 4.4 Luna
 was no longer possible. If, for any reason, you need a solution for Eclipse
 Kepler, you can try the GNU ARM Eclipse Plug-in version 2.12, but please
 keep in mind that this version is no longer maintained.
-* starting with 1.1.x, compatibility with Eclipses previous than 4.3 Kepler
+- starting with 1.1.x, compatibility with Eclipses previous than 4.3 Kepler
 was no longer possible. If, for any reasons, you need a solution for older
 Eclipse versions, you can try the GNU ARM Eclipse Plug-in version 0.5.5,
 but please keep in mind that this old version is no longer maintained.

@@ -2,7 +2,7 @@
 title:  The GNU MCU Eclipse project has new forums
 
 date:   2019-09-25 23:08:00 +0300
-last_updated: 2010-08-28 19:39:00 +0300
+last_updated: 2020-08-28 19:51:00 +0300
 
 categories:
   - news

@@ -2,7 +2,7 @@
 title: The GNU ARM Eclipse project has a new home and a new look (GitHub)
 
 date: 2015-09-14 13:41:00 +0300
-last_updated: 2010-08-28 19:39:00 +0300
+last_updated: 2020-08-28 19:50:59 +0300
 
 categories:
   - news

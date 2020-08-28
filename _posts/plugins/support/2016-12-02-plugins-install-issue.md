@@ -2,7 +2,7 @@
 title:  'GNU ARM Eclipse plug-ins: sun.security.validator.ValidatorException'
 
 date:   2016-12-02 11:33:00 +0300
-last_updated: 2010-08-28 19:39:00 +0300
+last_updated: 2020-08-28 19:50:59 +0300
 
 categories:
   - support

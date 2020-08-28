@@ -27,7 +27,7 @@ Until now, debugging with the J-Link probe in Eclipse was done via the GDB Hard
 
 ## Prerequisites
 
-Before being able to use the J-Link probe with the GNU MCU Eclipse plug-ins, you must separately install:
+Before being able to use the J-Link probe with Eclipse Embedded CDT, you must separately install:
 
 - the J-Link debugging plug-in
 - the GDB debugger (client) application, as part of a GNU toolchain
@@ -262,7 +262,7 @@ If you kept the GDB client executable defined as `${cross_prefix}gdb${cross_suf
 
 ### Using a different build plug-in or not supported compiler
 
-Another reason for not being able to start the debug session is that your project was not build with the GNU MCU Eclipse managed build plug-in. If you are using another build plug-in, or an exotic/obsolete toolchain, you need to replace `${cross_prefix}gdb${cross_suffix}` with the actual name of the gdb client available in your toolchain, since the `${cross_*}` macros are available only in projects managed by the GNU MCU Eclipse build plug-in.
+Another reason for not being able to start the debug session is that your project was not build with the Eclipse Embedded CDT managed build plug-in. If you are using another build plug-in, or an exotic/obsolete toolchain, you need to replace `${cross_prefix}gdb${cross_suffix}` with the actual name of the gdb client available in your toolchain, since the `${cross_*}` macros are available only in projects managed by the Eclipse Embedded CDT build plug-in.
 
 ## **More info**
 

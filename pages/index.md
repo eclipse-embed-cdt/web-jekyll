@@ -2,7 +2,7 @@
 title: "Eclipse Embedded CDT"
 permalink: /
 
-summary: Eclipse Embedded C/C++ Development Tools (formerly GNU MCU/ARM Eclipse).
+summary: Eclipse Embedded C/C++ Development Tools (formerly **GNU MCU/ARM Eclipse**).
 toc: false
 keywords: 
   - eclipse
@@ -77,7 +77,7 @@ several other tools, distributed as separate packages.
 
   The [**xPack QEMU Arm**](https://xpack.github.io/qemu-arm/) project is a
   fork of [QEMU](http://wiki.qemu.org/Main_Page) (an open source machine emulator),
-  intended to provide support for Cortex-M emulation in GNU MCU Eclipse.
+  intended to provide support for Cortex-M emulation in Eclipse Embedded CDT.
   Binaries for Windows, macOS and GNU/Linux are available.
 
   ![The STM32F4-Discovery 4 LEDs]({{ site.baseurl }}/assets/images/2015/stm32f4-discovery-leds.png)
@@ -118,4 +118,3 @@ to get notifications on new releases.
 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
 <img alt="." border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
 </form>
-

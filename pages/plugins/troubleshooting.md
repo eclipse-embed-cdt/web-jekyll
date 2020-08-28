@@ -103,8 +103,8 @@ Reinstall the correct Eclipse package, or add CDT to the existing Eclipse
 
 Please note that starting with 4.x, compatibility with Eclipses previous
 than 4.6 Neon was no longer possible. If, for any reason, you need a
-solution for Eclipse Luna or Mars, you can try the GNU MCU Eclipse
-Plug-in version 3.*, but please keep in mind that this version is no
+solution for Eclipse Luna or Mars, you can try the Eclipse Embedded CDT
+Plug-ins version 3.*, but please keep in mind that this version is no
 longer maintained.
 
 Similarly:

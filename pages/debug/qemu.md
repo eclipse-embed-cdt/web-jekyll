@@ -19,7 +19,7 @@ The short answer is: because a debugging plug-in provides the best integration o
 
 ## Prerequisites
 
-Before being able to use QEMU with the GNU MCU Eclipse plug-ins, you must separately install:
+Before being able to use QEMU with Eclipse Embedded CDT, you must separately install:
 
 - the QEMU debugging plug-in
 - the GDB debugger (client) application, as part of a GNU toolchain
@@ -40,7 +40,7 @@ Before starting work with QEMU, it is required to define the path to the QEMU 
   ![The QEMU preferences page]({{ site.baseurl }}/assets/images/2018/qemu-preferences.png)
 
 - click the **Restore Defaults** button
-- the plug-in will suggest the default values computed when Eclipse started; if a new version of GNU MCU Eclipse QEMU was installed while Eclipse was active, restart Eclipse and click again the Restore Defaults button
+- the plug-in will suggest the default values computed when Eclipse started; if a new version of xPack QEMU Arm was installed while Eclipse was active, restart Eclipse and click again the Restore Defaults button
 - check the *Executable:* field; it must define the name of the QEMU executable; in most cases it should be already set correctly; if not, edit it to match the correct name;
 - check the *Folder:* field; it must point to the actual folder where the xPack QEMU Arm was installed on your system, for example `/Users/ilg/opt/xPacks/qemu-arm/<version>/bin` on macOS
 - click the **OK** button

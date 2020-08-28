@@ -1,5 +1,5 @@
 ---
-title: How to install the debugging components?
+title: How to install the debugging components
 permalink: /debug/install/
 
 date: 2015-09-11 19:55:00 +0300
@@ -32,7 +32,7 @@ As for software, debugging is generally a complex operation, and in Eclipse it r
 - the GDB **server** application
 - the hardware **drivers** required by the JTAG/SWD probe
 
-The GNU MCU Eclipse project recommends three debugging solutions:
+The Eclipse Embedded CDT project recommends three debugging solutions:
 
 - the **SEGGER J-Link** probe & GDB server, as **a highly professional solution**, supporting both JTAG and SWD, plus SWO trace output;
 - the **OpenOCD** application as **an universal tool**, supporting most cheap JTAG probes, but with limitations (currently it does not support SWD and implicitly no SWO, it is slower, configuration might be sometimes cryptical, there are many driver incompatibilities on Windows, etc);
@@ -73,7 +73,7 @@ Similarly, if you do not have a J-Link (yet), there is no need to install the J-
 
 J-Link and OpenOCD are not the only existing solutions, but probably are the most portable ones. J-Link is a single piece of hardware that can be used with most ARM processors. At the other end of the spectrum is OpenOCD, a single piece of software that, within limits, can be used with most JTAG probes, especially on GNU/Linux.
 
-If portability is not your concern, and you prefer other GDB servers, please feel free to use them, but GNU MCU Eclipse plug-ins do not provide support from them.
+If portability is not your concern, and you prefer other GDB servers, please feel free to use them, but Eclipse Embedded CDT does not provide support from them.
 
 To save you time, we compiled a list of other GDB servers, with some of their features and  limitations:
 
@@ -88,7 +88,7 @@ Another interesting solution is Freescale's **OpenSDA** debug/programming interf
 
 ## Eclipse debugging plug-ins
 
-The debugging plug-ins come together with the other GNU MCU Eclipse plug-ins, and should be installed in the same step, detailed in the [plug-ins install][6] page.
+The debugging plug-ins come together with the other Eclipse Embedded CDT plug-ins, and should be installed in the same step, detailed in the [plug-ins install][6] page.
 
 Be sure you enable the entries named **GNU ARM C/C++ J-Link Debugging**, **GNU ARM C/C++ OpenOCD Debugging** and **GNU ARM C/C++ QEMU Debugging**.
 

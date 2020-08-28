@@ -14,9 +14,9 @@ One of the advantages of using the new packs technology is that the extra meta
 
 ## Prerequisites
 
-### A project created by GNU MCU Eclipse plug-ins
+### A project created by Eclipse Embedded CDT
 
-The **Devices** tab is visible in the **Settings** properties page only for projects created by the GNU MCU Eclipse plug-ins.
+The **Devices** tab is visible in the **Settings** properties page only for projects created by the Eclipse Embedded CDT plug-ins.
 
 It is not possible to assign devices/boards to projects created by other plug-ins, because they lack the mechanisms to handle such additional data.
 
@@ -29,13 +29,13 @@ For the device list to be populated, it is required that:
 
 Please note that failure to do so will prevent the device selection window to make the desired device available for selection.
 
-##  Assign device
+## Assign device
 
 > **Notice**: for an even higher flexibility, different devices can be assigned to different **build configuration**, so it is possible to have different devices for different configurations.
 
 One direct consequence is that you need to be careful to associate the appropriate devices to **all** configurations. The Eclipse interface allows to configure **All configurations** at a time; select this option in the top selection.
 
-> **Notice**: The Devices tab is visible in the **Settings** properties page only for projects created by the GNU MCU Eclipse plug-ins.
+> **Notice**: The Devices tab is visible in the **Settings** properties page only for projects created by the Eclipse Embedded CDT plug-ins.
 
 To assign devices to projects:
 

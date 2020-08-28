@@ -1,5 +1,5 @@
 ---
-title: How to use the managed build plug-ins?
+title: How to use the managed build plug-ins
 permalink: /plugins/mbs/
 author: Liviu Ionescu
 
@@ -13,7 +13,7 @@ After successfully installing the cross build plug-in, before being able to star
 
 ### Toolchain
 
-For embedded ARM projects, it is recommended to use the [xPack GNU Arm Embedded GCC][1] (arm-none-eabi-*). For all other projects, a good point to start the search for toolchains is the [Linaro][2] project**.**
+For embedded ARM projects, it is recommended to use the [xPack GNU Arm Embedded GCC](http://launchpad.net/gcc-arm-embedded) (arm-none-eabi-*). For all other projects, a good point to start the search for toolchains is the [Linaro](http://launchpad.net/gcc-linaro) project**.**
 
 ### Build tools (make & rm)
 
@@ -25,18 +25,20 @@ On GNU/Linux, depending on your distribution, **make** might be in the standard 
 
 In both cases, to check if make is available, run the following command:
 
-	$ make --version
-	GNU Make 3.81
-	Copyright (C) 2006  Free Software Foundation, Inc.
-	This is free software; see the source for copying conditions.
-	There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
-	PARTICULAR PURPOSE.
+```
+$ make --version
+GNU Make 3.81
+Copyright (C) 2006  Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.
+There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE.
 
-	This program built for i386-apple-darwin11.3.0
+This program built for i386-apple-darwin11.3.0
+```
 
 Although the managed build process does not require special features from make, it is mandatory that it is a **GNU Make**, preferably as recent as possible.
 
-On Windows things are a bit more complicated, since neither make nor rm are part of the standard distribution, and need to be installed separately. For more information, please read the separate page [Build tools (make & rm) on Windows][3].
+On Windows things are a bit more complicated, since neither make nor rm are part of the standard distribution, and need to be installed separately. For more information, please read the separate page [Build tools (make & rm) on Windows](https://xpack.github.io/windows-build-tools/).
 
 ### Toolchain path
 
@@ -54,7 +56,7 @@ To create a new project, go to _Eclipse_ menu, **File** → **New** (or the but
 
 ![NewCProject]({{ site.baseurl }}/assets/images/2013/10/NewCProject.png)
 
-For more details on creating projects, please see the **[Create test project tutorial][4]** separate page.
+For more details on creating projects, please see the [Create test project tutorial]({{ site.baseurl }}/tutorials/blinky-arm/) separate page.
 
 ### Assign a device to the project
 
@@ -90,11 +92,13 @@ The **Hello World ARM Cortex-M3 C Project** template provides a starting point f
 
 For example, the default memory definitions look like this:
 
-	MEMORY
-	{
-	  FLASH (rx) : ORIGIN = 0x00000000, LENGTH = 128K
-	  RAM (rwx)  : ORIGIN = 0x20000000, LENGTH = 20K
-	}
+```
+MEMORY
+{
+	FLASH (rx) : ORIGIN = 0x00000000, LENGTH = 128K
+	RAM (rwx)  : ORIGIN = 0x20000000, LENGTH = 20K
+}
+```
 
 The syntax is quite obvious, the default configurations is for a processor with 128 K flash and 20 K RAM (for example the SM32F103xB family).
 
@@ -148,6 +152,3 @@ The process is similar to static libraries, just that in the final step the link
 This feature is useful mainly to larger systems, that support shared libraries, like GNU/Linux; it is of no use for small embedded systems.
 
  [1]: http://launchpad.net/gcc-arm-embedded
- [2]: http://launchpad.net/gcc-linaro
- [3]: https://xpack.github.io/windows-build-tools/ "Build tools (make & rm) on Windows"
- [4]: {{ site.baseurl }}/tutorials/blinky-arm/ "Create a test project tutorial"

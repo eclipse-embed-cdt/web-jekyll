@@ -1,5 +1,5 @@
 ---
-title: How to install the SEGGER J-Link?
+title: How to install the SEGGER J-Link
 permalink: /debug/jlink/install/
 
 date: 2015-09-11 20:50:00 +0300
@@ -8,7 +8,7 @@ date: 2015-09-11 20:50:00 +0300
 
 ## Why J-Link?
 
-In case you wonder why GNU MCU Eclipse decided to provide support to SEGGER J-Link, the short answer is: **because of [J-Link EDU](http://www.segger.com/j-link-edu.html) and of SWO.** The long answer may include the following:
+In case you wonder why Eclipse Embedded CDT decided to provide support to SEGGER J-Link, the short answer is: **because of [J-Link EDU](http://www.segger.com/j-link-edu.html) and of SWO.** The long answer may include the following:
 
 - **wide processor support** (there is probably no unsupported ARM processor in the entire galaxy, and if you find one in a remote quadrant, I'm pretty sure it'll be shortly added to the list)
 - it is a true **multi-platform** solution, providing drivers for **Windows**, **macOS** and **GNU/Linux**
@@ -67,7 +67,6 @@ The result of the install is a folder like `/Applications/SEGGER/JLink_V641b/` 
 Be sure to update the path in Eclipse preferences page to point to the latest SEGGER J-Link software.
 
 ![SEGGER macOS distribution]({{ site.baseurl }}/assets/images/2014/01/Segger-OSX.png)
-
 
 ### USB
 
@@ -150,6 +149,6 @@ In all cases, the result should be similar to the one obtained on macOS.
 
 ## The J-Link plug-in
 
-If you successfully installed SEGGER binaries, you can proceed to the page documenting how to use the GNU MCU Eclipse [J-Link debugging plug-in][1].
+If you successfully installed SEGGER binaries, you can proceed to the page documenting how to use the Eclipse Embedded CDT [J-Link debugging plug-in][1].
 
  [1]: {{ site.baseurl }}/debug/jlink/ "The J-Link hardware debugging Eclipse plug-in"

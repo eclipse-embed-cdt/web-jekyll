@@ -1,5 +1,5 @@
 ---
-title: Eclipse Embedded CDT Plug-ins Features
+title: Eclipse Embedded CDT Features
 permalink: /plugins/features/
 
 toc: true
@@ -125,7 +125,7 @@ We also recommend the use of specific Arm debugging support, like tracing via th
 
 ## The packages manager perspective
 
-The GNU MCU Eclipse plug-ins were the first open source tools to benefit from the new CMSIS Packs technology promoted by Arm.
+The Eclipse Embedded CDT plug-ins were the first open source tools to benefit from the new CMSIS Packs technology promoted by Arm.
 
 Packages are a convenient way to distribute software components, hardware descriptions and documentation, in a structured way.
 

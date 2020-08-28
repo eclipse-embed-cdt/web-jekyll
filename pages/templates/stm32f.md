@@ -8,7 +8,7 @@ date: 2015-09-11 22:27:00 +0300
 
 ## Overview
 
-STM provides a large range of Cortex-M micro-controllers, grouped in several families. The GNU MCU Eclipse plug-ins provide support for F0, F1, F2, F3 and F4. Since all templates share common characteristics, the examples shown here will refer only to the F4 family.
+STM provides a large range of Cortex-M micro-controllers, grouped in several families. The Eclipse Embedded CDT plug-ins provide support for F0, F1, F2, F3, F4 and F7. Since all templates share common characteristics, the examples shown here will refer only to the F4 family.
 
 ## Create a new project
 
@@ -23,21 +23,17 @@ Select the MCU and various project settings:
 
 ![Define MCU and project settings]({{ site.baseurl }}/assets/images/2014/04/F4Target.png)
 
-
 Define the names of the destination folders:
 
 ![Define destination folder names]({{ site.baseurl }}/assets/images/2014/04/F4Folders.png)
-
 
 Accept the default configuration names:
 
 ![Build configurations]({{ site.baseurl }}/assets/images/2014/04/Configurations.png)
 
-
 Define the toolchain name and path:
 
 ![Toolchain path]({{ site.baseurl }}/assets/images/2014/04/Toolchain.png)
-
 
 Note: DO NOT SKIP this step, it is mandatory to have a correct toolchain path defined in order for the build to complete correctly.
 
@@ -47,16 +43,11 @@ The generated project has the following structure:
 
 ### Associate a device to the project
 
-
 Future releases of the wizard will this automatically but for now it is recommended to do it manually.
-
 
 For more details, please visit the [separate page]({{ site.baseurl }}/eclipse/project/assign-device/).
 
-
-
 ![Assign a device to the project]({{ site.baseurl }}/assets/images/2013/10/Devices.png)
-
 
 ## Build
 
@@ -76,7 +67,8 @@ For ARM devices, this is done using a JTAG or SWD probe. Most professional deve
 
 Some low cost development boards do not include the standard JTAG connector, but have an on-board version of a JTAG probe. For example, the STM32F4DISCOVERY includes a version of ST/LINK V2, and the board can be directly connected via USB to the development machine. The portable method of using the ST/LINK V2 is via OpenOCD.
 
-For more details on debugging, please refer to the specific [debug][1] pages.
+For more details on debugging, please refer to the specific 
+[debug]({{ site.baseurl }}/debug/) pages.
 
 ## Troubleshooting
 
@@ -84,5 +76,3 @@ The usual sources for build failures are:
 
 - a wrong or missing toolchain path; go to the project properties, C/C++ Build → Setting → the Toolchains tab and define the correct path;
 - missing build tools (make & rm) on Windows; install the build tools.
-
- [1]: {{ site.baseurl }}/debug/ "Debugging"

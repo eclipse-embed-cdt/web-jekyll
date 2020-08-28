@@ -10,9 +10,12 @@ date: 2015-09-11 22:06:00 +0300
 
 ## Quicklinks
 
-If you know what this is all about, go to the
+If you know what this is all about:
+
+- satisfy the [Prerequisites]({{ site.baseurl }}/plugins/prerequisites/)
+- go to the
 [Downloads](https://projects.eclipse.org/projects/iot.embed-cdt/downloads/)
-page and download the latest package for your platform.
+page on the Eclipse server and download the latest package for your platform
 
 ## Overview
 
@@ -159,12 +162,8 @@ This validated that the plug-ins are installed properly, that the toolchain
 available, and the debug plug-ins are available and configured properly.
 
 Follow the steps in the
-[create and build a test project]({{ site.baseurl }}/tutorials/blinky-arm/)
+[Create a Blinky Arm test project]({{ site.baseurl }}/tutorials/blinky-arm/)
 page.
-
-{% include tip.html content="Follow this steps _by the book_, without any
-alterations, especially if you are new to Eclipse. This will save you a
-lot of time." %}
 
 ## Support
 

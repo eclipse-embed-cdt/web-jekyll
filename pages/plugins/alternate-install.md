@@ -80,7 +80,7 @@ assets:
 The classical way to install the Eclipse Embedded CDT plug-ins is to use the Eclipse standard install/update mechanism in the _Eclipse_ menu → **Help** → **Install New Software...**
 
 - in the *Install* window, click the **Add...** button (on future updates, select the URL in the **Work with:** combo)
-- fill in *Name:* with **Eclipse Embedded CDT Plug-ins**
+- fill in *Name:* with **Eclipse Embedded CDT**
 - fill in *Location:* with **https://download.eclipse.org/embed-cdt/updates/neon/**
 - click the **OK** button
 

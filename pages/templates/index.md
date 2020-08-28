@@ -10,13 +10,13 @@ date: 2015-09-11 22:35:00 +0300
 
 If you know what this is all about and you only need to go to specific templates:
 
-- [Cortex-M template][1]
-- [STM32Fxx templates][2]
-- [Kinetis KLxx templates][3]
+- [STM32Fxx templates]({{ site.baseurl }}/templates/stm32f/)
+- [Kinetis KLxx templates]({{ site.baseurl }}/templates/klxx/)
+- [Generic Cortex-M template]({{ site.baseurl }}/templates/cortexm/)
 
 ## Overview
 
-In addition to cross build and debugging support, GNU MCU Eclipse plug-ins also provide several C/C++ project templates, that generate ready to run projects.
+In addition to cross build and debugging support, the Eclipse Embedded CDT plug-ins also provide several C/C++ project templates, that generate ready to run projects.
 
 These projects obviously are not full fledged applications, but provide a good starting point for writing such applications.
 
@@ -27,7 +27,7 @@ One of the main requirements is to build correctly, even if functionality is onl
 The template plug-ins are installed using the same procedure as the other plug-ins:
 
 - in the _Eclipse_ menu, go to **Help** → **Install New Software**
-- select *Work with:* **GNU MCU Eclipse Plug-ins**
+- select *Work with:* **Eclipse Embedded CDT**
 - extend the **GNU ARM C/C++ Cross Development Tools**
 - be sure the desired **... Project Template** are selected
 
@@ -35,13 +35,13 @@ The template plug-ins are installed using the same procedure as the other plug-i
 
 ## C vs C++
 
-Most of the GNU MCU Eclipse templates are available for both C and C++ projects. The first difference between the two is the extension of the main source file: it is **main.c** for C projects and **main.cpp** for C++ projects. The content is usually the same, but more elaborate versions are planned to better exemplify the use of C++.
+Most of the Eclipse Embedded CDT templates are available for both C and C++ projects. The first difference between the two is the extension of the main source file: it is **main.c** for C projects and **main.cpp** for C++ projects. The content is usually the same, but more elaborate versions are planned to better exemplify the use of C++.
 
-**CMSIS**
+## CMSIS
 
 After defining a minimum common hardware implementation in the Cortex-M core, to be implemented by all vendors, ARM also defined CMSIS (pronounced sim-sys) as a common software interface, to be used with all Cortex-M implementations. CMSIS stands for [Cortex Microcontroller Software Interface Standard](http://www.arm.com/products/processors/cortex-m/cortex-microcontroller-software-interface-standard.php) and consists of several components (CORE, DSP, RTOS, SVD).
 
-The GNU MCU Eclipse plug-in uses the CMSIS-CORE code in all templates, as jointly provided by ARM and each vendor.
+The Eclipse Embedded CDT plug-ins uses the CMSIS-CORE code in all templates, as jointly provided by ARM and each vendor.
 
 ## Blinky vs Empty
 
@@ -63,7 +63,6 @@ Most generated projects share a common folders structure, similar to the followi
 
 ![Project structure]({{ site.baseurl }}/assets/images/2014/02/F4Project.png)
 
-
 ### Application code
 
 The application code is located in the top level **src** and **include** folders. Add more files as required by your application.
@@ -80,7 +79,7 @@ Various libraries are grouped in the **system** folder. According to ARM specif
 
 ### Generic templates
 
-- [Cortex-M template][1]
+- Cortex-M template
 
 ### ST Micro templates
 
@@ -88,11 +87,12 @@ Various libraries are grouped in the **system** folder. According to ARM specif
 - STM32F1xx template
 - STM32F2xx template
 - STM32F3xx template
-- [STM32F4xx template][2]
+- STM32F4xx template
+- STM32F7xx template
 
 ### Freescale templates
 
-- [Kinetis KLxx templates][3]
+- Kinetis KLxx templates
 - Processor Expert template
 
 Adding new templates
@@ -102,7 +102,3 @@ Considering the large number of existing Cortex-M implementations, it is not rea
 If you use a processor that has no template yet, and want to contribute to this project, the first step is to create a project that mimics the Blinky variant of an existing template. This means you need to have the CMSIS specific files publicly available (yes, this seems strange, but some manufacturers do not provide these files) and eventually the standard peripheral library.
 
 If you have such a project, you can register a new feature request and attach your project to the request, for us to review and eventually use as a base for a new template.
-
- [1]: {{ site.baseurl }}/templates/cortexm/ "Generic Cortex-M template"
- [2]: {{ site.baseurl }}/templates/stm32f/ "STM32Fxx templates"
- [3]: {{ site.baseurl }}/templates/klxx/ "KLxx template"

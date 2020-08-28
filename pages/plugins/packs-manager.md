@@ -22,18 +22,18 @@ peripheral registers.
 The current Keil/ARM packs are intended for Cortex cores only.
 
 From the metadata present in the CMSIS Packs, only the peripheral
-registers are of interest for GNU MCU Eclipse users.
+registers are of interest for Eclipse Embedded CDT users.
 
 ## Prerequisites
 
 To have access to the new packs features, you need to install the 
-**GNU MCU Eclipse Packs Support** plug-in (currently with experimental status):
+**Eclipse Embedded CDT Packs Support** plug-in (currently with experimental status):
 
 ![Install packs support plug-in]({{ site.baseurl }}/assets/images/2014/07/InstallPacks.png)
 
 ## The Packs Support plug-in
 
-The GNU MCU Eclipse Packs Support plug-in is intended to manage 
+The Eclipse Embedded CDT Packs Support plug-in is intended to manage 
 (list/install/inspect/remove) packs from multiple sources. It currently 
 implements the specifications of **CMSIS Packs**, as defined by 
 [ARM/Keil](http://www.keil.com/pack/doc/CMSIS/Pack/html/index.html), 
@@ -220,4 +220,3 @@ tight connection to Keil/MDK and ARM tools.
 For the moment all plans to further develop CMSIS Packs are
 postponed, and resources are directed to **xPacks**, a more flexible
 technology.
-

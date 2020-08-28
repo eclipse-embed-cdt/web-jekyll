@@ -10,7 +10,7 @@ After the success of the [J-Link plug-in][1], which significantly reduced the co
 
 There were other solutions already available for this, but all required the availability of various hardware definitions files, plus the manual selection of the appropriate file for the current debug configuration.
 
-The GNU MCU Eclipse plug-in approach is a more integrated one, based on [CMSIS Packs](http://www.keil.com/pack/doc/CMSIS/Pack/html/index.html). In fact the main reason for introducing the peripheral registers view only now was the need for the CMSIS Packs technology to mature and of course a CMSIS Packs Manager implementation.
+The Eclipse Embedded CDT approach is a more integrated one, based on [CMSIS Packs](http://www.keil.com/pack/doc/CMSIS/Pack/html/index.html). In fact the main reason for introducing the peripheral registers view only now was the need for the CMSIS Packs technology to mature and of course a CMSIS Packs Manager implementation.
 
 ## Prerequisites
 
@@ -70,7 +70,7 @@ The current SVD specifications do not cover very well if/how the vendor should d
 
 ## The Memory monitors
 
-Since for most modern devices the peripherals are memory mapped devices, in the GNU MCU Eclipse implementation, selecting a peripheral in the Peripherals view does not open a separate window, but a standard **Memory monitor**, mapped to the corresponding peripheral memory area.
+Since for most modern devices the peripherals are memory mapped devices, in the Eclipse Embedded CDT implementation, selecting a peripheral in the Peripherals view does not open a separate window, but a standard **Memory monitor**, mapped to the corresponding peripheral memory area.
 
 The peripheral monitors are listed in the same view with usual memory monitors, and preserve all common behaviour, like individual **Remove** or **Remove All**.
 

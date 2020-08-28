@@ -49,7 +49,7 @@ Recognising the importance of these methods, the designers of the ARM families a
 
 ## GDB
 
-The tool used by GNU MCU Eclipse plug-ins for debugging is the ARM version of GDB, the venerable GNU debugging tool.
+The tool used by Eclipse Embedded CDT for debugging is the Arm version of GDB, the venerable GNU debugging tool.
 
 ### No initialisation files
 

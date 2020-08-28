@@ -296,6 +296,16 @@ be sure to configure the file manager to show hidden files." %}
 
 ## Miscellaneous
 
+### Windows Build Tools
+
+Briefly mentioned before as a supplementary step after installing xpm,
+running builds on Windows requires tools that Microsoft does not include
+in the base distribution and need to be installed separately.
+
+For convenience, these tools were packed as the
+[xPack Windows Build Tools](https://xpack.github.io/windows-build-tools/)
+and can be easily installed via **xpm**.
+
 ### Discontinued 32-bit support
 
 All recent Eclipses are 64-bit and require 64-bit platforms; using older

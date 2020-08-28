@@ -6,23 +6,42 @@ date: 2015-09-11 19:25:00 +0300
 
 ---
 
-If you are new to ARM development, it is recommended to follow this short tutorial and learn how to build a simple test executable program that will blink a LED.
+If you are new to Arm development, it is recommended to follow this short
+tutorial and learn how to build a simple test executable program that will
+blink a LED.
 
-Note: this tutorial was created with the **GNU Tools for Arm Embedded Processors** toolchain in mind. Only when using this toolchain the build is guaranteed to succeed. Using other toolchains might be possible, but small changes might be necessary in the source code and in the linker options.
+Note: this tutorial was created with **GNU Arm GCC** toolchains in mind,
+like the **xPack GNU Arm Embedded GCC**, or **GNU Arm Embedded Toolchain**.
+Only when using this toolchain the build is guaranteed to succeed. Using
+other toolchains might be possible, but small changes might be necessary
+in the source code and in the linker options.
 
-Note2: this tutorial requires a recent version of the STM32F4 template, not older than 20150807.
+{% include tip.html content="Follow this steps _by the book_, without any
+alterations, especially if you are new to Eclipse. This will save you a
+lot of time." %}
 
 ## Prerequisites
 
-Before creating a new project, please be sure you checked all prerequisites described in the [How to install GNU MCU Eclipse?]({{ site.baseurl }}/plugins/prerequisites/) page, especially the need to install the [build tools](https://xpack.github.io/windows-build-tools/install/) if you use Windows as your development platform.
+Before creating a new project, please be sure you checked all prerequisites
+described in the
+[Prerequisites]({{ site.baseurl }}/plugins/prerequisites/)
+page, especially the need to install the
+[build tools](https://xpack.github.io/windows-build-tools/install/)
+if you use Windows as your development platform.
 
-It is also recommended to [set the workspace preferences][1] and to install the desired [CMSIS packs]({{ site.baseurl }}/plugins/packs-manager/).
+It is also recommended to
+[set the workspace preferences]({{ site.baseurl }}/eclipse/workspace/preferences/)
+and to install the desired
+[CMSIS packs]({{ site.baseurl }}/plugins/packs-manager/).
 
-Note: the multi-LED template is currently available only for ST32F4, and only for C++, since it allows to easily instantiate multiple BlinkLed objects.
+{% include tip.html content="The multi-LED template is currently available
+only for ST32F4, and only
+in C++, since it allows to easily instantiate multiple BlinkLed objects." %}
 
 ## Create a new C++ project
 
-To create a new project, go to _Eclipse_ menu, **File** → **New** (or the button in the upper left corner), and select the **C++ Project**:
+To create a new project, go to _Eclipse_ menu, **File** → **New** (or
+the button in the upper left corner), and select the **C++ Project**:
 
 ![Create a new C++ project]({{ site.baseurl }}/assets/images/2015/08/NewCppProject.png)
 
@@ -35,36 +54,45 @@ In the **C++ Project** window:
 
 ![New C++ blinky project]({{ site.baseurl }}/assets/images/2015/08/NewCppBlinkyProject.png)
 
-
 In the **Target processor settings** window be sure to:
 
 - select the **STM32F407xx** chip family
 - set the *Flash size (kB)* field to 1024 kB
 - set the *Clock (Hz):* field to 8000000
-- for a more complete example, change the *Use system calls:* fields to **Semihosting (POSIX system calls via host)**
+- for a more complete example, change the *Use system calls:* fields to
+**Semihosting (POSIX system calls via host)**
 - click the **Next >** button.
 
 ![Blinky processor settings]({{ site.baseurl }}/assets/images/2015/08/BlinkyProcessorSettings1.png)
 
-In the **Folders** page leave the suggested folders unchanged and click the **Next >** button.
+In the **Folders** page leave the suggested folders unchanged and click the
+**Next >** button.
 
 ![Blinky project folder settings]({{ site.baseurl }}/assets/images/2015/08/BlinkyFolderSettings.png)
 
-In the **Select Configurations** page leave the suggested Debug/Release configurations checked and click the **Next >** button.
+In the **Select Configurations** page leave the suggested Debug/Release
+configurations checked and click the **Next >** button.
 
 ![Blinky project configurations]({{ site.baseurl }}/assets/images/2015/08/BlinkyConfigurations.png)
 
 In the **Cross GNU ARM Toolchain** window:
 
-- select the *Toolchain name:* **GNU Tools for ARM Embedded Processors** (mandatory)
-- browse for the **bin** folder within the toolchain folder; don't be afraid to use the absolute address, it is not stored in the project;
+- select the *Toolchain name:* **xPack GNU Arm Embedded GCC** (mandatory)
+- if the xPack was installed via xpm, the path is already filled in; otherwise
+browse for the `bin` folder within the toolchain folder; don't be afraid
+to use the absolute path, it is not stored in the project
 - click the **Finish** button
 
 ![Blinky toolchain and path selection]({{ site.baseurl }}/assets/images/2015/08/BlinkyToolchain.png)
 
-Note 1: when selecting the path, be sure you select the **/bin** folder where the programs with long, prefixed names are stored, and not the inner /bin folder where the short name programs may be available.
+{% include tip.html content="When selecting the path, be sure you select
+the top `/bin` folder
+where the programs with long, prefixed names are stored, and not the inner
+`/bin` folder where the short name programs may be available." %}
 
-Note 2: DO NOT SKIP this step, it is mandatory to have a correct toolchain path defined in order for the build to complete correctly.
+{% include warning.html content="DO NOT SKIP this step, it is mandatory
+to have a correct toolchain path defined in order for the build to complete
+correctly." %}
 
 ![Toolchain path]({{ site.baseurl }}/assets/images/2013/10/HelloToolchainPath.png)
 
@@ -99,7 +127,12 @@ As seen above, the *Debug* folder is populated with:
 
 ## Assign a board and device to the project
 
-Although optional, it is highly recommended to assign a board and a device to the project, using the packs definitions. If you did not do it before, install the STM32F4 package, as explained in the [Packs Manager][2] page.
+Although optional, it is highly recommended to assign a board and a device
+to the project, using the packs definitions. If you did not do it before,
+install the STM32F4 package, as explained in the
+[Packs Manager]({{ site.baseurl }}/plugins/packs-manager/) page.
+
+{% include tip.html content="Be sure you install the **STM32F4xx_DFP** package." %}
 
 To assign the board and device:
 
@@ -115,25 +148,31 @@ To assign the board and device:
 
 ![BlinkyAssignDevice]({{ site.baseurl }}/assets/images/2015/08/BlinkyAssignDevice.png)
 
+## Run the test with QEMU
 
-## **Run the test with QEMU**
-
-The most convenient way to run this test is to use the [QEMU Debugging plug-in][4]. Actually, with the latest plug-ins, you can directly Run the application, you do not need to Debug it.
+The most convenient way to run this test is to use the
+[QEMU Debugging plug-in]({{ site.baseurl }}/debug/qemu/).
+Actually, with the latest plug-ins, you can also directly Run the application,
+you do not need to Debug it.
 
 As for any debugging plug-in,
 
 - select the **blinky.elf** file
-- either with right click *Run As...* or in the *Run* menu, select **Run Configurations**
+- either with right click *Run As...* or in the *Run* menu,
+select **Run Configurations**
 - doble click the *GDB QEMU Debugging*
 - select the *Debugger* tab
-- check if the *Board name:* and *Device name:* are correctly filled-in; without assigning the board and device to the project, these fields must be filled in manually;
+- check if the *Board name:* and *Device name:* are correctly filled-in;
+without assigning the board and device to the project, these fields must
+be filled in manually;
 - enable **Extra verbose**
 
 ![The QEMU Debugger tab]({{ site.baseurl }}/assets/images/2015/08/BlinkyQEMUDebuggerTab.png)
 
 When done, click the **Run** button.
 
-If you did not disable the graphic windows, an animated image of the board is shown, with the 4 LEDs blinking.
+If you did not disable the graphic windows, an animated image of the board
+is shown, with the 4 LEDs blinking.
 
 ![The STM32F4-Discovery 4 LEDs]({{ site.baseurl }}/assets/images/2015/08/STM32F4-Discovery-LEDs.png)
 
@@ -143,36 +182,42 @@ The QEMU process also displays some information in its console:
 
 ## Semihosting
 
-Contrary to usual POSIX environments, like GNU/Linux, embedded systems usually do not provide standard input/output devices. In the code generated by the template, the output of the printf() calls, including trace_printf(), is redirected to a special debugging channel implemented by most debuggers, using the semihosting protocol.
+Contrary to usual POSIX environments, like GNU/Linux, embedded systems
+usually do not provide standard input/output devices. In the code generated
+by the template, the output of the printf() calls, including trace_printf(),
+is redirected to a special debugging channel implemented by most debuggers,
+using the semihosting protocol.
 
 ## Next step
 
-Once you checked the development environment to be functional, proceed with creating real projects using the [STM32Fx][5] templates, Freescale [KLxx][6] templates, or, if your target processor is not yet supported, using the Generic [Cortex-M][7] template.
+Once you checked the development environment to be functional, proceed with
+creating real projects using the [STM32Fx]({{ site.baseurl }}/templates/stm32f)
+templates, Freescale [KLxx]({{ site.baseurl }}/templates/klxx/) templates,
+or, if your target processor is not yet supported, using the Generic
+[Cortex-M]({{ site.baseurl }}/templates/cortexm/) template.
 
 ## Troubleshooting
 
 The usual sources for build failures are:
 
-- a wrong or missing toolchain path; go to the project *Properties* → *C/C++ Build* → *Settings* → the *Toolchains* tab and define the correct path;
+- a wrong or missing toolchain path; go to the project
+*Properties* → *C/C++ Build* → *Settings* → the *Toolchains* tab
+and define the correct path;
 
 ![Global Tools Path]({{ site.baseurl }}/assets/images/2015/08/GlobalToolsPath.png)
 
-
 Set the toolchain path for all projects and workspaces.
 
-- missing build tools (make & rm) on Windows; install the [build tools](https://xpack.github.io/windows-build-tools/);
-- a wrong or missing QEMU path; go to the project **(Window →) Preferences** → **MCU** → **Global QEMU Path** (or **Workspace QEMU Path**) and define the correct path;
+- missing build tools (make & rm) on Windows; install the
+[build tools](https://xpack.github.io/windows-build-tools/);
+- a wrong or missing QEMU path; go to the project
+**(Window →) Preferences** → **MCU** → **Global QEMU Path**
+(or **Workspace QEMU Path**) and define the correct path;
 
 ![The QEMU path]({{ site.baseurl }}/assets/images/2018/qemu-preferences.png)
 
 ## Support
 
-If something went wrong and you cannot build the project, please check the [How to use]({{ site.baseurl }}/plugins/mbs/), the [FAQ]({{ site.baseurl }}/support/faq/) and the [Known issues]({{ site.baseurl }}/support/known-issues/) pages. If you do not find the answer to your question, please read the [Support]({{ site.baseurl }}/support/) page on how to record a support request in the Support tracker. Do not post comments on this page unless they are related to the text (the phrasing is not correct, you discovered typos, etc).
-
- [1]: {{ site.baseurl }}/eclipse/workspace/preferences/ "Workspace preferences"
- [2]: {{ site.baseurl }}/plugins/packs-manager/ "Packs manager"
- [4]: {{ site.baseurl }}/debug/qemu/ "The QEMU debugging Eclipse plug-in"
- [5]: {{ site.baseurl }}/templates/stm32f/ "STM32Fxx templates"
- [6]: {{ site.baseurl }}/templates/klxx/ "KLxx template"
- [7]: {{ site.baseurl }}/templates/cortexm/ "Generic Cortex-M template"
- [8]: https://xpack.github.io/windows-build-tools/ "Build tools (make & rm) for Windows"
+If you encountered any problems when installing the plug-ins, pleas refer to
+the [Support]({{ site.baseurl }}/support/) page and **do not** send private
+emails.

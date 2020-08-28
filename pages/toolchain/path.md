@@ -48,13 +48,14 @@ The integrated CDT Cross build plug-in does exactly this, defines a path for eac
 
 In short, a portable project is a project that can be used without changes on any workspace on any platform.
 
-For more details, please see the separate [Project portability][1] page.
+For more details, please see the separate
+[Project portability]({{ site.baseurl }}/eclipse/project/portability/) page.
 
-## The GNU MCU Eclipse solution
+## The Eclipse Embedded CDT solution
 
-Generating portable projects was one of the design requirements of the GNU MCU Eclipse cross build plug-in, at the same time with the apparently conflicting requirement for handling multiple toolchains and versions.
+Generating portable projects was one of the design requirements of the Eclipse Embedded CDT cross build plug-in, at the same time with the apparently conflicting requirement for handling multiple toolchains and versions.
 
-To achieve this, the GNU MCU Eclipse cross build plug-in provides a large selection of existing toolchains, and associate each one with a separate path. For special projects that require a specific version, it also allows to associate a path to each project. In all cases this association is stored in the workspace internal folders, and not in the project configuration, so it is not passed via the repository from one developer to the other.
+To achieve this, the Eclipse Embedded CDT cross build plug-in provides a large selection of existing toolchains, and associate each one with a separate path. For special projects that require a specific version, it also allows to associate a path to each project. In all cases this association is stored in the workspace internal folders, and not in the project configuration, so it is not passed via the repository from one developer to the other.
 
 The default (and the recommended) setting, is to use the global toolchain path.
 
@@ -95,5 +96,3 @@ The page to setup this is the project **Properties** → **C/C++ Build** → *
 ### The installer already updated the system path
 
 If you used an unfriendly installer, which already updated the system path without asking, you should manually fix this situation, and **remove the toolchain path from the system path**.
-
- [1]: {{ site.baseurl }}/eclipse/project/portability/ "Project portability"

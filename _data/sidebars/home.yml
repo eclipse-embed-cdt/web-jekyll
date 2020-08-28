@@ -19,10 +19,10 @@ entries:
     - title: Prerequisites
       output: web
       url: /plugins/prerequisites/
-    - title: Install A New Eclipse
+    - title: Install a New Eclipse
       output: web
       url: /plugins/install/
-    - title: Update An Existing Eclipse
+    - title: Update an Existing Eclipse
       output: web
       url: /plugins/update/
     - title: Alternate Installs
@@ -31,9 +31,6 @@ entries:
     - title: Workspace Preferences
       output: web
       url: /eclipse/workspace/preferences/
-    - title: Blinky Arm Tutorial
-      output: web
-      url: /tutorials/blinky-arm/
     - title: CMSIS Packs
       output: web
       url: /plugins/packs-manager/
@@ -72,6 +69,31 @@ entries:
     - title: Peripheral Registers
       url: /debug/peripheral-registers/
       output: web
+
+  - title: Tutorials
+    output: web
+    folderitems:
+
+    - title: Blinky Arm Tutorial
+      output: web
+      url: /tutorials/blinky-arm/
+
+  - title: Templates
+    output: web
+    folderitems:
+
+    - title: Overview
+      url: /templates/
+      output: web
+    - title: STM32Fxx Templates
+      output: web
+      url: /templates/stm32f/
+    - title: KLxx Templates
+      output: web
+      url: /templates/klxx/
+    - title: Generic Cortex-M Template
+      output: web
+      url: /templates/cortexm/
 
   - title: News
     output: web

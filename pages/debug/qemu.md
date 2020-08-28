@@ -3,7 +3,7 @@ title: The QEMU debugging Eclipse plug-in
 permalink: /debug/qemu/
 
 date: 2015-09-11 22:15:00 +0300
-last_updated: 2010-08-28 19:39:00 +0300
+last_updated: 2020-08-28 19:45:02 +0300
 
 ---
 

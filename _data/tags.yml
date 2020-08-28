@@ -2,85 +2,68 @@
 # If you are using the createtag script, don't leave a blank line at the end of this file.
 # In other words, the last line must be the last tag in the allowed-tags list.
 allowed-tags:
-  - news
-  - openocd
-  - releases
-  - emulator
-  - linux
-  - macos
-  - web
-  - windows
-  - arm-none-eabi-gcc
-  - riscv-none-embed-gcc
-  - qemu
-  - update
-  - toolchain
-  - toolchain-path
-  - template
-  - support
-  - sourceforge
-  - registers
-  - plug-in
-  - peripheral
-  - packs
-  - newlib
-  - nano
-  - maintenance
-  - linker
-  - indexer
-  - hal
-  - gcc
-  - fpv5-sp-d16
-  - fpv5-d16
-  - forum
-  - featured
-  - downloads
-  - debugging
-  - connected
-  - community
-  - cmsis-packs
-  - article
-  - arm
-  - dso_handle
-  - web
-  - qemu
-  - openocd
-  - news
-  - packs
-  - eclipse
-  - gnu
-  - jekyll
-  - jumper
-  - mcu
-  - risc-v
   - aarch64
   - aducm36x
   - bintray
   - c++
-  - cmsis-packs
   - cmsis
+  - cortex-m
   - cortex-m7
+  - eclipse
+  - freescale
+  - gnu
   - j-link
-  - jekyll
+  - jdk
   - jumper
+  - mcu
   - neon
   - netlify
   - oracle
   - peripherals-view
   - processor-expert
-  - pyocd
+  - risc-v
   - segger
   - stm
   - stm32f4-discovery
   - stm32f4
   - stm32f7
   - stm32f746g-disco
-  - stm32f746g-eval
   - swo
-  - jdk
-  - arm
-  - cortex-m
-  - freescale
-  - openocd
-  - sourceforge
   - tapatalk
+  - arm
+  - article
+  - cmsis-packs
+  - community
+  - connected
+  - debugging
+  - downloads
+  - dso_handle
+  - featured
+  - forum
+  - fpv5-d16
+  - fpv5-sp-d16
+  - gcc
+  - hal
+  - index
+  - indexer
+  - jekyll
+  - linker
+  - maintenance
+  - nano
+  - newlib
+  - news
+  - openocd
+  - packs
+  - peripheral
+  - plug-in
+  - pyocd
+  - qemu
+  - registers
+  - sourceforge
+  - stm32f746g-eval
+  - support
+  - template
+  - toolchain-path
+  - toolchain
+  - update
+  - web

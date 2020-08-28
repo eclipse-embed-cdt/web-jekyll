@@ -3,6 +3,7 @@ title: 'Tutorial: Create a Blinky Arm test project'
 permalink: /tutorials/blinky-arm/
 
 date: 2015-09-11 19:25:00 +0300
+last_updated: 2010-08-28 19:39:00 +0300
 
 ---
 

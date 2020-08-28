@@ -3,6 +3,7 @@ title: The peripherals registers view
 permalink: /debug/peripheral-registers/
 
 date: 2015-09-11 22:00:00 +0300
+last_updated: 2010-08-28 19:39:00 +0300
 
 ---
 

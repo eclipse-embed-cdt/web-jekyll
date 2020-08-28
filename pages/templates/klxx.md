@@ -3,6 +3,7 @@ title: KLxx template
 permalink: /templates/klxx/
 
 date: 2015-09-11 21:29:00 +0300
+last_updated: 2010-08-28 19:39:00 +0300
 
 ---
 

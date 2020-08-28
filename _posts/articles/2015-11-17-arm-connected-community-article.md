@@ -2,6 +2,7 @@
 title: ARM Connected Community article, November 2015
 
 date: 2015-11-17 12:00:00 +0300
+last_updated: 2010-08-28 19:39:00 +0300
 
 categories:
   - news

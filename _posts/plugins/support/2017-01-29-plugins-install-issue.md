@@ -2,6 +2,7 @@
 title:  'GNU ARM Eclipse plug-ins: Received fatal alert: handshake_failure'
 
 date:   2017-01-29 11:33:00 +0300
+last_updated: 2010-08-28 19:39:00 +0300
 
 categories:
   - support

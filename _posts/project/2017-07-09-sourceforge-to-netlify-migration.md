@@ -2,6 +2,7 @@
 title: 'GNU MCU Eclipse plug-ins v4.x update sites URLs migrated to Netlify'
 
 date: 2017-07-09 12:06:00 +0300
+last_updated: 2010-08-28 19:39:00 +0300
 
 categories:
   - news

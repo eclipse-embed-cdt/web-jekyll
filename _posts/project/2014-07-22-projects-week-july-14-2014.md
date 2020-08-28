@@ -2,6 +2,7 @@
 title: Projects of the week, July 14, 2014
 
 date: 2014-07-22 12:00:00 +0300
+last_updated: 2010-08-28 19:39:00 +0300
 
 categories:
   - news

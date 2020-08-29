@@ -9,15 +9,17 @@ last_updated: 2020-08-29 17:48:15 +0300
 
 If you are new to Arm development, it is recommended to follow this short
 tutorial and learn how to build a simple test executable program that will
-blink a LED.
+blink a LED. You do not need any physical hardware for this, the test uses
+an emulated STM32F4DISCOVERY board.
 
-Note: this tutorial was created with **GNU Arm GCC** toolchains in mind,
+{% include note.html content="This tutorial was created with
+**GNU Arm GCC** toolchains in mind,
 like the **xPack GNU Arm Embedded GCC**, or **GNU Arm Embedded Toolchain**.
 Only when using this toolchain the build is guaranteed to succeed. Using
 other toolchains might be possible, but small changes might be necessary
-in the source code and in the linker options.
+in the source code and in the linker options." %}
 
-{% include tip.html content="Follow this steps _by the book_, without any
+{% include important.html content="Follow this steps _by the book_, without any
 alterations, especially if you are new to Eclipse. This will save you a
 lot of time." %}
 
@@ -35,7 +37,7 @@ It is also recommended to
 and to install the desired
 [CMSIS packs]({{ site.baseurl }}/plugins/packs-manager/).
 
-{% include tip.html content="The multi-LED template is currently available
+{% include note.html content="The multi-LED template is currently available
 only for ST32F4DISCOVERY, since it has 4 LEDs, and only
 in C++, since it allows to easily instantiate multiple BlinkLed objects." %}
 
@@ -131,14 +133,19 @@ As seen above, the *Debug* folder is populated with:
 - the binary executable file, ready to be programmed in flash (**blinky.hex**)
 - a program map, with all symbols and their associated addresses (**blinky.map**)
 
-## Assign a board and device to the project
+## Assign a board and a device to the project
 
 Although optional, it is highly recommended to assign a board and a device
 to the project, using the packs definitions. If you did not do it before,
-install the STM32F4 package, as explained in the
+install the **STM32F4xx_DFP** package, as explained in the
 [Packs Manager]({{ site.baseurl }}/plugins/packs-manager/) page.
 
-{% include tip.html content="Be sure you install the **STM32F4xx_DFP** package." %}
+![BlinkyInstallPack]({{ site.baseurl }}/assets/images/2020/packs_filter_stm32f4.png)
+
+{% include tip.html content="Be sure you really install the **STM32F4xx_DFP**
+package. Simply updating the list of packages is not enough, you need to
+navigate the **Keil** group, select the STM32F4xx_DFP package and install it,
+otherwise the boad will not show in the next step." %}
 
 To assign the board and device:
 
@@ -154,18 +161,17 @@ To assign the board and device:
 
 ![BlinkyAssignDevice]({{ site.baseurl }}/assets/images/2015/08/BlinkyAssignDevice.png)
 
-## Run the test with QEMU
+## Debug the test with QEMU Arm
 
-The most convenient way to run this test is to use the
-[QEMU Debugging plug-in]({{ site.baseurl }}/debug/qemu/).
-Actually, with the latest plug-ins, you can also directly Run the application,
-you do not need to Debug it.
+The most convenient way to run a debug session with this test is to use the
+[QEMU Debugging plug-in]({{ site.baseurl }}/debug/qemu/); you don't need
+any physical hardware.
 
 As for any debugging plug-in,
 
 - select the **blinky.elf** file
-- either with right click *Run As...* or in the *Run* menu,
-select **Run Configurations**
+- either with right click *Debug As...* or in the *Debug* menu,
+select **Debug Configurations**
 - doble click the *GDB QEMU Debugging*
 - select the *Debugger* tab
 - check if the *Board name:* and *Device name:* are correctly filled-in;
@@ -175,14 +181,20 @@ be filled in manually;
 
 ![The QEMU Debugger tab]({{ site.baseurl }}/assets/images/2015/08/BlinkyQEMUDebuggerTab.png)
 
-When done, click the **Run** button.
+When done, click the **Debug** button.
 
 If you did not disable the graphic windows, an animated image of the board
 is shown, with the 4 LEDs blinking.
 
 ![The STM32F4-Discovery 4 LEDs]({{ site.baseurl }}/assets/images/2015/08/STM32F4-Discovery-LEDs.png)
 
-The QEMU process also displays some information in its console:
+The Eclipse debugger is active, with a breakpoint in `main()`. From here you
+can either step over several instructions, or click Resume
+(the green right pointing triangle) and watch the program run.
+
+![blinky debug]({{ site.baseurl }}/assets/images/2020/blinky_debug_halt.png)
+
+The QEMU process will display some information in its console:
 
 ![QEMU console with semihosting output]({{ site.baseurl }}/assets/images/2015/08/QEMUconsole.png)
 

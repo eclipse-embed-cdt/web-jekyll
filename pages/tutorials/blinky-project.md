@@ -198,6 +198,12 @@ The QEMU process will display some information in its console:
 
 ![QEMU console with semihosting output]({{ site.baseurl }}/assets/images/2015/08/QEMUconsole.png)
 
+## Terminate
+
+The test will run for about 20 seconds, and terminate by itself.
+
+To cancel it earlier, click the Terminate button (the top red square).
+
 ## Semihosting
 
 Contrary to usual POSIX environments, like GNU/Linux, embedded systems

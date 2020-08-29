@@ -239,7 +239,7 @@ you install a 64-bit Java." %}
 
 The next step is to install the xPack tools.
 
-For full details, please follow the steps in the separate install pages: 
+For full details, please follow the steps in the separate install pages:
 
 - [node](https://xpack.github.io/install/)
 - [xpm](https://xpack.github.io/xpm/install/)

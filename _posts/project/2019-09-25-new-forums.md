@@ -16,7 +16,7 @@ tags:
 
 ---
 
-The GNU MCU Eclipse forum was relocated from the 
+The GNU MCU Eclipse forum was relocated from the
 [Element14](https://www.element14.com/community/groups/gnu-arm-eclipse) site
 to a dedicated section in the
 [xPack forum](https://www.tapatalk.com/groups/xpack/).
@@ -38,7 +38,7 @@ to register to the Tapatalk server and join the new forums.
 ## Element14
 
 The previous forum hosted on the
-[Element14](https://www.element14.com/community/groups/gnu-arm-eclipse) 
+[Element14](https://www.element14.com/community/groups/gnu-arm-eclipse)
 site is now decommissioned and
 should no longer be used.
 

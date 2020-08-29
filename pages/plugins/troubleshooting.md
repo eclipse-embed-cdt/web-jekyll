@@ -19,7 +19,7 @@ One of the confusing details of the Eclipse Embedded CDT plug-ins versioning
 system is matching the version from the release announcement (for example
 **Version 2.6.1-201502281154 released**) with existing plug-ins/features.
 
-The short answer is that the announced version refers to the update site. 
+The short answer is that the announced version refers to the update site.
 The same version is also used for the `ilg.gnuarmeclipse.core` plug-in:
 
 ![Installed plug-ins]({{ site.baseurl }}/assets/images/2017/plugins-versions.png)

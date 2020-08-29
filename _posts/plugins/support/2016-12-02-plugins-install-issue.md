@@ -47,6 +47,6 @@ If this is not possible, try to convince your network administrator to reconfigu
 
 ## Workaround
 
-As a temporary workaround, you can always **download the plug-ins as an archive**, and install from it. 
+As a temporary workaround, you can always **download the plug-ins as an archive**, and install from it.
 
 Or, you can configure your mobile phone as a hot spot, and try to connect to the internet directly; please note that sometimes this does not work, since  local firewals or antivirus configurations might prevent direct access.

@@ -4,7 +4,7 @@ permalink: /
 
 summary: Eclipse Embedded C/C++ Development Tools (formerly **GNU MCU/ARM Eclipse**).
 toc: false
-keywords: 
+keywords:
   - eclipse
   - development
   - c/c++

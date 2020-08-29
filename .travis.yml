@@ -1,7 +1,7 @@
 # To check the status of the CI job:
 # https://travis-ci.org/github/gnu-mcu-eclipse/web-jekyll
 
-# Travis CI configuration file to validate and deploy 
+# Travis CI configuration file to validate and deploy
 # the Eclipse Embedded CDT Jekyll site.
 # https://docs.travis-ci.com/user/getting-started/
 
@@ -36,15 +36,15 @@ env:
     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
     # https://docs.travis-ci.com/user/encryption-keys/
     # The secure token generated with:
-    # travis encrypt -r gnu-mcu-eclipse/web-jekyll GITHUB_TOKEN=XX...XX 
+    # travis encrypt -r gnu-mcu-eclipse/web-jekyll GITHUB_TOKEN=XX...XX
     - secure: "SY8OaC78WZ23OfVv5jEn6EAAVHhismY8aQeGsexCzchvoCFZgkb582VcmyZYc2lbOg1gNHg3feBeAm14Sage3v4qdykNQkFi2+rdwe3nIjh+AaSKMshnpkSSAND4HRe9fUC5GNlxFHyYlZknHbkdzFqVj0XrS3JVEhBr6uPkVVdWKopC8Nq+tbuxSiOQai8uNxlsO3ocDmpE7y1J1ka8ZDK9MqB37hmtk7Ax3BMzl3NJESpyKLwmMKNCT06evIKINjNTW0FiaVUD4TmdS2Xlg6N+CBth3SKWBI7iMldtiLI/xu5mKwxrXql+7OiNvEKLQbARfvwgLHWBgMslISCuPtNpWdROSVivsMyfWZpJohtmSFHYMZfwQx7vEu5kNgli65syOi/Femr9zSUVD51sauaxu1x68Ma9O3tYh5ca6uQN7R1frwCrTG2G/ZgR38vN4B/Yt4g22Lu60NfJRfj3dzrhqduZHoEfmdtP0dpd3VXhh0cgmGTqRCDREJFsFienyXBzIjIe0wBoIIHBoXeEqUxNZjbPBjNbXbBJkOsELKrVwuY9zzYMWCqTJhGbOhCayXWZjh4w6uyXS08f1T98zRegZcGby8y6VWq8QQsohf8K8ebmpAkopRT5UbnZdWbxLCFJB6sPbErLvNJ3WTXTxV8j40h4H0FN51jfKXVaJFI="
 
 notifications:
   email:
     on_success: always # default: change
     on_failure: always # default: always
-    
-cache: 
+   
+cache:
   bundler: true
 
 # -----------------------------------------------------------------------------
@@ -73,7 +73,7 @@ script:
 #  script: bash scripts/travis.linux.sh deploy
 #  on:
 #    branch: master
-  
+ 
 # after_script:
 #  - bash scripts/travis.linux.sh after_script
 

@@ -87,7 +87,7 @@ Being a standard debugger, this plug-in also uses the Eclipse standard method of
   - accept the current project name.
   - click the **Apply** button
 
-  ![Store the debug configuration in the project]({{ site.baseurl }}/assets/images/2015/04/HelloCommonTab.png)      
+  ![Store the debug configuration in the project]({{ site.baseurl }}/assets/images/2015/04/HelloCommonTab.png)     
 
 - click the **Close** button.
 

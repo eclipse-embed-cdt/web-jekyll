@@ -90,7 +90,7 @@ xattr -dr com.apple.quarantine Eclipse.app
 ## Alternate ways
 
 For special use cases, it is possible to install the **Eclipse
-Embedded CDT plug-ins** on top of an existing Eclipse, via the Eclipse 
+Embedded CDT plug-ins** on top of an existing Eclipse, via the Eclipse
 Marketplace, or the Eclipse **Install New Software** mechanism.
 
 For details, please check the separate
@@ -107,7 +107,7 @@ plug-ins might have automatically discovered them.
 The above definition will make the toolchain and build tools accessible
 to all projects in all workspaces.
 
-If needed, you can define different paths per workspace (**Workspace 
+If needed, you can define different paths per workspace (**Workspace
 Tools Paths**) or even per project (**Tools Paths** in the project properties).
 
 To check if the paths definitions are effective, go to the project
@@ -120,7 +120,7 @@ since manually editing the path disables further automated updates of the path.
 
 ## Set workspace preferences
 
-After completing the installation it is recommended to 
+After completing the installation it is recommended to
 [set the workspace preference]({{ site.baseurl }}/eclipse/workspace/preferences/).
 
 ## Toolchain and debugging support

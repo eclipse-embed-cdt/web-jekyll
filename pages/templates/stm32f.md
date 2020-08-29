@@ -68,7 +68,7 @@ For ARM devices, this is done using a JTAG or SWD probe. Most professional deve
 
 Some low cost development boards do not include the standard JTAG connector, but have an on-board version of a JTAG probe. For example, the STM32F4DISCOVERY includes a version of ST/LINK V2, and the board can be directly connected via USB to the development machine. The portable method of using the ST/LINK V2 is via OpenOCD.
 
-For more details on debugging, please refer to the specific 
+For more details on debugging, please refer to the specific
 [debug]({{ site.baseurl }}/debug/) pages.
 
 ## Troubleshooting

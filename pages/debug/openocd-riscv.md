@@ -33,7 +33,7 @@ Similarly for **E51Arty** with Olimex USB probes:
 
 For the SiFive configuration files, future OpenOCD are expected to include them in the distribution. If they are not yet there, please download them from [GitHub](https://github.com/gnu-mcu-eclipse/openocd/tree/gnu-mcu-eclipse-dev/tcl/board) and copy them to the openOCD `scripts` folder.
 
-The second mandatory setting is the architecture, in the **GDB** → **Commands** field. 
+The second mandatory setting is the architecture, in the **GDB** → **Commands** field.
 
 For 32-bit devices, use:
 

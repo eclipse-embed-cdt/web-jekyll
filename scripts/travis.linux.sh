@@ -113,21 +113,21 @@ function do_script() {
   fi
 
   # ---------------------------------------------------------------------------
-  # The deployment code is present here not in after_success, 
+  # The deployment code is present here not in after_success,
   # to break the build if not successful.
 
   cd "${dest_repo}"
 
   if [ "${TRAVIS_BRANCH}" != "master" ]
-  then 
+  then
     echo "Not on master branch, skip deploy."
-    return 0; 
+    return 0;
   fi
 
   if [ "${TRAVIS_PULL_REQUEST}" != "false" ]
-  then 
+  then
     echo "A pull request, skip deploy."
-    return 0; 
+    return 0;
   fi
 
   is_dirty=`git status --porcelain`
@@ -141,7 +141,7 @@ function do_script() {
   # run_verbose git diff
 
   run_verbose git add --all .
-  run_verbose git commit -m "Travis CI Deploy of ${TRAVIS_COMMIT_MESSAGE} ${TRAVIS_COMMIT}" 
+  run_verbose git commit -m "Travis CI Deploy of ${TRAVIS_COMMIT_MESSAGE} ${TRAVIS_COMMIT}"
 
   # git status
 
@@ -220,7 +220,7 @@ then
     echo "Unsupported command" "${action}" "$@"
     exit 1
     ;;
-    
+   
   esac
   exit 0
 else

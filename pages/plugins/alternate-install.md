@@ -36,7 +36,7 @@ download and follow the link to the Eclipse packages.
 ## Prerequisites: CDT 9.2.1
 
 For the **Eclipse Embedded CDT plug-ins** to run, the minimum CDT version is
-**9.2.1**, that came with **Eclipse** 4.6 Neon.3**. 
+**9.2.1**, that came with **Eclipse** 4.6 Neon.3**.
 
 {% include warning.html content="Do not
 try to use earlier versions, since either the install will fail (with
@@ -71,7 +71,7 @@ The easiest way to install/update the plug-ins is to use the Eclipse Marketplace
 - in the Find field, enter **Eclipse Embedded CDT**
 - click the **Go** button
 
-This should identify Eclipse Embedded CDT and offer to Install/Update/Uninstall 
+This should identify Eclipse Embedded CDT and offer to Install/Update/Uninstall
 assets:
 
 ![Eclipse Marketplace Search]({{ site.baseurl }}/assets/images/2017/eclipse-marketplace-search.png)

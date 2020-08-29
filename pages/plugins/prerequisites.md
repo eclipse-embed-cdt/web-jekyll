@@ -23,31 +23,39 @@ last_updated: 2020-08-28 19:38:58 +0300
 
 ## Overview
 
-The main prerequisite to run the Eclipse Embedded CDT is **Java**. Generally
-Java is not available by default on most platforms, and requires a separate
-installation.
+### Java
 
-Although not mandatory, but highly recommended, the second prerequisite
-is **xpm** (the xPack Package Manager), which is a **Node.js**
-portable application.
+The main prerequisite to run the Eclipse Embedded CDT is Java.
+Generally Java is not available by default on most platforms, and requires
+a separate installation.
 
-To build projects, on Windows it is necessary to install **make**, available
-from the **Windows Build Tools**.
+### Other tools
 
-To build Arm projects, an **Arm toolchain** is required; similarly, for
-RISC-V projects, a **RISC-V toolchain** is required.
+Here is a list of other tools/packages that need to be installed **before**
+starting Eclipse.
 
-To debug projects, a JTAG probe is necessary together with the software
-to access it,
-for example the **SEGGER J-Link** software, or **OpenOCD**.
+{% include tip.html content="If you already started Eclipse, close it,
+install these tools, and reopen Eclipse." %}
 
-To run debug sessions without actual hardware, the **QEMU Arm** emulator is
-necessary (the blinky tutorial mandates it).
+- **node/npmxpm** - although not mandatory, but highly recommended, the
+second prerequisite is **xpm** (the xPack Package Manager), which is
+a **Node.js** portable application;
+- **Windows Build Tools** - to build projects, on Windows it is necessary
+to install `make`, available from the xPack Windows Build Tools;
+- **Arm toolchain** - to build Arm projects, an Arm toolchain like
+the xPack GNU Arm Embedded GCC is required;
+- **RISC-V toolchain** - similarly, for RISC-V projects, a RISC-V toolchain
+like the xPack GNU RISC-V Embedded GCC is required;
+- **SEGGER J-Link** - to debug projects, a JTAG probe is necessary together
+with the software to access it, for example the SEGGER J-Link software;
+- **OpenOCD** - for some boards, xPack OpenOCD might also be useful;
+- **QEMU Arm** - to run debug sessions without actual hardware, the
+xPack QEMU Arm emulator is necessary (the blinky tutorial mandates it).
 
-All of these additional tools can be installed as xPacks, which makes
-**xpm** a very convenient tool.
+{% include tip.html content="Many of the additional tools can be
+installed as xPacks, which makes **xpm** a very convenient tool." %}
 
-## Prerequisites
+## Java
 
 The following section covers the common Windows/macOS/Linux platforms;
 for a wider range of platforms, see the **Alternate solutions** below.
@@ -235,13 +243,13 @@ range of platforms.
 {% include tip.html content="Since recent Eclipses are all 64-bit, be sure
 you install a 64-bit Java." %}
 
-## Install node & xpm
+## node/npm/xpm
 
 The next step is to install the xPack tools.
 
 For full details, please follow the steps in the separate install pages:
 
-- [node](https://xpack.github.io/install/)
+- [node/npm](https://xpack.github.io/install/)
 - [xpm](https://xpack.github.io/xpm/install/)
 
 For convenience for those who already know what this means, here is a brief.

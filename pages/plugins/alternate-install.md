@@ -59,7 +59,7 @@ Languages** group
 
 ![CDT install]({{ site.baseurl }}/assets/images/2017/install-cdt.png)
 
-{% include warning.html content="Be sure your Eclipse is **4.6 Neon.3** or
+{% include important.html content="Be sure your Eclipse is **4.6 Neon.3** or
 later, otherwise the plug-ins will refuse to install, claiming **Missing
 requirements** and **Cannot satisfy dependency**." %}
 

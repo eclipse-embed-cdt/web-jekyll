@@ -52,7 +52,7 @@ with the software to access it, for example the SEGGER J-Link software;
 - **QEMU Arm** - to run debug sessions without actual hardware, the
 xPack QEMU Arm emulator is necessary (the blinky tutorial mandates it).
 
-{% include tip.html content="Many of the additional tools can be
+{% include note.html content="Many of the additional tools can be
 installed as xPacks, which makes **xpm** a very convenient tool." %}
 
 ## Install Java

@@ -64,7 +64,7 @@ start using it.
 **DO NOT** try to install Eclipse via the package manager, since usually
 you get an older version and the CDT plug-ins are not included." %}
 
-{% include tip.html content="Contrary to other tools, Eclipse **does not
+{% include note.html content="Contrary to other tools, Eclipse **does not
 need administrative rights**, does need not be installed in a system location,
 and does not need not be a single instance on a system. Actually you are
 encouraged to install multiple instances of Eclipse, possibly one for

@@ -2,7 +2,7 @@
 title: 'GNU ARM Eclipse plug-ins update sites migrated to Bintray'
 
 date: 2017-05-02 11:15:00 +0300
-last_updated: 2020-08-28 19:51:00 +0300
+last_updated: 2020-08-29 13:47:00 +0300
 
 categories:
   - news

@@ -26,7 +26,7 @@ lot of time." %}
 Before creating a new project, please be sure you checked all prerequisites
 described in the
 [Prerequisites]({{ site.baseurl }}/plugins/prerequisites/)
-page, especially the need to install the
+page, including the need to install the
 [build tools](https://xpack.github.io/windows-build-tools/install/)
 if you use Windows as your development platform.
 
@@ -36,7 +36,7 @@ and to install the desired
 [CMSIS packs]({{ site.baseurl }}/plugins/packs-manager/).
 
 {% include tip.html content="The multi-LED template is currently available
-only for ST32F4, and only
+only for ST32F4DISCOVERY, since it has 4 LEDs, and only
 in C++, since it allows to easily instantiate multiple BlinkLed objects." %}
 
 ## Create a new C++ project
@@ -44,16 +44,21 @@ in C++, since it allows to easily instantiate multiple BlinkLed objects." %}
 To create a new project, go to _Eclipse_ menu, **File** → **New** (or
 the button in the upper left corner), and select the **C++ Project**:
 
-![Create a new C++ project]({{ site.baseurl }}/assets/images/2015/08/NewCppProject.png)
+![Create a new C++ project]({{ site.baseurl }}/assets/images/2020/new_c_cpp_project.png)
+
+In the _New C/C++ Project_ window, select **C/C++ Managed Build** and
+click the **Next >** button.
+
+![Create a new C++ project]({{ site.baseurl }}/assets/images/2020/new_c_cpp_managed_build_project.png)
 
 In the **C++ Project** window:
 
 - in the *Project name:* field enter the name of the new project, for example **blinky**
 - in the *Project type:* section expand the **Executable** type and select **STM32F4xx C/C++ Project**
-- in the *Toolchains:* section select **Cross ARM GCC**
+- in the *Toolchains:* section select **ARM Cross GCC**
 - click the **Next >** button
 
-![New C++ blinky project]({{ site.baseurl }}/assets/images/2015/08/NewCppBlinkyProject.png)
+![New C++ blinky project]({{ site.baseurl }}/assets/images/2020/new_c_cpp_blinky_project.png)
 
 In the **Target processor settings** window be sure to:
 

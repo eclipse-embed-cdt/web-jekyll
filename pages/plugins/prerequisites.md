@@ -55,7 +55,7 @@ xPack QEMU Arm emulator is necessary (the blinky tutorial mandates it).
 {% include tip.html content="Many of the additional tools can be
 installed as xPacks, which makes **xpm** a very convenient tool." %}
 
-## Java
+## Install Java
 
 The following section covers the common Windows/macOS/Linux platforms;
 for a wider range of platforms, see the **Alternate solutions** below.
@@ -243,7 +243,7 @@ range of platforms.
 {% include tip.html content="Since recent Eclipses are all 64-bit, be sure
 you install a 64-bit Java." %}
 
-## node/npm/xpm
+## Install node/npm/xpm
 
 The next step is to install the xPack tools.
 

@@ -19,9 +19,10 @@ Only when using this toolchain the build is guaranteed to succeed. Using
 other toolchains might be possible, but small changes might be necessary
 in the source code and in the linker options." %}
 
-{% include important.html content="Follow this steps _by the book_, without any
+{% include important.html content="Follow this steps _by the letter_, without any
 alterations, especially if you are new to Eclipse. This will save you a
-lot of time." %}
+lot of time. If you mess things up, remove the workspace and start all
+over again." %}
 
 ## Prerequisites
 
@@ -161,7 +162,7 @@ To assign the board and device:
 
 ![BlinkyAssignDevice]({{ site.baseurl }}/assets/images/2015/08/BlinkyAssignDevice.png)
 
-## Debug the test with QEMU Arm
+## Debug the test using QEMU Arm
 
 The most convenient way to run a debug session with this test is to use the
 [QEMU Debugging plug-in]({{ site.baseurl }}/debug/qemu/); you don't need

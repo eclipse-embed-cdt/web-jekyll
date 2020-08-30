@@ -9,7 +9,7 @@ last_updated: 2020-08-29 13:46:55 +0300
 
 ## Overview
 
-CMSIS Packs are a Keil/ARM technology, intended to handle distribution of
+CMSIS Packs are an Arm/Keil technology, intended to handle distribution of
 software and documentation in Keil MDK. The main difference from usual
 libraries or source archives is that the actual source/object files are
 accompanied by some form of metadata, defining, among other things,
@@ -20,24 +20,33 @@ peripheral registers.
 
 ## Limitations
 
-The current Keil/ARM packs are intended for Cortex cores only.
+The current Arm/Keil packs are intended for Cortex cores only.
 
 From the metadata present in the CMSIS Packs, only the peripheral
 registers are of interest for Eclipse Embedded CDT users.
 
+{% include note.html content="Initialy it was hoped that CMSIS Packs
+will get wide acceptance, and that xPacks could be build on top of them.
+At the time of this writing, major vendors like ST, still did not join it.
+This, plus the major design issues observed (like the unnecessary high
+complexity and the permanent out of date index) contributed to the
+decision to search for another solution for xPack (found at npm),
+thus postponing all developments for CMSIS Packs." %}
+
 ## Prerequisites
 
 To have access to the new packs features, you need to install the
-**Eclipse Embedded CDT Packs Support** plug-in (currently with experimental status):
+**Eclipse Embedded CDT CMSIS Packs Support** plug-in (currently with
+experimental status):
 
-![Install packs support plug-in]({{ site.baseurl }}/assets/images/2014/07/InstallPacks.png)
+![Install packs support plug-in]({{ site.baseurl }}/assets/images/2020/install-packs.png)
 
 ## The Packs Support plug-in
 
 The Eclipse Embedded CDT Packs Support plug-in is intended to manage
 (list/install/inspect/remove) packs from multiple sources. It currently
 implements the specifications of **CMSIS Packs**, as defined by
-[ARM/Keil](http://www.keil.com/pack/doc/CMSIS/Pack/html/index.html),
+[Arm/Keil](http://www.keil.com/pack/doc/CMSIS/Pack/html/index.html),
 with some extensions.
 
 ## Configuration
@@ -50,7 +59,7 @@ installed packages and need to download them again).
 By default, this folder is called Packages and is located at the same
 level as the current workspace.
 
-![Path to packages]({{ site.baseurl }}/assets/images/2014/07/PacksPath.png)
+![Path to packages]({{ site.baseurl }}/assets/images/2020/mcu-packages-path.png)
 
 If you use multiple Eclipses with multiple workspaces, it is recommended
 to adjust this path to a single location and have the same packs install
@@ -60,12 +69,12 @@ The plug-in also provides a page to configure which sites are used to
 load packs. Currently only the Keil URL is relevant, but in case others
 will appear, they can be added to the list.
 
-![URLs of packs repositories]({{ site.baseurl }}/assets/images/2014/07/PacksURLs.png)
+![URLs of packs repositories]({{ site.baseurl }}/assets/images/2020/mcu-packages-repo.png)
 
-## The Packs perspective
+## The CMSIS Packs perspective
 
 The packs manager uses a separate perspective, with selection views and
-outline views. To make this perspective visible, click the **Packs**
+outline views. To make this perspective visible, click the **CMSIS Packs**
 button available on the Eclipse toolbar:
 
 ![Make the packs perspective visible]({{ site.baseurl }}/assets/images/2014/07/PacksToolbarButton.png)
@@ -79,14 +88,26 @@ The result is a window like this:
 
 ![The empty packs perspective]({{ site.baseurl }}/assets/images/2014/07/EmptyPacksPerspective.png)
 
-
 Initially all views are empty; to populate them, the plug-in needs to
 access external packs repositories; for this be sure the internet
 connection is active and click the yellow arrows **Refresh** button.
 (Since at first this is a bit tricky to spot, it is marked with a red
 arrow on the above picture).
 
-After a few minutes, the window will change and show the list of packages:
+{% include note.html content="At the first run, since the CMSIS Packs index
+does not provide many details, all the packages listed in
+the index must be checked, which means the package description file (.pdsc)
+must be downloaded. There are probably several hundred packages, and
+this may take quite a while, like 15-20 minutes. Subsequent runs 
+should be faster, since only updated packages are checked." %}
+
+{% include warning.html content="Due to a design issue, the CMSIS Packs index
+kept on the Arm/Keil site can go out of sync with the actual packages kept
+on vendor servers, and the Refresh action may trigger lots of errors; there
+is not much that can be done, except to ignore them for now and possibly
+retry at a later date." %}
+
+When ready, the window will change and show the list of packages:
 
 ![The Packs perspective]({{ site.baseurl }}/assets/images/2014/07/PacksPerspective.png)
 
@@ -122,10 +143,10 @@ Similarly you can filter by boards and keywords, switch to the
 corresponding view in the left window and select the desired filters
 (with multiple selections possible).
 
-## Pack versions
+## CMSIS Pack versions
 
-Each pack may have multiple versions.  Generally these versions should
-be preserved, at least a while, when new releases are issued, to help
+Each CMSIS Pack may have multiple versions. Generally these versions should
+be preserved, at least for a while, when new releases are issued, to help
 applications cope with possible incompatible versions.
 
 All current and past versions are shown in the packs tree below each
@@ -142,15 +163,16 @@ the components, bundles and examples.
 The brief outline is displayed in the right window, when an uninstalled 
 package or the latest version is selected (see previous picture).
 
-## Pack install
+## CMSIS Pack install
 
 Once the desired packages are identified, they must be installed, i.e.
-copied locally, so that their content can be made available to the various projects.
+copied locally, so that their content can be made available to the
+various projects.
 
 Usually you would need to install the latest available version, but,
 for special cases a specific version can be also installed. For this
 you need to select either the package or the version, and click the
-Install button in the view toolbar:
+**Install** button in the view toolbar:
 
 ![Install a package version]({{ site.baseurl }}/assets/images/2014/07/InstallVersion.png)
 
@@ -181,7 +203,7 @@ Double clicking source and header files opens them in the main editor window:
 
 ![View a header file]({{ site.baseurl }}/assets/images/2014/07/ViewHeaderFile.png)
 
-## Pack uninstall
+## CMSIS Pack uninstall
 
 If the packages are no longer needed, they can be removed from the
 local folder, in order to save space (some packages can be hundreds
@@ -197,7 +219,7 @@ unarchived folder, then changes the icons back to grey.
 
 ## Examples
 
-For installed packages, the plug-in presents the list of available
+For installed CMSIS Packs, the plug-in presents the list of available
 examples below each pack version.
 
 ![Pack examples]({{ site.baseurl }}/assets/images/2014/07/PackExamples.png)
@@ -216,7 +238,7 @@ Initially CMSIS Packs were considered a great technology, worth investing
 in.
 
 Later on, the limits of the technology were revealed, especially the
-tight connection to Keil/MDK and ARM tools.
+tight connection to Keil/MDK and Arm tools.
 
 For the moment all plans to further develop CMSIS Packs are
 postponed, and resources are directed to **xPacks**, a more flexible

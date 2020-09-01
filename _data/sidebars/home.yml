@@ -132,7 +132,7 @@ entries:
     - title: Overview
       url: /support/
       output: web
-    - title: The xPack Forums
+    - title: The Project Forums
       output: web
       external_url: https://www.tapatalk.com/groups/xpack/
 

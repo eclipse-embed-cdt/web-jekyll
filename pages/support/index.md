@@ -11,7 +11,7 @@ last_updated: 2020-08-28 19:39:00 +0300
 
 ## Quicklinks
 
-- [xPack Forums](https://www.tapatalk.com/groups/xpack/) - the best source
+- [Project Forums](https://www.tapatalk.com/groups/xpack/) - the best source
   for support; be sure you select the right group/discussion.
 - [xPack Core & Tools support](https://xpack.github.io/support/)
 
@@ -38,7 +38,7 @@ select the right group/discussion.
 ### Use the chat room
 
 For live discussions between users, you can use the
-[xPack chatroom](https://gitter.im/xpack/community).
+[project chat room](https://gitter.im/xpack/community).
 This may be a great way to share experience, but for support
 the forums are preferred.
 

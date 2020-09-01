@@ -2,6 +2,8 @@
 title: Page Title
 permalink: /test/
 
+toc: false
+
 date: 2019-06-20 23:11:00 +0300
 last_updated: 2020-08-29 19:06:10 +0300
 
@@ -78,3 +80,35 @@ Centred image:
 {% include important.html content="Lorem ipsum dolor sit amet, no quo doming labore doctus, eum commune rationibus at." %}
 
 {% include callout.html content="Lorem ipsum dolor sit amet, no quo doming labore doctus, eum commune rationibus at." %}
+
+## Platform Menus
+
+{% capture manual_install %}
+## Manual install
+{% endcapture %}
+
+{% capture windows %}
+
+{{ manual_install }}
+
+Windows
+
+{% endcapture %}
+
+{% capture macos %}
+
+{{ manual_install }}
+
+macOS
+
+{% endcapture %}
+
+{% capture linux %}
+
+{{ manual_install }}
+
+linux
+
+{% endcapture %}
+
+{% include platform-tabs.html %}

@@ -98,7 +98,7 @@ arrow on the above picture).
 does not provide many details, all the packages listed in
 the index must be checked, which means the package description file (.pdsc)
 must be downloaded. There are probably several hundred packages, and
-this may take quite a while, like 15-20 minutes. Subsequent runs 
+this may take quite a while, like 15-20 minutes. Subsequent runs
 should be faster, since only updated packages are checked." %}
 
 {% include warning.html content="Due to a design issue, the CMSIS Packs index
@@ -117,7 +117,7 @@ The structure of this window is generally in line with usual Eclipse guidelines:
   (install/remove/show outline) can be applied
 - the left part is dedicated to various filtering criteria, like Device,
   Board and Keyword; clicking on any filtering nodes updates the list of
-  packages to only those having relevance to the filtering criteria 
+  packages to only those having relevance to the filtering criteria
   (multiple selection is allowed)
 - the right part is dedicated to displaying various outline views
 - centrally, below the main view, is the place where editors can be opened
@@ -160,7 +160,7 @@ For all existing packs, the plug-in can display a brief outline, with
 the main content items: the supported devices, the supported boards,
 the components, bundles and examples.
 
-The brief outline is displayed in the right window, when an uninstalled 
+The brief outline is displayed in the right window, when an uninstalled
 package or the latest version is selected (see previous picture).
 
 ## CMSIS Pack install
@@ -232,7 +232,7 @@ folders. Unfortunately the examples currently available in the Keil
 packages can be used only with Keil MDK, so are of no direct use for
 Eclipse and GCC environments.
 
-## Future developments?
+## Future developments
 
 Initially CMSIS Packs were considered a great technology, worth investing
 in.

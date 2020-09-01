@@ -60,6 +60,9 @@ entries:
     - title: OpenOCD
       url: /debug/openocd/
       output: web
+    - title: OpenOCD RISC-V
+      url: /debug/openocd/riscv
+      output: web
     - title: QEMU Arm
       url: /debug/qemu/
       output: web

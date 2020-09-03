@@ -124,6 +124,10 @@ entries:
     - title: Tags
       url: /tags/
       output: web
+    - title: Articles
+      url: /articles/
+      output: web
+
 
   - title: Support
     output: web

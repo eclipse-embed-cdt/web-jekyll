@@ -16,6 +16,10 @@ Developers** is not convenient, it is possible to install the **Eclipse
 Embedded CDT plug-ins** on top of an existing Eclipse, for example
 **Eclipse IDE for C/C++ Developers**.
 
+{% include warning.html content="The images included in this page are slightly
+out-of-date, mentioning previous versions of the project. They will be
+updated in a future revision of the web site." %}
+
 ## Eclipse IDE for C/C++ Developers
 
 To install this package, go to the

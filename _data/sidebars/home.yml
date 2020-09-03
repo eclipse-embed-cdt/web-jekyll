@@ -25,7 +25,10 @@ entries:
     - title: Update an Existing Eclipse
       output: web
       url: /plugins/update/
-    - title: Alternate Installs
+    - title: Install Optional Features
+      output: web
+      url: /plugins/install-new-software/
+    - title: Alternate Install Methods
       output: web
       url: /plugins/install-alternate/
     - title: Workspace Preferences

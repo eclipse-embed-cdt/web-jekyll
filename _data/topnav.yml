@@ -14,12 +14,10 @@ topnav_dropdowns:
   folders:
     - title: Links
       folderitems:
+        - title: Eclipse Project
+          external_url: https://projects.eclipse.org/projects/iot.embed-cdt/
         - title: Eclipse Marketplace
-          external_url: https://marketplace.eclipse.org/content/eclipse-embedded-cdt
-        - title: Eclipse Jenkins
-          external_url: https://ci.eclipse.org/embed-cdt/
-        - title: Eclipse Analytics
-          external_url: https://dev.eclipse.org/committers/committertools/stats.php
+          external_url: https://marketplace.eclipse.org/content/eclipse-embedded-cdt/
 
     - title: GitHub
       folderitems:

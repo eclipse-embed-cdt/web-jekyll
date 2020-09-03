@@ -16,9 +16,10 @@ last_updated: 2020-08-28 19:39:00 +0300
 [![GitHub issues](https://img.shields.io/github/issues/eclipse-embed-cdt/eclipse-plugins.svg)](https://github.com/eclipse-embed-cdt/eclipse-plugins/issues/)
 [![GitHub pulls](https://img.shields.io/github/issues-pr/eclipse-embed-cdt/eclipse-plugins.svg)](https://github.com/eclipse-embed-cdt/eclipse-plugins/pulls/)
 
-## Analytics
+## Links
 
-- [https://dev.eclipse.org/committers/committertools/stats.php](https://dev.eclipse.org/committers/committertools/stats.php)
+- [Eclipse Jenkins](https://ci.eclipse.org/embed-cdt/)
+- [Eclipse Analytics](https://dev.eclipse.org/committers/committertools/stats.php?filename=embed-cdt)
 
 ## Deprecated pages
 

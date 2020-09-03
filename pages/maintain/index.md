@@ -22,5 +22,6 @@ last_updated: 2020-08-28 19:39:00 +0300
 
 ## Deprecated pages
 
+- [https://github.com/gnu-mcu-eclipse](https://github.com/gnu-mcu-eclipse)
 - [https://github.com/gnuarmeclipse](https://github.com/gnuarmeclipse)
 - [http://sourceforge.net/projects/gnuarmeclipse/](http://sourceforge.net/projects/gnuarmeclipse/)

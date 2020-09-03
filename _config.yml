@@ -1,6 +1,4 @@
-# url: https://www.eclipse.org
-# baseurl: /embed-cdt
-url: https://gnu-mcu-eclipse.github.io
+url: https://eclipse-embed-cdt.github.io
 # baseurl: /web-preview
 
 xpack_url: https://xpack.github.io
@@ -11,7 +9,7 @@ permalink: /blog/:year/:month/:day/:title/
 # Update this after editing the CSS files, to force a cache update.
 css-date: 202008050934
 
-repository: gnu-mcu-eclipse/web-jekyll
+repository: eclipse-embed-cdt/web-jekyll
 
 # This property is useful for conditional filtering of content that is
 # separate from the PDF.
@@ -32,7 +30,7 @@ copyright_holder: Liviu Ionescu
 # If you're using Github, provide the basepath to the branch you've
 # created for reviews, following the sample here. if not, leave this
 # value blank.
-github_editme_path: gnu-mcu-eclipse/web-jekyll/blob/master/
+github_editme_path: eclipse-embed-cdt/web-jekyll/blob/master/
 
 # If you're using disqus for comments, add the short name here.
 # If not, leave this value blank.

@@ -28,6 +28,7 @@ bundle exec htmlproofer \
 rm -rf "${site}"
 mkdir -pv "${site}"
 mv "${tmp}/web-preview"/* "${site}"
+touch "${site}/.nojekyll"
 rm -rf "${tmp}"
 
 echo

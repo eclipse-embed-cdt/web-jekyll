@@ -58,6 +58,7 @@ exclude:
   - Gemfile*
   - scripts/
   - jekyll*.mac.command
+  - localhost*.webloc
 
 
 feedback_subject_line: [Embedded CDT]

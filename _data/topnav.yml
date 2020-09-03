@@ -35,7 +35,7 @@ topnav_dropdowns:
       folderitems:
         - title: The Project Forums
           external_url: https://www.tapatalk.com/groups/xpack/
-        - title: The Project Chatroom
+        - title: The Project Chat Room
           external_url: https://gitter.im/xpack/
 
 

@@ -67,3 +67,6 @@ allowed-tags:
   - toolchain
   - update
   - web
+  - marketplace
+  - gnuarmeclipse
+  - github

@@ -117,6 +117,8 @@ function do_script() {
   # to break the build if not successful.
 
   cd "${dest_repo}"
+  
+  touch ".nojekyll"
 
   if [ "${TRAVIS_BRANCH}" != "master" ]
   then

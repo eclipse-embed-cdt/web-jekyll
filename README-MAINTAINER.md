@@ -2,6 +2,10 @@
 
 TODO: document how to maintain this site and update the Eclipse hosted web.
 
+## Travis
+
+- https://travis-ci.com/github/eclipse-embed-cdt/web-jekyll
+
 ## Quick copy/paste
 
 ```

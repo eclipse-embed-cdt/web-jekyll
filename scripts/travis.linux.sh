@@ -75,7 +75,12 @@ function do_before_script() {
   run_verbose git config --global user.name "${GIT_COMMIT_USER_NAME}"
 
   # Clone the destination repo.
-  run_verbose git clone --branch=master https://github.com/${GITHUB_DEST_REPO}.git "${dest_repo}"
+  if [ "${TRAVIS_BRANCH}" == "master" ]
+  then
+    run_verbose git clone --branch=master https://github.com/${GITHUB_DEST_REPO}.git "${dest_repo}"
+  else
+    run_verbose git clone --branch=master https://github.com/${GITHUB_PREVIEW_REPO}.git "${dest_repo}"
+  fi
 
   return 0
 }
@@ -113,18 +118,12 @@ function do_script() {
   fi
 
   # ---------------------------------------------------------------------------
-  # The deployment code is present here not in after_success,
+  # The deployment code is present here (and not in after_success),
   # to break the build if not successful.
 
   cd "${dest_repo}"
   
   touch ".nojekyll"
-
-  if [ "${TRAVIS_BRANCH}" != "master" ]
-  then
-    echo "Not on master branch, skip deploy."
-    return 0;
-  fi
 
   if [ "${TRAVIS_PULL_REQUEST}" != "false" ]
   then
@@ -150,7 +149,12 @@ function do_script() {
   echo "Deploy to GitHub pages..."
 
   # Must be quiet and have no output, to not reveal the key.
-  git push --force --quiet "https://${GITHUB_TOKEN}@github.com/${GITHUB_DEST_REPO}" master > /dev/null 2>&1
+  if [ "${TRAVIS_BRANCH}" == "master" ]
+  then
+    git push --force --quiet "https://${GITHUB_TOKEN}@github.com/${GITHUB_DEST_REPO}" master > /dev/null 2>&1
+  else
+    git push --force --quiet "https://${GITHUB_TOKEN}@github.com/${GITHUB_PREVIEW_REPO}" master > /dev/null 2>&1
+  fi
 
   return 0
 }

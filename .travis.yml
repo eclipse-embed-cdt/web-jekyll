@@ -1,5 +1,5 @@
 # To check the status of the CI job:
-# https://travis-ci.org/github/gnu-mcu-eclipse/web-jekyll
+# https://travis-ci.com/github/eclipse-embed-cdt/web-jekyll
 
 # Travis CI configuration file to validate and deploy
 # the Eclipse Embedded CDT Jekyll site.
@@ -30,7 +30,8 @@ git:
 
 env:
   global:
-    - GITHUB_DEST_REPO="eclipse-embed-cdt/web-preview"
+    - GITHUB_DEST_REPO="eclipse-embed-cdt/eclipse-embed-cdt.github.io"
+    - GITHUB_PREVIEW_REPO="eclipse-embed-cdt/web-preview"
     - GIT_COMMIT_USER_EMAIL="ilg@livius.net"
     - GIT_COMMIT_USER_NAME="Travis CI"
     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true

@@ -1,4 +1,5 @@
 url: https://eclipse-embed-cdt.github.io
+# Pass this to jekyll via --baseurl.
 # baseurl: /web-preview
 
 xpack_url: https://xpack.github.io

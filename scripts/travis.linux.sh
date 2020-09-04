@@ -95,7 +95,12 @@ function do_script() {
 
   # Be sure the 'vendor/' folder is excluded
   # otherwise a strage error occurs.
-  run_verbose bundle exec jekyll build --destination "${site}" --baseurl "/web-preview"
+  if [ "${TRAVIS_BRANCH}" == "master" ]
+  then
+    run_verbose bundle exec jekyll build --destination "${site}" --baseurl ""
+  else
+    run_verbose bundle exec jekyll build --destination "${site}" --baseurl "/web-preview"
+  fi
 
   # Explicitly tell GitHub not to run its own Jekyll code.
   touch "${site}/.nojekyll"

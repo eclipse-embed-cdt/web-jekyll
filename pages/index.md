@@ -89,8 +89,8 @@ several other tools, distributed as separate packages.
 To stay up-to-date with new releases, the recommended way is
 to follow [@{{ site.twitter_id }}](https://twitter.com/{{ site.twitter_id }}/) on Twitter.
 
-Alternatively you can subscribe to this site RSS feed
-[https://www.eclipse.org/embed-cdt/feed.xml](https://www.eclipse.org/embed-cdt/feed.xml).
+Alternatively you can subscribe to this site 
+[RSS feed](https://eclipse-embed-cdt.github.io/feed.xml).
 
 To stay current with changes to individual projects, enable **watching**
 in the GitHub web interface for each project of interest.

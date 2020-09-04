@@ -4,6 +4,8 @@ url: https://eclipse-embed-cdt.github.io
 
 xpack_url: https://xpack.github.io
 
+twitter_id: EmbedCDT
+
 # Default permalink used for posts.
 permalink: /blog/:year/:month/:day/:title/
 

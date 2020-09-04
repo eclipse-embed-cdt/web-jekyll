@@ -85,7 +85,7 @@ several other tools, distributed as separate packages.
 ## Notifications
 
 To stay up-to-date with new releases, the recommended way is
-to follow [@gnu-mcu-eclipse](https://twitter.com/gnu-mcu-eclipse) on Twitter.
+to follow [@{{ site.twitter_id }}](https://twitter.com/{{ site.twitter_id }}/) on Twitter.
 
 Alternatively you can subscribe to this site RSS feed
 [https://www.eclipse.org/embed-cdt/feed.xml](https://www.eclipse.org/embed-cdt/feed.xml).
@@ -109,7 +109,7 @@ features, please consider donating; any contribution, small or
 generous, will be highly appreciated;
 - star the projects you liked on GitHub
 ([eclipse-plugins](https://github.com/eclipse-embed-cdt/eclipse-plugins));
-- follow the project on [Twitter](https://twitter.com/xpack_project),
+- follow the project on [Twitter](https://twitter.com/{{ site.twitter_id }}/),
 to get notifications on new releases.
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">

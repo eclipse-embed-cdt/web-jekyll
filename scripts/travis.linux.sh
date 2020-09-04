@@ -27,6 +27,7 @@ export slug="${TRAVIS_BUILD_DIR}"
 export dest_repo="${HOME}/out/${GITHUB_DEST_REPO}"
 export site="${dest_repo}/docs"
 
+# Temporarily disable it if needed.
 do_htmlproof="y"
 
 # -----------------------------------------------------------------------------
@@ -67,7 +68,7 @@ function do_before_install() {
 # Errors in this function will break the build.
 function do_before_script() {
 
-  echo "Before starting the test, clone the destination repo..."
+  echo "Before starting the job, clone the destination repo..."
 
   cd "${HOME}"
 
@@ -88,13 +89,16 @@ function do_before_script() {
 # Errors in this function will break the build.
 function do_script() {
 
-  echo "The main test code; perform the Jekyll build..."
+  echo "The main job code; perform the Jekyll build and deploy..."
 
   cd "${slug}"
 
   # Be sure the 'vendor/' folder is excluded
   # otherwise a strage error occurs.
   run_verbose bundle exec jekyll build --destination "${site}" --baseurl "/web-preview"
+
+  # Explicitly tell GitHub not to run its own Jekyll code.
+  touch "${site}/.nojekyll"
 
   # Temporary test the Apple URL, to help diagnose htmlproofer.
   # curl -L --url http://developer.apple.com/xcode/downloads/ --verbose
@@ -123,8 +127,6 @@ function do_script() {
 
   cd "${dest_repo}"
   
-  touch ".nojekyll"
-
   if [ "${TRAVIS_PULL_REQUEST}" != "false" ]
   then
     echo "A pull request, skip deploy."

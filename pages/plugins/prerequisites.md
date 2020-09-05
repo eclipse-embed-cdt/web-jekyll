@@ -112,9 +112,9 @@ In the **Builds** section, download the **macOS/x64** .tar.gz file.
 
 ```bash
 cd ~/Downloads
-tar xf openjdk-{{ page.jdk }}.0.1_osx-x64_bin.tar.gz
-xattr -d com.apple.quarantine openjdk-{{ page.jdk }}.0.1_osx-x64_bin.tar.gz
-sudo mv jdk-{{ page.jdk }}.0.1.jdk/ /Library/Java/JavaVirtualMachines/
+xattr -d com.apple.quarantine openjdk-{{ page.jdk }}.*_osx-x64_bin.tar.gz
+tar xf openjdk-{{ page.jdk }}.*_osx-x64_bin.tar.gz
+sudo mv jdk-{{ page.jdk }}.*.jdk/ /Library/Java/JavaVirtualMachines/
 ```
 
 Check version:
@@ -138,6 +138,10 @@ lrwxr-xr-x  1 root  wheel  74 Jan  2  2020 /usr/bin/java -> /System/Library/Fram
 ```
 
 How exactly it gets from here to the actual location is a bit of Apple magic.
+
+{% include warning.html content="Installing the latest Java may
+not be possble on older systems, for example Java 14 fails to
+start on macOS 10.10." %}
 
 Since it is possible to install multiple version on the same system,
 if you want to override this mechanism and use a different version, try

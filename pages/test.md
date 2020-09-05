@@ -59,11 +59,17 @@ More text.
 
 Again.
 
+## Alignment
+
 Centred image:
 
 <div style="text-align:center">
 <img alt="Feed" src="{{ site.baseurl }}/assets/images/feed-20.png" />
 </div>
+
+Right aligned:
+
+[![EF logo]({{ site.baseurl }}/assets/images/2020/ef-small.png){:class="right-align-image"}](https://projects.eclipse.org/projects/iot.embed-cdt/) Lorem ipsum dolor sit amet, no quo doming labore doctus, eum commune rationibus at. Lorem ipsum dolor sit amet, no quo doming labore doctus, eum commune rationibus at.
 
 ## Quote
 

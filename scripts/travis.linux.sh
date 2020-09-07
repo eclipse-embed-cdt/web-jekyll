@@ -43,7 +43,7 @@ do_htmlproof="y"
 
 function run_verbose()
 {
-  echo "\$ $@"
+  echo "[\$ $@]"
   "$@"
 }
 
@@ -160,6 +160,7 @@ function do_script() {
     echo git push --force --quiet "https://${GITHUB_TOKEN}@github.com/${github_dest_repo}" master
     ls -l
   else
+    echo git push --force --quiet "https://${GITHUB_TOKEN}@github.com/${github_dest_repo}" master
     git push --force --quiet "https://${GITHUB_TOKEN}@github.com/${github_dest_repo}" master > /dev/null 2>&1
   fi
 

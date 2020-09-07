@@ -36,7 +36,7 @@ else
   github_dest_repo="${GITHUB_PREVIEW_REPO}"
 fi
 
-# Temporarily disable it if needed.
+# Temporarily disable it if needed. Anyway htmlproofer failures are ignored.
 do_htmlproof="y"
 
 # -----------------------------------------------------------------------------

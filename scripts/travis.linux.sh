@@ -23,9 +23,18 @@ IFS=$'\n\t'
 
 # -----------------------------------------------------------------------------
 
-export slug="${TRAVIS_BUILD_DIR}"
-export dest_repo="${HOME}/out/${GITHUB_DEST_REPO}"
-export site="${dest_repo}/docs"
+slug="${TRAVIS_BUILD_DIR}"
+dest_folder="${HOME}/out/${GITHUB_DEST_REPO}"
+site_folder="${dest_folder}/docs"
+
+if [ "${TRAVIS_BRANCH}" == "master" ]
+then
+  baseurl=""
+  github_dest_repo="${GITHUB_DEST_REPO}"
+else
+  baseurl="/web-preview"
+  github_dest_repo="${GITHUB_PREVIEW_REPO}"
+fi
 
 # Temporarily disable it if needed.
 do_htmlproof="y"
@@ -76,12 +85,7 @@ function do_before_script() {
   run_verbose git config --global user.name "${GIT_COMMIT_USER_NAME}"
 
   # Clone the destination repo.
-  if [ "${TRAVIS_BRANCH}" == "master" ]
-  then
-    run_verbose git clone --branch=master https://github.com/${GITHUB_DEST_REPO}.git "${dest_repo}"
-  else
-    run_verbose git clone --branch=master https://github.com/${GITHUB_PREVIEW_REPO}.git "${dest_repo}"
-  fi
+  run_verbose git clone --branch=master https://github.com/${github_dest_repo}.git "${dest_folder}"
 
   return 0
 }
@@ -95,15 +99,10 @@ function do_script() {
 
   # Be sure the 'vendor/' folder is excluded
   # otherwise a strage error occurs.
-  if [ "${TRAVIS_BRANCH}" == "master" ]
-  then
-    run_verbose bundle exec jekyll build --destination "${site}" --baseurl ""
-  else
-    run_verbose bundle exec jekyll build --destination "${site}" --baseurl "/web-preview"
-  fi
+  run_verbose bundle exec jekyll build --destination "${site_folder}" --baseurl "${baseurl}"
 
   # Explicitly tell GitHub not to run its own Jekyll code.
-  touch "${site}/.nojekyll"
+  touch "${site_folder}/.nojekyll"
 
   # Temporary test the Apple URL, to help diagnose htmlproofer.
   # curl -L --url http://developer.apple.com/xcode/downloads/ --verbose
@@ -112,13 +111,13 @@ function do_script() {
   then
     # Mainly to validate the internal & external links.
     # https://github.com/gjtorikian/html-proofer
-    # run_verbose bundle exec htmlproofer --only-4xx "${site}"
-    # run_verbose bundle exec htmlproofer --url-ignore "/img.shields.io/,/uk.farnell.com/,/blogs.msdn.com/,/sourceforge.net/,/bintray.com/,/www.amazon.com/,/gnuarmeclipse.livius.net/,/www.oracle.com/,/my.st.com/,/community.st.com/,/stm32duino.com/,/reference.digilentinc.com/" "${site}"
+    # run_verbose bundle exec htmlproofer --only-4xx "${site_folder}"
+    # run_verbose bundle exec htmlproofer --url-ignore "/img.shields.io/,/uk.farnell.com/,/blogs.msdn.com/,/sourceforge.net/,/bintray.com/,/www.amazon.com/,/gnuarmeclipse.livius.net/,/www.oracle.com/,/my.st.com/,/community.st.com/,/stm32duino.com/,/reference.digilentinc.com/" "${site_folder}"
     # External links are not stable, to disable checks use --disable_external
 
     run_verbose rm -rf ~/tmp/site
-    run_verbose mkdir -p ~/tmp/site/web-preview
-    run_verbose cp -rf "${site}"/* ~/tmp/site/web-preview
+    run_verbose mkdir -p ~/tmp/site${baseurl}
+    run_verbose cp -rf "${site_folder}"/* ~/tmp/site${baseurl}
 
     run_verbose bundle exec htmlproofer \
       --allow_hash_href \
@@ -130,7 +129,7 @@ function do_script() {
   # The deployment code is present here (and not in after_success),
   # to break the build if not successful.
 
-  cd "${dest_repo}"
+  cd "${dest_folder}"
   
   if [ "${TRAVIS_PULL_REQUEST}" != "false" ]
   then
@@ -158,9 +157,10 @@ function do_script() {
   # Must be quiet and have no output, to not reveal the key.
   if [ "${TRAVIS_BRANCH}" == "master" ]
   then
-    git push --force --quiet "https://${GITHUB_TOKEN}@github.com/${GITHUB_DEST_REPO}" master > /dev/null 2>&1
+    echo git push --force --quiet "https://${GITHUB_TOKEN}@github.com/${github_dest_repo}" master
+    ls -l
   else
-    git push --force --quiet "https://${GITHUB_TOKEN}@github.com/${GITHUB_PREVIEW_REPO}" master > /dev/null 2>&1
+    git push --force --quiet "https://${GITHUB_TOKEN}@github.com/${github_dest_repo}" master > /dev/null 2>&1
   fi
 
   return 0

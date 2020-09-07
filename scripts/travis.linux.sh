@@ -155,14 +155,8 @@ function do_script() {
   echo "Deploy to GitHub pages..."
 
   # Must be quiet and have no output, to not reveal the key.
-  if [ "${TRAVIS_BRANCH}" == "master" ]
-  then
-    echo git push --force --quiet "https://${GITHUB_TOKEN}@github.com/${github_dest_repo}" master
-    ls -l
-  else
-    echo git push --force --quiet "https://${GITHUB_TOKEN}@github.com/${github_dest_repo}" master
-    git push --force --quiet "https://${GITHUB_TOKEN}@github.com/${github_dest_repo}" master > /dev/null 2>&1
-  fi
+  echo git push --force --quiet "https://${GITHUB_TOKEN}@github.com/${github_dest_repo}" master
+  git push --force --quiet "https://${GITHUB_TOKEN}@github.com/${github_dest_repo}" master > /dev/null 2>&1
 
   return 0
 }

@@ -43,7 +43,7 @@ do_htmlproof="y"
 
 function run_verbose()
 {
-  echo "[\$ $@]"
+  echo "[$@]"
   "$@"
 }
 

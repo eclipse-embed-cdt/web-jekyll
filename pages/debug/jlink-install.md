@@ -2,6 +2,8 @@
 title: How to install the SEGGER J-Link
 permalink: /debug/jlink/install/
 
+toc: false
+
 date: 2015-09-11 20:50:00 +0300
 last_updated: 2020-08-28 19:45:02 +0300
 
@@ -80,7 +82,8 @@ available either in the installed folder, or from the
 
 {% capture windows %}
 
-The Windows file is an executable installer, named like `JLink_WindowsV684.exe`.
+The Windows download is an executable installer, named like
+`JLink_WindowsV684.exe`.
 
 - double click it to start the installation process
 - enter the administrative password
@@ -103,7 +106,8 @@ only the command line version of the  J-Link GDB server
 
 {% capture macos %}
 
-The macOS download is an macOS package installer, like `JLink_MacOSX_V684.pkg`.
+The macOS download is an macOS package installer, named like
+`JLink_MacOSX_V684.pkg`.
 
 - double click it to start the installation process
 - accept the license
@@ -114,8 +118,7 @@ The result of the install is a folder like `/Applications/SEGGER/JLink_V684/`
 (a different folder for each version) where all executables and libraries are
 stored; please note that, as for many macOS applications, no other driver
 files are installed in the system folders, but some symbolic links to the latest
-installed version are
-created in the `/usr/local/bin` folder.
+installed version are created in the `/usr/local/bin` folder.
 
 Be sure to update the path in Eclipse preferences page to point to the
 latest SEGGER J-Link software.
@@ -134,46 +137,52 @@ configurations are required.
 {% capture linux %}
 
 As already mentioned, there are multiple packages available for GNU/Linux
-on the SEGGER download site, built as Debian/Red Hat packages, in 32/64-bit
-versions, or plain TGZ archives. Select the one appropriate for you system
-and use the specific tools to install the package. For example, on Ubuntu,
-to install the 64-bit .deb file, use the following command:
+on the SEGGER download site, in 32/64-bit
+versions. Preferably download the .tgz and install it in your home folder.
 
-```bash
-$ sudo dpkg -i ~/Downloads/JLink_Linux_V684_x86_64.deb
+For example, on Ubuntu,
+to install the 64-bit .tgz file, use the following commands:
+
+```console
+$ mkdir -p ~/opt/SEGGER
+$ cd ~/opt/SEGGER
+$ tar xf ~/Downloads/JLink_Linux_V684_x86_64.tgz
+$ chmod a-w ~/opt/SEGGER/JLink_Linux_V684_x86_64
+$ ls -l ~/opt/SEGGER/JLink_Linux_V684_x86_64
 ```
 
-The package is installed in a folder like `/opt/SEGGER/JLink_V684/`,
-but some symbolic links to the latest
-installed version are created in the `/usr/bin` folder.
-
-{% include note.html content="In case you have a 64-bit machine and install
-the 32-bit SEGGER package,
-you might need several 32-bit libraries, depending on distribution." %}
+{% include note.html content="In case you have a 64-bit machine, it is
+highly recommended to install the 64-bit archive. If, for any reasons you
+have to install the 32-bit SEGGER package,
+you might need to also install several 32-bit libraries,
+depending on distribution." %}
 
 ### Raspberry Pi OS
 
 On a Raspberry Pi OS 64-bit, use the 64-bit .tgz file, and unpack
-it in `${HOME}/opt/SEGGER`
+it in `${HOME}/opt/SEGGER`:
 
 ```console
 $ mkdir -p ~/opt/SEGGER
 $ cd ~/opt/SEGGER
 $ tar xf ~/Downloads/JLink_Linux_V684_arm64.tgz
+$ chmod a-w ~/opt/SEGGER/JLink_Linux_V684_arm64
 $ ls -l ~/opt/SEGGER/JLink_Linux_V684_arm64
 ```
 
 ### UDEV
 
-If you use the .deb or .rpm, the install procedure automatically adds
-`/etc/udev/rules.d/99-jlink.rules` to define the USB IDs of the
-J-Link devices. No other drivers are required.
-
-If you manually unpacked the .tgz, you need to copy the rules file:
+After manually unpacking the .tgz, you need to copy the rules file:
 
 ```console
-$ sudo cp ~/opt/SEGGER/JLink_Linux_V684_arm64/99-jlink.rules /etc/udev/rules.d/99-jlink.rule
+$ sudo cp ~/opt/SEGGER/JLink_Linux_V684_*/99-jlink.rules /etc/udev/rules.d/99-jlink.rule
 ```
+
+{% include important.html content="Although perfectly possible to install
+the J-Link Software in any folder, it is highly recommended to use the
+`~/opt/SEGGER` path, since by default the Eclipse Embedded CDT plug-ins
+search for the executables in this location. Be sure you respect the case,
+it is all upper-case SEGGER." %}
 
 {% endcapture %}
 
@@ -188,10 +197,11 @@ default, J-Link GDBServer will try JTAG but if only SWD is wired
 the interface (-if SWD). The device name is needed for targets which
 require special handling on connect (e.g. due to silicon bugs which
 make auto-detection impossible). For a list of available device names,
-please refer to the SEGGER [Supported devices](http://www.segger.com/jlink_supported_devices.html) page.
+please refer to the SEGGER
+[Supported devices](http://www.segger.com/jlink_supported_devices.html) page.
 
 Here is an example how to test a
-SWD connection to a STM32F407 evaluation board (-device STM32F407VG)
+SWD connection to a STM32F407 evaluation board (`-device STM32F407VG`)
 on macOS.
 
 ```console
@@ -241,7 +251,7 @@ Waiting for GDB connection...
 On Windows, to start the GDB server, use back-slashes in the path and the
 CL (command line) version:
 
-```console
+```
 C:\>C:\Program Files (x86)\SEGGER\JLinkARM_V684\JLinkGDBServerCL
 ```
 

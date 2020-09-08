@@ -40,7 +40,7 @@ github_editme_path: eclipse-embed-cdt/web-jekyll/blob/master/
 disqus_shortname: embed-cdt
 
 # If you have google-analytics ID, put it in. if not, edit this value to blank.
-google_analytics: UA-16767008-16
+google_analytics: UA-16767008-19
 
 # The preview server used. Leave as is.
 host: localhost

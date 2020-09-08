@@ -5,7 +5,7 @@ permalink: /support/
 comments: true
 
 date: 2020-08-05 13:34:00 +0300
-last_updated: 2020-08-28 19:39:00 +0300
+last_updated: 2020-09-08 18:17:55 +0300
 
 ---
 

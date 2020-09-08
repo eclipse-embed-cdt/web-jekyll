@@ -5,7 +5,7 @@ permalink: /debug/jlink/install/
 toc: false
 
 date: 2015-09-11 20:50:00 +0300
-last_updated: 2020-08-28 19:45:02 +0300
+last_updated: 2020-09-08 18:17:56 +0300
 
 ---
 

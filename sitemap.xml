@@ -9,7 +9,7 @@ search: exclude
   {% unless post.search == "exclude" %}
   <url>
     <loc>{{ site.url }}{{ site.baseurl }}{{ post.url }}</loc>
-    <lastmod>{{ post.last_updated | date_to_xmlschema }}</lastmod>
+    <lastmod>{{ post.last_modified_at | date_to_xmlschema }}</lastmod>
   </url>
   {% endunless %}
   {% endfor %}

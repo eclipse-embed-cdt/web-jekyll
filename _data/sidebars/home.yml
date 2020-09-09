@@ -170,7 +170,7 @@ entries:
       output: web
       external_url: https://www.eclipse.org/legal/epl-2.0/
 
-  - title: Home
+  - title: Back Home
     output: web
     folderitems:
 

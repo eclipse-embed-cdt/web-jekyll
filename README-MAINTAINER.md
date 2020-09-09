@@ -2,6 +2,9 @@
 
 TODO: document how to maintain this site and update the Eclipse hosted web.
 
+- https://eclipse-embed-cdt.github.io/
+- https://eclipse-embed-cdt.github.io/web-preview/
+
 ## Travis
 
 - https://travis-ci.com/github/eclipse-embed-cdt/web-jekyll
@@ -23,5 +26,6 @@ bundle exec htmlproofer --allow-hash-href ./_site_local
 
 bundle exec htmlproofer --allow-hash-href --http_status_ignore=429 ./_site_local
 
+# No longer needed, done automatically by last_modified_at.
 bash scripts/adjust-timestamps.sh
 ```

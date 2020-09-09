@@ -6,7 +6,6 @@ comments: false
 toc: false
 
 date: 2019-07-30 20:06:00 +0300
-last_updated: 2020-08-28 21:48:21 +0300
 
 ---
 

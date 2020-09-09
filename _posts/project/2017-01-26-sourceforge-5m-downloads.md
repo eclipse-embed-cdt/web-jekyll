@@ -2,7 +2,6 @@
 title: 'GNU ARM Eclipse: 5.000.000 SourceForge downloads, January 2017'
 
 date: 2017-01-26 13:15:00 +0300
-last_updated: 2020-08-28 19:51:00 +0300
 
 categories:
   - news

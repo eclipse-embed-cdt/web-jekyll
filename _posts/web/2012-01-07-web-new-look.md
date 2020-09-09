@@ -2,7 +2,6 @@
 title: The GNU ARM Eclipse Plug-in project has a new look (WordPress)
 
 date: 2012-01-07 12:00:00 +0300
-last_updated: 2020-08-28 19:50:59 +0300
 
 categories:
   - news

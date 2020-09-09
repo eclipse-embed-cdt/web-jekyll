@@ -3,7 +3,6 @@ title: How to install the debugging components
 permalink: /debug/install/
 
 date: 2015-09-11 19:55:00 +0300
-last_updated: 2020-09-08 18:17:56 +0300
 
 ---
 

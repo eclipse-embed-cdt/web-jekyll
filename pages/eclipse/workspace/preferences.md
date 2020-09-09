@@ -2,12 +2,10 @@
 layout: page
 permalink: /eclipse/workspace/preferences/
 title: Workspace preferences
-author: Liviu Ionescu
 
 summary: Settings to consider for your workspace
 
 date: 2015-09-11 23:16:00 +0300
-last_updated: 2020-09-08 18:17:51 +0300
 
 ---
 

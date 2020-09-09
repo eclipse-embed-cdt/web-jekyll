@@ -2,7 +2,6 @@
 title: SourceForge featured projects, January 2014
 
 date: 2014-01-22 12:00:00 +0300
-last_updated: 2020-08-28 19:51:00 +0300
 
 categories:
   - news

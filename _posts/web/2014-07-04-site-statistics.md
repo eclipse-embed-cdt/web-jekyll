@@ -2,7 +2,6 @@
 title: WordPress statistics, June 2014
 
 date: 2014-07-04 12:00:00 +0300
-last_updated: 2020-08-28 19:50:59 +0300
 
 categories:
   - news

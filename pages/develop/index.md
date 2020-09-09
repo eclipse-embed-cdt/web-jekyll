@@ -6,7 +6,6 @@ summary: Resources for Eclipse plug-ins developers contributing to the project.
 comments: true
 
 date: 2020-08-05 13:14:00 +0300
-last_updated: 2020-08-28 19:38:57 +0300
 
 ---
 

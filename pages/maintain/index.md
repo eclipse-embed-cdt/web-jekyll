@@ -6,7 +6,6 @@ summary: Resources for the projects maintainers.
 comments: false
 
 date: 2020-08-05 13:08:00 +0300
-last_updated: 2020-09-08 18:17:55 +0300
 
 ---
 

@@ -3,7 +3,6 @@ title: The CMSIS Packs manager
 permalink: /plugins/packs-manager/
 
 date: 2015-09-11 21:55:00 +0300
-last_updated: 2020-09-08 18:17:51 +0300
 
 ---
 

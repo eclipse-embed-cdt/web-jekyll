@@ -2,10 +2,8 @@
 layout: page
 permalink: /eclipse/project/portability/
 title: Project portability
-author: Liviu Ionescu
 
 date: 2015-09-11 22:12:00 +0300
-last_updated: 2020-08-28 19:44:59 +0300
 
 ---
 

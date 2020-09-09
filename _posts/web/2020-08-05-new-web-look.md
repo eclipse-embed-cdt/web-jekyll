@@ -2,7 +2,6 @@
 title:  "The Eclipse Embedded CDT project web has a new look!"
 
 date: 2020-08-05 12:47:00 +0300
-last_updated: 2020-08-28 19:39:02 +0300
 
 categories:
   - news

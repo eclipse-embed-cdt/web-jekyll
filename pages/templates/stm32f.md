@@ -3,7 +3,6 @@ title: STM32Fxx templates
 permalink: /templates/stm32f/
 
 date: 2015-09-11 22:27:00 +0300
-last_updated: 2020-08-29 13:46:57 +0300
 
 ---
 

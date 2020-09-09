@@ -5,7 +5,6 @@ permalink: /plugins/install/
 summary: Install a fresh Eclipse with the Embedded CDT plug-ins.
 
 date: 2015-09-11 22:06:00 +0300
-last_updated: 2020-08-29 19:06:07 +0300
 
 ---
 

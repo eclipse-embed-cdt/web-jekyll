@@ -19,6 +19,15 @@ topnav_dropdowns:
         - title: Eclipse Marketplace
           external_url: https://marketplace.eclipse.org/content/eclipse-embedded-cdt/
 
+    - title: Projects
+      folderitems:
+      - title: The xPack Project
+        external_url: https://xpack.github.io
+      - title: µOS++ IIIe
+        external_url: http://micro-os-plus.github.io
+      - title: GNU MCU Eclipse (deprecated)
+        external_url: https://gnu-mcu-eclipse.github.io
+
     - title: GitHub
       folderitems:
         - title: Eclipse Embedded CDT
@@ -29,6 +38,9 @@ topnav_dropdowns:
           external_url: https://github.com/xpack-dev-tools/
         - title: 3rd Party xPacks
           external_url: https://github.com/xpacks/
+        - title: µOS++ IIIe
+          external_url: https://github.com/micro-os-plus/
+
     - title: Forums
       folderitems:
         - title: The Project Forums

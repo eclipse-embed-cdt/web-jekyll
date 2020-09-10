@@ -169,17 +169,3 @@ entries:
     - title: Eclipse Public License 2.0
       output: web
       external_url: https://www.eclipse.org/legal/epl-2.0/
-
-  - title: Back Home
-    output: web
-    folderitems:
-
-    - title: Eclipse Embedded CDT
-      url: /
-      output: web
-    - title: The xPack Project
-      external_url: https://xpack.github.io
-      output: web
-    - title: GNU MCU Eclipse (deprecated)
-      external_url: https://gnu-mcu-eclipse.github.io
-      output: web

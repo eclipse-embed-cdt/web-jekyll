@@ -23,7 +23,8 @@ By design, Eclipse is a collection of features, each refering one or more
 plug-ins; the features are the smallest unit for installing and updating
 plug-ins.
 
-Each feature keeps track of the URL of the update site used to install it (also called _Eclipse p2 repository_).
+Each feature keeps track of the URL of the update site used to install it
+(also called _Eclipse p2 repository_).
 
 When Eclipse is instructed to check for updates, all the p2 repositories are
 checked for newer versions.
@@ -33,7 +34,7 @@ which to update.
 
 ![Available Updates]({{ site.baseurl }}/assets/images/2020/available-updates.png)
 
-The next tep is to review and accept the license:
+The next step is to review and accept the license:
 
 ![Available Updates License]({{ site.baseurl }}/assets/images/2020/available-updates-license.png)
 

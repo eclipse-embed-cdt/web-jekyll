@@ -11,7 +11,7 @@ date: 2015-09-11 21:55:00 +0300
 CMSIS Packs are an Arm/Keil technology, intended to handle distribution of
 software and documentation in Keil MDK. The main difference from usual
 libraries or source archives is that the actual source/object files are
-accompanied by some form of metadata, defining, among other things,
+accompanied by some form of metadata, describing, among other things,
 the registers and peripherals definitions.
 
 These definitions can be used during debug sessions to display the
@@ -24,7 +24,7 @@ The current Arm/Keil packs are intended for Cortex cores only.
 From the metadata present in the CMSIS Packs, only the peripheral
 registers are of interest for Eclipse Embedded CDT users.
 
-{% include note.html content="Initialy it was hoped that CMSIS Packs
+{% include note.html content="Originally it was hoped that CMSIS Packs
 will get wide acceptance, and that xPacks could be build on top of them.
 At the time of this writing, major vendors like ST, still did not join it.
 This, plus the major design issues observed (like the unnecessary high
@@ -110,7 +110,8 @@ When ready, the window will change and show the list of packages:
 
 ![The Packs perspective]({{ site.baseurl }}/assets/images/2014/07/PacksPerspective.png)
 
-The structure of this window is generally in line with usual Eclipse guidelines:
+The structure of this window is generally in line with the usual
+Eclipse guidelines:
 
 - the middle part shows the available packages, and here various actions
   (install/remove/show outline) can be applied

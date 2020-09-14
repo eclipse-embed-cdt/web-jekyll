@@ -44,7 +44,7 @@ window to make the desired device available for selection.
 
 {% include tip.html content="For an even higher flexibility,
 different devices
-can be assigned to different **build configuration**, so it is
+can be assigned to different **build configurations**, so it is
 possible to have different devices for different configurations." %}
 
 One direct consequence is that you need to be careful to associate
@@ -88,8 +88,8 @@ Outline view) will be populated with the files available for the device
 An even better packs integration (planned for the future release), will
 make this setting even more convenient, by starting the projects templates
 with this selection; it is also planned to use this extra data to
-automatically set the build ARM family.
+automatically set the build Arm family.
 
-Accompanying the device there is also a set of definition for the
-memory map, which will be used in a future release to automatically
+For each device there is also a set of memory map definitions, which
+might be used in a future release to automatically
 generate the linker scripts.

@@ -11,12 +11,8 @@ date: 2016-03-03 22:45:00 +0300
 
 ## Motto
 
-{% include callout.html content="_Perfekt ist nicht gut genug._" type="primary" %}
-
-Some time ago, while watching a TV documentary about Porsche, I heard
-this line and I liked it. If this is indeed one of the Porsche mottos,
-then thank you Porsche for it (and for the beautiful designs).
-(English: _"Perfect is not good enough"_)
+{% include callout.html content="_Perfekt ist nicht gut genug._ 
+(English: _Perfect is not good enough_)." type="primary" %}
 
 ## The project
 
@@ -31,7 +27,7 @@ The first fully functional edition of the plug-in (version 0.5.3) was
 announced in March 2009, when the plug-in was practically recreated,
 functionality was extended and more toolchains were supported. The
 Eclipse specifics, like adding a feature project and an update site
-project were also added.
+project were also implemented.
 
 ### Second Edition
 
@@ -58,7 +54,7 @@ providing management support (list/install/uninstall/outline) for CMSIS Packs.
 
 In August 2015 the project was migrated to
 [GitHub](https://github.com/gnuarmeclipse) and restructured as separate
-sub-projects. For a more stability over time, the blog and wiki sites
+sub-projects. For more stability over time, the blog and wiki sites
 hosted on the private livius.net server were migrate to the public
 GitHub Pages.
 
@@ -70,6 +66,21 @@ In September 2019, the project was invited to join the Eclipse Foundation.
 The legal process took some time to complete, and the project was
 rebranded as Eclipse Embedded CDT. In July 2020 the 5.1.1
 release was published on the Eclipse servers.
+
+## Arm Trademarks
+
+According to the [](https://www.arm.com/company/policies/trademarks) page:
+
+{% include callout.html content="From 1 August 2017, Arm has a new look and
+feel. The business has a new corporate logo and it is now using the Arm word
+in sentence case instead of the ARM word in uppercase in text. We ask all of
+Arm’s customers, partners, licensees and any other third parties to use the
+Arm word in sentence case in text in all relevant materials. The only
+exception to this rule will be when using the ARM word in any circumstances,
+where all of the surrounding words also appear in uppercase, e.g. headings." %}
+
+This site was updated to this new requirement, except references in old
+articles, which were kept with the old spelling.
 
 ## Credit
 

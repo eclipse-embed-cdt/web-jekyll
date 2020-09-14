@@ -57,7 +57,7 @@ In the **C++ Project** window:
 
 - in the *Project name:* field enter the name of the new project, for example **blinky**
 - in the *Project type:* section expand the **Executable** type and select **STM32F4xx C/C++ Project**
-- in the *Toolchains:* section select **ARM Cross GCC**
+- in the *Toolchains:* section select **Arm Cross GCC**
 - click the **Next >** button
 
 ![New C++ blinky project]({{ site.baseurl }}/assets/images/2020/new_c_cpp_blinky_project.png)
@@ -83,7 +83,7 @@ configurations checked and click the **Next >** button.
 
 ![Blinky project configurations]({{ site.baseurl }}/assets/images/2015/08/BlinkyConfigurations.png)
 
-In the **Cross GNU ARM Toolchain** window:
+In the **Cross GNU Arm Toolchain** window:
 
 - select the *Toolchain name:* **xPack GNU Arm Embedded GCC** (mandatory)
 - if the xPack was installed via xpm, the path is already filled in; otherwise
@@ -93,7 +93,7 @@ to use the absolute path, it is not stored in the project
 
 ![Blinky toolchain and path selection]({{ site.baseurl }}/assets/images/2015/08/BlinkyToolchain.png)
 
-{% include tip.html content="When selecting the path, be sure you select
+{% include tip.html content="When selecting the path, be sure to select
 the top `/bin` folder
 where the programs with long, prefixed names are stored, and not the inner
 `/bin` folder where the short name programs may be available." %}
@@ -104,7 +104,7 @@ correctly." %}
 
 ![Toolchain path]({{ site.baseurl }}/assets/images/2013/10/HelloToolchainPath.png)
 
-The result of the wizard is a simple project, with a **main()** function printing a greeting on the standard output.
+The result of the wizard is a simple project, with a `main()` function printing a greeting on the standard output.
 
 ![The new C++ project]({{ site.baseurl }}/assets/images/2015/08/BlinkyProject.png)
 
@@ -208,7 +208,8 @@ To cancel it earlier, click the Terminate button (the top red square).
 
 Contrary to usual POSIX environments, like GNU/Linux, embedded systems
 usually do not provide standard input/output devices. In the code generated
-by the template, the output of the printf() calls, including trace_printf(),
+by the template, the output of the `printf()` calls, including
+`trace_printf()`,
 is redirected to a special debugging channel implemented by most debuggers,
 using the semihosting protocol.
 
@@ -242,6 +243,6 @@ Set the toolchain path for all projects and workspaces.
 
 ## Support
 
-If you encountered any problems when installing the plug-ins, pleas refer to
+If you encountered any problems when installing the plug-ins, please refer to
 the [Support]({{ site.baseurl }}/support/) page and **do not** send private
 emails.

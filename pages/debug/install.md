@@ -141,13 +141,14 @@ provides a high performance
 implementation fully compatible with the J-Link Lite, so the J-Link
 plug-in can be successfully used for these evaluation boards without
 having a physical J-Link probe. More details on installing OpenSDA
-can be found on [MCU on Eclipse](http://mcuoneclipse.com/2013/05/16/freedom-board-with-segger-opensda-debug-firmware/).
+can be found on
+[MCU on Eclipse](http://mcuoneclipse.com/2013/05/16/freedom-board-with-segger-opensda-debug-firmware/).
 
 ## Eclipse debugging plug-ins
 
 The debugging plug-ins come together with the other Eclipse Embedded CDT
 plug-ins; if you install the full Eclipse IDE for Embedded C/C++ Developers,
-package, they are includded; if you use an alternate install methid the
+package, they are includded; if you use an alternate install method the
 debug plug-ins should be installed in the same step, detailed in the
 [plug-ins install]{{ site.baseurl }}/plugins/install-alternate/ page.
 

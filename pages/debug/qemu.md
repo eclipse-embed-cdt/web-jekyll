@@ -146,15 +146,19 @@ With all the above steps completed properly, you can start the debug session:
 - select the newly defined **hello** configuration
 - click the bottom **Debug** button
 
-Alternatively, on subsequent runs, you can use the bug specific icon. By default this will start the previously used debug launch configuration; to start a different configuration, use the down arrow button:
+Alternatively, on subsequent runs, you can use the bug specific icon.
+By default this will start the previously used debug launch configuration;
+to start a different configuration, use the down arrow button:
 
 ![The debugger down arrow selection]({{ site.baseurl }}/assets/images/2015/04/DebugDownArrow.png)
 
-If everything is ok, after a few seconds required to start QEMU, you should see something like this:
+If everything is ok, after a few seconds required to start QEMU, you
+should see something like this:
 
 ![The list of supported boards]({{ site.baseurl }}/assets/images/2015/04/QEMU_FirstRun.png)
 
-This happened because by default the *Board name:* field contains a question mark.
+This happened because by default the *Board name:* field contains a
+question mark.
 
 Further configure the debug configuration
 
@@ -166,23 +170,33 @@ Further configure the debug configuration
 
   ![The Debugger tab with the board name filled-in]({{ site.baseurl }}/assets/images/2015/04/HelloDebuggerTabH103.png)
 
-- click the Debug button
+- click the **Debug** button
 
-If everything is ok, after a few seconds required to start the server, to allow it to connect to the target, start the gdb client, download the application and start the debugging session, you should see something like this:
+If everything is ok, after a few seconds required to start the server,
+to allow it to connect to the target, start the gdb client, download the
+application and start the debugging session, you should see something like
+this:
 
 ![The first debug]({{ site.baseurl }}/assets/images/2015/04/HelloFirstDebug.png)
 
-Be sure you enable the Remember my decision check box, otherwise Eclipse will ask this question each and every time you launch this debug configuration. Then click the **Yes** button.
+Be sure you enable the **Remember my decision** check box, otherwise Eclipse
+will ask this question each and every time you launch this debug
+configuration. Then click the **Yes** button.
 
-If everything is ok, after a few seconds required to start QEMUt, start the gdb client, download the application and start the debugging session, you should see something like this:
+If everything is ok, after a few seconds required to start QEMU, start
+the gdb client, download the application and start the debugging session,
+you should see something like this:
 
 ![Breakpoint in main()]({{ site.baseurl }}/assets/images/2015/04/BreakpointInMain.png)
 
-Since the first breakpoint was set in the **Debugger** tab to **main**, the execution stopped right at the beginning of the `main()` function.
+Since the first breakpoint was set in the **Debugger** tab to **main**,
+the execution stopped right at the beginning of the `main()` function.
 
 ## Debug operations
 
-Once the debug session started and execution stopped in the first breakpoint (by default set at the beginning of the `main()` function), you can perform any debug operation you need.
+Once the debug session started and execution stopped in the first
+breakpoint (by default set at the beginning of the `main()` function),
+you can perform any debug operation you need.
 
 The most common operations are:
 
@@ -195,7 +209,8 @@ The most common operations are:
 - inspect processor registers (use the **Registers** view)
 - inspect memory (use the **Memory** view)
 
-For more details please read the [Running and debugging projects](http://help.eclipse.org/luna/index.jsp?topic=%2Forg.eclipse.cdt.doc.user%2Ftasks%2Fcdt_t_debug_prog.htm)
+For more details please read the
+[Running and debugging projects](http://help.eclipse.org/luna/index.jsp?topic=%2Forg.eclipse.cdt.doc.user%2Ftasks%2Fcdt_t_debug_prog.htm)
 section in the Eclipse documentation.
 
 ## View consoles

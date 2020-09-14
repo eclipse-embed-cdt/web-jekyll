@@ -31,9 +31,8 @@ the [J-Link Debug Probes](https://www.segger.com/products/debug-probes/j-link/)
 from [SEGGER](http://www.segger.com/).
 
 {% include note.html content="For educational purposes and hobbyists,
-SEGGER offers the same functionality as the J-Link BASE, but at a
-promotional price as
-[J-Link EDU](http://www.segger.com/j-link-edu.html)." %}
+SEGGER offers [J-Link EDU](http://www.segger.com/j-link-edu.html) at a
+promotional price providing the same functionality as the J-Link BASE." %}
 
 ## Debugging overview
 
@@ -46,7 +45,7 @@ Generally there are two approaches:
 - manually stepping through the code to check the program flow and
 inspect various status variables
 - letting the program run and automatically collect various tracing
-messages (like the traditional printf() calls) and/or execution events
+messages (like the traditional `printf()` calls) and/or execution events
 (enter/exit interrupt handlers, memory location change, etc)
 
 To be noted that these approaches are not exclusive, but complement
@@ -95,7 +94,7 @@ valuable source of information regarding the flow of a complex
 application, with multiple interacting threads, being especially useful
 when the debug sessions are restarted often. Once the trace messages are
 added, the dynamic life of various threads/handlers can be seen with a
-simple view of the trace log. In addition to classical printf() messages
+simple view of the trace log. In addition to classical `printf()` messages
 that need to be manually inserted in the code, for embedded applications,
 modern Arm cores, including those in the Cortex-M families, provide special
 support for collecting hardware events, like accurate timestamps when an
@@ -104,7 +103,7 @@ and more.
 
 Recognising the importance of these methods, the designers of the Arm
 families added special support, like the **SWO** (Serial Wire Output)
-pin in Cortex-M processors, or even more elaborate interfaces for larger
+pin in Cortex-M microcontrollers, or even more elaborate interfaces for larger
 Arm processors.
 
 ## GDB

@@ -119,6 +119,6 @@ but please keep in mind that this old version is no longer maintained.
 
 ## Support
 
-If you encountered any problems when installing the plug-ins, pleas refer to
+If you encountered any problems when installing the plug-ins, please refer to
 the [Support]({{ site.baseurl }}/support/) page and **do not** send private
 emails.

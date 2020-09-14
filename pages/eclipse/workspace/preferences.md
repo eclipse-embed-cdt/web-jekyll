@@ -29,7 +29,7 @@ locations on Windows/Linux (search for the last entry below the
 ## Use active build configuration for indexing
 
 Eclipse CDT has a very powerful indexer, which parses the source code on
-the fly and provides hints, auto-completion help, error reporting, etc
+the fly and provides hints, auto-completion help, error reporting, etc.
 while editing, without having to start the build process. For this
 indexer to be accurate, it must be in sync with the compiler, in terms
 of options and environment. For the indexer to automatically sync when
@@ -46,7 +46,8 @@ to use the active configuration:
 
 ## Editor folding
 
-To better view the entire content of the source files, it is recommended to disable editor folding:
+To better view the entire content of the source files, it is recommended
+to disable editor folding:
 
 - go to the _Eclipse_ menu → **(Window →) Preferences** → **C/++** →
 **Editor** → **Folding**
@@ -61,24 +62,35 @@ the **Header Comments**
 
 ## Code formatter
 
-Eclipse CDT has a very useful feature allowing to automatically reformat a piece of code to comply to a given style. The recommended style is GNU. To set it:
+Eclipse CDT has a very useful feature allowing to automatically reformat a
+piece of code to comply to a given style. The recommended style is GNU,
+but you are free to choose or even design your own style.
+
+To set it:
 
 - go to the _Eclipse_ menu → **(Window →) Preferences** → **C/C++** → **Code Style** → **Formatter**
 - in the **Active profile:** field, select **GNU [built-in]**
 
 ![Preferences Formatter]({{ site.baseurl }}/assets/images/2014/06/PreferencesFormatter1.png)
 
-Except very special company policies, it is generally recommended to NOT change the individual formatter style, and to apply the GNU format to all source files in a project before committing to the repository.
+Except very special company policies, it is generally recommended to
+NOT change the individual formatter style, and to apply the GNU format
+to all source files in a project before committing to the repository.
 
-However, there is one detail that need to be changed, and this is the tab processing policy.
+However, there is one detail that need to be changed, and this is the
+tab processing policy.
 
 For this, click the **Edit...** button.
 
 ![Change the tab policy to use spaces only]({{ site.baseurl }}/assets/images/2014/06/Style_GNU_with_spacs.png)
 
-Change the tab policy to **Spaces only**, and the **indentation** and **tab size** to 2.
+Change the tab policy to **Spaces only**, and the **indentation**
+and **tab size** to 2.
 
-Since these changes were applied to a built in style, it is not possible to save the settings directly, but it is very easy to create a new profile name (for example **GNU with spaces**), and possibly export it for archiving.
+Since these changes were applied to a built in style, it is not
+possible to save the settings directly, but it is very easy to
+create a new profile name (for example **GNU with spaces**), and
+possibly export it for archiving.
 
 When done, click the **OK** button twice.
 
@@ -87,9 +99,12 @@ To reformat a file:
 - select the file in the
 - go to the _Eclipse_ menu → **Source** → **Format**
 
-The same action can be triggered with a right click and a **Source** → **Format** or even easier, with a keyboard shortcut (**cmd+shift+F** on macOS).
+The same action can be triggered with a right click and a
+**Source** → **Format** or even easier, with a keyboard shortcut
+(**cmd+shift+F** on macOS).
 
-To check if the text indeed has spaces and not tabs, enable the **Show Whitespace Characters**:
+To check if the text indeed has spaces and not tabs, enable the
+**Show Whitespace Characters**:
 
 ![Show whitespace characters]({{ site.baseurl }}/assets/images/2014/06/Show_white_spaces.png)
 
@@ -115,9 +130,14 @@ so when installing it the settings should be already applied." %}
 
 ## Save automatically
 
-Sometimes users are very confused to see that after the edit/compile/run cycle nothing changed in the program behaviour, although the editor clearly shows the changes. Usually the main reason is that the file was not actually saved and the build process used the previous version of the file. To automatically save edited files before build,
+Sometimes users are very confused to see that after the edit/compile/run
+cycle nothing changed in the program behaviour, although the editor clearly
+shows the changes. Usually the main reason is that the file was not actually
+saved and the build process used the previous version of the file. To
+automatically save edited files before build,
 
-- go to the _Eclipse_ menu → **(Windows →) Preferences** → **General** → **Workspace** → **Build**
+- go to the _Eclipse_ menu → **(Windows →) Preferences** → **General** →
+**Workspace** → **Build**
 - enable **Save automatically before manual build**
 
 It is also recommended to:
@@ -226,6 +246,8 @@ To change this setting:
 - select **Show the GDB traces console** in the
 **General Behaviour** section.
 
-{% include note.html content="The GDB entry is displayd belod Debug only after the debug plug-ins are initialised, i.e. after starting a debug session." %}
+{% include note.html content="The GDB entry is displayed below Debug only
+after the debug plug-ins are initialised, i.e. after starting a debug
+session." %}
 
 ![Enable Doxygen support]({{ site.baseurl }}/assets/images/2020/preferences-ccpp-debug-gdb.png)

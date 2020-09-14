@@ -105,7 +105,7 @@ only the command line version of the  J-Link GDB server
 
 {% capture macos %}
 
-The macOS download is an macOS package installer, named like
+The macOS download is a macOS package installer, named like
 `JLink_MacOSX_V684.pkg`.
 
 - double click it to start the installation process

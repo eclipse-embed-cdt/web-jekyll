@@ -263,7 +263,7 @@ is restarted.
 
 ![The restart button]({{ site.baseurl }}/assets/images/2013/12/RestartButton.png)
 
-Note: Due to some bugs in Eclipse, the implementation of his
+Note: Due to some bugs in Eclipse, the implementation of this
 simple button has encountered several problems. Depending on
 the version you are using, the first time you click this button
 you might get a message box informing that the button was not
@@ -288,8 +288,8 @@ machine and only then you can start the debugging session.
 
 ### Missing or wrong openocd_path
 
-The first failure to start a debug session is missing to enter
-the OpenOCD path. Without it, the launching sequence will
+The most common failure to start a debug session is a missing or incorrec
+OpenOCD path. Without it, the launching sequence will
 complain *Cannot run program "/openocd"*.
 
 ![Cannot run OpenOCD]({{ site.baseurl }}/assets/images/2013/12/OpenOCDCannotRun.png)

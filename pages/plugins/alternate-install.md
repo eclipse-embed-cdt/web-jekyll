@@ -47,7 +47,7 @@ something like _... requires 'bundle org.eclipse.cdt 9.2.1' but it could
 not be found_), or it will not run properly." %}
 
 As mentioned before, the recommended way is to use a fresh **Eclipse IDE
-for C/C++ Developers** for the cross ARM development projects. Even if you
+for C/C++ Developers** for the cross Arm development projects. Even if you
 did so, but especially if you did not do so, it is a good idea to check
 if you really have the latest version available. For this, enter the
 _Eclipse_ menu and go to **Help** → **Install New Software**
@@ -90,7 +90,7 @@ The classical way to install the Eclipse Embedded CDT plug-ins is to use the Ecl
 
 ![AddRepository]({{ site.baseurl }}/assets/images/2017/add-repository.png)
 
-- normally the main window should list a group named **GNU ARM & RISC-V Cross Development Tools**; expand it
+- normally the main window should list a group named **GNU Arm & RISC-V Cross Development Tools**; expand it
 - (in case the main window will list *There are no categorized items*, you are probably using a very old version; disable the Group items by category option)
 - select all the plug-ins (the one marked *End of life* is needed only for compatibility with previous version, normally can be safely skipped)
 - click the **Next** button and follow the usual installation procedure

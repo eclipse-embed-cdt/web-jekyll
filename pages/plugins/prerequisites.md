@@ -151,7 +151,7 @@ sudo launchctl config user path /Library/Java/JavaVirtualMachines/jdk-{{ page.jd
 sudo reboot
 ```
 
-As shown before, for this configuration to become effective, it is
+As shown above, for this configuration to become effective, it is
 necessary to reboot.
 
 To check if the new path was configured properly:

@@ -34,7 +34,8 @@ GNU embedded toolchains like
 [xPack GNU RISC-V Embedded GCC](https://xpack.github.io/riscv-none-embed-gcc/),
 etc.
 
-[![Arm logo]({{ site.baseurl }}/assets/images/2020/Arm_logo_blue_150MN.png){: class="right-align-image"  style="margin: 10px"}](https://www.arm.com) In short, the Eclipse Embedded CDT plug-ins allow to create, build,
+[![Arm logo]({{ site.baseurl }}/assets/images/2020/Arm_logo_blue_150MN.png){: class="right-align-image"  style="margin: 10px"}](https://www.arm.com)
+In short, the Eclipse Embedded CDT plug-ins allow to create, build,
 debug and in general to **manage Arm & RISC-V projects** (executables
 and static/shared libraries, in both 32 and 64-bit versions) with the
 Eclipse framework (currently tested up to Eclipse 4.16, 2020-06).

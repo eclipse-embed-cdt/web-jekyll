@@ -112,7 +112,7 @@ Tools Paths**) or even per project (**Tools Paths** in the project properties).
 To check if the paths definitions are effective, go to the project
 properties page and identify the `PATH` variable. Be sure the **Origin**
 column reads `BUILD SYSTEM`; if you manually edit it, the Origin will
-change and will read `USER`, but this is totally not recommended,
+change and will read `USER`, but this is strongly not recommended,
 since manually editing the path disables further automated updates of the path.
 
 ![Environment PATH]({{ site.baseurl }}/assets/images/2015/win-properties-c-environment.png)
@@ -148,7 +148,7 @@ in debug, the documentation view in the C/C++ perspective, etc.
 ## Download CMSIS Packs
 
 Simply installing the CMSIS Packs manger is not enough, you need to
-install update the list of available packs and to install the desired ones.
+update the list of available packs and to install the desired ones.
 
 For this follow the steps in the
 [CMSIS Packs manager]({{ site.baseurl }}/plugins/packs-manager/) page.
@@ -158,8 +158,8 @@ For this follow the steps in the
 Before proceeding to create your own projects, it is highly recommended
 to create a test blinky project, and to run it via the QEMU emulator.
 
-This validated that the plug-ins are installed properly, that the toolchain
-available, and the debug plug-ins are available and configured properly.
+This validates that the plug-ins are installed properly, that the toolchain
+is available, and the debug plug-ins are available and configured properly.
 
 Follow the steps in the
 [Create a Blinky Arm test project]({{ site.baseurl }}/tutorials/blinky-arm/)
@@ -167,6 +167,6 @@ page.
 
 ## Support
 
-If you encountered any problems when installing the plug-ins, pleas refer to
+If you encountered any problems when installing the plug-ins, please refer to
 the [Support]({{ site.baseurl }}/support/) page and **do not** send private
 emails.

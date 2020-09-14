@@ -159,7 +159,7 @@ a project-less ELF, leave them as is;
 - the values of the `${jlink_path}` and `${jlink_gdbserver}` can be
 manually edited in the _Eclipse_ menu → **(Window →) Preferences** → **MCU** → **Global SEGGER J-Link Path** configuration
 page (if you do not find this page, upgrade the plug-ins);
-- the **Connect to running target** option allow to start a debug session
+- the **Connect to running target** option allows to start a debug session
 without performing any reset or program download, so that the target will
 continue to run unaffected, until explicitly halted by the debugger
 (Note: this option requires the latest plug-in and SEGGER versions);
@@ -173,7 +173,7 @@ the CPU frequency and the desired SWO sampling frequency; for this to
 work with J-Link, the SWO sampling frequency must be a submultiple of
 6MHz (6000000, 3000000, 2000000, 1500000, 1000000, etc) and the CPU
 frequency must be a multiple of the SWO sampling frequency (these
-apparently very complicated requirements end up as a pre-scaler
+apparently complicated requirements end up as a pre-scaler
 value in an Arm register);
 - for most applications running from flash, leave the
 **Pre-run reset and halt** enabled, this will issue a new reset
@@ -299,18 +299,19 @@ view, or using the right button, as shown above.
 ## The Restart button
 
 Apparently not a big deal, but quite useful for repeated debug sessions,
-*the Restart button** can be used at any time during a debug session,
+**the Restart button** can be used at any time during a debug session,
 and the result is that a reset is dispatched to the target board via
 the JTAG/SWD interface and the debug session is restarted.
 
 ![The restart button]({{ site.baseurl }}/assets/images/2013/12/RestartButton.png)
 
-Note: Due to some bugs in Eclipse, the implementation of his simple
+{% include note.html content="Due to some bugs in Eclipse, the implementation
+of this simple
 button has encountered several problems. Depending on the version you
 are using, the first time you click this button you might get a message
 box informing that the button was not enabled. Ignore this message,
 close the message box and click the button again, this time it'll
-be effective.
+be effective." %}
 
 ## Using a remote GDB server
 
@@ -380,7 +381,7 @@ to the GDB server, in this case the J-Link GDB server.
 
 ### Missing or wrong jlink_path
 
-The first failure to start a debug session is missing to enter the
+The most common failure to start a debug session is a missing or incorrect
 J-Link path. Without it, the launching sequence will complain
 *Cannot run program "/JLinkGDBServer"*.
 
@@ -393,7 +394,7 @@ start properly.
 
 If the devices that you selected in the plug-in does not match the
 device physically connected, the GDB server session fails and the
-entire debug session is cancelled. You can identify this case by
+entire debug session is aborted. You can identify this case by
 studying the GDB server log.
 
 ![Wrong device]({{ site.baseurl }}/assets/images/2013/12/WrongDevice.png)
@@ -424,7 +425,7 @@ create the debug configuration, be sure you follow the above suggestions
 (select .elf, **Debug Configurations**, double click on
 **GDB SEGGER J-Link Debugging**. Another reason is presented below.
 
-### Using a different build plug-in or not supported compiler
+### Using a different build plug-in or a compiler not supported
 
 Another reason for not being able to start the debug session is that
 your project was not build with the Eclipse Embedded CDT managed build

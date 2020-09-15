@@ -3,6 +3,7 @@ title: Maintainer info
 permalink: /maintain/
 
 summary: Resources for the projects maintainers.
+
 comments: false
 
 date: 2020-08-05 13:08:00 +0300

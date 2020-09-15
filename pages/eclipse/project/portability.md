@@ -1,5 +1,4 @@
 ---
-layout: page
 permalink: /eclipse/project/portability/
 title: Project portability
 

@@ -1,5 +1,4 @@
 ---
-layout: page
 permalink: /eclipse/project/assign-device/
 title: Associate a device to the project
 

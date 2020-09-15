@@ -1,5 +1,4 @@
 ---
-layout: page
 permalink: /eclipse/workspace/preferences/
 title: Workspace preferences
 

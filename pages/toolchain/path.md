@@ -2,6 +2,8 @@
 title: Toolchain path management
 permalink: /toolchain/path/
 
+comments: true
+
 date: 2015-09-11 23:00:00 +0300
 
 ---

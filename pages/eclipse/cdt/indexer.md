@@ -2,6 +2,8 @@
 title: The CDT Indexer
 permalink: /eclipse/cdt/indexer/
 
+comments: true
+
 date: 2020-08-28 13:41:00 +0300
 
 ---

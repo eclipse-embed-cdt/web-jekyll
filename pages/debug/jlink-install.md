@@ -3,6 +3,7 @@ title: How to install the SEGGER J-Link
 permalink: /debug/jlink/install/
 
 toc: false
+comments: true
 
 date: 2015-09-11 20:50:00 +0300
 

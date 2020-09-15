@@ -2,6 +2,8 @@
 title: Templates
 permalink: /templates/
 
+comments: true
+
 date: 2015-09-11 22:35:00 +0300
 
 ---

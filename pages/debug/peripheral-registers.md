@@ -2,6 +2,8 @@
 title: The Peripherals Registers view
 permalink: /debug/peripheral-registers/
 
+comments: true
+
 date: 2015-09-11 22:00:00 +0300
 
 ---

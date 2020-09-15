@@ -2,6 +2,8 @@
 title: How to use the managed build plug-ins
 permalink: /plugins/mbs/
 
+comments: true
+
 date: 2015-09-11 23:07:00 +0300
 
 ---

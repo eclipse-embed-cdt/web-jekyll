@@ -4,6 +4,8 @@ permalink: /plugins/install/
 
 summary: Install a fresh Eclipse with the Embedded CDT plug-ins.
 
+comments: true
+
 date: 2015-09-11 22:06:00 +0300
 
 ---

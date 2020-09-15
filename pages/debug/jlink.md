@@ -2,6 +2,8 @@
 title: The J-Link debugging Eclipse plug-in
 permalink: /debug/jlink/
 
+comments: true
+
 date: 2015-09-11 21:15:00 +0300
 
 ---

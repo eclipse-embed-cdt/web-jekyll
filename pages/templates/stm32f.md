@@ -2,6 +2,8 @@
 title: STM32Fxx templates
 permalink: /templates/stm32f/
 
+comments: true
+
 date: 2015-09-11 22:27:00 +0300
 
 ---

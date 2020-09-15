@@ -2,6 +2,8 @@
 title: The OpenOCD debugging Eclipse plug-in
 permalink: /debug/openocd/
 
+comments: true
+
 date: 2015-09-11 21:41:00 +0300
 
 ---

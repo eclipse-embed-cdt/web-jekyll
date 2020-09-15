@@ -3,6 +3,8 @@ layout: page
 permalink: /eclipse/project/portability/
 title: Project portability
 
+comments: true
+
 date: 2015-09-11 22:12:00 +0300
 
 ---

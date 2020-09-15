@@ -2,6 +2,8 @@
 title: KLxx template
 permalink: /templates/klxx/
 
+comments: true
+
 date: 2015-09-11 21:29:00 +0300
 
 ---

@@ -4,6 +4,8 @@ permalink: /plugins/install-alternate/
 
 summary: Other ways to install the Embedded CDT plug-ins on an existing Eclipse.
 
+comments: true
+
 date: 2020-08-18 21:04:00 +0300
 
 ---

@@ -2,6 +2,8 @@
 title: Generic Cortex-M template
 permalink: /templates/cortexm/
 
+comments: true
+
 date: 2015-09-11 19:44:00 +0300
 
 ---

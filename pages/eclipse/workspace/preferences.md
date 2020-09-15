@@ -5,6 +5,8 @@ title: Workspace preferences
 
 summary: Settings to consider for your workspace
 
+comments: true
+
 date: 2015-09-11 23:16:00 +0300
 
 ---

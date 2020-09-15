@@ -2,6 +2,8 @@
 title: The CMSIS Packs manager
 permalink: /plugins/packs-manager/
 
+comments: true
+
 date: 2015-09-11 21:55:00 +0300
 
 ---

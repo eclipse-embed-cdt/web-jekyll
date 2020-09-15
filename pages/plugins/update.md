@@ -4,6 +4,8 @@ permalink: /plugins/update/
 
 summary: Update the plug-ins installed on an Eclipse instance.
 
+comments: true
+
 date: 2020-08-17 18:33:00 +0300
 
 ---

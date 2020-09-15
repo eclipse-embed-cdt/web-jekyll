@@ -2,6 +2,8 @@
 title: OpenOCD configurations for RISC-V
 permalink: /debug/openocd/riscv/
 
+comments: true
+
 date: 2017-10-31 21:11:00 +0300
 
 ---

@@ -2,6 +2,8 @@
 title: Debugging
 permalink: /debug/
 
+comments: true
+
 date: 2015-09-11 19:59:00 +0300
 
 ---

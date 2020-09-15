@@ -4,6 +4,8 @@ permalink: /plugins/install-new-software/
 
 summary: Add optional features to an existing Eclipse.
 
+comments: true
+
 date: 2020-09-03 19:24:00 +0300
 
 ---

@@ -2,7 +2,6 @@
 title: Eclipse Embedded CDT Features
 permalink: /plugins/features/
 
-toc: true
 comments: true
 
 date: 2015-09-10 19:59:00 +0300

@@ -4,7 +4,6 @@ permalink: /plugins/prerequisites/
 
 summary: "Install Java 11, xpm, toolchains and debugging tools."
 
-toc: true
 comments: true
 
 keywords:

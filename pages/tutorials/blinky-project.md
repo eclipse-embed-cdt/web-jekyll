@@ -147,7 +147,7 @@ install the **STM32F4xx_DFP** package, as explained in the
 {% include tip.html content="Be sure you really install the **STM32F4xx_DFP**
 package. Simply updating the list of packages is not enough, you need to
 navigate the **Keil** group, select the STM32F4xx_DFP package and install it,
-otherwise the boad will not show in the next step." %}
+otherwise the board will not show in the next step." %}
 
 To assign the board and device:
 

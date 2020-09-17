@@ -50,11 +50,12 @@ The generated project has the following structure:
 
 ### Associate a device to the project
 
-Future releases of the wizard will this automatically but for now it is
+Future releases of the wizard might do this automatically but for now it is
 recommended to do it manually.
 
-For more details, please visit the
-[separate page]({{ site.baseurl }}/eclipse/project/assign-device/).
+For more details, please visit the separate
+[Associate a device to the project]({{ site.baseurl }}/eclipse/project/assign-device/)
+page.
 
 ![Assign a device to the project]({{ site.baseurl }}/assets/images/2013/10/Devices.png)
 

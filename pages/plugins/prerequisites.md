@@ -14,7 +14,8 @@ keywords:
   - jdk
   - xpm
 
-jdk: 14
+jdk_major: 15
+jdk_minor_patch: 
 
 date: 2017-10-09 14:14:00 +0300
 
@@ -64,7 +65,7 @@ The recommended package is the latest version from the official
 [Oracle **OpenJDK** page](https://openjdk.java.net).
 
 Follow the **Download** link in the Oracle page, which currently points to
-[jdk.java.net/{{ page.jdk }}](https://jdk.java.net/{{ page.jdk }}).
+[jdk.java.net/{{ page.jdk_major }}](https://jdk.java.net/{{ page.jdk_major }}).
 {% endcapture %}
 
 {% capture windows %}
@@ -73,7 +74,7 @@ Current Windows distributions do not include Java.
 
 {{ openjdk }}
 
-In the **Builds** section, download the **Windows/x64** .zip file.
+In the **Builds** section, download the **Windows/x64** `.zip` file.
 
 Create a new folder
 
@@ -81,13 +82,13 @@ Create a new folder
 mkdir %APPDATA%\Oracle
 ```
 
-And extract the archive content into `...\AppData\Roaming\Oracle\jdk-{{ page.jdk }}.0.1`.
+And extract the archive content into `...\AppData\Roaming\Oracle\jdk-{{ page.jdk_major }}{{ page.jdk_minor_patch }}`.
 
 To set the path, in a cmd.exe terminal, issue the following:
 
 ```plain
-set Path=%APPDATA%\Oracle\jdk-{{ page.jdk }}.0.1\bin;%Path%
-setx Path "%APPDATA%\Oracle\jdk-{{ page.jdk }}.0.1\bin;%Path%"
+set Path=%APPDATA%\Oracle\jdk-{{ page.jdk_major }}{{ page.jdk_minor_patch }}\bin;%Path%
+setx Path "%APPDATA%\Oracle\jdk-{{ page.jdk_major }}{{ page.jdk_minor_patch }}\bin;%Path%"
 ```
 
 Check version:
@@ -111,9 +112,9 @@ In the **Builds** section, download the **macOS/x64** .tar.gz file.
 
 ```bash
 cd ~/Downloads
-xattr -d com.apple.quarantine openjdk-{{ page.jdk }}.*_osx-x64_bin.tar.gz
-tar xf openjdk-{{ page.jdk }}.*_osx-x64_bin.tar.gz
-sudo mv jdk-{{ page.jdk }}.*.jdk/ /Library/Java/JavaVirtualMachines/
+xattr -d com.apple.quarantine openjdk-{{ page.jdk_major }}{{ page.jdk_minor_patch }}_osx-x64_bin.tar.gz
+tar xf openjdk-{{ page.jdk_major }}{{ page.jdk_minor_patch }}_osx-x64_bin.tar.gz
+sudo mv jdk-{{ page.jdk_major }}{{ page.jdk_minor_patch }}.jdk/ /Library/Java/JavaVirtualMachines/
 ```
 
 Check version:
@@ -147,7 +148,7 @@ if you want to override this mechanism and use a different version, try
 to configure the user path via `launchctl`:
 
 ```bash
-sudo launchctl config user path /Library/Java/JavaVirtualMachines/jdk-{{ page.jdk }}.0.1.jdk/Contents/Home/bin/:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+sudo launchctl config user path /Library/Java/JavaVirtualMachines/jdk-{{ page.jdk_major }}{{ page.jdk_minor_patch }}.jdk/Contents/Home/bin/:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 sudo reboot
 ```
 
@@ -165,7 +166,7 @@ applications. For shell usage, it is necessary to also set the PATH
 environment variable in the shell startup files (like `.zprofile`):
 
 ```bash
-export PATH=/Library/Java/JavaVirtualMachines/jdk-{{ page.jdk }}.0.1.jdk/Contents/Home/bin/:${PATH}
+export PATH=/Library/Java/JavaVirtualMachines/jdk-{{ page.jdk_major }}{{ page.jdk_minor_patch }}.jdk/Contents/Home/bin/:${PATH}
 ```
 
 {% endcapture %}
@@ -186,13 +187,13 @@ install it via the package manager.
 For example on Ubuntu:
 
 ```bash
-sudo apt install --yes openjdk-{{ page.jdk }}-jdk
+sudo apt install --yes openjdk-{{ page.jdk_major }}-jdk
 ```
 
 Or on CentOS:
 
 ```bash
-sudo yum -y install java-{{ page.jdk }}-openjdk
+sudo yum -y install java-{{ page.jdk_major }}-openjdk
 ```
 
 Check your system for the available package names and versions.
@@ -206,13 +207,13 @@ In the **Builds** section, download the **Linux/x64** .tar.gz file.
 ```bash
 mkdir -p ${HOME}/opt
 cd ${HOME}/opt
-tar xf ~/Downloads/openjdk-{{ page.jdk }}.0.1_linux-x64_bin.tar.gz
+tar xf ~/Downloads/openjdk-{{ page.jdk_major }}{{ page.jdk_minor_patch }}_linux-x64_bin.tar.gz
 ```
 
 Then add the location to the user PATH:
 
 ```bash
-export PATH=${HOME}/opt/jdk-{{ page.jdk }}.0.1/bin/:${PATH}
+export PATH=${HOME}/opt/jdk-{{ page.jdk_major }}{{ page.jdk_minor_patch }}/bin/:${PATH}
 ```
 
 Check version:
@@ -239,7 +240,7 @@ option is placed before `-vmargs`, which should be the last one:
 --launcher.defaultAction
 openFile
 -vm
-/home/ilg/opt/jdk-14.0.1/bin/
+/home/ilg/opt/jdk-{{ page.jdk_major }}{{ page.jdk_minor_patch }}/bin/
 -vmargs
 -Dosgi.requiredJavaVersion=11
 -XX:MaxPermSize=256m

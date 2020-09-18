@@ -2,6 +2,8 @@
 title: The CMSIS Packs manager
 permalink: /plugins/packs-manager/
 
+summary: A plug-in to manage the Arm/Keil CMSIS Packs.
+
 comments: true
 
 date: 2015-09-11 21:55:00 +0300

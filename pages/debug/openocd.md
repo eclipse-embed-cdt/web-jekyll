@@ -1,6 +1,8 @@
 ---
-title: The OpenOCD debugging Eclipse plug-in
+title: The OpenOCD debugging plug-in
 permalink: /debug/openocd/
+
+summary: How to run Eclipse debug sessions using OpenOCD.
 
 comments: true
 

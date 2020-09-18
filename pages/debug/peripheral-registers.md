@@ -2,6 +2,8 @@
 title: The Peripherals Registers view
 permalink: /debug/peripheral-registers/
 
+summary: How to use the CMSIS Packs SVD files to view the peripheral registers during debug sessions.
+
 comments: true
 
 date: 2015-09-11 22:00:00 +0300

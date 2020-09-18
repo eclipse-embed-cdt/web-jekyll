@@ -2,7 +2,7 @@
 permalink: /eclipse/workspace/preferences/
 title: Workspace preferences
 
-summary: Settings to consider for your workspace
+summary: Settings to consider for your workspace.
 
 comments: true
 

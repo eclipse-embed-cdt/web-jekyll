@@ -2,6 +2,8 @@
 title: OpenOCD configurations for RISC-V
 permalink: /debug/openocd/riscv/
 
+summary: How to run Eclipse debug sessions using OpenOCD with RISC-V devices.
+
 comments: true
 
 date: 2017-10-31 21:11:00 +0300

@@ -1,6 +1,8 @@
 ---
-title: The J-Link debugging Eclipse plug-in
+title: The SEGGER J-Link debugging plug-in
 permalink: /debug/jlink/
+
+summary: How to run Eclipse debug sessions using the SEGGER J-Link.
 
 comments: true
 

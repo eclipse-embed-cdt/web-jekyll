@@ -2,6 +2,8 @@
 title: How to get support
 permalink: /support/
 
+summary: Where to search for help when something goes wrong.
+
 comments: true
 
 date: 2020-08-05 13:34:00 +0300

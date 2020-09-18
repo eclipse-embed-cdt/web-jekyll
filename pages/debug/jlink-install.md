@@ -2,6 +2,8 @@
 title: How to install the SEGGER J-Link
 permalink: /debug/jlink/install/
 
+summary: Why to choose J-Link and how to install it.
+
 toc: false
 comments: true
 

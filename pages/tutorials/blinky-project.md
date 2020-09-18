@@ -2,6 +2,8 @@
 title: 'Tutorial: Create a Blinky Arm test project'
 permalink: /tutorials/blinky-arm/
 
+summary: A complete example, from build to debug.
+
 comments: true
 
 date: 2015-09-11 19:25:00 +0300

@@ -2,6 +2,8 @@
 title: Troubleshooting Eclipse Embedded CDT install
 permalink: /plugins/troubleshoot/
 
+summary: Some common mistakes made during install and how to avoid them.
+
 comments: true
 
 keywords:

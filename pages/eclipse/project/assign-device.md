@@ -2,6 +2,8 @@
 permalink: /eclipse/project/assign-device/
 title: Associate a device to the project
 
+summary: Automate debug sessions by assigning a CMSIS Packs device/board to the project.
+
 comments: true
 
 date: 2015-09-11 19:00:00 +0300

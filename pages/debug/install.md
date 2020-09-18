@@ -2,6 +2,8 @@
 title: How to install the debugging components
 permalink: /debug/install/
 
+summary: Links to specific J-Link, OpenOCD and QEMU install pages.
+
 comments: true
 
 date: 2015-09-11 19:55:00 +0300

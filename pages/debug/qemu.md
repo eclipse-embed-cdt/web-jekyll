@@ -1,6 +1,8 @@
 ---
-title: The QEMU debugging Eclipse plug-in
+title: The QEMU debugging plug-in
 permalink: /debug/qemu/
+
+summary: How to run Eclipse debug sessions using QEMU Arm.
 
 comments: true
 

@@ -2,6 +2,8 @@
 title: Eclipse Embedded CDT Features
 permalink: /plugins/features/
 
+summary: The list of main project features and benefits.
+
 comments: true
 
 date: 2015-09-10 19:59:00 +0300

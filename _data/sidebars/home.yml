@@ -90,7 +90,7 @@ entries:
 
     - title: The Managed Build System
       output: web
-      url: /plugins/managed-build/
+      url: /eclipse/cdt/managed-build/
     - title: The CDT Indexer
       output: web
       url: /eclipse/cdt/indexer/

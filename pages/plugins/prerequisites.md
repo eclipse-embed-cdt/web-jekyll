@@ -204,10 +204,9 @@ However, if you cannot find at least JDK 11, install the Oracle OpenJDK.
 In the **Builds** section, download the **Linux/x64** .tar.gz file.
 
 ```bash
-cd ~/Downloads
-tar xf openjdk-{{ page.jdk }}.0.1_linux-x64_bin.tar.gz
 mkdir -p ${HOME}/opt
-sudo mv jdk-{{ page.jdk }}.0.1/ ${HOME}/opt/
+cd ${HOME}/opt
+tar xf ~/Downloads/openjdk-{{ page.jdk }}.0.1_linux-x64_bin.tar.gz
 ```
 
 Then add the location to the user PATH:
@@ -231,6 +230,22 @@ sourced from one of the files in `/etc/X11/Xsession.d/`.
 
 It is possible to install multiple versions on the same system, and chose
 which one to use by controlling the PATH.
+
+It is also possible to edit [eclipse.ini](https://wiki.eclipse.org/Eclipse.ini)
+and add a `-vm` option pointing to the Java bin path; be sure this
+option is placed before `-vmargs`, which should be the last one:
+
+```
+--launcher.defaultAction
+openFile
+-vm
+/home/ilg/opt/jdk-14.0.1/bin/
+-vmargs
+-Dosgi.requiredJavaVersion=11
+-XX:MaxPermSize=256m
+-Xms256m
+-Xmx2048m
+```
 
 {% endcapture %}
 

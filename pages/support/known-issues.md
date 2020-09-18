@@ -23,6 +23,26 @@ content (this is a CDT bug, not a plug-in bug).
 
 ## Annoying bugs
 
+### The Qt plug-ins fail to start with Java 15
+
+Java 15 removed support for JavaScript, and the Qt plug-ins no longer start,
+throwing a message box:
+
+> An internal error occurred during: "Load QML Analyzer".
+> Cannot invoke "javax.script.ScriptEngine.getContext()" because "this.engine" is null 
+
+If you need the Qt plug-ins, the workaround is to downgrade to Java 14.
+
+Otherwise, to get rid of the message box, it is possible to uninstall the
+Qt plugins:
+
+- go to the _Eclipse_ menu → **(Window →) About Eclipse IDE**
+- click the **Installation Details** button
+- click the **Installed Software** tab
+- select the **C/C++ Qt Support** feature
+- click the **Uninstall** button
+- click **Finish**
+
 ### Build fails after rename
 
 Due to a problem buried deep into Eclipse, in certain conditions,

@@ -252,6 +252,9 @@ openFile
 
 {% include platform-tabs.html %}
 
+{% include warning.html content="The Qt plug-ins do not start
+with Java 15; for more details please see the Known Issues page." %}
+
 ## Alternate Java distributions
 
 For those who prefer alternate solutions, the second recommendation

@@ -11,12 +11,15 @@ date: 2020-08-15 18:18:00 +0300
 
 ---
 
-{% capture question_0 %}
-Warum?
+{% capture question_25 %}
+An internal error occurred during: "Load QML Analyzer"
 {% endcapture %}
 
-{% capture answer_0 %}
-Darum.
+{% capture answer_25 %}
+This error during startup is caused by the Qt plug-ins not running
+with Java 15; for more details please see the
+[Known Issues]({{ site.baseurl }}/support/known-issues/)
+page.
 {% endcapture %}
 
 {% capture question_1 %}
@@ -436,6 +439,7 @@ for automated integration in a test suite.
 {% endcapture %}
 
 {% include div-panel-group.html %}
+{% include faq-panel.html id="collapse-25" question=question_25 answer=answer_25 %}
 {% include faq-panel.html id="collapse-1" question=question_1 answer=answer_1 %}
 {% include faq-panel.html id="collapse-2" question=question_2 answer=answer_2 %}
 {% include faq-panel.html id="collapse-3" question=question_3 answer=answer_3 %}

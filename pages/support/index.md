@@ -23,7 +23,8 @@ consider the following:
 
 - read carefully the documentation pages
 - check the release pages for **Known issues**
-- check the **FAQ** pages
+- check the [Known issues]({{ site.baseurl }}/support/known-issues/) pages
+- check the [FAQ]({{ site.baseurl }}/support/faq/) pages
 - check the [forums](https://www.tapatalk.com/groups/xpack/) for
   discussions on similar subjects
 - check the [GitHub Issues](https://github.com/eclipse-embed-cdt/eclipse-plugins/issues) trackers

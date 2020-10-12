@@ -11,6 +11,25 @@ date: 2020-08-15 18:18:00 +0300
 
 ---
 
+{% capture question_26 %}
+How to add folders to the build?
+{% endcapture %}
+
+{% capture answer_26 %}
+
+The CDT managed build plug-ins can be configured to search for
+source files in any project folders.
+
+Project Properties → C/C++ General → Path and Symbols → Source Locations
+
+Similarly any header folders can be added to the build:
+
+Project Properties → C/C++ General → Path and Symbols → Includes
+
+{% include faq-panel.html id="collapse-25" question=question_25 answer=answer_25 %}
+
+{% endcapture %}
+
 {% capture question_25 %}
 An internal error occurred during: "Load QML Analyzer"
 {% endcapture %}
@@ -439,6 +458,7 @@ for automated integration in a test suite.
 {% endcapture %}
 
 {% include div-panel-group.html %}
+{% include faq-panel.html id="collapse-26" question=question_26 answer=answer_26 %}
 {% include faq-panel.html id="collapse-25" question=question_25 answer=answer_25 %}
 {% include faq-panel.html id="collapse-1" question=question_1 answer=answer_1 %}
 {% include faq-panel.html id="collapse-2" question=question_2 answer=answer_2 %}

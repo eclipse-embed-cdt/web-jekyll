@@ -98,7 +98,7 @@ entries:
       output: web
       url: /eclipse/cdt/hardware-debug/
 
-  - title: Templates
+  - title: Project Templates
     output: web
     folderitems:
 

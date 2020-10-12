@@ -1,5 +1,5 @@
 ---
-title: Templates
+title: Project Templates
 permalink: /templates/
 
 summary: The C/C++ project templates.

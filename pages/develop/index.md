@@ -12,7 +12,10 @@ date: 2020-08-05 13:14:00 +0300
 
 ## Developer
 
-- TODO
+The developer pages will be migrated/updated in a next iteration.
+
+For the moment use the [old pages](https://gnu-mcu-eclipse.github.io/developer/)
+which are mostly outdated, but better than nothing.
 
 ## Other resources
 

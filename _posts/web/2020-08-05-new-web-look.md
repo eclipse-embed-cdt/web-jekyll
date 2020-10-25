@@ -22,7 +22,8 @@ available from
 
 The site continues to use [GitHub Pages](https://pages.github.com),
 which is the GitHub solution for providing documentation sites to hosted
-projects
+projects, but, for more flexibility, the conversion from markdown to html
+is performed by a CI job.
 
 ## Jekyll & markdown
 
@@ -33,15 +34,18 @@ sites, and the most convenient input format for Jekyll is
 The new site uses the standard GitHub setup, which automatically runs
 the Jekyll generator; thus an external build step is no longer needed.
 
-## Content migration
+## Old GNU MCU Eclipse web
 
-The initial location of the new site was the `web-preview.git` project.
+The old [gnu-mcu-eclipse.github.io](https://gnu-mcu-eclipse.github.io/)
+site now automatically redirects most of its pages to the new site.
 
-Content from the old site was migrated to the new site, with updates.
+## Preview web
 
-Switching fom the external builder to GitHub required some changes:
+The new setup also includes a preview site, where new content can be
+tested without disturbing the main site.
 
-- there is no automatic detection of last modified date, so
-  the `last_updated:` was added to posts
-- the `kramdown` markdown parser does not have the `autolink` option, so
-  links must be explicit
+The preview site URL is
+[https://eclipse-embed-cdt.github.io/web-preview/](https://eclipse-embed-cdt.github.io/web-preview/).
+
+The CI job automatically publishes all pushes to the `develop` branch onto
+the preview site; pushes to `master` are published onto the main site.

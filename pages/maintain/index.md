@@ -10,6 +10,13 @@ date: 2020-08-05 13:08:00 +0300
 
 ---
 
+## How to make releases
+
+The checklist used to make releases is available in the plug-ins source
+repository, as the
+[README-MAINTAINER](https://github.com/eclipse-embed-cdt/eclipse-plugins/blob/develop/README-MAINTAINER.md)
+file.
+
 ## Issues
 
 - [eclipse-plugins](https://github.com/eclipse-embed-cdt/eclipse-plugins/)

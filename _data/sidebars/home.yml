@@ -142,7 +142,7 @@ entries:
     - title: FAQ
       url: /support/faq/
       output: web
-    - title: Known issues
+    - title: Known Issues
       url: /support/known-issues/
       output: web
     - title: The Project Forums

@@ -1,5 +1,5 @@
 ---
-title:  Project migrated to Eclipse Foundation
+title:  Plug-ins releases migrated to Eclipse Foundation
 download_url: https://projects.eclipse.org/projects/iot.embed-cdt/governance
 
 date:   2020-07-28 16:52:00 +0300

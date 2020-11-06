@@ -59,6 +59,13 @@ process.
 As per `_config.yml`, the default timezone is UTC. For other timezones,
 set it explicitly as offset (for example +0300)
 
+## Credits
+
+The theme is written by Tom Johnson, and is available from GitHub:
+
+- https://github.com/tomjoht/documentation-theme-jekyll
+- https://idratherbewriting.com/documentation-theme-jekyll/
+
 ## Contributing
 
 Contributions are welcomed!

@@ -182,10 +182,13 @@ schemas will not be available so attempts to add new elements to the
 extensions will not be possible, and only 'Generic' elements will be
 offered." %}
 
-### Install base API
+### Install base API CDT 10.0.0
+
+{% include note.html content="Since 6.0.0; previous releases were based on
+CDT 9.2.1." %}
 
 - go to [CDT download](http://www.eclipse.org/cdt/downloads.php) page,
-  and download `cdt-10.0.0.1.zip`
+  and download `cdt-10.0.0.zip`
   (for compatibility with Eclipse 2020-09)
 - unpack the archive
 - move the new `cdt-10.0.0` folder into the `develop` folder
@@ -194,7 +197,7 @@ offered." %}
   - click the **Add...** button
   - select **Nothing: Start with an empty target**
   - Next
-    - Enter name: `2020-09`
+    - Enter name: `cdt-10.0.0`
     - click **Add...** → **Directory** → **Next >**
     - click **Browse...** → `cdt-10.0.0`
     - click the **Finish** button
@@ -210,8 +213,8 @@ Debug, without it the core plug-ins will not be available.
   → **API Baselines**
   - click the **Add Baseline...** button
   - select **A target platform**
-    - Enter name: `2020-09`
-    - enable `2020-09`
+    - Enter name: `cdt-10.0.0`
+    - enable `cdt-10.0.0`
     - click the **Refresh** button
     - click the **Finish** button
 - click **Apply and Close**
@@ -290,6 +293,8 @@ xattr -dr com.apple.quarantine Eclipse.app
   - disable the **.* resources** line
   - click the **OK** button
 
+Enable the **Plug-in development** prspective ans switch to it.
+
 ## Clone the repositories
 
 On Unix systems, the recommended method is using a command line:
@@ -321,25 +326,6 @@ In the commiters Eclipse, import projects using the generic importer:
   - disable **Copy projects into workspace**
   - disable **Add project(s) to working set**
   - click **Finish**
-
-## Configure the working sets
-
-In the Java Perspective:
-
-- dots icon → **Top Level Elements** → **Working Sets**
-- dots icon → **Select Working Sets...** → **New...**
-  - **Embed CDT plugins root** (with the `embed-cdt-plugins` project)
-  - **Embed CDT repository** (with the `org.eclipse.embedcdt-repository`
-    project)
-  - **Embed CDT features** (with all `*.feature` projects)
-  - **Embed CDT plugins** (with all plug-ins projects)
-  - click the **OK** button
-
-To edit the ets later:
-
-- dots icon → **Configure Working Sets...**
-- select the set
-- click the **Edit** button
 
 ## Create the Maven run configurations
 

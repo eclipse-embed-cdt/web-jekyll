@@ -95,7 +95,7 @@ browse for the `bin` folder within the toolchain folder; don't be afraid
 to use the absolute path, it is not stored in the project
 - click the **Finish** button
 
-![Blinky toolchain and path selection]({{ site.baseurl }}/assets/images/2015/08/BlinkyToolchain.png)
+![Blinky toolchain and path selection]({{ site.baseurl }}/assets/images/2020/blinky-toolchain.png)
 
 {% include tip.html content="When selecting the path, be sure to select
 the top `/bin` folder
@@ -144,6 +144,12 @@ to the project, using the packs definitions. If you did not do it before,
 install the **STM32F4xx_DFP** package, as explained in the
 [Packs Manager]({{ site.baseurl }}/plugins/packs-manager/) page.
 
+{% include warning.html content="Do **not** use STM32F4xx_DFP version
+2.15.0 or higher,
+since it uses a new definition of the STM32F4-Discovery board, with
+STM32F407VGTx, which is not yes supported.
+For now stick to 2.14.0." %}
+
 ![BlinkyInstallPack]({{ site.baseurl }}/assets/images/2020/packs_filter_stm32f4.png)
 
 {% include tip.html content="Be sure you really install the **STM32F4xx_DFP**
@@ -162,6 +168,12 @@ To assign the board and device:
 - expand **STM32F4-Discovery**
 - select **STM32F407VG**
 - click **OK**
+
+{% include important.html content="If you do not see STM32F407VG but
+STM32F407VGTx, you are using a newer, yet unsupported version of the
+STM32F4xx_DFP package. If you insist, you can still use this version,
+but you have to select STM32F407VG below devices, and later enter
+board name manually in the debugger configuration." %}
 
 ![BlinkyAssignDevice]({{ site.baseurl }}/assets/images/2015/08/BlinkyAssignDevice.png)
 
@@ -182,6 +194,11 @@ select **Debug Configurations**
 without assigning the board and device to the project, these fields must
 be filled in manually;
 - enable **Extra verbose**
+
+{% include tip.html content="If the board was not selected when
+assigning the device to the project, enter **STM32F4-Discovery**
+in the **Board name:** field." %}
+
 
 ![The QEMU Debugger tab]({{ site.baseurl }}/assets/images/2015/08/BlinkyQEMUDebuggerTab.png)
 

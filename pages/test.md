@@ -76,15 +76,15 @@ Right aligned:
 
 ## Special sections
 
-{% include note.html content="Lorem ipsum dolor sit amet, no quo doming labore doctus, eum commune rationibus at." %}
+{% include note.html content="Blue. Lorem ipsum dolor sit amet, no quo doming labore doctus, eum commune rationibus at." %}
 
-{% include tip.html content="Lorem ipsum dolor sit amet, no quo doming labore doctus, eum commune rationibus at." %}
+{% include tip.html content="Green. Lorem ipsum dolor sit amet, no quo doming labore doctus, eum commune rationibus at." %}
 
-{% include warning.html content="Lorem ipsum dolor sit amet, no quo doming labore doctus, eum commune rationibus at." %}
+{% include warning.html content="Red. Lorem ipsum dolor sit amet, no quo doming labore doctus, eum commune rationibus at." %}
 
 {% include important.html content="Lorem ipsum dolor sit amet, no quo doming labore doctus, eum commune rationibus at." %}
 
-{% include callout.html content="Lorem ipsum dolor sit amet, no quo doming labore doctus, eum commune rationibus at." %}
+{% include callout.html content="Yellow. Lorem ipsum dolor sit amet, no quo doming labore doctus, eum commune rationibus at." %}
 
 ## Platform Menus
 

@@ -33,6 +33,8 @@ To generate a local site and start a local server:
 bundle exec jekyll serve --baseurl "" --destination _site_local --trace --draft
 ```
 
+Add ` --force_polling` to the above if Jekyll is not detecting changes to files while serve is running.
+
 ## Quick copy/paste
 
 Other useful commands:

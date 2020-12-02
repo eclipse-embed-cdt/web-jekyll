@@ -28,7 +28,7 @@ site_title: Eclipse Embedded CDT
 company_name: Eclipse
 
 # This appears in the copyright notice in the footer.
-copyright_holder: Liviu Ionescu
+copyright_holder: Liviu Ionescu and others
 
 # If you're using Github, provide the basepath to the branch you've
 # created for reviews, following the sample here. if not, leave this

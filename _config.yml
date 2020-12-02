@@ -19,11 +19,11 @@ repository: eclipse-embed-cdt/web-jekyll
 output: web
 
 # This appears on the top navigation bar next to the home button.
-topnav_title: Eclipse Embedded CDT
+topnav_title: Eclipse Embedded CDT (C/C++ Development Tools)™
 
 # This appears in the html browser tab for the site title (seen mostly
 # by search engines, not users).
-site_title: Eclipse Embedded CDT
+site_title: Eclipse Embedded CDT  (C/C++ Development Tools)™
 
 company_name: Eclipse
 

@@ -1,14 +1,16 @@
 <footer>
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-4">
                   <a href="http://www.eclipse.org/">Eclipse Foundation</a><br/>
                   <a href="http://www.eclipse.org/legal/privacy.php">Privacy Policy</a><br/>
                   <a href="http://www.eclipse.org/legal/termsofuse.php">Website terms of use</a><br/>
                   <a href="http://www.eclipse.org/legal/copyright.php">Copyright Agent</a><br/>
                   <a href="http://www.eclipse.org/legal">Legal</a><br/>
                 </div>
-                <div class="col-lg-6 footer">
-                  <a href="https://projects.eclipse.org/projects/iot.embed-cdt/"><img src="{{ site.baseurl }}/assets/images/2020/ef-small.png" alt="EF logo" ></a> <br />
+                <div class="col-lg-4 footer-center">
+                  <a href="https://projects.eclipse.org/projects/iot.embed-cdt/"><img src="{{ site.baseurl }}/assets/images/2020/ef-small.png" alt="EF logo" ></a>
+                </div>
+                <div class="col-lg-4 footer">
                   &copy;{{ site.time | date: "%Y"  }} {{ site.copyright_holder }}. All rights reserved. <br />
                   {% if page.last_modified_at %}<span>Page last updated:</span> {{ page.last_modified_at | date: "%b %-d, %Y" }}<br/>{% endif %} Site last generated: {{ site.time | date: "%b %-d, %Y"  }} <br />
                 </div>

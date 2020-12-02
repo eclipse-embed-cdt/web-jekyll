@@ -48,7 +48,7 @@ host: localhost
 # The port where the preview is rendered. You can leave this as is
 # unless you have other Jekyll builds using this same port that
 # might cause conflicts. in that case, use another port such as 4006.
-port: 4002
+port: 4001
 
 # These are the files and directories that jekyll will exclude from the build.
 exclude:

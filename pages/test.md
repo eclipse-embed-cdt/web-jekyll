@@ -82,9 +82,9 @@ Right aligned:
 
 {% include warning.html content="Red. Lorem ipsum dolor sit amet, no quo doming labore doctus, eum commune rationibus at." %}
 
-{% include important.html content="Lorem ipsum dolor sit amet, no quo doming labore doctus, eum commune rationibus at." %}
+{% include important.html content="Yellow. Lorem ipsum dolor sit amet, no quo doming labore doctus, eum commune rationibus at." %}
 
-{% include callout.html content="Yellow. Lorem ipsum dolor sit amet, no quo doming labore doctus, eum commune rationibus at." %}
+{% include callout.html content="White. Lorem ipsum dolor sit amet, no quo doming labore doctus, eum commune rationibus at." %}
 
 ## Platform Menus
 

@@ -19,16 +19,16 @@ repository: eclipse-embed-cdt/web-jekyll
 output: web
 
 # This appears on the top navigation bar next to the home button.
-topnav_title: Eclipse Embedded CDT
+topnav_title: Eclipse Embedded CDT (C/C++ Development Tools)™
 
 # This appears in the html browser tab for the site title (seen mostly
 # by search engines, not users).
-site_title: Eclipse Embedded CDT
+site_title: Eclipse Embedded CDT  (C/C++ Development Tools)™
 
 company_name: Eclipse
 
 # This appears in the copyright notice in the footer.
-copyright_holder: Liviu Ionescu
+copyright_holder: Liviu Ionescu and others
 
 # If you're using Github, provide the basepath to the branch you've
 # created for reviews, following the sample here. if not, leave this
@@ -48,7 +48,7 @@ host: localhost
 # The port where the preview is rendered. You can leave this as is
 # unless you have other Jekyll builds using this same port that
 # might cause conflicts. in that case, use another port such as 4006.
-port: 4002
+port: 4001
 
 # These are the files and directories that jekyll will exclude from the build.
 exclude:

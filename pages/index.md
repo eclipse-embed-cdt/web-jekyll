@@ -23,8 +23,7 @@ date: 2020-08-05 11:58:00 +0300
 **Eclipse Embedded CDT** is an open source project that includes a family
 of Eclipse plug-ins and tools for multi-platform embedded cross (Arm and RISC-V)
 development, based on GNU toolchains. The project is now part of the
-[Eclipse Foundation](https://projects.eclipse.org/projects/iot.embed-cdt/)
-(currently in _incubation_),
+[Eclipse Foundation](https://projects.eclipse.org/projects/iot.embed-cdt/),
 and is hosted on
 [GitHub](https://github.com/eclipse-embed-cdt).
 
@@ -40,7 +39,7 @@ etc.
 In short, the Eclipse Embedded CDT plug-ins allow to create, build,
 debug and in general to **manage Arm & RISC-V projects** (executables
 and static/shared libraries, in both 32 and 64-bit versions) with the
-Eclipse framework (currently tested up to Eclipse 4.16, 2020-06).
+Eclipse framework (currently tested up to Eclipse 4.18, 2020-12).
 The plug-ins run on Windows, macOS and GNU/Linux. For more details
 please visit the [Features]({{ site.baseurl }}/plugins/features/) page.
 

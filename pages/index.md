@@ -41,7 +41,7 @@ debug and in general to **manage Arm & RISC-V projects** (executables
 and static/shared libraries, in both 32 and 64-bit versions) with the
 Eclipse framework (currently tested up to Eclipse 4.18, 2020-12).
 The plug-ins run on Windows, macOS and GNU/Linux. For more details
-please visit the [Features]({{ site.baseurl }}/plugins/features/) page.
+please visit the [features]({{ site.baseurl }}/plugins/features/) page.
 
 ![Create new STM32F4 C++ project]({{ site.baseurl }}/assets/images/2015/intro-new-f4-project.png)
 

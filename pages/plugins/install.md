@@ -14,10 +14,14 @@ date: 2015-09-11 22:06:00 +0300
 
 If you know what this is all about:
 
-- satisfy the [Prerequisites]({{ site.baseurl }}/plugins/prerequisites/)
+- satisfy the [prerequisites]({{ site.baseurl }}/plugins/prerequisites/)
 - go to the
-[Downloads](https://projects.eclipse.org/projects/iot.embed-cdt/downloads/)
+[downloads](https://projects.eclipse.org/projects/iot.embed-cdt/downloads/)
 page on the Eclipse server and download the latest package for your platform
+
+{% include note.html content="Starting with 2020-12, the package is also
+listed in the main Eclipse
+[download packages](https://www.eclipse.org/downloads/packages/) page." %}
 
 ## Overview
 
@@ -52,9 +56,9 @@ the risk of incompatible plug-ins.
 ## Download the Eclipse IDE for Embedded C/C++ Developers package
 
 To get the **Eclipse IDE for Embedded C/C++ Developers** package, go to the
-Eclipse [Downloads](https://projects.eclipse.org/projects/iot.embed-cdt/downloads/)
+pproject [downloads](https://projects.eclipse.org/projects/iot.embed-cdt/downloads/)
 page and select the correct binary for your platform (Windows, macOS or
-Intel GNU/Linux).
+GNU/Linux).
 
 ![Eclipse EPP]({{ site.baseurl }}/assets/images/2020/embed-cdt-downloads.png)
 
@@ -79,10 +83,11 @@ security checks on recent macOS will prevent it to run. The fix is
 simple, you need to remove the `com.apple.quarantine` extended attribute.
 
 ```
-xattr -d com.apple.quarantine eclipse-embedcdt-*-macosx.cocoa.x86_64.tar.gz
+xattr -d com.apple.quarantine eclipse-embedcdt-*-macosx-cocoa-x86_64.tar.gz
 ```
 
-After un-archiving, if the Eclipse.app still does not run, check/remove the attribute from the Eclipse.app folder too:
+After un-archiving, if the Eclipse.app still does not run, check/remove
+the attribute from the Eclipse.app folder too:
 
 ```console
 xattr -dr com.apple.quarantine Eclipse.app

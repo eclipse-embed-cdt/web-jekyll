@@ -25,6 +25,7 @@ file.
 
 ## Links
 
+- [web preview](https://eclipse-embed-cdt.github.io/web-preview/)
 - [Eclipse Jenkins](https://ci.eclipse.org/embed-cdt/)
 - [Eclipse Analytics](https://dev.eclipse.org/committers/committertools/stats.php?filename=embed-cdt)
 

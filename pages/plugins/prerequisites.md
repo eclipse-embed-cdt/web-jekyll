@@ -29,6 +29,10 @@ The main prerequisite to run the Eclipse Embedded CDT is Java.
 Generally Java is not available by default on most platforms, and requires
 a separate installation.
 
+{% include tip.html content="Some recent Eclipse packages may
+be standalone and already include a Java JRE; in this case
+is is no longer necessary to install a separate Java." %}
+
 ### Other tools
 
 Here is a list of other tools/packages that need to be installed **before**
@@ -37,7 +41,7 @@ starting Eclipse.
 {% include tip.html content="If you already started Eclipse, close it,
 install these tools, and reopen Eclipse." %}
 
-- **node/npmxpm** - although not mandatory, but highly recommended, the
+- **node/npm/xpm** - although not mandatory, but highly recommended, the
 second prerequisite is **xpm** (the xPack Package Manager), which is
 a **Node.js** portable application;
 - **Windows Build Tools** - to build projects, on Windows it is necessary
@@ -342,9 +346,12 @@ All recent Eclipses are 64-bit and require 64-bit platforms; using older
 32-bit systems is still possible with older Eclipse versions, but is
 discouraged.
 
-### Eclipse Neon and later
+### Eclipse Neon and up to Eclipse 2020-09
 
-The Embedded CDT plug-ins are based on the API defined in CDT 9.2.1, which
+Starting with version 6.0.0, the Embedded CDT plug-ins are based on
+the API defined in CDT 10.0.0 and require at least Eclipse 2020-09.
+
+The previous releases, up to 5.2.1, were based on CDT 9.2.1, which
 was published with [Eclipse 4.6 Neon](https://www.eclipse.org/neon/), released
 in 2016.
 

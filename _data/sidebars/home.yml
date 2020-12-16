@@ -43,9 +43,6 @@ entries:
     - title: Troubleshoot
       output: web
       url: /plugins/troubleshoot/
-    - title: About
-      output: web
-      url: /about/
 
   - title: Debug
     output: web
@@ -115,23 +112,6 @@ entries:
       output: web
       url: /templates/cortexm/
 
-  - title: News
-    output: web
-    folderitems:
-    - title: Latest News
-      url: /news/
-      output: web
-    - title: Archive
-      url: /news/archive/
-      output: web
-    - title: Tags
-      url: /tags/
-      output: web
-    - title: Articles
-      url: /articles/
-      output: web
-
-
   - title: Support
     output: web
     folderitems:
@@ -167,14 +147,15 @@ entries:
     - title: Overview
       url: /maintain/
       output: web
-    - title: Old Releases
-      url: /plugins/releases/
-      output: web
 
-  - title: License
+  - title: Project
     output: web
     folderitems:
 
-    - title: Eclipse Public License 2.0
+    - title: Releases
+      url: /plugins/releases/
       output: web
-      external_url: https://www.eclipse.org/legal/epl-2.0/
+    - title: About
+      output: web
+      url: /about/
+

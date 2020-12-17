@@ -36,7 +36,11 @@ echo "env..."
 env | sort
 
 ruby --version
-bundler --version
+
+run_verbose gem install bundler:2.0.1
+run_verbose bundler install
+
+run_verbose htmlproofer --version
 
 
 # -----------------------------------------------------------------------------

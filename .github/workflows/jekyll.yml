@@ -1,0 +1,21 @@
+name: Jekyll site CI
+
+on:
+  push:
+    branches: [ master, develop ]
+  pull_request:
+    branches: [ master, develop ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-ruby@v1
+      with:
+        # Version range or exact version of a Ruby version to use, using semvers version range syntax.
+        # https://www.ruby-lang.org/en/downloads/releases/
+        ruby-version: '2.6' 
+    - run: ruby hello.rb    

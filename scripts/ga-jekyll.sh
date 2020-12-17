@@ -35,7 +35,7 @@ slug="${GITHUB_WORKSPACE}"
 dest_folder="${HOME}/out/${GITHUB_DEST_REPO}"
 site_folder="${dest_folder}/docs"
 
-if [ "${TRAVIS_BRANCH}" == "master" ]
+if [ "${GITHUB_REF}" == "refs/heads/master" ]
 then
   baseurl=""
   github_dest_repo="${GITHUB_DEST_REPO}"

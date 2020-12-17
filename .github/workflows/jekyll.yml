@@ -44,7 +44,7 @@ jobs:
         env | sort
     - name: Run script to build site
       env: 
-        super_secret: ${{ secrets.BABURIBA }}
+        super_secret: ${{ secrets.BABU }}
       run: bash scripts/ga-jekyll.sh
 
 

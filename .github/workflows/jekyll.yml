@@ -29,7 +29,8 @@ jobs:
         gem install bundler:2.0.1
         bundle config path vendor/bundle
         bundle install --jobs 4 --retry 3
-        htmlproofer --version
+        ls -l vendor/bundle
+        vendor/bundle/htmlproofer --version
     - run: |
         pwd
         env | sort

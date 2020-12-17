@@ -42,3 +42,7 @@ jobs:
       run: |
         pwd
         env | sort
+    - name: Run script to build site
+      run: bash scripts/ga-jekyll.sh
+
+

@@ -120,7 +120,7 @@ run_verbose git commit -m "Jekyll CI Deploy of ${commit_message} ${GITHUB_SHA}"
 
 # git status
 
-echo "${{ secrets.BABURIBA }}"
+echo "${BABU}"
 echo "Deploy to GitHub pages..."
 
 # Must be quiet and have no output, to not reveal the key.

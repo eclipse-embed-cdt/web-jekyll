@@ -24,10 +24,10 @@ Eclipse packages, which pack together the
 
 ## Download
 
-- Windows [64-bit](https://www.eclipse.org/downloads/download.php?file=/embed-cdt/packages/2020-09/eclipse-embedcdt-2020-09-R-win32.win32.x86_64.zip) ([sha](https://www.eclipse.org/downloads/download.php?file=/embed-cdt/packages/2020-09/eclipse-embedcdt-2020-09-R-win32.win32.x86_64.zip.sha))
-- macOS [64-bit](https://www.eclipse.org/downloads/download.php?file=/embed-cdt/packages/2020-09/eclipse-embedcdt-2020-09-R-macosx.cocoa.x86_64.tar.gz) ([sha]( https://www.eclipse.org/downloads/download.php?file=/embed-cdt/packages/2020-09/eclipse-embedcdt-2020-09-R-macosx.cocoa.x86_64.tar.gz.sha))
-- Intel Linux [64-bit](https://www.eclipse.org/downloads/download.php?file=/embed-cdt/packages/2020-09/eclipse-embedcdt-2020-09-R-linux.gtk.x86_64.tar.gz) ([sha](https://www.eclipse.org/downloads/download.php?file=/embed-cdt/packages/2020-09/eclipse-embedcdt-2020-09-R-linux.gtk.x86_64.tar.gz.sha))
-- Arm Linux [64-bit](https://www.eclipse.org/downloads/download.php?file=/embed-cdt/packages/2020-09/eclipse-embedcdt-2020-09-R-linux.gtk.aarch64.tar.gz) ([sha](https://www.eclipse.org/downloads/download.php?file=/embed-cdt/packages/2020-09/eclipse-embedcdt-2020-09-R-linux.gtk.aarch64.tar.gz.sha)) <-- NEW! Runs on Raspberry Pi OS 64-bit
+- Windows x86_64 [zip](https://www.eclipse.org/downloads/download.php?file=/embed-cdt/packages/2020-09/eclipse-embedcdt-2020-09-R-win32.win32.x86_64.zip) ([sha](https://www.eclipse.org/downloads/download.php?file=/embed-cdt/packages/2020-09/eclipse-embedcdt-2020-09-R-win32.win32.x86_64.zip.sha))
+- macOS x86_64 [tar.gz](https://www.eclipse.org/downloads/download.php?file=/embed-cdt/packages/2020-09/eclipse-embedcdt-2020-09-R-macosx.cocoa.x86_64.tar.gz) ([sha]( https://www.eclipse.org/downloads/download.php?file=/embed-cdt/packages/2020-09/eclipse-embedcdt-2020-09-R-macosx.cocoa.x86_64.tar.gz.sha))
+- Linux x86_64 [tar.gz](https://www.eclipse.org/downloads/download.php?file=/embed-cdt/packages/2020-09/eclipse-embedcdt-2020-09-R-linux.gtk.x86_64.tar.gz) ([sha](https://www.eclipse.org/downloads/download.php?file=/embed-cdt/packages/2020-09/eclipse-embedcdt-2020-09-R-linux.gtk.x86_64.tar.gz.sha))
+- Linux AArch64 [tar.gz](https://www.eclipse.org/downloads/download.php?file=/embed-cdt/packages/2020-09/eclipse-embedcdt-2020-09-R-linux.gtk.aarch64.tar.gz) ([sha](https://www.eclipse.org/downloads/download.php?file=/embed-cdt/packages/2020-09/eclipse-embedcdt-2020-09-R-linux.gtk.aarch64.tar.gz.sha)) <-- NEW! Runs on Raspberry Pi OS 64-bit
 
 ## macOS security notice
 

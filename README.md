@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/eclipse-embed-cdt/web-jekyll.svg)](https://travis-ci.org/eclipse-embed-cdt/web-jekyll)
+[![Jekyll site CI](https://github.com/eclipse-embed-cdt/web-jekyll/workflows/Jekyll%20site%20CI/badge.svg)](https://github.com/eclipse-embed-cdt/web-jekyll/actions?query=workflow%3A%22Jekyll+site+CI%22)
 
 # The Eclipse Embedded CDT web site - Jekyll sources
 

@@ -18,4 +18,4 @@ jobs:
         # Version range or exact version of a Ruby version to use, using semvers version range syntax.
         # https://www.ruby-lang.org/en/downloads/releases/
         ruby-version: '2.6' 
-    - run: ruby hello.rb    
+    - run: bash scripts/ga-jekyll.sh

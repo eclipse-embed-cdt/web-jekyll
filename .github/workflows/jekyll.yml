@@ -11,6 +11,13 @@ jobs:
 
     runs-on: ubuntu-18.04
 
+    env:
+      GITHUB_DEST_REPO: "eclipse-embed-cdt/eclipse-embed-cdt.github.io"
+      GITHUB_PREVIEW_REPO: "eclipse-embed-cdt/web-preview"
+      GIT_COMMIT_USER_EMAIL: "ilg@livius.net"
+      GIT_COMMIT_USER_NAME: "Jekyll site CI"
+      NOKOGIRI_USE_SYSTEM_LIBRARIES: true
+
     steps:
     - uses: actions/checkout@v2
     - uses: actions/setup-ruby@v1
@@ -30,8 +37,8 @@ jobs:
         bundle config path vendor/bundle
         bundle install --jobs 4 --retry 3
         ls -l vendor/bundle
-        # vendor/bundle/htmlproofer --version
         bundle exec htmlproofer --version
-    - run: |
+    - name: Show environment
+      run: |
         pwd
         env | sort

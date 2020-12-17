@@ -43,7 +43,8 @@ jobs:
         pwd
         env | sort
     - name: Run script to build site
-      env: "${{ secrets.BABURIBA }}"
+      env: 
+        super_secret: ${{ secrets.BABURIBA }}
       run: bash scripts/ga-jekyll.sh
 
 

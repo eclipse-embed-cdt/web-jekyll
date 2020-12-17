@@ -31,7 +31,7 @@ function run_verbose()
 
 # -----------------------------------------------------------------------------
 
-slug="${TRAVIS_BUILD_DIR}"
+slug="${GITHUB_WORKSPACE}"
 dest_folder="${HOME}/out/${GITHUB_DEST_REPO}"
 site_folder="${dest_folder}/docs"
 

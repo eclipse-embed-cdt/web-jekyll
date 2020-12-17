@@ -152,8 +152,14 @@ entries:
     output: web
     folderitems:
 
-    - title: Releases
+    - title: Plug-ins Releases
       url: /plugins/releases/
+      output: web
+    - title: Packages Releases
+      url: /packages/releases/
+      output: web
+    - title: License (EPL-2)
+      external_url: https://www.eclipse.org/legal/epl-2.0/
       output: web
     - title: About
       output: web

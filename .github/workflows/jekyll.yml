@@ -18,4 +18,18 @@ jobs:
         # Version range or exact version of a Ruby version to use, using semvers version range syntax.
         # https://www.ruby-lang.org/en/downloads/releases/
         ruby-version: '2.6' 
-    - run: bash scripts/ga-jekyll.sh
+    - uses: actions/cache@v2
+      with:
+        path: vendor/bundle
+        key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-gems-
+    - name: Bundle install
+      run: |
+        gem install bundler:2.0.1
+        bundle config path vendor/bundle
+        bundle install --jobs 4 --retry 3
+        htmlproofer --version
+    - run: |
+        pwd
+        env | sort

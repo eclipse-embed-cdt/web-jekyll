@@ -5,28 +5,42 @@
 topnav:
 - title: Topnav
   items:
-    - title: News
-      url: /news
 
 #Topnav dropdowns
 topnav_dropdowns:
 - title: Topnav dropdowns
   folders:
+    - title: News
+      folderitems:
+        - title: Latest News
+          url: /news/
+        - title: Archive
+          url: /news/archive/
+        - title: Plug-ins Releases
+          url: /plugins/releases/
+        - title: Packages Releases
+          url: /packages/releases/
+        - title: Tags
+          url: /tags/
+        - title: Articles
+          url: /articles/
+
     - title: Links
       folderitems:
+        - title: The Project Forums
+          external_url: https://www.tapatalk.com/groups/xpack/
+        - title: The Project Chat Room
+          external_url: https://gitter.im/xpack/
         - title: Eclipse Project
           external_url: https://projects.eclipse.org/projects/iot.embed-cdt/
         - title: Eclipse Marketplace
           external_url: https://marketplace.eclipse.org/content/eclipse-embedded-cdt/
-
-    - title: Projects
-      folderitems:
-      - title: The xPack Project
-        external_url: https://xpack.github.io
-      - title: µOS++ IIIe
-        external_url: http://micro-os-plus.github.io
-      - title: GNU MCU Eclipse (deprecated)
-        external_url: https://gnu-mcu-eclipse.github.io
+        - title: The xPack Project
+          external_url: https://xpack.github.io
+        - title: µOS++ IIIe
+          external_url: http://micro-os-plus.github.io
+        - title: GNU MCU Eclipse (deprecated)
+          external_url: https://gnu-mcu-eclipse.github.io
 
     - title: GitHub
       folderitems:
@@ -40,12 +54,3 @@ topnav_dropdowns:
           external_url: https://github.com/xpacks/
         - title: µOS++ IIIe
           external_url: https://github.com/micro-os-plus/
-
-    - title: Forums
-      folderitems:
-        - title: The Project Forums
-          external_url: https://www.tapatalk.com/groups/xpack/
-        - title: The Project Chat Room
-          external_url: https://gitter.im/xpack/
-
-

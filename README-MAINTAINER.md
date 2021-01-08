@@ -35,6 +35,8 @@ To test locally, install:
 - [Ruby](https://www.ruby-lang.org/en/)
 - [Bundler](https://bundler.io)
 
+*Note:* the version of bundler included with Ubuntu by default is too old, download and install Ruby and Bundler and do a per-user install.
+
 The Ruby plug-ins are listed in the Gemfile and can be automatically installed
 by with `bundle install`.
 

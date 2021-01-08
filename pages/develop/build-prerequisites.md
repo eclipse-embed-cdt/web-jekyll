@@ -182,39 +182,21 @@ schemas will not be available so attempts to add new elements to the
 extensions will not be possible, and only 'Generic' elements will be
 offered." %}
 
-### Install base API CDT 10.0.0
+### Install baseline API
 
-{% include note.html content="Since 6.0.0; previous releases were based on
-CDT 9.2.1." %}
+The API baseline checks that modifications made to the code maintain API compatibility
+with previous versions of Embedded CDT according to the rules and guidelines set out in
+[Semantic Versioning Rules](https://wiki.eclipse.org/Version_Numbering) and
+[Eclipse API Central](https://wiki.eclipse.org/Eclipse/API_Central).
 
-- go to [CDT download](http://www.eclipse.org/cdt/downloads.php) page,
-  and download `cdt-10.0.0.zip`
-  (for compatibility with Eclipse 2020-09)
-- unpack the archive
-- move the new `cdt-10.0.0` folder into the `develop` folder
-- in the _Eclipse_ menu → **(Window →) Preferences** → **Plug-in Development**
-  → **Target Platform**
-  - click the **Add...** button
-  - select **Nothing: Start with an empty target**
-  - Next
-    - Enter name: `cdt-10.0.0`
-    - click **Add...** → **Directory** → **Next >**
-    - click **Browse...** → `cdt-10.0.0`
-    - click the **Finish** button
-  - click the **Reload** button
-  - click the **Finish**
-- enable only the **Running Platform as Active** (mandatory!)
-- click **Apply and Close**
-
-Selecting the running platform is required when starting Eclipse to Run or
-Debug, without it the core plug-ins will not be available.
-
+- Ensure that `target-platform/org.eclipse.embedcdt.baseline.target` is a file in
+  your workspace (in the `embed-cdt-plugins` project)
 - in the _Eclipse_ menu → **(Window →) Preferences** → **Plug-in Development**
   → **API Baselines**
   - click the **Add Baseline...** button
   - select **A target platform**
-    - Enter name: `cdt-10.0.0`
-    - enable `cdt-10.0.0`
+    - Enter name: `baseline` (The name is a convenience label only)
+    - enable `embedcdt-baseline`
     - click the **Refresh** button
     - click the **Finish** button
 - click **Apply and Close**

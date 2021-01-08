@@ -20,6 +20,10 @@ Text _italic_ text.
 
 Text `code` text.
 
+Text ~~strikethrough~~ text.
+
+## Lists
+
 A list:
 
 - one
@@ -49,6 +53,7 @@ More text.
 Code line 1
 Code line 2
 ```
+
 More text.
 
     Code line 3
@@ -89,7 +94,9 @@ Right aligned:
 ## Platform Menus
 
 {% capture manual_install %}
+
 ## Manual install
+
 {% endcapture %}
 
 {% capture windows %}

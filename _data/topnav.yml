@@ -31,13 +31,15 @@ topnav_dropdowns:
           external_url: https://www.tapatalk.com/groups/xpack/
         - title: The Project Chat Room
           external_url: https://gitter.im/xpack/
-        - title: Eclipse Project
+        - title: Eclipse
+          external_url: https://www.eclipse.org
+        - title: Eclipse Embedded CDT Project
           external_url: https://projects.eclipse.org/projects/iot.embed-cdt/
         - title: Eclipse Marketplace
           external_url: https://marketplace.eclipse.org/content/eclipse-embedded-cdt/
         - title: The xPack Project
           external_url: https://xpack.github.io
-        - title: µOS++ IIIe
+        - title: µOS++
           external_url: http://micro-os-plus.github.io
         - title: GNU MCU Eclipse (deprecated)
           external_url: https://gnu-mcu-eclipse.github.io
@@ -52,5 +54,5 @@ topnav_dropdowns:
           external_url: https://github.com/xpack-dev-tools/
         - title: 3rd Party xPacks
           external_url: https://github.com/xpacks/
-        - title: µOS++ IIIe
+        - title: µOS++
           external_url: https://github.com/micro-os-plus/

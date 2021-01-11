@@ -95,7 +95,7 @@ _Eclipse_ menu → **Help** → **Install New Software...**
 - in the *Install* window, click the **Add...** button (on future
   updates, select the URL in the **Work with:** combo)
 - fill in *Name:* with **Eclipse Embedded CDT**
-- fill in *Location:* with **https://download.eclipse.org/embed-cdt/updates/neon/**
+- fill in *Location:* with **https://download.eclipse.org/embed-cdt/updates/v6/**
 - click the **OK** button
 
 ![AddRepository]({{ site.baseurl }}/assets/images/2017/add-repository.png)

@@ -39,14 +39,15 @@ using the **Manage...** button, or from the preferences pages.
 
 ![Work With]({{ site.baseurl }}/assets/images/2020/manage-available-software-sites.png)
 
-## Install beta test versions
+## Install release candidates
 
 Before each release, the new Eclipse Embedded CDT plug-ins are available
 for beta testing from a separate p2 repository:
 
-- `https://download.eclipse.org/embed-cdt/updates/neon-test/`
+- `https://download.eclipse.org/embed-cdt/updates/v6-test/`
 
-To use this p2 repository, click the **Add...** button and add the URL. Name it **Eclipse Embedded CDT test**.
+To use this p2 repository, click the **Add...** button and add the URL.
+Name it **Eclipse Embedded CDT test**.
 
 Usually the test plug-ins should be safe, but use them with caution.
 

@@ -8,21 +8,17 @@ categories:
   - plugins
 
 tags:
-  - gnu
-  - arm
   - eclipse
-  - sourceforge
-  - oracle
-  - jdk
 
 ---
 
 In certain conditions, updating the Eclipse Embedded CDT plug-ins v6.0.0
-may fail to update the CodeRed feature.
+may fail to update the CodeRed plug-ins.
 
 ## Problem
 
 The issue was identified as a configuration error in the CodeRed feature
+configuration
 ([#484](https://github.com/eclipse-embed-cdt/eclipse-plugins/issues/484)).
 
 ## Solution

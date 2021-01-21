@@ -23,7 +23,7 @@ may fail to update the CodeRed feature.
 ## Problem
 
 The issue was identified as a configuration error in the CodeRed feature
-((#484)[https://github.com/eclipse-embed-cdt/eclipse-plugins/issues/484]).
+([#484](https://github.com/eclipse-embed-cdt/eclipse-plugins/issues/484)).
 
 ## Solution
 

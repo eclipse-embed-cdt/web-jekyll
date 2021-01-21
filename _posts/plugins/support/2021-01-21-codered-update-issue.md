@@ -1,7 +1,7 @@
 ---
 title:  'Embedded CDT plug-ins v6.0.0: CodeRed update failure'
 
-date:   2017-01-29 11:33:00 +0200
+date:   2021-01-21 09:47:00 +0200
 
 categories:
   - support

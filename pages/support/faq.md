@@ -11,26 +11,32 @@ date: 2020-08-15 18:18:00 +0300
 
 ---
 
+{% comment %}
+
+Use the following with copy/paste to contribute new entries.
+Then be sure you update the index and add a new include line.
+
 {% capture question_N %}
-Why updating CodeRed fails?
+Warum?
 {% endcapture %}
 
 {% capture answer_N %}
+Darum.
+{% endcapture %}
+
+{% endcomment %}
+
+{% capture question_27 %}
+Why updating CodeRed fails?
+{% endcapture %}
+
+{% capture answer_27 %}
 The v6.0.0 version of the clipse Embedded CDT plug-ins had an error in the
 CodeRed configuration; the error was corrected in v6.1.1.
 
 For existing Eclipses, in case the update fails, the workaround
 is to **Install New Software** from the `updates/v6` URL.
 {% endcapture %}
-
-{% capture question_27 %}
-Question?
-{% endcapture %}
-
-{% capture answer_27 %}
-Answer.
-{% endcapture %}
-
 
 {% capture question_26 %}
 How to add folders to the build?
@@ -508,16 +514,3 @@ for automated integration in a test suite.
 {% include faq-panel.html id="collapse-24" question=question_24 answer=answer_24 %}
 {% include div-end.html %}
 
-{% comment %}
-Use the following with copy/paste to contribute new entries.
-Then be sure you update the index and add a new include line.
-
-{% capture question_0 %}
-Warum?
-{% endcapture %}
-
-{% capture answer_0 %}
-Darum.
-{% endcapture %}
-
-{% endcomment %}

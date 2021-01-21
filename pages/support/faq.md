@@ -12,7 +12,7 @@ date: 2020-08-15 18:18:00 +0300
 ---
 
 {% comment %}
-
+-------------------------------------------------------------------------------
 Use the following with copy/paste to contribute new entries.
 Then be sure you update the index and add a new include line.
 
@@ -23,8 +23,26 @@ Warum?
 {% capture answer_N %}
 Darum.
 {% endcapture %}
-
+-------------------------------------------------------------------------------
 {% endcomment %}
+
+{% capture question_28 %}
+Eclipse not working on latest Raspbian image
+{% endcapture %}
+
+{% capture answer_28 %}
+Raspbian, or rather Raspberry Pi OS as it is called now, is currently
+a 32-bit operating system, and, for compatibility with older boards
+reasons, will remain so for a while.
+
+Eclipse is a 64-bit application compiled for AArch64 Linux systems.
+
+To use Eclipse on a Raspberry Pi, install a 64-bit operating system.
+
+At the time of writing this (Jan 2021) the 64-bit version of Raspberry
+Pi OS does not have an official release, but is functional and Eclipse
+runs, although a bit slow.
+{% endcapture %}
 
 {% capture question_27 %}
 Why updating CodeRed fails?

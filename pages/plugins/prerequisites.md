@@ -316,10 +316,13 @@ by the blinky tutorial; openocd may also be useful to run debug sessions;
 the riscv toolchain is necessary only for RISC-V projects.
 
 ```bash
-xpm install --global @xpack-dev-tools/arm-none-eabi-gcc@latest
-xpm install --global @xpack-dev-tools/qemu-arm@latest
-xpm install --global @xpack-dev-tools/openocd@latest
-xpm install --global @xpack-dev-tools/riscv-none-embed-gcc@latest
+xpm install --global @xpack-dev-tools/arm-none-eabi-gcc@latest --verbose
+xpm install --global @xpack-dev-tools/qemu-arm@latest --verbose
+xpm install --global @xpack-dev-tools/openocd@latest --verbose
+xpm install --global @xpack-dev-tools/riscv-none-embed-gcc@latest --verbose
+xpm install --global @xpack-dev-tools/cmake@latest --verbose
+xpm install --global @xpack-dev-tools/ninja-build@latest --verbose
+xpm install --global @xpack-dev-tools/meson-build@latest --verbose
 ```
 
 All xPacks are installed in a central folder in the user home; check

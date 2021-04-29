@@ -112,6 +112,17 @@ entries:
       output: web
       url: /templates/cortexm/
 
+  - title: Releases
+    output: web
+    folderitems:
+
+    - title: Plug-ins Releases
+      url: /plugins/releases/
+      output: web
+    - title: Packages Releases
+      url: /packages/releases/
+      output: web
+
   - title: Support
     output: web
     folderitems:
@@ -146,17 +157,6 @@ entries:
 
     - title: Overview
       url: /maintain/
-      output: web
-
-  - title: Releases
-    output: web
-    folderitems:
-
-    - title: Plug-ins Releases
-      url: /plugins/releases/
-      output: web
-    - title: Packages Releases
-      url: /packages/releases/
       output: web
 
   - title: Project

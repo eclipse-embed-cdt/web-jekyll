@@ -148,7 +148,7 @@ entries:
       url: /maintain/
       output: web
 
-  - title: Project
+  - title: Releases
     output: web
     folderitems:
 
@@ -158,6 +158,11 @@ entries:
     - title: Packages Releases
       url: /packages/releases/
       output: web
+
+  - title: Project
+    output: web
+    folderitems:
+
     - title: License (EPL-2)
       external_url: https://www.eclipse.org/legal/epl-2.0/
       output: web

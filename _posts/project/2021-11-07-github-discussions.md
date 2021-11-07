@@ -18,10 +18,10 @@ In August 2021, GitHub made the new Discussions feature available for all projec
 
 Given the ease of use and better integration, the
 Eclipse Embedded CDT support pages were migrated from the
-[xPack forum](https://www.tapatalk.com/groups/xpack/) to
+[Tapatalk forum](https://www.tapatalk.com/groups/xpack/) to
 [GitHub Discussion](https://github.com/eclipse-embed-cdt/eclipse-plugins/discussions/).
 
-There are separate categories for different plug-ins Q&A,
-general discussion, ideas, etc.
+There are separate categories for different plug-ins **Q&A**,
+**general discussions**, **ideas**, etc.
 
-The Tapatalk forums will be deprecated and should no longer be used.
+The Tapatalk forums are now deprecated and can no longer be used.

@@ -12,7 +12,7 @@ date: 2020-08-05 13:34:00 +0300
 
 ## Quicklinks
 
-- [GitHub Discussions](https://github.com/eclipse-embed-cdt/eclipse-plugins/discussions/) - the best source
+- GitHub [Discussions](https://github.com/eclipse-embed-cdt/eclipse-plugins/discussions/) - the best source
   for support; be sure you select the right category.
 - [xPack Core & Tools support](https://xpack.github.io/support/)
 
@@ -66,9 +66,12 @@ or use the
 
 ## Use of private e-mail
 
-Please, please, please: **do not use private e-mail for support**,
-since such messages will be automatically replied with a link to this page.
+{% include important.html content="Please, please, please: **do not use
+private e-mail** for support, **use the
+GitHub [Discussions](https://github.com/eclipse-embed-cdt/eclipse-plugins/discussions/)**." %}
+
+Sending private messages will be automatically replied with
+a link to this page.
 The reason for this rude behaviour is simply an attempt to use
-the time more efficiently; since GitHub Discussions and Issues
-are archived, other people
+the time more efficiently; since discussions are archived, other people
 having similar problems might benefit from the answers.

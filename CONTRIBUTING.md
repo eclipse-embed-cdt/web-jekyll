@@ -3,15 +3,12 @@
 There are many ways you can contribute to this project, and all
 contributions are highly appreciated.
 
-## Start new threads in the forum
+## Start new threads in the GitHub Discussions
 
 If you have interesting ideas on how to improve the project web,
 and generally if you have any experience that you want to share with
 others, please use the
-[xPacks forum](https://www.tapatalk.com/groups/xpack/).
-
-Register to the Tapatalk community and select one of the forums below
-the **Eclipse Embedded CDT** group.
+[GitHub Discussions](https://github.com/eclipse-embed-cdt/eclipse-plugins/discussions/).
 
 ## Add Disqus comments to each page
 

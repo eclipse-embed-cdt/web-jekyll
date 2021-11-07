@@ -136,9 +136,9 @@ entries:
     - title: Known Issues
       url: /support/known-issues/
       output: web
-    - title: The Project Forums
+    - title: GitHub Discussions
       output: web
-      external_url: https://www.tapatalk.com/groups/xpack/
+      external_url: https://github.com/eclipse-embed-cdt/eclipse-plugins/discussions/
 
   - title: Contributor Info
     output: web

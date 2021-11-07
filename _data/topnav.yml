@@ -27,8 +27,8 @@ topnav_dropdowns:
 
     - title: Links
       folderitems:
-        - title: The Project Forums
-          external_url: https://www.tapatalk.com/groups/xpack/
+        - title: The GitHub Discussions
+          external_url: https://github.com/eclipse-embed-cdt/eclipse-plugins/discussions/
         - title: The Project Chat Room
           external_url: https://gitter.im/xpack/
         - title: Eclipse

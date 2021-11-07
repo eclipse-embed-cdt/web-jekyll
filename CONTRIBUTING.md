@@ -8,7 +8,7 @@ contributions are highly appreciated.
 If you have interesting ideas on how to improve the project web,
 and generally if you have any experience that you want to share with
 others, please use the
-[GitHub Discussions](https://github.com/eclipse-embed-cdt/eclipse-plugins/discussions/).
+GitHub [Discussions](https://github.com/eclipse-embed-cdt/eclipse-plugins/discussions/).
 
 ## Add Disqus comments to each page
 

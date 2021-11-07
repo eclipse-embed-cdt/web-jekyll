@@ -30,7 +30,7 @@ consider the following:
 - check the (now deprecated) Tapatalk [forums](https://www.tapatalk.com/groups/xpack/)
 - check the [GitHub Issues](https://github.com/eclipse-embed-cdt/eclipse-plugins/issues) trackers
 
-### Use the discussions
+### Use the GitHub Discussions
 
 If you still could not find a solution, if you have interesting use
 cases, if you have custom configurations, and generally if you have

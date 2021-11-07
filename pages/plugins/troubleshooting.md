@@ -48,14 +48,14 @@ $ export SWT_GTK3=0
 If, for any reason, a global setting is not possible, the GTK version can be
 set in `eclipse.ini`:
 
-```
+```console
 --launcher.GTK_version
 2
 ```
 
 You might need to place this definition before:
 
-```
+```console
 --launcher.appendVmargs
 ```
 

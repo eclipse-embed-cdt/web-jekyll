@@ -12,8 +12,8 @@ date: 2020-08-05 13:34:00 +0300
 
 ## Quicklinks
 
-- [Project Forums](https://www.tapatalk.com/groups/xpack/) - the best source
-  for support; be sure you select the right group/discussion.
+- [GitHub Discussions](https://github.com/eclipse-embed-cdt/eclipse-plugins/discussions/) - the best source
+  for support; be sure you select the right category.
 - [xPack Core & Tools support](https://xpack.github.io/support/)
 
 ## Embedded CDT plug-ins issues
@@ -25,48 +25,50 @@ consider the following:
 - check the release pages for **Known issues**
 - check the [Known issues]({{ site.baseurl }}/support/known-issues/) pages
 - check the [FAQ]({{ site.baseurl }}/support/faq/) pages
-- check the [forums](https://www.tapatalk.com/groups/xpack/) for
-  discussions on similar subjects
+- check the [GitHub Discussion](https://github.com/eclipse-embed-cdt/eclipse-plugins/discussions/)
+  for discussions on similar subjects
+- check the (now deprecated) Tapatalk [forums](https://www.tapatalk.com/groups/xpack/)
 - check the [GitHub Issues](https://github.com/eclipse-embed-cdt/eclipse-plugins/issues) trackers
 
-### Use the forums
+### Use the discussions
 
 If you still could not find a solution, if you have interesting use
 cases, if you have custom configurations, and generally if you have
 any experience that you want to share with others, please use the
-[forums](https://www.tapatalk.com/groups/xpack/), and be sure you
-select the right group/discussion.
+[GitHub Discussion](https://github.com/eclipse-embed-cdt/eclipse-plugins/discussions/)
+pages, and be sure you select the right category.
 
 ### Use the chat room
 
 For live discussions between users, you can use the
 [project chat room](https://gitter.im/xpack/community).
 This may be a great way to share experience, but for support
-the forums are preferred.
+the discussions are preferred.
 
 ### Use the GitHub Issues trackers only if necessary
 
 If you are convinced that you identified a bug (if you have doubts,
-use the forums), or you have a pertinent suggestion how to enhance
+use the discussions), or you have a pertinent suggestion how to enhance
 the xPack tools, please use the specific GitHub Issues trackers:
 
 - [eclipse-plugins](https://github.com/eclipse-embed-cdt/eclipse-plugins/issues/)
 
-**DO NOT** use the GitHub Issues for questions and support, use the forums.
+**DO NOT** use the GitHub Issues for questions and support, use the discussions.
 
 ## Web pages issues
 
 If you discover problems in the content of these pages (typos,
 wrong phrasing, etc), or you have suggestions on how to improve them,
 you can fork and send a **Pull Request** for the
-[Web Source project](https://github.com/gnu-mcu-eclipse/web-jekyll/)
+[Web Jekyll project](https://github.com/eclipse-embed-cdt/web-jekyll/)
 or use the
-[Web Source Issues](https://github.com/gnu-mcu-eclipse/web-jekyll/issues/) tracker.
+[Web Jekyll Issues](https://github.com/eclipse-embed-cdt/web-jekyll/issues/) tracker.
 
 ## Use of private e-mail
 
 Please, please, please: **do not use private e-mail for support**,
 since such messages will be automatically replied with a link to this page.
-The reason for this rude behaviour is simply an attempt to efficiently use
-the time; since forum posts and GitHub Issues are archived, other people
+The reason for this rude behaviour is simply an attempt to use
+the time more efficiently; since GitHub Discussions and Issues
+are archived, other people
 having similar problems might benefit from the answers.

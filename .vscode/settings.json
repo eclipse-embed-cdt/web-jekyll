@@ -2,5 +2,20 @@
 {
   "files.associations": {
     "*.html": "liquid"
-  }
+  },
+  "cSpell.ignoreWords": [
+    "CMSIS",
+    "codered",
+    "cortexm",
+    "embedcdt",
+    "freescale",
+    "gdbjtag",
+    "jlink",
+    "managedbuild",
+    "openocd",
+    "plugins",
+    "pyocd",
+    "riscv",
+    "sifive"
+  ]
 }

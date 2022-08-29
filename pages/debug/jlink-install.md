@@ -177,7 +177,7 @@ $ ls -l ~/opt/SEGGER/JLink_Linux_V684_arm64
 After manually unpacking the .tgz, you need to copy the rules file:
 
 ```console
-$ sudo cp ~/opt/SEGGER/JLink_Linux_V684_*/99-jlink.rules /etc/udev/rules.d/99-jlink.rule
+$ sudo cp ~/opt/SEGGER/JLink_Linux_V684_*/99-jlink.rules /etc/udev/rules.d/99-jlink.rules
 ```
 
 {% include important.html content="Although perfectly possible to install

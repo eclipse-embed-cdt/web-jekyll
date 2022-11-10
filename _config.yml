@@ -10,7 +10,7 @@ twitter_id: EmbedCDT
 permalink: /blog/:year/:month/:day/:title/
 
 # Update this after editing the CSS files, to force a cache update.
-css-date: 202008050934
+css-date: 202211100908
 
 repository: eclipse-embed-cdt/web-jekyll
 
@@ -40,7 +40,8 @@ github_editme_path: eclipse-embed-cdt/web-jekyll/blob/master/
 disqus_shortname: embed-cdt
 
 # If you have google-analytics ID, put it in. if not, edit this value to blank.
-google_analytics: UA-16767008-19
+# google_analytics: UA-16767008-19
+google_analytics: 'G-3LM1RVGDZY'
 
 # The preview server used. Leave as is.
 host: localhost

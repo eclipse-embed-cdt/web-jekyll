@@ -15,7 +15,7 @@ date: 2015-09-11 22:15:00 +0300
 If you already know what are the features of the new plug-in and only
 want to know how to install/use it, you can directly skip to:
 
-- [xPack QEMU Arm install](https://xpack.github.io/qemu-arm/install/)
+- [xPack QEMU Arm install](https://xpack.github.io/dev-tools/qemu-arm/install/)
 - [QEMU plug-in usage]({{ site.baseurl }}/debug/qemu/#how-to-use-the-qemu-plug-in)
 
 ## Why a new plug-in?
@@ -34,7 +34,7 @@ separately install:
 - the xPack QEMU Arm.
 
 If you did not do it yet, please follow the instructions in the
-[xPack QEMU Arm install](https://xpack.github.io/qemu-arm/install/)
+[xPack QEMU Arm install](https://xpack.github.io/dev-tools/qemu-arm/install/)
 page and return when completed.
 
 The presence of a GDB as part of a GNU toolchain is mandatory, and

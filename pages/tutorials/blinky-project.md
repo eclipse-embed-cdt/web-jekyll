@@ -33,7 +33,7 @@ Before creating a new project, please be sure you checked all prerequisites
 described in the
 [Prerequisites]({{ site.baseurl }}/plugins/prerequisites/)
 page, including the need to install the
-[build tools](https://xpack.github.io/windows-build-tools/install/)
+[build tools](https://xpack.github.io/dev-tools/windows-build-tools/install/)
 if you use Windows as your development platform.
 
 It is also recommended to
@@ -255,7 +255,7 @@ and define the correct path;
 Set the toolchain path for all projects and workspaces.
 
 - missing build tools (make & rm) on Windows; install the
-[build tools](https://xpack.github.io/windows-build-tools/);
+[build tools](https://xpack.github.io/dev-tools/windows-build-tools/);
 - a wrong or missing QEMU path; go to the project
 **(Window →) Preferences** → **MCU** → **Global QEMU Path**
 (or **Workspace QEMU Path**) and define the correct path;

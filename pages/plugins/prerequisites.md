@@ -340,7 +340,7 @@ running builds on Windows requires tools that Microsoft does not include
 in the base distribution and need to be installed separately.
 
 For convenience, these tools were packed as the
-[xPack Windows Build Tools](https://xpack.github.io/windows-build-tools/)
+[xPack Windows Build Tools](https://xpack.github.io/dev-tools/windows-build-tools/)
 and can be easily installed via **xpm**.
 
 ### Discontinued 32-bit support

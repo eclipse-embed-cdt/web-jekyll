@@ -373,7 +373,7 @@ Program `echo` not found in PATH
 {% capture answer_16 %}
 You are running on Windows, and did not install the full content of
 the archive described in the
-[Windows Build Tools](https://xpack.github.io/windows-build-tools/) page.
+[Windows Build Tools](https://xpack.github.io/dev-tools/windows-build-tools/) page.
 The `echo` program
 is not used per se, it is only a workaround for a known CDT bug.
 On macOS and GNU/Linux the `echo` program is always present, being part
@@ -436,7 +436,7 @@ Cannot run program "make": Launching failed
 {% capture answer_20 %}
 Most probably you are running on Windows, and forgot to add the builder
 tools or to add the path to them. See the
-[Windows Build Tools](https://xpack.github.io/windows-build-tools/) page.
+[Windows Build Tools](https://xpack.github.io/dev-tools/windows-build-tools/) page.
 {% endcapture %}
 
 {% capture question_21 %}

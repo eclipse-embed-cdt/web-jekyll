@@ -56,7 +56,7 @@ as possible.
 On Windows things are a bit more complicated, since neither make nor rm
 are part of the standard distribution, and need to be installed
 separately. For more information, please read the separate page
-[Build tools (make & rm) on Windows](https://xpack.github.io/windows-build-tools/).
+[Build tools (make & rm) on Windows](https://xpack.github.io/dev-tools/windows-build-tools/).
 
 ### Toolchain path
 

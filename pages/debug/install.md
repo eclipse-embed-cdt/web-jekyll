@@ -15,8 +15,8 @@ date: 2015-09-11 19:55:00 +0300
 If you know what you are doing, you can directly skip to:
 
 - [SEGGER J-Link install]({{ site.baseurl }}/debug/jlink/install/)
-- [OpenOCD install](https://xpack.github.io/openocd/install/)
-- [QEMU install](https://xpack.github.io/qemu-arm/install/)
+- [OpenOCD install](https://xpack.github.io/dev-tools/openocd/install/)
+- [QEMU install](https://xpack.github.io/dev-tools/qemu-arm/install/)
 
 ## Overview
 
@@ -51,7 +51,7 @@ most cheap JTAG probes, but with limitations (currently it does
 not support SWD and implicitly no SWO, it is slower, configuration
 might be sometimes cryptical, there are many driver incompatibilities
 on Windows, etc);
-- the [xPack QEMU Arm](https://xpack.github.io/qemu-arm/) emulator,
+- the [xPack QEMU Arm](https://xpack.github.io/dev-tools/qemu-arm/) emulator,
 supporting several Cortex-M boards.
 
 For an explanation why the SEGGER J-Link was selected, please go to
@@ -93,8 +93,8 @@ For the GDB server, there are three recommended solutions,
 installation instructions are available in separate pages:
 
 - [SEGGER J-Link install]({{ site.baseurl }}/debug/jlink/install/)
-- [xPack OpenOCD install](https://xpack.github.io/openocd/install/)
-- [xPack QEMU Arm install](https://xpack.github.io/qemu-arm/install/)
+- [xPack OpenOCD install](https://xpack.github.io/dev-tools/openocd/install/)
+- [xPack QEMU Arm install](https://xpack.github.io/dev-tools/qemu-arm/install/)
 
 Normally if you already have a J-Link probe (or an OpenSDA J-Link
 compatible evaluation board), there is no absolute need to install

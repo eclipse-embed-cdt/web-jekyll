@@ -16,9 +16,9 @@ If you know what you are doing, you can directly skip to:
 
 - [SEGGER J-Link install]({{ site.baseurl }}/debug/jlink/install/)
 - [SEGGER J-Link plug-in usage]({{ site.baseurl }}/debug/jlink/)
-- [xPack OpenOCD install](https://xpack.github.io/openocd/install/)
+- [xPack OpenOCD install](https://xpack.github.io/dev-tools/openocd/install/)
 - [OpenOCD plug-in usage]({{ site.baseurl }}/debug/openocd/)
-- [xPack QEMU Arm install](https://xpack.github.io/qemu-arm/)
+- [xPack QEMU Arm install](https://xpack.github.io/dev-tools/qemu-arm/)
 - [QEMU Arm plug-in usage]({{ site.baseurl }}/debug/qemu/)
 - [The Peripherals Registers view]({{ site.baseurl }}/debug/peripheral-registers/)
 

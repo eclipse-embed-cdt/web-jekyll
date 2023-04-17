@@ -38,7 +38,7 @@ Before being able to use any JTAG probe with OpenOCD, you must separately instal
 - any drivers required for the JTAG probe (for example FTDI drivers).
 
 If you did not do it yet, please follow the instructions in the
-[xPack OpenOCD install](https://xpack.github.io/openocd/) page and return
+[xPack OpenOCD install](https://xpack.github.io/dev-tools/openocd/) page and return
 when completed.
 
 The presence of a GDB as part of a GNU toolchain is mandatory, and it

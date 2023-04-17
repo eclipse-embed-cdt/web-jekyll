@@ -3,3 +3,5 @@ _site_local/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+
+node_modules/

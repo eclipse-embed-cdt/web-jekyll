@@ -17,7 +17,7 @@ tags:
 
 ---
 
-For historical reasons, the GNU ARM Eclipse update sites for installing new software are hosted by SourceForge, and up to now they successfuly handled more than 4.500.000 downloaded files for this project.
+For historical reasons, the GNU ARM Eclipse update sites for installing new software are hosted by SourceForge, and up to now they successfully handled more than 4.500.000 downloaded files for this project.
 
 ## Problem
 
@@ -48,4 +48,4 @@ If this is not possible, try to convince your network administrator to reconfigu
 
 As a temporary workaround, you can always **download the plug-ins as an archive**, and install from it.
 
-Or, you can configure your mobile phone as a hot spot, and try to connect to the internet directly; please note that sometimes this does not work, since  local firewals or antivirus configurations might prevent direct access.
+Or, you can configure your mobile phone as a hot spot, and try to connect to the internet directly; please note that sometimes this does not work, since  local firewalls or antivirus configurations might prevent direct access.

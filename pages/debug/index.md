@@ -22,7 +22,7 @@ If you know what you are doing, you can directly skip to:
 - [QEMU Arm plug-in usage]({{ site.baseurl }}/debug/qemu/)
 - [The Peripherals Registers view]({{ site.baseurl }}/debug/peripheral-registers/)
 
-## Recommandations
+## Recommendations
 
 In short, for bare metal embedded development, we highly recommend
 solutions that can be used on all major platforms (Windows, macOS and

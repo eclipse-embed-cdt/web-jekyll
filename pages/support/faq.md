@@ -49,7 +49,7 @@ Why updating CodeRed fails?
 {% endcapture %}
 
 {% capture answer_27 %}
-The v6.0.0 version of the clipse Embedded CDT plug-ins had an error in the
+The v6.0.0 version of the Eclipse Embedded CDT plug-ins had an error in the
 CodeRed configuration; the error was corrected in v6.1.1.
 
 For existing Eclipses, in case the update fails, the workaround
@@ -106,9 +106,9 @@ xpm: integrity checksum failed (Cannot read property 'path' of null)
 {% endcapture %}
 
 {% capture answer_2 %}
-On Windows, binary packages are .zip archives containing .exe files; 
-some aggressive antivirus programs may quarantine those files, or even 
-modify the content of the archives, affecting the checksum and thus 
+On Windows, binary packages are .zip archives containing .exe files;
+some aggressive antivirus programs may quarantine those files, or even
+modify the content of the archives, affecting the checksum and thus
 preventing the packages to be installed.
 
 Errors may look like:
@@ -163,7 +163,7 @@ Without them, the project will fail during link:
 ```
 Building target: hello-arm.elf
 Invoking: GNU ARM Cross C Linker
-arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -Xlinker --gc-sections -Wl,-Map,"hello-arm.map" -o "hello-arm.elf"  ./src/main.o   
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -Xlinker --gc-sections -Wl,-Map,"hello-arm.map" -o "hello-arm.elf"  ./src/main.o
 /Users/ilg/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld: /Users/ilg/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(lib_a-exit.o): in function `exit':
 exit.c:(.text.exit+0x16): undefined reference to `_exit'
 /Users/ilg/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld: /Users/ilg/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(lib_a-sbrkr.o): in function `_sbrk_r':
@@ -353,7 +353,7 @@ Semihosting enabled application hangs
 {% endcapture %}
 
 {% capture answer_15 %}
-> After usb disconected and reconected program do not run (the example
+> After usb disconnected and reconnected program do not run (the example
 flashing led is not blinking).
 
 This is absolutely normal for any application build with semihosting
@@ -448,7 +448,7 @@ You most probably did not configure properly the toolchain path, and
 CDT cannot start the discovery process. Check the path in the project
 **Properties** → **C/C++ Build** → **Settings** → **Toolchains** → **Path**.
 
-![Setting the toolchain path and preffx]({{ site.baseurl }}/assets/images/2013/10/SettingsPathPrefix.png)
+![Setting the toolchain path and prefix]({{ site.baseurl }}/assets/images/2013/10/SettingsPathPrefix.png)
 {% endcapture %}
 
 {% capture question_22 %}

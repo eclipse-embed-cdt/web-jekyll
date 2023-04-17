@@ -85,7 +85,7 @@ feedback_disable: true
 highlighter: rouge
 
 # filter used to process markdown. note that kramdown differs from
-# github-flavored markdown in some subtle ways.
+# github-flavoured markdown in some subtle ways.
 markdown: kramdown
 kramdown:
  input: GFM

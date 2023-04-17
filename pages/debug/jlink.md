@@ -213,7 +213,7 @@ Before starting a debug session, be sure that:
 
 - the J-Link debugger is connected to a high speed USB port, preferably
 directly to the computer, not via hubs which share the bandwidth with
-ther traffic intensive devices, like disks, wi-fi, video cameras, etc.
+their traffic intensive devices, like disks, wi-fi, video cameras, etc.
 - the wide JTAG flat cable is connected both to the J-Link and the
 target device
 - the target device is powered on

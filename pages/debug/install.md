@@ -152,7 +152,7 @@ can be found on
 
 The debugging plug-ins come together with the other Eclipse Embedded CDT
 plug-ins; if you install the full Eclipse IDE for Embedded C/C++ Developers,
-package, they are includded; if you use an alternate install method the
+package, they are included; if you use an alternate install method the
 debug plug-ins should be installed in the same step, detailed in the
 [plug-ins install]{{ site.baseurl }}/plugins/install-alternate/ page.
 

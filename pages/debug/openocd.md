@@ -292,7 +292,7 @@ machine and only then you can start the debugging session.
 
 ### Missing or wrong openocd_path
 
-The most common failure to start a debug session is a missing or incorrec
+The most common failure to start a debug session is a missing or incorrect
 OpenOCD path. Without it, the launching sequence will
 complain *Cannot run program "/openocd"*.
 

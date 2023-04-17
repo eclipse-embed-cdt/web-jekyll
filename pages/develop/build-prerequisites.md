@@ -83,7 +83,7 @@ mkdir -p "${HOME}/Work/eclipse-embed-cdt.github/develop"
 ### Install Eclipse IDE for Eclipse Committers
 
 This instance of Eclipse is specialised for Eclipse plug-ins development.
-The recommened version is 2020-09.
+The recommended version is 2020-09.
 
 {% assign includeIndex = "2" %}
 {% capture windows %}
@@ -275,7 +275,7 @@ xattr -dr com.apple.quarantine Eclipse.app
   - disable the **.* resources** line
   - click the **OK** button
 
-Enable the **Plug-in development** prspective ans switch to it.
+Enable the **Plug-in development** perspective and switch to it.
 
 ## Clone the repositories
 
@@ -294,7 +294,7 @@ have been installed from the first step.
 
 ## Import the projects
 
-In the commiters Eclipse, import projects using the generic importer:
+In the committers Eclipse, import projects using the generic importer:
 
 - _Eclipse_ menu → **Project**
   - enable **Build Automatically**
@@ -326,7 +326,7 @@ To start the plug-ins Maven build from Eclipse:
 - in the JRE tab
   - select the Execution environment **JavaSE-11** (to ensure compatibility
     with older environments)
-- click the **Apply** button  
+- click the **Apply** button
 
 Duplicate the configuration as `Embed CDT clean` and update the goal to `clean`.
 

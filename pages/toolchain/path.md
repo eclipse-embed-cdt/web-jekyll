@@ -125,7 +125,7 @@ portability is not affected.
 
 Forgetting to set the toolchain path, or setting a wrong value, is
 easy to diagnose, since the Eclipse editor will be full of red markers
-to all definitions related to system headers, and, even more explictly,
+to all definitions related to system headers, and, even more explicitly,
 the build will fail:
 
 ![Missing or wrong path]({{ site.baseurl }}/assets/images/2014/02/NoToolchainPath.png)

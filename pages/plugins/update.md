@@ -21,7 +21,7 @@ mechanism:
 
 ## Overview
 
-By design, Eclipse is a collection of features, each refering one or more
+By design, Eclipse is a collection of features, each referring one or more
 plug-ins; the features are the smallest unit for installing and updating
 plug-ins.
 

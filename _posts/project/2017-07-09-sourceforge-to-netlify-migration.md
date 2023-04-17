@@ -20,7 +20,7 @@ Starting with Eclipse plug-ins v4.x, the **Eclipse update sites URLs** were **mi
 
 Currently the project has no more operational dependencies on SourceForge.
 
-[Netlify](https://www.netlify.com) is a new (open source friendly) web hosting profider, with a very convenient way of managing and updating sites.
+[Netlify](https://www.netlify.com) is a new (open source friendly) web hosting provider, with a very convenient way of managing and updating sites.
 
 ## Rationale
 
@@ -44,7 +44,7 @@ The new internal URL addresses used for for the Eclipse plug-ins v4.x downloads 
 
 ## Netlify redirects
 
-The physical files may be stored on Bintray, but the official URL addresses to be used for installs/updates are on Nelify:
+The physical files may be stored on Bintray, but the official URL addresses to be used for installs/updates are on Netlify:
 
 - [http://gnu-mcu-eclipse.netlify.com/v4-neon-updates](http://gnu-mcu-eclipse.netlify.com/v4-neon-updates)
 - [http://gnu-mcu-eclipse.netlify.com/v4-neon-updates-test](http://gnu-mcu-eclipse.netlify.com/v4-neon-updates-test)

@@ -20,7 +20,7 @@ it is recommended to check and maybe change the settings below.
 Eclipse has lots of settings, and they are a bit confusing for beginners.
 Apart from various objects **Properties**, accessible with **Right click**
 in most situations, there are settings that apply to the entire workspace,
-and these settings are named **Preferenceces**, accessible in the top menu.
+and these settings are named **Preferences**, accessible in the top menu.
 
 {% include note.html content="The Preferences menu has different
 locations on Windows/Linux (search for the last entry below the
@@ -43,7 +43,7 @@ to use the active configuration:
 - enable **Use active build configuration**
 - click the **Apply** button
 
-![Indexer: Use active build configuration]({{ site.baseurl }}/assets/images/2020/preferences-ccpp-indxer.png)
+![Indexer: Use active build configuration]({{ site.baseurl }}/assets/images/2020/preferences-ccpp-indexer.png)
 
 ## Editor folding
 
@@ -83,7 +83,7 @@ tab processing policy.
 
 For this, click the **Edit...** button.
 
-![Change the tab policy to use spaces only]({{ site.baseurl }}/assets/images/2014/06/Style_GNU_with_spacs.png)
+![Change the tab policy to use spaces only]({{ site.baseurl }}/assets/images/2014/06/Style_GNU_with_spaces.png)
 
 Change the tab policy to **Spaces only**, and the **indentation**
 and **tab size** to 2.
@@ -237,7 +237,7 @@ To change this setting:
 
 ## Enable GDB trace console
 
-While debugging, it is sometimes useful to see the dialog between Eclipse and
+While debugging, it is sometimes useful to see the dialogue between Eclipse and
 GDB. For this, it is necessary to enable the GDB Trace console.
 
 To change this setting:

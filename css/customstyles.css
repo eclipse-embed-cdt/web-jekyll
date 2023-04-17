@@ -891,7 +891,7 @@ div.panel-group {
     }
 }
 
-/* Weird, 991 was too small */
+/* +++ ILG Weird, 991 was too small and on Safari the menu is jumpy.
 @media (min-width: 992px) {
 
     .sticky {
@@ -904,6 +904,7 @@ div.panel-group {
         z-index: 1;
     }
 }
+*/
 
 @media (min-width: 1000px) {
 

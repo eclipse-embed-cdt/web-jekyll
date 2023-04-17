@@ -10,7 +10,7 @@ date: 2015-09-11 19:55:00 +0300
 
 ---
 
-## Quicklinks
+## Quick links
 
 If you know what you are doing, you can directly skip to:
 

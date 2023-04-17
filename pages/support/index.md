@@ -10,7 +10,7 @@ date: 2020-08-05 13:34:00 +0300
 
 ---
 
-## Quicklinks
+## Quick links
 
 - GitHub [Discussions](https://github.com/eclipse-embed-cdt/eclipse-plugins/discussions/) - the best source
   for support; be sure you select the right category.

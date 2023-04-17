@@ -10,7 +10,7 @@ date: 2015-09-11 22:15:00 +0300
 
 ---
 
-## Quicklinks
+## Quick links
 
 If you already know what are the features of the new plug-in and only
 want to know how to install/use it, you can directly skip to:

@@ -10,7 +10,7 @@ date: 2015-09-11 22:35:00 +0300
 
 ---
 
-## Quicklinks
+## Quick links
 
 If you know what this is all about and you only need to go to specific
 templates:

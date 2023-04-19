@@ -60,7 +60,7 @@ is **not supported**.
 Before starting work with OpenOCD, it is recommended to define the
 path to the folder where OpenOCD executables are located.
 
-- in the _Eclipse_ menu, go to **(Window →) Preferences** → **MCU** →
+- in the _Eclipse_ menu, go to (**Window** →) **Preferences** → **MCU** →
 **Global OpenOCD Path** (or **Workspace OpenOCD Path**)
 
   ![OpenOCD preferences page]({{ site.baseurl }}/assets/images/2018/preferences-mcu-openocd-path.png)

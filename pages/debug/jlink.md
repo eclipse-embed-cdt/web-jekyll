@@ -69,7 +69,7 @@ the obsolete Arm CC), although not completely excluded, is **not supported**.
 Before starting work with the J-Link tools, it is required to define the
 path to the J-Link folder.
 
-- in the _Eclipse_ menu, go to **(Window →) Preferences** → **MCU** →
+- in the _Eclipse_ menu, go to (**Window** →) **Preferences** → **MCU** →
 **Global SEGGER J-Link Path** (or **Workspace SEGGER J-Link Path**)
 
   ![J-Link preferences page]({{ site.baseurl }}/assets/images/2018/jlink-preferences.png)
@@ -161,7 +161,7 @@ definitions;
 automatically using the toolchain definitions; unless you are debugging
 a project-less ELF, leave them as is;
 - the values of the `${jlink_path}` and `${jlink_gdbserver}` can be
-manually edited in the _Eclipse_ menu → **(Window →) Preferences** → **MCU** → **Global SEGGER J-Link Path** configuration
+manually edited in the _Eclipse_ menu → (**Window** →) **Preferences** → **MCU** → **Global SEGGER J-Link Path** configuration
 page (if you do not find this page, upgrade the plug-ins);
 - the **Connect to running target** option allows to start a debug session
 without performing any reset or program download, so that the target will

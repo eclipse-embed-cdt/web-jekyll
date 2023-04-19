@@ -37,7 +37,7 @@ of options and environment. For the indexer to automatically sync when
 changing from one configuration to another, check if the indexer was set
 to use the active configuration:
 
-- go to the _Eclipse_ menu → **(Window →) Preferences** → **C/C++** → **Indexer**
+- go to the _Eclipse_ menu → (**Window** →) **Preferences** → **C/C++** → **Indexer**
 - disable **Index source files not included in the build**
 - disable **Index unused headers**
 - enable **Use active build configuration**
@@ -50,7 +50,7 @@ to use the active configuration:
 To better view the entire content of the source files, it is recommended
 to disable editor folding:
 
-- go to the _Eclipse_ menu → **(Window →) Preferences** → **C/++** →
+- go to the _Eclipse_ menu → (**Window** →) **Preferences** → **C/++** →
 **Editor** → **Folding**
 - enable **Enable folding of preprocessor branches**
 - enable **Enable folding of control flow statements**
@@ -69,7 +69,7 @@ but you are free to choose or even design your own style.
 
 To set it:
 
-- go to the _Eclipse_ menu → **(Window →) Preferences** → **C/C++** → **Code Style** → **Formatter**
+- go to the _Eclipse_ menu → (**Window** →) **Preferences** → **C/C++** → **Code Style** → **Formatter**
 - in the **Active profile:** field, select **GNU [built-in]**
 
 ![Preferences Formatter]({{ site.baseurl }}/assets/images/2014/06/PreferencesFormatter1.png)
@@ -118,7 +118,7 @@ Tabs, like Make files." %}
 For large projects, with many source folders, you might want to disable
 showing the source folders:
 
-- go to the _Eclipse_ menu → **(Window →) Preferences** → **C/C++** →
+- go to the _Eclipse_ menu → (**Window** →) **Preferences** → **C/C++** →
 **Appearance**
 - disable **Show source roots at top of project**.
 
@@ -177,7 +177,7 @@ When you're done:
 Although not critical, while editing source files, it is useful to see the
 line numbers, and also a hint that the line may be too long:
 
-- go to the _Eclipse_ menu → **(Window →) Preferences** → **General** → **Editors** → **Text Editors**
+- go to the _Eclipse_ menu → (**Window** →) **Preferences** → **General** → **Editors** → **Text Editors**
 - enable **Show line numbers**
 - enable **Show print margin**
 - set the **Print margin column** at 80
@@ -193,7 +193,7 @@ presented, and where the compile/link errors are shown.
 The CDT defaults need some tweaks, to increase the number of lines and to
 make the lines wrap:
 
-- go to the _Eclipse_ menu → **(Window →) Preferences** → **C/C++** →
+- go to the _Eclipse_ menu → (**Window** →) **Preferences** → **C/C++** →
 **Build** → **Console**
 - enable **Bring console to top when building**
 - enable **Wrap lines on the console**
@@ -209,7 +209,7 @@ When all settings are done, click the **OK** button.
 
 To enable support for documentation tool comments:
 
-- go to the _Eclipse_ menu → **(Window →) Preferences** → **C/C++** → **Editor**
+- go to the _Eclipse_ menu → (**Window** →) **Preferences** → **C/C++** → **Editor**
 - select **Doxygen** in the Documentation tool comments
 
 This will allow, for example, auto-completion for Doxygen comments, you can
@@ -228,7 +228,7 @@ present it as the default for the main debug button.
 
 To change this setting:
 
-- go to the _Eclipse_ menu → **(Window →) Preferences** → **Run/Debug** →
+- go to the _Eclipse_ menu → (**Window** →) **Preferences** → **Run/Debug** →
 **Launching**
 - select **Always launch the previously launched application** in the
 **Launch Operation** section.
@@ -242,7 +242,7 @@ GDB. For this, it is necessary to enable the GDB Trace console.
 
 To change this setting:
 
-- go to the _Eclipse_ menu → **(Window →) Preferences** → **C/C++** →
+- go to the _Eclipse_ menu → (**Window** →) **Preferences** → **C/C++** →
 **Debug** → **GDB**
 - select **Show the GDB traces console** in the
 **General Behaviour** section.

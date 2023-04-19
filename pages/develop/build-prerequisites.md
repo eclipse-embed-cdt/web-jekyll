@@ -135,16 +135,16 @@ linux
 
 ### Set Java 11 as default
 
-- in the _Eclipse_ menu → **(Window →) Preferences** → **Java** → **Installed JREs**
+- in the _Eclipse_ menu → (**Window** →) **Preferences** → **Java** → **Installed JREs**
   - Add → Standard VM
     - JRE Home: select the `/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home` folder
     - JRE name: **AdoptOpenJDK 11**
   - click the **Apply** button
-- in the _Eclipse_ menu → **(Window →) Preferences** → **Java** → **Installed JREs** → **Execution Environments**
+- in the _Eclipse_ menu → (**Window** →) **Preferences** → **Java** → **Installed JREs** → **Execution Environments**
   - in the left pane select **JavaSE-11**
   - in the right pane select **AdoptOpenJDK 11**
   - click the **Apply and Close** button
-- in the _Eclipse_ menu → **(Window →) Preferences** → **Java** → **Compiler**
+- in the _Eclipse_ menu → (**Window** →) **Preferences** → **Java** → **Compiler**
   - Compiler compliance level: select 11
   - click the **Apply and Close** button
 
@@ -191,7 +191,7 @@ with previous versions of Embedded CDT according to the rules and guidelines set
 
 - Ensure that `target-platform/org.eclipse.embedcdt.baseline.target` is a file in
   your workspace (in the `embed-cdt-plugins` project)
-- in the _Eclipse_ menu → **(Window →) Preferences** → **Plug-in Development**
+- in the _Eclipse_ menu → (**Window** →) **Preferences** → **Plug-in Development**
   → **API Baselines**
   - click the **Add Baseline...** button
   - select **A target platform**
@@ -266,7 +266,7 @@ xattr -dr com.apple.quarantine Eclipse.app
 - start Eclipse, use an workspace named `eclipse-cpp-2020-09-workspace`
 - enable **Use this as the default**
 - click the **Hide** button in the top right corner
-- in the _Eclipse_ menu → **(Window →) Preferences** → **C/C++** →
+- in the _Eclipse_ menu → (**Window** →) **Preferences** → **C/C++** →
   **Appearance**
   - disable **Show source roots at top of project**
   - click the **Apply and Close**

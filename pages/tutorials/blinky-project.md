@@ -257,7 +257,7 @@ Set the toolchain path for all projects and workspaces.
 - missing build tools (make & rm) on Windows; install the
 [build tools](https://xpack.github.io/dev-tools/windows-build-tools/);
 - a wrong or missing QEMU path; go to the project
-**(Window →) Preferences** → **MCU** → **Global QEMU Path**
+(**Window** →) **Preferences** → **MCU** → **Global QEMU Path**
 (or **Workspace QEMU Path**) and define the correct path;
 
 ![The QEMU path]({{ site.baseurl }}/assets/images/2018/qemu-preferences.png)

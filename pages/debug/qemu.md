@@ -50,7 +50,7 @@ debugging information (like dwarf).
 Before starting work with QEMU, it is required to define the path
 to the QEMU folder.
 
-- in the _Eclipse_ menu, go to **(Window →) Preferences** → **MCU** →
+- in the _Eclipse_ menu, go to (**Window** →) **Preferences** → **MCU** →
 **Global QEMU Path** (or **Workspace QEMU Path**)
 
   ![The QEMU preferences page]({{ site.baseurl }}/assets/images/2018/qemu-preferences.png)

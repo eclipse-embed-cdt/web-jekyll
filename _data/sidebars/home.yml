@@ -102,6 +102,9 @@ entries:
     - title: Overview
       url: /templates/
       output: web
+    - title: Hello World QEMU
+      output: web
+      url: /templates/hello-world-qemu-xpack/
     - title: STM32Fxx Templates
       output: web
       url: /templates/stm32f/

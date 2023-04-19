@@ -41,7 +41,7 @@ pages, and be sure you select the right category.
 ### Use the chat room
 
 For live discussions between users, you can use the
-[project chat room](https://gitter.im/xpack/community).
+[project chat room](https://gitter.im/eclipse-embed-cdt/community).
 This may be a great way to share experience, but for support
 the discussions are preferred.
 

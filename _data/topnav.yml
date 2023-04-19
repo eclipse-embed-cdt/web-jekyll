@@ -29,8 +29,8 @@ topnav_dropdowns:
       folderitems:
         - title: The GitHub Discussions
           external_url: https://github.com/eclipse-embed-cdt/eclipse-plugins/discussions/
-        - title: The Project Chat Room
-          external_url: https://gitter.im/xpack/
+        - title: The Gitter Chat Room
+          external_url: https://gitter.im/eclipse-embed-cdt/community
         - title: Eclipse
           external_url: https://www.eclipse.org
         - title: Eclipse Embedded CDT Project

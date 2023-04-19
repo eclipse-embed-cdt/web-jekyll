@@ -15,13 +15,9 @@ date: 2015-09-11 22:06:00 +0300
 If you know what this is all about:
 
 - satisfy the [prerequisites]({{ site.baseurl }}/plugins/prerequisites/)
-- go to the
-[downloads](https://projects.eclipse.org/projects/iot.embed-cdt/downloads/)
-page on the Eclipse server and download the latest package for your platform
-
-{% include note.html content="Starting with 2020-12, the package is also
-listed in the main Eclipse
-[download packages](https://www.eclipse.org/downloads/packages/) page." %}
+- go to the main Eclipse
+[download packages](https://www.eclipse.org/downloads/packages/) page
+and download the latest package for your platform
 
 ## Overview
 
@@ -53,6 +49,9 @@ the risk of incompatible plug-ins.
 **Java 11 JDK**; please follow the steps in the
 [prerequisites]({{ site.baseurl }}/plugins/prerequisites/) page.
 
+{% include note.html content="Recent Eclipse releases include Java,
+so this step is no longer necessary." %}
+
 ## Download the Eclipse IDE for Embedded C/C++ Developers package
 
 To get the **Eclipse IDE for Embedded C/C++ Developers** package, go to the
@@ -60,7 +59,7 @@ Eclipse [downloads](https://www.eclipse.org/downloads/packages/)
 page and select the correct binary for your platform (Windows, macOS or
 GNU/Linux).
 
-![Eclipse EPP]({{ site.baseurl }}/assets/images/2020/embed-cdt-downloads.png)
+![Eclipse EPP]({{ site.baseurl }}/assets/images/2023/embed-cdt-downloads.png)
 
 To install Eclipse, simply unpack the archive at a place of your choice and
 start using it.
@@ -169,11 +168,11 @@ This validates that the plug-ins are installed properly, that the toolchain
 is available, and the debug plug-ins are available and configured properly.
 
 Follow the steps in the
-[Create a Blinky Arm test project]({{ site.baseurl }}/tutorials/blinky-arm/)
+[Hello World Arm & RISC-V QEMU xPack templates]({{ site.baseurl }}/templates/hello-world-qemu-xpack/)
 page.
 
 ## Support
 
-If you encountered any problems when installing the plug-ins, please refer to
+If you encounter any problems when installing the plug-ins, please refer to
 the [Support]({{ site.baseurl }}/support/) page and **do not** send private
 emails.

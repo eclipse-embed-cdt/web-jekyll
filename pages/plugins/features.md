@@ -60,6 +60,8 @@ for both 32 and 64-bit Arm and RISC-V processors.
 - **[Linaro](http://launchpad.net/linaro-toolchain-binaries) AArch64 Linux GNU** (aarch64-linux-gnu-*)
 - **[Linaro](http://launchpad.net/linaro-toolchain-binaries) AArch64 big-endian Linux GNU** (aarch64_be-linux-gnu-*)
 
+![The list of supported Arm toolchains]({{ site.baseurl }}/assets/images/2023/wizard-arm-toolchains.png)
+
 ![The list of supported toolchains]({{ site.baseurl }}/assets/images/2015/wizard-toolchains.png)
 
 ## Extra build steps
@@ -120,7 +122,7 @@ Toolchain definitions include most of the configurable details, not
 only the prefix and the path, allowing the use of almost any GNU
 compatible toolchain.
 
-![All toolchain details can be configured]({{ site.baseurl }}/assets/images/2015/properties-c-settings-toolchains.png)
+![All toolchain details can be configured]({{ site.baseurl }}/assets/images/2023/properties-c-settings-toolchains.png)
 
 ## Advanced toolchain path management
 
@@ -157,18 +159,23 @@ for their first project, a complete sample, with startup code,
 linker scripts, semi-hosting enabled and all necessary options
 already set, can be a major time saver.
 
-The **Hello World Arm Cortex-M3 C Project** template was destined
-exactly for such cases; please see the
-[Tutorial: Create a Blinky Arm test project]({{ site.baseurl }}/tutorials/blinky-arm/)
+The **Hello World Arm QEMU xPack C/C++ Project** and
+**Hello World RISC-V QEMU xPack C/C++ Project** templates are intended
+for simple, but functional, _Hello World_ projects that can be immediately
+executed without any physical hardware using the QEMU emulator;
+please see the [Hello World Arm & RISC-V QEMU xPack templates]({{ site.baseurl }}/templates/hello-world-qemu-xpack/)
 for more details.
 
-![The Cortex-M3 template project]({{ site.baseurl }}/assets/images/2015/NewCM3ProjectResult.png)
+![The Hello World Arm QEMU template project]({{ site.baseurl }}/assets/images/2023/hello-arm-qemu-xpack.png)
 
-Even more, specific templates are available for the STM families of
+Other older templates, like
+**STM32F4xx C/C++ Project**, are available for the STM families of
 microcontrollers **STM32F[01234]x**, and for some Freescale **KLxx**
 microcontrollers. They create the classical application that blinks
 a LED, and, specific for the Debug configuration, prints a string on
-the tracing (SWV or semi-hosting) output.
+the tracing (SWV or semi-hosting) output; please see the
+[Tutorial: Create a Blinky Arm test project]({{ site.baseurl }}/tutorials/blinky-arm/)
+for more details.
 
 ## Debugging support
 

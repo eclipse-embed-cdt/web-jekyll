@@ -15,6 +15,7 @@ date: 2015-09-11 22:35:00 +0300
 If you know what this is all about and you only need to go to specific
 templates:
 
+- [Hello World QEMU templates]({{ site.baseurl }}/templates/hello-world-qemu-xpack/)
 - [STM32Fxx templates]({{ site.baseurl }}/templates/stm32f/)
 - [Kinetis KLxx templates]({{ site.baseurl }}/templates/klxx/)
 - [Generic Cortex-M template]({{ site.baseurl }}/templates/cortexm/)
@@ -40,7 +41,7 @@ The template plug-ins are installed using the same procedure as the other plug-i
 - extend the **Embedded C/C++ Cross Development Tools**
 - be sure the desired **Embedded C/C++ ... Project Template** are selected
 
-![Install the template plug-ins]({{ site.baseurl }}/assets/images/2014/02/InstallTemplatePlugins.png)
+![Install the template plug-ins]({{ site.baseurl }}/assets/images/2023/install-template-plugins.png)
 
 ## C vs C++
 
@@ -62,59 +63,72 @@ and consists of several components (CORE, DSP, RTOS, SVD).
 The Eclipse Embedded CDT plug-ins use the CMSIS-CORE code in the Cortex-M
 templates, as jointly provided by Arm and each vendor.
 
-## Blinky vs Empty
+There is no equivalent of CMSIS for RISC-V.
+
+## Hello vs Blinky
 
 Based on a long tradition among the embedded application developers, the
-first challenge when encountering a new board is to make it blink a LED.
+first challenge when encountering a new board is to make it
+say _Hello_ and possibly blink a LED.
 It doesn't seem much, but in fact there are many details that must fit
 together for this to work:
 
 - the startup code must be functional
 - the manufacturer CMSIS initialisations must set the desired clock
-- the GPIO definitions/drivers must be available
 - the memory map and the linker scripts must match the actual hardware
 - possibly the newlib `printf()` must be directed to an available device for
 viewing the trace messages
+- for Blinky, the GPIO definitions/drivers must be available
 
-The **Blinky** template does exactly this, takes care of all these details.
-The observed functionality is relatively simple, the board blinks a LED with
-1Hz. To exercise the interrupts, the time base is obtained with the SysTick
+The **Hello World** templates generate the simplest projects, which do not
+require any device specific drivers, but instead output the traditional
+_Hello World_ message via the semihosting trace chanel.
+
+This kind of projects are the starting point for more complex unit tests.
+
+The **Blinky** templates make an extra step, and the generated projects
+blink a LED with 1Hz.
+To exercise the interrupts, the time base is obtained with a system timer
 configured at 1000Hz, with the `delay()` function counting ticks.
 
-Once all details are understood, a real life application does not really need
-the code to blink the LED, but rather start with an empty slate. This is
-the purpose of the **Empty** template, that provides the entire environment
-of the **Blinky** template, but without any code in `main()`.
+Once all details are understood, a real life application simply grows on
+top of the **Blinky** project, by adding extra functionality.
 
 ## Project structure
 
-Most generated projects share a common folders structure, similar to the following:
+The xPack generated projects share a common folders structure, similar to the following:
 
-![Project structure]({{ site.baseurl }}/assets/images/2014/02/F4Project.png)
+![Project structure]({{ site.baseurl }}/assets/images/2023/hello-arm-qemu-xpack.png)
 
 ### Application code
 
 The application code is located in the top level `src` and `include` folders.
 Add more files as required by your application.
 
-### Linker scripts
+### Platform specific code
 
-The linker scripts are grouped in a `ldscripts` folder. For convenience,
-the definitions were split in separate files to define the memory map and
-the content of the sections, but any other structure is acceptable, only
-update the link configuration.
+For the xPack templates, the various platform specific code is grouped
+in a folder including the platform name, like `platform-qemu-cortex-m7f`.
 
-### Local libraries
+This structure facilitates multi-architecture/multi-platform projects, which
+may include multiple such folders.
 
-Various libraries are grouped in the `system` folder. According to Arm
-specifications, the Cortex Microcontroller Software Interface Standard
-(CMSIS) is used, and all related definitions are grouped in the CMSIS folder.
+In the older templates the platform specific libraries are located
+in the `system` folder.
+
+### Dependencies
+
+The xPack templates group all external libraries below the `xpacks` folder.
+
+In the older templates the various libraries are located
+in the `system` folder.
 
 ## Available templates
 
-### Generic templates
+### xPack templates
 
-- Cortex-M template
+- Hello World Arm QEMU xPack
+- Hello World RISC-V QEMU xPack
 
 ### ST Micro templates
 
@@ -127,17 +141,22 @@ specifications, the Cortex Microcontroller Software Interface Standard
 
 ### Freescale templates
 
-- Kinetis KLxx templates
-- Processor Expert template
+- Kinetis KLxx templates (end-of-life)
+- Processor Expert template (end-of-life)
 
-Adding new templates
+### Generic templates
+
+- Cortex-M template
+
+### Adding new templates
 
 Considering the large number of existing Cortex-M implementations, it is
 not realistic to expect templates for all of them.
 
 If you use a microcontroller that has no template yet, and want to
 contribute to this project, the first step is to create a project that
-mimics the Blinky variant of an existing template. This means you need
+mimics the Hello World or Blinky variant of an existing template.
+For Arm devices, this means you need
 to have the CMSIS specific files publicly available (yes, this seems
 strange, but some manufacturers do not provide these files) and possibly
 the standard peripheral library.

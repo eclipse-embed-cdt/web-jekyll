@@ -39,11 +39,11 @@ etc.
 In short, the Eclipse Embedded CDT plug-ins allow to create, build,
 debug and in general to **manage Arm & RISC-V projects** (executables
 and static/shared libraries, in both 32 and 64-bit versions) with the
-Eclipse framework (currently tested up to Eclipse 4.18, 2020-12).
+Eclipse framework.
 The plug-ins run on Windows, macOS and GNU/Linux. For more details
 please visit the [features]({{ site.baseurl }}/plugins/features/) page.
 
-![Create new STM32F4 C++ project]({{ site.baseurl }}/assets/images/2015/intro-new-f4-project.png)
+![Create new M7F C++ project]({{ site.baseurl }}/assets/images/2023/create-new-m7f-project.png)
 
 ## Additional tools
 
@@ -84,7 +84,13 @@ several other tools, distributed as separate packages.
   intended to provide support for Arm emulation in Eclipse Embedded CDT.
   Binaries for Windows, macOS and GNU/Linux are available.
 
-  ![The STM32F4-Discovery 4 LEDs]({{ site.baseurl }}/assets/images/2015/stm32f4-discovery-leds.png)
+- **xPack QEMU RISC-V**
+
+  The [**xPack QEMU Arm**](https://xpack.github.io/dev-tools/qemu-riscv/)
+  project is binary distribution of [QEMU](http://wiki.qemu.org/Main_Page)
+  (an open source machine emulator),
+  intended to provide support for RISC-V emulation in Eclipse Embedded CDT.
+  Binaries for Windows, macOS and GNU/Linux are available.
 
 ## Notifications
 

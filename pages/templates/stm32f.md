@@ -22,7 +22,7 @@ examples shown here will refer only to the F4 family.
 The template can create both C and C++ projects. To create a new C++ project:
 
 - in the _Eclipse_ menu, go to **File** → **New → C++ Project**
-- in the *Executables* group, select the **STM32F4xx C/C++ Project**
+- in the _Executables_ group, select the **STM32F4xx C/C++ Project**
 
 ![New STM32F4 project]({{ site.baseurl }}/assets/images/2014/04/NewF4Project.png)
 

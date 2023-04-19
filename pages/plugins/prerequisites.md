@@ -144,7 +144,7 @@ lrwxr-xr-x  1 root  wheel  74 Jan  2  2020 /usr/bin/java -> /System/Library/Fram
 How exactly it gets from here to the actual location is a bit of Apple magic.
 
 {% include warning.html content="Installing the latest Java may
-not be possble on older systems, for example Java 14 fails to
+not be possible on older systems, for example Java 14 fails to
 start on macOS 10.10." %}
 
 Since it is possible to install multiple version on the same system,
@@ -161,7 +161,7 @@ necessary to reboot.
 
 To check if the new path was configured properly:
 
-```
+```sh
 launchctl getenv PATH
 ```
 
@@ -181,7 +181,7 @@ On most modern Linux distributions, OpenJDK is available as a package.
 
 To check if it is already installed, ask the version:
 
-```
+```sh
 java -version
 ```
 
@@ -240,7 +240,7 @@ It is also possible to edit [eclipse.ini](https://wiki.eclipse.org/Eclipse.ini)
 and add a `-vm` option pointing to the Java bin path; be sure this
 option is placed before `-vmargs`, which should be the last one:
 
-```
+```sh
 --launcher.defaultAction
 openFile
 -vm
@@ -278,7 +278,7 @@ For full details, please follow the steps in the separate install pages:
 - [node/npm](https://xpack.github.io/install/)
 - [xpm](https://xpack.github.io/xpm/install/)
 
-For convenience for those who already know what this means, here is a brief.
+For convenience for those who already know what this means, below is a brief.
 
 For macOS and GNU/Linux, use **nvm** (for Windows use the .msi, as explained in
 the [node](https://xpack.github.io/install/) install page):

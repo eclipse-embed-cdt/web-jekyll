@@ -25,7 +25,7 @@ In addition to cross build and debugging support, the Eclipse Embedded
 CDT plug-ins also provide several C/C++ project templates, that generate
 ready to run projects.
 
-These projects obviously are not full fledged applications, but provide a
+These projects obviously are not fully fledged applications, but provide a
 good starting point for writing such applications.
 
 One of the main requirements is to build correctly, even if functionality
@@ -35,8 +35,8 @@ is only sketchy.
 
 The template plug-ins are installed using the same procedure as the other plug-ins:
 
-- in the _Eclipse_ menu, go to **Help** → **Install New Software**
-- select *Work with:* **Eclipse Embedded CDT**
+- in the _Eclipse_ menu, go to **Help** → **Install New Software...**
+- select _Work with:_ **Eclipse Embedded CDT**
 - extend the **Embedded C/C++ Cross Development Tools**
 - be sure the desired **Embedded C/C++ ... Project Template** are selected
 
@@ -50,17 +50,17 @@ the main source file: it is `main.c` for C projects and `main.cpp` for
 C++ projects. The content is usually the same, but more elaborate versions
 are planned to better exemplify the use of C++.
 
-## CMSIS
+## Arm CMSIS
 
 After defining a minimum common hardware implementation in the Cortex-M core,
-to be implemented by all vendors, Arm also defined CMSIS (pronounced sim-sys)
+to be implemented by all vendors, Arm also defined CMSIS (pronounced _sim-sys_)
 as a common software interface, to be used with all Cortex-M implementations.
 CMSIS stands for
 [Cortex Microcontroller Software Interface Standard](http://www.arm.com/products/processors/cortex-m/cortex-microcontroller-software-interface-standard.php)
 and consists of several components (CORE, DSP, RTOS, SVD).
 
-The Eclipse Embedded CDT plug-ins uses the CMSIS-CORE code in all templates,
-as jointly provided by Arm and each vendor.
+The Eclipse Embedded CDT plug-ins use the CMSIS-CORE code in the Cortex-M
+templates, as jointly provided by Arm and each vendor.
 
 ## Blinky vs Empty
 

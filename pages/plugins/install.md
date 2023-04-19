@@ -56,7 +56,7 @@ the risk of incompatible plug-ins.
 ## Download the Eclipse IDE for Embedded C/C++ Developers package
 
 To get the **Eclipse IDE for Embedded C/C++ Developers** package, go to the
-pproject [downloads](https://projects.eclipse.org/projects/iot.embed-cdt/downloads/)
+Eclipse [downloads](https://www.eclipse.org/downloads/packages/)
 page and select the correct binary for your platform (Windows, macOS or
 GNU/Linux).
 
@@ -135,9 +135,9 @@ By completing the above steps, the Eclipse environment is ready, and you
 can start creating projects right away. However, for being able to build
 and debug these projects, you also need to install:
 
-- the [Arm toolchain](https://xpack.github.io/arm-none-eabi-gcc/install/) or
-[RISC-V toolchain](https://xpack.github.io/riscv-none-embed-gcc/install/)
-- the optional [build tools](https://xpack.github.io/windows-build-tools/)
+- the [Arm toolchain](https://xpack.github.io/dev-tools/arm-none-eabi-gcc/install/) or
+[RISC-V toolchain](https://xpack.github.io/dev-tools/riscv-none-embed-gcc/install/)
+- the optional [build tools](https://xpack.github.io/dev-tools/windows-build-tools/)
 (if you are running on Windows)
 - the [debugging]({{ site.baseurl }}/debug/) tools
 

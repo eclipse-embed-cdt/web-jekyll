@@ -42,8 +42,8 @@ for both 32 and 64-bit Arm and RISC-V processors.
 
 ### Arm toolchains
 
-- [**xPack GNU Arm Embedded GCC**](https://xpack.github.io/arm-none-eabi-gcc/) (arm-none-eabi-*)
-- [**GNU Arm Embedded Toolchain**](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm) (arm-none-eabi-*)
+- [**xPack GNU Arm Embedded GCC**](https://xpack.github.io/dev-tools/arm-none-eabi-gcc/) (arm-none-eabi-*)
+- [**Arm GNU Toolchain**]https://developer.arm.com/Tools%20and%20Software/GNU%20Toolchain) (arm-none-eabi-*)
 - **[Linaro](http://launchpad.net/gcc-linaro) **ARMv7 **bare-metal EABI** (arm-none-eabi-*)
 - **[Linaro](http://launchpad.net/gcc-linaro) **ARMv7 **big-endian bare-metal EABI** (armeb-none-eabi-*)
 - **[Linaro](http://launchpad.net/gcc-linaro) **ARMv7 **Linux GNU EABI HF** (arm-linux-gnueabihf-*)

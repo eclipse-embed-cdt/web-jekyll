@@ -31,8 +31,8 @@ and is hosted on
 
 These plug-ins provide Eclipse CDT (C/C++ Development Tooling) extensions for
 GNU embedded toolchains like
-[xPack GNU Arm Embedded GCC](https://xpack.github.io/arm-none-eabi-gcc/),
-[xPack GNU RISC-V Embedded GCC](https://xpack.github.io/riscv-none-embed-gcc/),
+[xPack GNU Arm Embedded GCC](https://xpack.github.io/dev-tools/arm-none-eabi-gcc/),
+[xPack GNU RISC-V Embedded GCC](https://xpack.github.io/dev-tools/riscv-none-embed-gcc/),
 etc.
 
 [![Arm logo]({{ site.baseurl }}/assets/images/2020/Arm_logo_blue_150MN.png){: class="right-align-image"  style="margin: 10px"}](https://www.arm.com)
@@ -52,36 +52,36 @@ several other tools, distributed as separate packages.
 
 - **xPack Windows Build Tools**
 
-  The [**xPack Windows Build Tools**](https://xpack.github.io/windows-build-tools/)
+  The [**xPack Windows Build Tools**](https://xpack.github.io/dev-tools/windows-build-tools/)
   project includes the additional tools required to perform builds on Windows
   (**make** & **rm**).
 
 - **xPack GNU Arm Embedded GCC**
 
-  The [**xPack GNU Arm Embedded GCC**](https://xpack.github.io/arm-none-eabi-gcc/)
+  The [**xPack GNU Arm Embedded GCC**](https://xpack.github.io/dev-tools/arm-none-eabi-gcc/)
   project is an alternate binary distribution that complements the official
-  [GNU Arm Embedded Toolchain](https://developer.arm.com/open-source/gnu-toolchain/gnu-rm) maintained by Arm. Binaries for Windows, macOS and GNU/Linux are available.
+  [Arm GNU Toolchain](https://developer.arm.com/Tools%20and%20Software/GNU%20Toolchain) maintained by Arm. Binaries for Windows, macOS and GNU/Linux are available.
 
 - **xPack GNU RISC-V Embedded GCC**
 
-  The [**xPack GNU RISC-V Embedded GCC**](https://xpack.github.io/riscv-none-embed-gcc/)
+  The [**xPack GNU RISC-V Embedded GCC**](https://xpack.github.io/dev-tools/riscv-none-embed-gcc/)
   project is a new distribution of the bare metal version of
-  [RISC-V GCC](https://github.com/riscv/riscv-gcc), maintained by
-  [SiFive](https://www.sifive.com). Binaries for Windows, macOS and GNU/Linux
+  [RISC-V GCC](https://gcc.gnu.org). Binaries for Windows, macOS and GNU/Linux
   are available.
 
 - **xPack OpenOCD**
 
-  The [**xPack OpenOCD**](https://xpack.github.io/openocd/) project is a
-  new distribution of [OpenOCD](http://openocd.org/), customised for a
+  The [**xPack OpenOCD**](https://xpack.github.io/dev-tools/openocd/) project is a
+  binary distribution of [OpenOCD](http://openocd.org/), customised for a
   better/more convenient integration with the **OpenOCD Debugging** plug-in.
   Binaries for Windows, macOS and GNU/Linux are available.
 
 - **xPack QEMU Arm**
 
-  The [**xPack QEMU Arm**](https://xpack.github.io/qemu-arm/) project is a
-  fork of [QEMU](http://wiki.qemu.org/Main_Page) (an open source machine emulator),
-  intended to provide support for Cortex-M emulation in Eclipse Embedded CDT.
+  The [**xPack QEMU Arm**](https://xpack.github.io/dev-tools/qemu-arm/)
+  project is binary distribution of [QEMU](http://wiki.qemu.org/Main_Page)
+  (an open source machine emulator),
+  intended to provide support for Arm emulation in Eclipse Embedded CDT.
   Binaries for Windows, macOS and GNU/Linux are available.
 
   ![The STM32F4-Discovery 4 LEDs]({{ site.baseurl }}/assets/images/2015/stm32f4-discovery-leds.png)

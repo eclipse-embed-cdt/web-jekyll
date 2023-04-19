@@ -81,8 +81,8 @@ On macOS, if you download the archive with the browser, the strict
 security checks on recent macOS will prevent it to run. The fix is
 simple, you need to remove the `com.apple.quarantine` extended attribute.
 
-```
-xattr -d com.apple.quarantine eclipse-embedcdt-*-macosx-cocoa-x86_64.tar.gz
+```sh
+xattr -d com.apple.quarantine eclipse-embedcdt-*-macosx-cocoa-*.dmg
 ```
 
 After un-archiving, if the Eclipse.app still does not run, check/remove

@@ -62,7 +62,14 @@ for both 32 and 64-bit Arm and RISC-V processors.
 
 ![The list of supported Arm toolchains]({{ site.baseurl }}/assets/images/2023/wizard-arm-toolchains.png)
 
-![The list of supported toolchains]({{ site.baseurl }}/assets/images/2015/wizard-toolchains.png)
+### RISC-V toolchains
+
+- [**xPack GNU RISC-V Embedded GCC**](https://xpack.github.io/dev-tools/riscv-none-eabi-gcc/) (riscv-none-elf-*)
+- **RISC-V GCC/Newlib** (riscv64-unknown-elf-*)
+- **RISC-V GCC/Linux** (riscv64-unknown-linux-gnu-*)
+- **RISC-V GCC/RTEMS** (riscv64-unknown-rtems-*)
+
+![The list of supported RISC-V toolchains]({{ site.baseurl }}/assets/images/2023/wizard-riscv-toolchains.png)
 
 ## Extra build steps
 

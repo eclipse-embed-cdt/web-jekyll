@@ -329,7 +329,6 @@ xpm run prepare --config qemu-cortex-m7f-cmake-debug
 xpm run build --config qemu-cortex-m7f-cmake-debug
 ```
 
-
 ## Support
 
 If you encounter any problems when using this template, please refer to

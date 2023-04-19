@@ -33,16 +33,20 @@ page,
 
 ### xpm
 
-Special consideration should be given to install `node`/`npm`/`xpm`, which are mandatory for
+Special consideration should be given to install `node`/`npm`/`xpm`,
+which are mandatory for
 instantiating xPack templates.
 
 ### Pre-download binary tools
 
-This is a mandatory step, since the Eclipse plug-in will install all
+This is an optional step, but highly recommended.
+Without it the Eclipse plug-in will install all
 dependencies anyway, including the toolchains and all other binary tools,
-but, especially for the RISC-V toolchain, which is very large,
-it is recommended to manually download them before trying to create a
-new project.
+but, especially for the RISC-V toolchain which is very large,
+this will take quite a long time, without any feedback.
+
+Thus it is recommended to manually download the dependencies
+before attempting to create a new project.
 
 For Cortex-M and Arm 32-bit projects, the following commands can be used:
 
@@ -51,8 +55,6 @@ xpm install --global @xpack-dev-tools/arm-none-eabi-gcc@11.2.1-1.2.2 --verbose
 xpm install --global @xpack-dev-tools/qemu-arm@7.0.0-1.1 --verbose
 
 xpm install --global @xpack-dev-tools/cmake@3.21.6-1.1 --verbose
-xpm install --global @xpack-dev-tools/meson-build@0.60.3-1.1 --verbose
-
 xpm install --global @xpack-dev-tools/ninja-build@1.11.0-1.1 --verbose
 ```
 
@@ -178,7 +180,7 @@ Eclipse menu → **Run** → **Debug Configurations...**
 Confirm the switch to the debugger perspective, and allow the plug-in
 to remember this setting.
 
-The Eclipse debugger is starts, with a breakpoint in `main()`.
+The Eclipse debugger is started, with a breakpoint in `main()`.
 
 ![The QEMU Debugger tab]({{ site.baseurl }}/assets/images/2023/hello-debug-halt.png)
 

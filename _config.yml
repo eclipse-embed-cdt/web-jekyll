@@ -10,7 +10,7 @@ twitter_id: EmbedCDT
 permalink: /blog/:year/:month/:day/:title/
 
 # Update this after editing the CSS files, to force a cache update.
-css-date: 202211100908
+css-date: 202304191327
 
 repository: eclipse-embed-cdt/web-jekyll
 

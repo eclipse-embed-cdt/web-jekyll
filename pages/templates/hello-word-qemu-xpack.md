@@ -305,6 +305,10 @@ The dependent libraries are actually not located in the project, but in
 a central store, and the sub-folders below `xpacks` are symbolic links
 (junctions for Windows).
 
+The xPack dependencies **should not** be saved in the project repository,
+since the `xpacks` folder can be easily recreated in a freshly cloned
+project with `xpm install`.
+
 The content of the central store is read-only, such that the source files
 (which can be used by multiple projects) cannot be inadvertently changed.
 

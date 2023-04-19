@@ -20,23 +20,27 @@ jobs:
       NOKOGIRI_USE_SYSTEM_LIBRARIES: true
 
     steps:
-    - uses: actions/checkout@v2
-    - uses: actions/setup-ruby@v1
+    # https://github.com/actions/checkout
+    - uses: actions/checkout@v3
+    # https://github.com/ruby/setup-ruby
+    - uses: ruby/setup-ruby@v1
       with:
         # Version range or exact version of a Ruby version to use, using semvers version range syntax.
         # https://www.ruby-lang.org/en/downloads/releases/
-        ruby-version: '2.6'
-    - uses: actions/cache@v2
+        ruby-version: '2.7'
+    # https://github.com/actions/cache
+    - uses: actions/cache@v3
       with:
         path: vendor/bundle
         key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
         restore-keys: |
           ${{ runner.os }}-gems-
+    # https://bundler.io
     - name: Bundle install
       run: |
         sudo apt-get update
         sudo apt-get install -y build-essential patch ruby-dev zlib1g-dev liblzma-dev libxslt-dev pkg-config
-        gem install bundler:2.0.1
+        gem install bundler:2.4
         bundle config path vendor/bundle
         bundle install --jobs 4 --retry 3
         ls -l vendor/bundle

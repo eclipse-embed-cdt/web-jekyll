@@ -9,7 +9,8 @@ on:
 jobs:
   build:
 
-    runs-on: ubuntu-18.04
+    # https://docs.github.com/en/actions/using-github-hosted-runners/about-github-hosted-runners
+    runs-on: ubuntu-22.04
 
     env:
       GITHUB_DEST_REPO: "eclipse-embed-cdt/eclipse-embed-cdt.github.io"

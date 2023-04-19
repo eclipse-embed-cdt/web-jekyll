@@ -14,8 +14,8 @@ keywords:
   - jdk
   - xpm
 
-jdk_major: 15
-jdk_minor_patch: 
+jdk_major: 20
+jdk_minor_patch:
 
 date: 2017-10-09 14:14:00 +0300
 
@@ -29,8 +29,8 @@ The main prerequisite to run the Eclipse Embedded CDT is Java.
 Generally Java is not available by default on most platforms, and requires
 a separate installation.
 
-{% include tip.html content="Some recent Eclipse packages may
-be standalone and already include a Java JRE; in this case
+{% include tip.html content="Recent Eclipse packages are standalone and
+come bundled with the Java JRE; in this case
 is is no longer necessary to install a separate Java." %}
 
 ### Other tools
@@ -41,20 +41,26 @@ starting Eclipse.
 {% include tip.html content="If you already started Eclipse, close it,
 install these tools, and reopen Eclipse." %}
 
-- **node/npm/xpm** - although not mandatory, but highly recommended, the
-second prerequisite is **xpm** (the xPack Package Manager), which is
-a **Node.js** portable application;
+- **node/npm/xpm** - although not mandatory by Eclipse itself, it is
+highly recommended to use **xpm** (the xPack Project Manager, which
+is a **Node.js** portable CLI application) to install
+various build tools (the _Hello World Arm/RISC-V QEMU xPack_ project
+template mandates it)
 - **Windows Build Tools** - to build projects, on Windows it is necessary
 to install `make`, available from the xPack Windows Build Tools;
-- **Arm toolchain** - to build Arm projects, an Arm toolchain like
+- **Arm Embedded GCC toolchain** - to build Arm projects, an Arm toolchain like
 the xPack GNU Arm Embedded GCC is required;
-- **RISC-V toolchain** - similarly, for RISC-V projects, a RISC-V toolchain
+- **RISC-V Embedded GCC toolchain** - similarly, for RISC-V projects, a RISC-V toolchain
 like the xPack GNU RISC-V Embedded GCC is required;
 - **SEGGER J-Link** - to debug projects, a JTAG probe is necessary together
 with the software to access it, for example the SEGGER J-Link software;
 - **OpenOCD** - for some boards, xPack OpenOCD might also be useful;
 - **QEMU Arm** - to run debug sessions without actual hardware, the
 xPack QEMU Arm emulator is necessary (the blinky tutorial mandates it).
+- **QEMU RISC-V** - similarly, the
+xPack QEMU RISC-V emulator is useful to run RISC-V application
+(the Hello World RISC-V
+tutorial mandates it).
 
 {% include note.html content="Many of the additional tools can be
 installed as xPacks, which makes **xpm** a very convenient tool." %}
@@ -63,6 +69,9 @@ installed as xPacks, which makes **xpm** a very convenient tool." %}
 
 The following section covers the common Windows/macOS/Linux platforms;
 for a wider range of platforms, see the **Alternate solutions** below.
+
+{% include note.html content="Recent Eclipse releases include Java,
+so this step is no longer necessary." %}
 
 {% capture openjdk %}
 The recommended package is the latest version from the official
@@ -283,27 +292,22 @@ For convenience for those who already know what this means, below is a brief.
 For macOS and GNU/Linux, use **nvm** (for Windows use the .msi, as explained in
 the [node](https://xpack.github.io/install/) install page):
 
-```bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
+```sh
+mkdir -pv "${HOME}/Downloads/"
+curl --output "${HOME}/Downloads/install-nvm-node-npm-xpm.sh" https://raw.githubusercontent.com/xpack/assets/master/scripts/install-nvm-node-npm-xpm.sh
+cat "${HOME}/Downloads/install-nvm-node-npm-xpm.sh"
+
+bash "${HOME}/Downloads/install-nvm-node-npm-xpm.sh"
+
 exit
 ```
 
-In a new terminal, to benefit from the environment variables
-added by the script:
+This shell script will install `nvm` (the Node Version Manager), `node`,
+`npm` and `xpm`.
 
-```bash
-nvm install --lts node
-nvm use node
-node --version
-nvm install-latest-npm
-npm --version
-```
-
-Install **xpm**:
-
-```bash
-npm install --global xpm@latest
-```
+{% include note.html content="To activate `nvm` automatically,
+the script adds several lines
+to the shell initialisation script." %}
 
 On Windows, install **make** and the rest of the build tools:
 
@@ -318,11 +322,16 @@ the riscv toolchain is necessary only for RISC-V projects.
 ```bash
 xpm install --global @xpack-dev-tools/arm-none-eabi-gcc@latest --verbose
 xpm install --global @xpack-dev-tools/qemu-arm@latest --verbose
-xpm install --global @xpack-dev-tools/openocd@latest --verbose
+
 xpm install --global @xpack-dev-tools/riscv-none-embed-gcc@latest --verbose
+xpm install --global @xpack-dev-tools/qemu-riscv@latest --verbose
+
+xpm install --global @xpack-dev-tools/openocd@latest --verbose
+
 xpm install --global @xpack-dev-tools/cmake@latest --verbose
-xpm install --global @xpack-dev-tools/ninja-build@latest --verbose
 xpm install --global @xpack-dev-tools/meson-build@latest --verbose
+
+xpm install --global @xpack-dev-tools/ninja-build@latest --verbose
 ```
 
 All xPacks are installed in a central folder in the user home; check

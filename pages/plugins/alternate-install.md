@@ -24,7 +24,7 @@ updated in a future revision of the web site." %}
 ## Eclipse IDE for C/C++ Developers
 
 To install this package, go to the
-[Eclipse packages](http://www.eclipse.org/downloads/eclipse-packages) and
+[Eclipse packages](https://www.eclipse.org/downloads/eclipse-packages) and
 get the **Eclipse IDE for C/C++ Developers** archive appropriate for your
 platform.
 
@@ -125,7 +125,7 @@ For releases before v6.0.0, download the
 `ilg.gnumcueclipse.repository-<version>.zip` archives from
 [GitHub Releases](https://github.com/eclipse-embed-cdt/eclipse-plugins/releases),
 or, for even older releases, from
-[SourceForge Files](http://sourceforge.net/projects/gnuarmeclipse/files/Current%20Releases/)
+[SourceForge Files](https://sourceforge.net/projects/gnuarmeclipse/files/Current%20Releases/)
 and to point the Eclipse update mechanism to the local archive:
 In the _Eclipse_ menu → **Help** → **Install New Software...**
 

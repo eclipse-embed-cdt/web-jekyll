@@ -33,26 +33,26 @@ file.
 
 - [https://github.com/gnu-mcu-eclipse](https://github.com/gnu-mcu-eclipse)
 - [https://github.com/gnuarmeclipse](https://github.com/gnuarmeclipse)
-- [http://sourceforge.net/projects/gnuarmeclipse/](http://sourceforge.net/projects/gnuarmeclipse/)
+- [https://sourceforge.net/projects/gnuarmeclipse/](https://sourceforge.net/projects/gnuarmeclipse/)
 
 ## Pages not yet migrated
 
 In the old GNU MCU Eclipse web there are a few pages that were not yet migrated:
 
-- [http://gnu-mcu-eclipse.github.io/tutorials/hello-arm/](http://gnu-mcu-eclipse.github.io/tutorials/hello-arm/)
-- [http://gnu-mcu-eclipse.github.io/toolchain/path/](http://gnu-mcu-eclipse.github.io/toolchain/path/)
-- [http://gnu-mcu-eclipse.github.io/support/sourceforge/](http://gnu-mcu-eclipse.github.io/support/sourceforge/)
-- [http://gnu-mcu-eclipse.github.io/plugins/mbs/](http://gnu-mcu-eclipse.github.io/plugins/mbs/)
-- [http://gnu-mcu-eclipse.github.io/finance/paypal-success/](http://gnu-mcu-eclipse.github.io/finance/paypal-success/)
-- [http://gnu-mcu-eclipse.github.io/finance/sponsorship/](http://gnu-mcu-eclipse.github.io/finance/sponsorship/)
-- [http://gnu-mcu-eclipse.github.io/eclipse/project/portability/](http://gnu-mcu-eclipse.github.io/eclipse/project/portability/)
-- [http://gnu-mcu-eclipse.github.io/arch/riscv/](http://gnu-mcu-eclipse.github.io/arch/riscv/)
-  - [http://gnu-mcu-eclipse.github.io/arch/riscv/arty-jtag-adapter/](http://gnu-mcu-eclipse.github.io/arch/riscv/arty-jtag-adapter/)
-  - [http://gnu-mcu-eclipse.github.io/arch/riscv/arty-reflash/](http://gnu-mcu-eclipse.github.io/arch/riscv/arty-reflash/)
-  - [http://gnu-mcu-eclipse.github.io/arch/riscv/ftdi-jtag-drivers/](http://gnu-mcu-eclipse.github.io/arch/riscv/ftdi-jtag-drivers/)
-  - [http://gnu-mcu-eclipse.github.io/arch/riscv/programmer/](http://gnu-mcu-eclipse.github.io/arch/riscv/programmer/)
-- [http://gnu-mcu-eclipse.github.io/advanced/headless-builds/](http://gnu-mcu-eclipse.github.io/advanced/headless-builds/)
-- [http://gnu-mcu-eclipse.github.io/developer/](http://gnu-mcu-eclipse.github.io/developer/) ... with more developer links than the two below
-  - [http://gnu-mcu-eclipse.github.io/developer/releases/](http://gnu-mcu-eclipse.github.io/developer/releases/)
-  - [http://gnu-mcu-eclipse.github.io/developer/j-link-stm32-boards/](http://gnu-mcu-eclipse.github.io/developer/j-link-stm32-boards/)
+- [https://gnu-mcu-eclipse.github.io/tutorials/hello-arm/](https://gnu-mcu-eclipse.github.io/tutorials/hello-arm/)
+- [https://gnu-mcu-eclipse.github.io/toolchain/path/](https://gnu-mcu-eclipse.github.io/toolchain/path/)
+- [https://gnu-mcu-eclipse.github.io/support/sourceforge/](https://gnu-mcu-eclipse.github.io/support/sourceforge/)
+- [https://gnu-mcu-eclipse.github.io/plugins/mbs/](https://gnu-mcu-eclipse.github.io/plugins/mbs/)
+- [https://gnu-mcu-eclipse.github.io/finance/paypal-success/](https://gnu-mcu-eclipse.github.io/finance/paypal-success/)
+- [https://gnu-mcu-eclipse.github.io/finance/sponsorship/](https://gnu-mcu-eclipse.github.io/finance/sponsorship/)
+- [https://gnu-mcu-eclipse.github.io/eclipse/project/portability/](https://gnu-mcu-eclipse.github.io/eclipse/project/portability/)
+- [https://gnu-mcu-eclipse.github.io/arch/riscv/](https://gnu-mcu-eclipse.github.io/arch/riscv/)
+  - [https://gnu-mcu-eclipse.github.io/arch/riscv/arty-jtag-adapter/](https://gnu-mcu-eclipse.github.io/arch/riscv/arty-jtag-adapter/)
+  - [https://gnu-mcu-eclipse.github.io/arch/riscv/arty-reflash/](https://gnu-mcu-eclipse.github.io/arch/riscv/arty-reflash/)
+  - [https://gnu-mcu-eclipse.github.io/arch/riscv/ftdi-jtag-drivers/](https://gnu-mcu-eclipse.github.io/arch/riscv/ftdi-jtag-drivers/)
+  - [https://gnu-mcu-eclipse.github.io/arch/riscv/programmer/](https://gnu-mcu-eclipse.github.io/arch/riscv/programmer/)
+- [https://gnu-mcu-eclipse.github.io/advanced/headless-builds/](https://gnu-mcu-eclipse.github.io/advanced/headless-builds/)
+- [https://gnu-mcu-eclipse.github.io/developer/](https://gnu-mcu-eclipse.github.io/developer/) ... with more developer links than the two below
+  - [https://gnu-mcu-eclipse.github.io/developer/releases/](https://gnu-mcu-eclipse.github.io/developer/releases/)
+  - [https://gnu-mcu-eclipse.github.io/developer/j-link-stm32-boards/](https://gnu-mcu-eclipse.github.io/developer/j-link-stm32-boards/)
 

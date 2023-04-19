@@ -26,9 +26,9 @@ In Nov. 2016 SourceForge did a change in the security settings used by their dow
 ```console
 An error occurred while collecting items to be installed
 session context was:(profile=epp.package.cpp, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
-Unable to read repository at http://gnuarmeclipse.sourceforge.net/updates-test/plugins/ilg.gnuarmeclipse.templates.ad_1.1.3.201611031134.jar.
+Unable to read repository at https://gnuarmeclipse.sourceforge.net/updates-test/plugins/ilg.gnuarmeclipse.templates.ad_1.1.3.201611031134.jar.
 sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
-Unable to read repository at http://gnuarmeclipse.sourceforge.net/updates-test/plugins/ilg.gnuarmeclipse.templates.freescale_2.2.7.201611031134.jar.
+Unable to read repository at https://gnuarmeclipse.sourceforge.net/updates-test/plugins/ilg.gnuarmeclipse.templates.freescale_2.2.7.201611031134.jar.
 sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
 ```
 

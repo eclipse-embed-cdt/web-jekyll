@@ -126,7 +126,7 @@ To save you time, we compiled a list of other GDB servers, with some of their fe
 
 - the original **STM32 ST-Link Utility** software, available from STM as
 part number
-[STSW-LINK004](http://www.st.com/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-programmers/stsw-link004.html),
+[STSW-LINK004](https://www.st.com/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-programmers/stsw-link004.html),
 also implements a GDB server for the ST-LINK probes; runs on Windows only
 - the **stlink** GDB server from **texane**, a
 [GitHub](https://github.com/texane/stlink) project, implements the ST-LINK
@@ -146,7 +146,7 @@ implementation fully compatible with the J-Link Lite, so the J-Link
 plug-in can be successfully used for these evaluation boards without
 having a physical J-Link probe. More details on installing OpenSDA
 can be found on
-[MCU on Eclipse](http://mcuoneclipse.com/2013/05/16/freedom-board-with-segger-opensda-debug-firmware/).
+[MCU on Eclipse](https://mcuoneclipse.com/2013/05/16/freedom-board-with-segger-opensda-debug-firmware/).
 
 ## Eclipse debugging plug-ins
 

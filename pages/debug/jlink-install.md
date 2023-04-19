@@ -15,7 +15,7 @@ date: 2015-09-11 20:50:00 +0300
 
 In case you wonder why Eclipse Embedded CDT decided to provide support for
 SEGGER J-Link, the short answer is: **because of
-[J-Link EDU](http://www.segger.com/j-link-edu.html) and of SWO**.
+[J-Link EDU](https://www.segger.com/j-link-edu.html) and of SWO**.
 The long answer may include the following:
 
 - **wide processor support** (probably you won't find an unsupported Arm
@@ -40,17 +40,17 @@ writing algorithm, to avoid unnecessary writes if the flash blocks did
 not change
 - it is a mature, proven product, with a great support team
 - it provides an entire range of probes,
-[J-Link](http://www.segger.com/jlink_base.html),
-[J-Link Pro](http://www.segger.com/jlink-pro.html), including a
+[J-Link](https://www.segger.com/jlink_base.html),
+[J-Link Pro](https://www.segger.com/jlink-pro.html), including a
 **special priced version for educational use**, the
-[J-Link EDU](http://www.segger.com/j-link-edu.html) (available from
+[J-Link EDU](https://www.segger.com/j-link-edu.html) (available from
 many distributors, for example from Farnell)
 
 The J-Link was present on the JTAG market for many years, but,
 considering the initial prices, only commercial companies could afford them.
 After a fierce fight against Chinese clones, sold for a fraction of the
-price, in 2012 [SEGGER](http://www.segger.com/) decided to introduce a
-low price version, [J-Link EDU](http://www.segger.com/j-link-edu.html),
+price, in 2012 [SEGGER](https://www.segger.com/) decided to introduce a
+low price version, [J-Link EDU](https://www.segger.com/j-link-edu.html),
 restricted to educational and non-commercial usage, making it the JTAG
 probe of choice for open source Arm development.
 
@@ -60,7 +60,7 @@ J-Link comes not only with a GDB server, but with a complete set of
 drivers and utilities, packed by SEGGER separately for each platform.
 The same distribution includes drivers for all J-Link probes, so
 installation is quite simple. The J-Link binaries are available
-from the [SEGGER site](http://www.segger.com/jlink-software.html).
+from the [SEGGER site](https://www.segger.com/jlink-software.html).
 
 There are different sections, grouped by platform (Windows, macOS,
 Intel GNU/Linux, Arm GNU/Linux); go to the platform of your choice.
@@ -78,7 +78,7 @@ Accept the terms of the software agreement and download the software.
 The J-Link GDB server is documented in the
 [UM08001](https://www.segger.com/downloads/jlink/UM08001_JLink.pdf) manual,
 available either in the installed folder, or from the
-[SEGGER J-Link page](http://www.segger.com/jlink-software.html).
+[SEGGER J-Link page](https://www.segger.com/jlink-software.html).
 
 ## Install
 
@@ -200,7 +200,7 @@ the interface (-if SWD). The device name is needed for targets which
 require special handling on connect (e.g. due to silicon bugs which
 make auto-detection impossible). For a list of available device names,
 please refer to the SEGGER
-[Supported devices](http://www.segger.com/jlink_supported_devices.html) page.
+[Supported devices](https://www.segger.com/jlink_supported_devices.html) page.
 
 Here is an example how to test a
 SWD connection to a STM32F407 evaluation board (`-device STM32F407VG`)

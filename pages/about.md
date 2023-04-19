@@ -12,13 +12,13 @@ date: 2016-03-03 22:45:00 +0300
 
 ## Motto
 
-{% include callout.html content="_Perfekt ist nicht gut genug._ 
+{% include callout.html content="_Perfekt ist nicht gut genug._
 (English: _Perfect is not good enough_)." type="primary" %}
 
 ## The project
 
 The **GNU ARM Eclipse plug-in** project was registered on
-[SourceForge](http://sourceforge.net/projects/gnuarmeclipse/) in
+[SourceForge](https://sourceforge.net/projects/gnuarmeclipse/) in
 November 2006, and initially included an XML only plug-in definition;
 although functional, it was somehow limited.
 
@@ -106,17 +106,17 @@ traffic from the Project web pages, and managing WordPress and MediaWiki
 sites on SourceForge servers became unpractical.
 
 In October 2013, the project documentation was moved to an external
-[WordPress](http://wordpress.org/) site, and was intended to improve
+[WordPress](https://wordpress.org/) site, and was intended to improve
 communication with users by keeping them informed about current issues
-and releases. The original URL was http://gnuarmeclipse.livius.net/blog.
+and releases. The original URL was https://gnuarmeclipse.livius.net/blog.
 
 The developer specific pages were also moved to an external MediaWiki site.
-The original URL was http://gnuarmeclipse.livius.net/wiki.
+The original URL was https://gnuarmeclipse.livius.net/wiki.
 
 In August 2015 those two sites were first migrated to GitHub Wiki, with
 content split between multiple projects. Then the entire project pages
 was migrated to a GitHub Pages site, located at
-[http://gnuarmeclipse.github.io/](http://gnuarmeclipse.github.io/).
+[https://gnuarmeclipse.github.io/](https://gnuarmeclipse.github.io/).
 
 In August 2020, as part of the migration to the Eclipse Foundation,
 the content was reorganised and with the xPacks related content

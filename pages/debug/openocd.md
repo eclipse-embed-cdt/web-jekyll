@@ -223,7 +223,7 @@ The most common operations are:
 - inspect memory (use the **Memory** view)
 
 For more details please read the
-[Running and debugging projects](http://help.eclipse.org/luna/index.jsp?topic=%2Forg.eclipse.cdt.doc.user%2Ftasks%2Fcdt_t_debug_prog.htm)
+[Running and debugging projects](https://help.eclipse.org/luna/index.jsp?topic=%2Forg.eclipse.cdt.doc.user%2Ftasks%2Fcdt_t_debug_prog.htm)
 section in the Eclipse documentation.
 
 ## View consoles

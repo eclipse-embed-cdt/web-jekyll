@@ -40,7 +40,7 @@ topnav_dropdowns:
         - title: The xPack Project
           external_url: https://xpack.github.io
         - title: µOS++
-          external_url: http://micro-os-plus.github.io
+          external_url: https://micro-os-plus.github.io
         - title: GNU MCU Eclipse (deprecated)
           external_url: https://gnu-mcu-eclipse.github.io
 

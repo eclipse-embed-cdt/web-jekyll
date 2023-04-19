@@ -9,7 +9,7 @@ categories:
 
 ---
 
-Based on the continuously increasing interest in using the **GNU ARM Eclipse Plug-in**, we decided to improve the presence of this project on the web and installed a new [WordPress](http://wordpress.org/) server.
+Based on the continuously increasing interest in using the **GNU ARM Eclipse Plug-in**, we decided to improve the presence of this project on the web and installed a new [WordPress](https://wordpress.org/) server.
 
 The technical articles will continue to be hosted on the project Wiki, but news and announcements will be posted on this site.
 

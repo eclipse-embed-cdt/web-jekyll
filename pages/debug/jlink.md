@@ -153,7 +153,7 @@ which must identify the processor family; if you assigned the device to
 the project, this field is automatically filled-in; usually this name is
 the family name; if you do not know it for your processor, follow the
 link at the right and copy/paste the string from the
-[SEGGER web page](http://www.segger.com/supported-devices.html);
+[SEGGER web page](https://www.segger.com/supported-devices.html);
 - for portability reasons, the GDB server and GDB client executables
 are defined using variables; it is highly recommended to keep these
 definitions;
@@ -267,7 +267,7 @@ The most common operations are:
 - inspect memory (use the **Memory** view)
 
 For more details please read the
-[Running and debugging projects](http://help.eclipse.org/luna/index.jsp?topic=%2Forg.eclipse.cdt.doc.user%2Ftasks%2Fcdt_t_debug_prog.htm)
+[Running and debugging projects](https://help.eclipse.org/luna/index.jsp?topic=%2Forg.eclipse.cdt.doc.user%2Ftasks%2Fcdt_t_debug_prog.htm)
 section in the Eclipse documentation.
 
 ## View consoles
@@ -445,4 +445,4 @@ Although the plug-in takes care of most of the configuration options,
 and provides reasonable defaults for the usual cases, it is recommended
 to read the SEGGER manuals, available from the Doc folder in the
 installation location or directly from the
-[SEGGER J-Link page](http://www.segger.com/jlink-software.html).
+[SEGGER J-Link page](https://www.segger.com/jlink-software.html).

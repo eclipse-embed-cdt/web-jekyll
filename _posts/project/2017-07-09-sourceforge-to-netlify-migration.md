@@ -46,9 +46,9 @@ The new internal URL addresses used for for the Eclipse plug-ins v4.x downloads 
 
 The physical files may be stored on Bintray, but the official URL addresses to be used for installs/updates are on Netlify:
 
-- [http://gnu-mcu-eclipse.netlify.com/v4-neon-updates](http://gnu-mcu-eclipse.netlify.com/v4-neon-updates)
-- [http://gnu-mcu-eclipse.netlify.com/v4-neon-updates-test](http://gnu-mcu-eclipse.netlify.com/v4-neon-updates-test)
-- [http://gnu-mcu-eclipse.netlify.com/v4-neon-updates-experimental](http://gnu-mcu-eclipse.netlify.com/v4-neon-updates-experimental)
+- [https://gnu-mcu-eclipse.netlify.com/v4-neon-updates](https://gnu-mcu-eclipse.netlify.com/v4-neon-updates)
+- [https://gnu-mcu-eclipse.netlify.com/v4-neon-updates-test](https://gnu-mcu-eclipse.netlify.com/v4-neon-updates-test)
+- [https://gnu-mcu-eclipse.netlify.com/v4-neon-updates-experimental](https://gnu-mcu-eclipse.netlify.com/v4-neon-updates-experimental)
 
 ## Expected issues
 

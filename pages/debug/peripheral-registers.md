@@ -21,7 +21,7 @@ plus the manual selection of the appropriate file for the current
 debug configuration.
 
 The Eclipse Embedded CDT approach is a more integrated one, based on
-[CMSIS Packs](http://www.keil.com/pack/doc/CMSIS/Pack/html/index.html).
+[CMSIS Packs](https://www.keil.com/pack/doc/CMSIS/Pack/html/index.html).
 In fact the main reason for introducing the peripheral registers view
 only now was the need for the CMSIS Packs technology to mature and
 of course a CMSIS Packs Manager implementation.

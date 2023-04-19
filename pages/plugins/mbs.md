@@ -17,9 +17,9 @@ toolchains, specific for the projects you plan to create.
 ### Toolchain
 
 For embedded Arm projects, it is recommended to use the
-[xPack GNU Arm Embedded GCC](http://launchpad.net/gcc-arm-embedded)
+[xPack GNU Arm Embedded GCC](https://launchpad.net/gcc-arm-embedded)
 (arm-none-eabi-*). For all other projects, a good point to start the
-search for toolchains is the [Linaro](http://launchpad.net/gcc-linaro) project.
+search for toolchains is the [Linaro](https://launchpad.net/gcc-linaro) project.
 
 ### Build tools (make & rm)
 

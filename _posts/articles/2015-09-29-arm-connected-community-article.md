@@ -14,7 +14,7 @@ tags:
 
 ---
 
-A new article was published on the [ARM Connected Community](http://community.arm.com) site, under the name **[The GNU ARM Eclipse project has a new look and a new home at GitHub](http://community.arm.com/groups/tools/blog/2015/09/29/the-gnu-arm-eclipse-project-has-a-new-look-and-a-new-home)**.
+A new article was published on the [ARM Connected Community](https://community.arm.com) site, under the name **[The GNU ARM Eclipse project has a new look and a new home at GitHub](https://community.arm.com/groups/tools/blog/2015/09/29/the-gnu-arm-eclipse-project-has-a-new-look-and-a-new-home)**.
 
 ![ARM Connected Community article]({{ site.baseurl }}/assets/images/2015/arm-com-article-2015-09.png)
 

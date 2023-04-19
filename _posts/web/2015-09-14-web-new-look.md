@@ -69,7 +69,7 @@ Since GitHub solution for providing documentation sites is [GitHub Pages](https:
 
 ![GNU ARM Eclipse Home Page]({{ site.baseurl }}/assets/images/2015/github-io-gae-home.png)
 
-GitHub Pages uses [Jekyll](http://jekyllrb.com) to generate static web sites, and the most convenient input format for Jekyll is [markdown](http://daringfireball.net/projects/markdown/syntax), so the migration involved conversion from WordPress internal representation, to markdown. Given the differences, this conversion was not easy, and was done partly with scripts, partly manually. Similarly for MediaWiki, although the conversion from the MediaWiki format to markdown was easier.
+GitHub Pages uses [Jekyll](https://jekyllrb.com) to generate static web sites, and the most convenient input format for Jekyll is [markdown](https://daringfireball.net/projects/markdown/syntax), so the migration involved conversion from WordPress internal representation, to markdown. Given the differences, this conversion was not easy, and was done partly with scripts, partly manually. Similarly for MediaWiki, although the conversion from the MediaWiki format to markdown was easier.
 
 Given the complexity of this migration, we are aware that it is very likely that lots of mistakes are still present in the pages; we would appreciate any help in fixing them (use the [Web Issues](https://github.com/gnu-mcu-eclipse/gnu-mcu-eclipse.github.io-source/issues) tracker for this).
 
@@ -88,5 +88,5 @@ We are aware that a lot of links to the previous sites are in use. To avoid brea
 
 The previous WordPress and MediaWiki sites were moved back to SourceForge and, for historical reasons, will be preserved there, but will no longer be maintained:
 
-- `http://gnuarmeclipse.sourceforge.net/blog/`
-- `http://gnuarmeclipse.sourceforge.net/wiki/`
+- `https://gnuarmeclipse.sourceforge.net/blog/`
+- `https://gnuarmeclipse.sourceforge.net/wiki/`

@@ -9,7 +9,7 @@ categories:
 
 ---
 
-A presentation article was published on the [ARM Connected Community](http://community.arm.com) site, under the name **[GNU ARM Eclipse: open source tools with (experimental) CMSIS Pack support](http://community.arm.com/groups/tools/blog/2014/07/17/gnu-arm-eclipse-open-source-tools-with-experimental-cmsis-pack-support)**.
+A presentation article was published on the [ARM Connected Community](https://community.arm.com) site, under the name **[GNU ARM Eclipse: open source tools with (experimental) CMSIS Pack support](https://community.arm.com/groups/tools/blog/2014/07/17/gnu-arm-eclipse-open-source-tools-with-experimental-cmsis-pack-support)**.
 
 ![ARM Connected Community article]({{ site.baseurl }}/assets/images/2015/arm-com-article-2014-07-17.png)
 

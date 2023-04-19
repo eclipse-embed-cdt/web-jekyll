@@ -14,7 +14,7 @@ tags:
 
 ---
 
-A new article was published on the [ARM Connected Community](http://community.arm.com) site, under the name **[GNU ARM Eclipse: full Cortex-M7 support added](https://community.arm.com/groups/tools/blog/2015/11/17/gnu-arm-eclipse-full-cortex-m7-support-added)**.
+A new article was published on the [ARM Connected Community](https://community.arm.com) site, under the name **[GNU ARM Eclipse: full Cortex-M7 support added](https://community.arm.com/groups/tools/blog/2015/11/17/gnu-arm-eclipse-full-cortex-m7-support-added)**.
 
 ![ARM Connected Community article]({{ site.baseurl }}/assets/images/2015/arm-com-article-2015-11.png)
 

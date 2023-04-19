@@ -57,7 +57,7 @@ After defining a minimum common hardware implementation in the Cortex-M core,
 to be implemented by all vendors, Arm also defined CMSIS (pronounced _sim-sys_)
 as a common software interface, to be used with all Cortex-M implementations.
 CMSIS stands for
-[Cortex Microcontroller Software Interface Standard](http://www.arm.com/products/processors/cortex-m/cortex-microcontroller-software-interface-standard.php)
+[Cortex Microcontroller Software Interface Standard](https://www.arm.com/products/processors/cortex-m/cortex-microcontroller-software-interface-standard.php)
 and consists of several components (CORE, DSP, RTOS, SVD).
 
 The Eclipse Embedded CDT plug-ins use the CMSIS-CORE code in the Cortex-M

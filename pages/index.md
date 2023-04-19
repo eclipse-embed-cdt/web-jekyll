@@ -72,14 +72,14 @@ several other tools, distributed as separate packages.
 - **xPack OpenOCD**
 
   The [**xPack OpenOCD**](https://xpack.github.io/dev-tools/openocd/) project is a
-  binary distribution of [OpenOCD](http://openocd.org/), customised for a
+  binary distribution of [OpenOCD](https://openocd.org/), customised for a
   better/more convenient integration with the **OpenOCD Debugging** plug-in.
   Binaries for Windows, macOS and GNU/Linux are available.
 
 - **xPack QEMU Arm**
 
   The [**xPack QEMU Arm**](https://xpack.github.io/dev-tools/qemu-arm/)
-  project is binary distribution of [QEMU](http://wiki.qemu.org/Main_Page)
+  project is binary distribution of [QEMU](https://wiki.qemu.org/Main_Page)
   (an open source machine emulator),
   intended to provide support for Arm emulation in Eclipse Embedded CDT.
   Binaries for Windows, macOS and GNU/Linux are available.
@@ -87,7 +87,7 @@ several other tools, distributed as separate packages.
 - **xPack QEMU RISC-V**
 
   The [**xPack QEMU Arm**](https://xpack.github.io/dev-tools/qemu-riscv/)
-  project is binary distribution of [QEMU](http://wiki.qemu.org/Main_Page)
+  project is binary distribution of [QEMU](https://wiki.qemu.org/Main_Page)
   (an open source machine emulator),
   intended to provide support for RISC-V emulation in Eclipse Embedded CDT.
   Binaries for Windows, macOS and GNU/Linux are available.

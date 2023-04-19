@@ -151,7 +151,7 @@ linux
 ### Install several Eclipse plug-ins
 
 - **Help** → **Install New Software**
-  - Work with: `2020-09 - http://download.eclipse.org/releases/2020-09`
+  - Work with: `2020-09 - https://download.eclipse.org/releases/2020-09`
     - In **Application Development Framework**
       - optional **Eclipse Project SDK**
     - In **Mobile and Device Development**
@@ -243,7 +243,7 @@ with previous versions of Embedded CDT according to the rules and guidelines set
 
 This separate instance of Eclipse will be used to test the plug-in.
 
-Go to [Eclipse download site](http://www.eclipse.org/downloads/) and follow
+Go to [Eclipse download site](https://www.eclipse.org/downloads/) and follow
 the [download packages](https://www.eclipse.org/downloads/eclipse-packages/)
 link.
 

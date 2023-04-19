@@ -49,7 +49,7 @@ experimental status):
 The Eclipse Embedded CDT Packs Support plug-in is intended to manage
 (list/install/inspect/remove) packs from multiple sources. It currently
 implements the specifications of **CMSIS Packs**, as defined by
-[Arm/Keil](http://www.keil.com/pack/doc/CMSIS/Pack/html/index.html),
+[Arm/Keil](https://www.keil.com/pack/doc/CMSIS/Pack/html/index.html),
 with some extensions.
 
 ## Configuration

@@ -32,10 +32,10 @@ possibly support tracing via the SWO pin.
 The preferred probes that
 match the above requirements are
 the [J-Link Debug Probes](https://www.segger.com/products/debug-probes/j-link/)
-from [SEGGER](http://www.segger.com/).
+from [SEGGER](https://www.segger.com/).
 
 {% include note.html content="For educational purposes and hobbyists,
-SEGGER offers [J-Link EDU](http://www.segger.com/j-link-edu.html) at a
+SEGGER offers [J-Link EDU](https://www.segger.com/j-link-edu.html) at a
 promotional price providing the same functionality as the J-Link BASE." %}
 
 ## Debugging overview

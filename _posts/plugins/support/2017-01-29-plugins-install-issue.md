@@ -29,7 +29,7 @@ Checking the Eclipse log revealed a Java SSL exception:
 
 ```console
 !SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2017-01-28 18:48:05.200
-!MESSAGE Unable to read repository at http://gnuarmeclipse.sourceforge.net/updates-test/content.xml.
+!MESSAGE Unable to read repository at https://gnuarmeclipse.sourceforge.net/updates-test/content.xml.
 !STACK 0
 javax.net.ssl.SSLHandshakeException: Received fatal alert: handshake_failure
 	at sun.security.ssl.Alerts.getSSLException(Unknown Source)
@@ -56,7 +56,7 @@ The problem is caused by **SourceForge mandating the use of strong encryption**,
 
 ## Solution
 
-The solution is to install the [Java Cryptography Extension (JCE) Unlimited Strength Jurisdiction Policy Files](http://www.oracle.com/technetwork/java/javase/downloads/jce8-download-2133166.html). In practical terms, this means replacing two JAR files in the JRE `/lib/security` folder.
+The solution is to install the [Java Cryptography Extension (JCE) Unlimited Strength Jurisdiction Policy Files](https://www.oracle.com/technetwork/java/javase/downloads/jce8-download-2133166.html). In practical terms, this means replacing two JAR files in the JRE `/lib/security` folder.
 
 Read the instructions in the `README.txt` file and follow them carefully. Replacing the files might require administrative rights.
 

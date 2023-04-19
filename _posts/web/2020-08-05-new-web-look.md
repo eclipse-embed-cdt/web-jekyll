@@ -27,9 +27,9 @@ is performed by a CI job.
 
 ## Jekyll & markdown
 
-GitHub Pages use [Jekyll](http://jekyllrb.com) to generate static web
+GitHub Pages use [Jekyll](https://jekyllrb.com) to generate static web
 sites, and the most convenient input format for Jekyll is
-[markdown](http://daringfireball.net/projects/markdown/syntax).
+[markdown](https://daringfireball.net/projects/markdown/syntax).
 
 The new site uses the standard GitHub setup, which automatically runs
 the Jekyll generator; thus an external build step is no longer needed.

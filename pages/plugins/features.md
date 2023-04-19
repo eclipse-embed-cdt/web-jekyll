@@ -44,21 +44,21 @@ for both 32 and 64-bit Arm and RISC-V processors.
 
 - [**xPack GNU Arm Embedded GCC**](https://xpack.github.io/dev-tools/arm-none-eabi-gcc/) (arm-none-eabi-*)
 - [**Arm GNU Toolchain**]https://developer.arm.com/Tools%20and%20Software/GNU%20Toolchain) (arm-none-eabi-*)
-- **[Linaro](http://launchpad.net/gcc-linaro) **ARMv7 **bare-metal EABI** (arm-none-eabi-*)
-- **[Linaro](http://launchpad.net/gcc-linaro) **ARMv7 **big-endian bare-metal EABI** (armeb-none-eabi-*)
-- **[Linaro](http://launchpad.net/gcc-linaro) **ARMv7 **Linux GNU EABI HF** (arm-linux-gnueabihf-*)
-- **[Linaro](http://launchpad.net/gcc-linaro) **ARMv7 **big-endian Linux GNU EABI HF** (armeb-linux-gnueabihf-*)
-- **[Mentor Sourcery CodeBench Lite](http://www.mentor.com/embedded-software/sourcery-tools/sourcery-codebench/editions/lite-edition/)** for **ARM EABI** (arm-none-eabi-*)
-- **[Mentor Sourcery CodeBench Lite](http://www.mentor.com/embedded-software/sourcery-tools/sourcery-codebench/editions/lite-edition/)** for **ARM GNU/Linux** (arm-none-linux-gnueabi-*)
+- **[Linaro](https://launchpad.net/gcc-linaro) **ARMv7 **bare-metal EABI** (arm-none-eabi-*)
+- **[Linaro](https://launchpad.net/gcc-linaro) **ARMv7 **big-endian bare-metal EABI** (armeb-none-eabi-*)
+- **[Linaro](https://launchpad.net/gcc-linaro) **ARMv7 **Linux GNU EABI HF** (arm-linux-gnueabihf-*)
+- **[Linaro](https://launchpad.net/gcc-linaro) **ARMv7 **big-endian Linux GNU EABI HF** (armeb-linux-gnueabihf-*)
+- **[Mentor Sourcery CodeBench Lite](https://www.mentor.com/embedded-software/sourcery-tools/sourcery-codebench/editions/lite-edition/)** for **ARM EABI** (arm-none-eabi-*)
+- **[Mentor Sourcery CodeBench Lite](https://www.mentor.com/embedded-software/sourcery-tools/sourcery-codebench/editions/lite-edition/)** for **ARM GNU/Linux** (arm-none-linux-gnueabi-*)
 - devkit **ARM EABI** (arm-eabi-*) (obsolete, no longer maintained)
 - Yagarto, Summon, etc. **ARM EABI** (arm-none-eabi-*) (obsolete, no longer maintained)
 
 ### AArch64 toolchains
 
-- **[Linaro](http://launchpad.net/linaro-toolchain-binaries) AArch64 bare-metal ELF** (aarch64-none-elf-*)
-- **[Linaro](http://launchpad.net/linaro-toolchain-binaries) AArch64 big-endian bare-metal ELF** (aarch64_be-none-elf-*)
-- **[Linaro](http://launchpad.net/linaro-toolchain-binaries) AArch64 Linux GNU** (aarch64-linux-gnu-*)
-- **[Linaro](http://launchpad.net/linaro-toolchain-binaries) AArch64 big-endian Linux GNU** (aarch64_be-linux-gnu-*)
+- **[Linaro](https://launchpad.net/linaro-toolchain-binaries) AArch64 bare-metal ELF** (aarch64-none-elf-*)
+- **[Linaro](https://launchpad.net/linaro-toolchain-binaries) AArch64 big-endian bare-metal ELF** (aarch64_be-none-elf-*)
+- **[Linaro](https://launchpad.net/linaro-toolchain-binaries) AArch64 Linux GNU** (aarch64-linux-gnu-*)
+- **[Linaro](https://launchpad.net/linaro-toolchain-binaries) AArch64 big-endian Linux GNU** (aarch64_be-linux-gnu-*)
 
 ![The list of supported Arm toolchains]({{ site.baseurl }}/assets/images/2023/wizard-arm-toolchains.png)
 
@@ -193,10 +193,10 @@ debugging environment is an absolute must.
 
 There are many debugging techniques and tools, but we recommend two solutions:
 
-- the [SEGGER J-Link](http://www.segger.com/jlink_base.html) probe
+- the [SEGGER J-Link](https://www.segger.com/jlink_base.html) probe
 with its integrated GDB server, via
 [the J-Link plug-in]({{ site.baseurl }}/debug/jlink/)
-- the [OpenOCD](http://openocd.org) GDB server for many other JTAG probes.
+- the [OpenOCD](https://openocd.org) GDB server for many other JTAG probes.
 
   ![The J-Link Debugger tab]({{ site.baseurl }}/assets/images/2015/launch-jlink-debugger-tab.png)
 

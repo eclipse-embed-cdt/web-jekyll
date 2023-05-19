@@ -13,7 +13,7 @@ date: 2023-04-15 20:59:00 +0300
 ## Overview
 
 The first challenge when encountering a new board is to make it
-say _Hello_. This is even simpler that blinking a LED, since it does
+say _Hello_. This is even simpler than blinking a LED, since it does
 not require any peripheral drivers, like GPIO or timers.
 
 The preferred way to output _Hello_ message is via the standard output,

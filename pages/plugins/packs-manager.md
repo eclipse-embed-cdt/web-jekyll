@@ -56,17 +56,16 @@ with some extensions.
 
 Before starting using the packs, it is recommended to check and adjust
 the folder where packs are downloaded and un-archived, since this cannot
-be changed later (in fact it can, but by doing this you loose all
+be changed later (in fact it can, but by doing this you lose all
 installed packages and need to download them again).
 
-By default, this folder is called Packages and is located at the same
-level as the current workspace.
+By default, this folder is called CMSIS-Packs and is located in
+the user home folder.
 
 ![Path to packages]({{ site.baseurl }}/assets/images/2020/mcu-packages-path.png)
 
 If you use multiple Eclipses with multiple workspaces, it is recommended
-to adjust this path to a single location and have the same packs install
-folder for all workspaces.
+to check that this path is the same for all, to avoid wasting space.
 
 The plug-in also provides a page to configure which sites are used to
 load packs. Currently only the Keil URL is relevant, but in case others

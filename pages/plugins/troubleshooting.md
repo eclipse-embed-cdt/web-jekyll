@@ -74,7 +74,7 @@ from `Eclipse.app`:
 ```console
 $ xattr Eclipse.app
 com.apple.quarantine
-$ xattr -dr com.apple.quarantine Eclipse.app
+$ xattr -cr Eclipse.app
 ```
 
 ### Incomplete Eclipse

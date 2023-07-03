@@ -82,14 +82,14 @@ security checks on recent macOS will prevent it to run. The fix is
 simple, you need to remove the `com.apple.quarantine` extended attribute.
 
 ```sh
-xattr -d com.apple.quarantine eclipse-embedcdt-*-macosx-cocoa-*.dmg
+xattr -c eclipse-embedcdt-*-macosx-cocoa-*.dmg
 ```
 
 After un-archiving, if the Eclipse.app still does not run, check/remove
 the attribute from the Eclipse.app folder too:
 
 ```console
-xattr -dr com.apple.quarantine Eclipse.app
+xattr -cr Eclipse.app
 ```
 
 ## Alternate ways

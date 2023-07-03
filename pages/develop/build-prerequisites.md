@@ -106,7 +106,7 @@ Go to the 2020-09
 - remove the `com.apple.quarantine` attribute:
 
 ```bash
-xattr -dr com.apple.quarantine Eclipse.app
+xattr -cr Eclipse.app
 ```
 
 - rename `Eclipse.app` to `Eclipse-committers-2020-09.app`
@@ -259,7 +259,7 @@ install **Eclipse IDE for C/C++ Developers**.
 - on macOS, remove the `com.apple.quarantine` attribute:
 
 ```bash
-xattr -dr com.apple.quarantine Eclipse.app
+xattr -cr Eclipse.app
 ```
 
 - rename `Eclipse.app` to `Eclipse-cpp-2020-09.app`

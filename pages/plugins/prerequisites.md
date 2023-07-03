@@ -125,7 +125,7 @@ In the **Builds** section, download the **macOS/x64** .tar.gz file.
 
 ```bash
 cd ~/Downloads
-xattr -d com.apple.quarantine openjdk-{{ page.jdk_major }}{{ page.jdk_minor_patch }}_osx-x64_bin.tar.gz
+xattr -c openjdk-{{ page.jdk_major }}{{ page.jdk_minor_patch }}_osx-x64_bin.tar.gz
 tar xf openjdk-{{ page.jdk_major }}{{ page.jdk_minor_patch }}_osx-x64_bin.tar.gz
 sudo mv jdk-{{ page.jdk_major }}{{ page.jdk_minor_patch }}.jdk/ /Library/Java/JavaVirtualMachines/
 ```

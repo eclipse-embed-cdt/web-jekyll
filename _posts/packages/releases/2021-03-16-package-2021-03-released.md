@@ -62,12 +62,12 @@ is simple, you need to remove the com.apple.quarantine extended
 attribute.
 
 ```sh
-xattr -d com.apple.quarantine ~/Downloads/eclipse-embedcdt-2021-03-R-macosx-cocoa-x86_64.tar.gz
+xattr -c ~/Downloads/eclipse-embedcdt-2021-03-R-macosx-cocoa-x86_64.tar.gz
 ```
 
 After un-archiving, if the application still complains, check/remove
 the attribute from the `Eclipse.app` folder too:
 
 ```sh
-xattr -dr com.apple.quarantine ~/Downloads/Eclipse.app
+xattr -cr ~/Downloads/Eclipse.app
 ```

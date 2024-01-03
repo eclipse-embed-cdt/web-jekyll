@@ -31,7 +31,7 @@ a separate installation.
 
 {% include tip.html content="Recent Eclipse packages are standalone and
 come bundled with the Java JRE; in this case
-is is no longer necessary to install a separate Java." %}
+it is no longer necessary to install a separate Java." %}
 
 ### Other tools
 
@@ -110,7 +110,7 @@ Check version:
 java --version
 ```
 
-It is possible to install multiple versions on the same system, and chose
+It is possible to install multiple versions on the same system, and choose
 which one to use by controlling the Path.
 
 {% endcapture %}
@@ -242,7 +242,7 @@ specific to the window manager.
 On some distributions (like Ubuntu) this can be achieved via `~/.xsessionrc`,
 sourced from one of the files in `/etc/X11/Xsession.d/`.
 
-It is possible to install multiple versions on the same system, and chose
+It is possible to install multiple versions on the same system, and choose
 which one to use by controlling the PATH.
 
 It is also possible to edit [eclipse.ini](https://wiki.eclipse.org/Eclipse.ini)
@@ -323,7 +323,7 @@ the riscv toolchain is necessary only for RISC-V projects.
 xpm install --global @xpack-dev-tools/arm-none-eabi-gcc@latest --verbose
 xpm install --global @xpack-dev-tools/qemu-arm@latest --verbose
 
-xpm install --global @xpack-dev-tools/riscv-none-embed-gcc@latest --verbose
+xpm install --global @xpack-dev-tools/riscv-none-elf-gcc@latest --verbose
 xpm install --global @xpack-dev-tools/qemu-riscv@latest --verbose
 
 xpm install --global @xpack-dev-tools/openocd@latest --verbose

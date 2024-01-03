@@ -69,8 +69,8 @@ start using it.
 you get an older version and the CDT plug-ins are not included." %}
 
 {% include note.html content="Contrary to other tools, Eclipse **does not
-need administrative rights**, does need not be installed in a system location,
-and does not need not be a single instance on a system. Actually you are
+need administrative rights**, does not need to be installed in a system location,
+and does not need to be a single instance on a system. Actually you are
 encouraged to install multiple instances of Eclipse, possibly one for
 each project type, to avoid mixing plug-ins from different sources in
 case different project types." %}
@@ -135,7 +135,7 @@ can start creating projects right away. However, for being able to build
 and debug these projects, you also need to install:
 
 - the [Arm toolchain](https://xpack.github.io/dev-tools/arm-none-eabi-gcc/install/) or
-[RISC-V toolchain](https://xpack.github.io/dev-tools/riscv-none-embed-gcc/install/)
+[RISC-V toolchain](https://xpack.github.io/dev-tools/riscv-none-elf-gcc/install/)
 - the optional [build tools](https://xpack.github.io/dev-tools/windows-build-tools/)
 (if you are running on Windows)
 - the [debugging]({{ site.baseurl }}/debug/) tools

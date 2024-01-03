@@ -21,11 +21,11 @@ mechanism:
 
 ## Overview
 
-As a collection of features, Eclipse projects may chose to pack only a
+As a collection of features, Eclipse projects may choose to pack only a
 limited selection of features in the standard distributions, making all
 other optional.
 
-The user may chose to install the optional packages at any time.
+The user may choose to install the optional packages at any time.
 
 The first choice is what repository to work with:
 
@@ -34,7 +34,7 @@ The first choice is what repository to work with:
 There are many choice, but most probably you'll want to install optional
 CDT features.
 
-The list of available repositories can be managed from here by 
+The list of available repositories can be managed from here by
 using the **Manage...** button, or from the preferences pages.
 
 ![Work With]({{ site.baseurl }}/assets/images/2020/manage-available-software-sites.png)

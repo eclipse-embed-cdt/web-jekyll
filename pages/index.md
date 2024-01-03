@@ -32,7 +32,7 @@ and is hosted on
 These plug-ins provide Eclipse CDT (C/C++ Development Tooling) extensions for
 GNU embedded toolchains like
 [xPack GNU Arm Embedded GCC](https://xpack.github.io/dev-tools/arm-none-eabi-gcc/),
-[xPack GNU RISC-V Embedded GCC](https://xpack.github.io/dev-tools/riscv-none-embed-gcc/),
+[xPack GNU RISC-V Embedded GCC](https://xpack.github.io/dev-tools/riscv-none-elf-gcc/),
 etc.
 
 [![Arm logo]({{ site.baseurl }}/assets/images/2020/Arm_logo_blue_150MN.png){: class="right-align-image"  style="margin: 10px"}](https://www.arm.com)
@@ -64,7 +64,7 @@ several other tools, distributed as separate packages.
 
 - **xPack GNU RISC-V Embedded GCC**
 
-  The [**xPack GNU RISC-V Embedded GCC**](https://xpack.github.io/dev-tools/riscv-none-embed-gcc/)
+  The [**xPack GNU RISC-V Embedded GCC**](https://xpack.github.io/dev-tools/riscv-none-elf-gcc/)
   project is a new distribution of the bare metal version of
   [RISC-V GCC](https://gcc.gnu.org). Binaries for Windows, macOS and GNU/Linux
   are available.
@@ -79,15 +79,15 @@ several other tools, distributed as separate packages.
 - **xPack QEMU Arm**
 
   The [**xPack QEMU Arm**](https://xpack.github.io/dev-tools/qemu-arm/)
-  project is binary distribution of [QEMU](https://wiki.qemu.org/Main_Page)
+  project is a binary distribution of [QEMU](https://wiki.qemu.org/Main_Page)
   (an open source machine emulator),
   intended to provide support for Arm emulation in Eclipse Embedded CDT.
   Binaries for Windows, macOS and GNU/Linux are available.
 
 - **xPack QEMU RISC-V**
 
-  The [**xPack QEMU Arm**](https://xpack.github.io/dev-tools/qemu-riscv/)
-  project is binary distribution of [QEMU](https://wiki.qemu.org/Main_Page)
+  The [**xPack QEMU RISC-V**](https://xpack.github.io/dev-tools/qemu-riscv/)
+  project is a binary distribution of [QEMU](https://wiki.qemu.org/Main_Page)
   (an open source machine emulator),
   intended to provide support for RISC-V emulation in Eclipse Embedded CDT.
   Binaries for Windows, macOS and GNU/Linux are available.

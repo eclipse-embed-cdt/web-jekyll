@@ -61,7 +61,7 @@ xpm install --global @xpack-dev-tools/ninja-build@1.11.0-1.1 --verbose
 For RISC-V projects, replace the first lines with:
 
 ```sh
-xpm install --global @xpack-dev-tools/riscv-none-embed-gcc@12.1.0-2.1 --verbose
+xpm install --global @xpack-dev-tools/riscv-none-elf-gcc@12.1.0-2.1 --verbose
 xpm install --global @xpack-dev-tools/qemu-riscv@7.0.0-1.1 --verbose
 ```
 

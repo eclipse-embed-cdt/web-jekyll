@@ -46,10 +46,10 @@ highly recommended to use **xpm** (the xPack Project Manager, which
 is a **Node.js** portable CLI application) to install
 various build tools (the _Hello World Arm/RISC-V QEMU xPack_ project
 template mandates it)
-- **make** - the CDT managed build uses make for all builds;
-  - macOS: the make utility is included with the **Command Line Tools**, which can be installed via Xcode or directly through terminal commands;
-  - GNU/Linux: the make utility is typically available as part of the development packages provided by the specific Linux distribution (e.g., via apt for Debian-based systems or yum for Red Hat-based systems);
-  - Windows: The make utility is not natively included and must be installed separately. It can be obtained by installing the **xPack Windows Build Tools**;
+- **make** - the CDT managed build uses `make` for all builds;
+  - macOS: the `make` utility is included with the **Command Line Tools**, which can be installed via Xcode or directly through terminal commands;
+  - GNU/Linux: the ``make`` utility is typically available as part of the development packages provided by the specific Linux distribution (e.g., via apt for Debian-based systems or yum for Red Hat-based systems);
+  - Windows: The `make` utility is not natively included and must be installed separately. It can be obtained by installing the **xPack Windows Build Tools**;
 - **Arm Embedded GCC toolchain** - to build Arm projects, an Arm toolchain like
 the xPack GNU Arm Embedded GCC is required;
 - **RISC-V Embedded GCC toolchain** - similarly, for RISC-V projects, a RISC-V toolchain

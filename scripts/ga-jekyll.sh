@@ -121,9 +121,9 @@ run_verbose git commit -m "Jekyll CI Deploy of ${commit_message} ${GITHUB_SHA}"
 # env | sort
 echo "Deploy to GitHub pages..."
 
-# TODO: restore quiet/redirected push once auth issue is diagnosed.
+# Must be quiet and have no output, to not reveal the key.
 echo git push --force --quiet "https://${GITHUB_TOKEN}@github.com/${github_dest_repo}" master
-git push --force --quiet "https://${GITHUB_TOKEN}@github.com/${github_dest_repo}" master
+git push --force --quiet "https://${GITHUB_TOKEN}@github.com/${github_dest_repo}" master > /dev/null 2>&1
 
 exit 0
 

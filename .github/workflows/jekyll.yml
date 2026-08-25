@@ -21,7 +21,7 @@ jobs:
 
     steps:
     # https://github.com/actions/checkout
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v6.1.0
     # https://github.com/ruby/setup-ruby
     - uses: ruby/setup-ruby@v1
       with:
@@ -29,7 +29,7 @@ jobs:
         # https://www.ruby-lang.org/en/downloads/releases/
         ruby-version: '2.7'
     # https://github.com/actions/cache
-    - uses: actions/cache@v3
+    - uses: actions/cache@v6.1.0
       with:
         path: vendor/bundle
         key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
@@ -51,7 +51,7 @@ jobs:
         env | sort
     - name: Run script to build site
       env:
-        GITHUB_TOKEN: ${{ secrets.ILG_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.ILG_ECDT_PUBLISH_TOKEN }}
       run: bash scripts/ga-jekyll.sh
 
 

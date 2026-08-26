@@ -169,11 +169,9 @@ To assign the board and device:
 - select **STM32F407VG**
 - click **OK**
 
-{% include important.html content="If you do not see STM32F407VG but
-STM32F407VGTx, you are using a newer, yet unsupported version of the
-STM32F4xx_DFP package. If you insist, you can still use this version,
-but you have to select STM32F407VG below devices, and later enter
-board name manually in the debugger configuration." %}
+{% include important.html content="The STM32F407VG board is supported
+up to xPack QEMU Arm v8.2.6-1. Later versions support only the standard
+QEMU boards." %}
 
 ![BlinkyAssignDevice]({{ site.baseurl }}/assets/images/2015/08/BlinkyAssignDevice.png)
 
@@ -182,6 +180,12 @@ board name manually in the debugger configuration." %}
 The most convenient way to run a debug session with this test is to use the
 [QEMU Debugging plug-in]({{ site.baseurl }}/debug/qemu/); you don't need
 any physical hardware.
+
+{% include important.html content="If you do not see STM32F407VG but
+STM32F407VGTx, you are using a newer, yet unsupported version of the
+STM32F4xx_DFP package. If you insist, you can still use this version,
+but you have to select STM32F407VG below devices, and later enter
+board name manually in the debugger configuration." %}
 
 As for any debugging plug-in,
 

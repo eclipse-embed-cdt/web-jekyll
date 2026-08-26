@@ -342,7 +342,7 @@ the xpm output for the actual location.
 {% include tip.html content="Since xPacks are installed in _.dot_ folders,
 be sure to configure the file manager to show hidden files." %}
 
-{% include important.html content="Support for `qemu-arm-gnuarmeclipse` 
+{% include important.html content="Support for `qemu-system-gnuarmeclipse` 
 is provided up to version 8.2.6-1." %}
 
 ## Miscellaneous

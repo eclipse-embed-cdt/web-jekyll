@@ -33,6 +33,10 @@ separately install:
 - the GDB debugger (client) application, as part of a GNU toolchain
 - the xPack QEMU Arm.
 
+{% include tip.html content="By default, the old **STM32Fnnn C/C++ Project** 
+templates use
+`qemu-system-gnuarmeclipse` which is available up to version 8.2.6-1." %}
+
 If you did not do it yet, please follow the instructions in the
 [xPack QEMU Arm install](https://xpack.github.io/dev-tools/qemu-arm/install/)
 page and return when completed.
@@ -42,6 +46,11 @@ it is recommended that the version of the GDB client matches the
 toolchain. Generally only debugging .elf applications is possible,
 and these applications must be compiled to include GNU compatible
 debugging information (like dwarf).
+
+{% include tip.html content="Starting with 9.2.4-1, only the
+standard `qemu-system-arm` is available. Update the executable name in the
+Preferences/Properties pages and the board name in the plug-in 
+configuration." %}
 
 ## How to use the QEMU plug-in
 

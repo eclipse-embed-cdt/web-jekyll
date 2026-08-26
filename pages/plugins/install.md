@@ -52,9 +52,38 @@ the risk of incompatible plug-ins.
 {% include note.html content="Recent Eclipse releases include Java,
 so this step is no longer necessary." %}
 
-## Download the Eclipse IDE for Embedded C/C++ Developers package
+## Use the Eclipse Installer
 
-To get the **Eclipse IDE for Embedded C/C++ Developers** package, go to the
+The modern way to install Eclipse is via the dedicated **Installer**.
+
+The advantages are:
+
+- the latest Java run-time is installed automatically
+- multiple variants or versions of Eclipse can be installed in separate folders
+- on macOS there is no need to tweak security details
+
+To use the Installer, go to the
+Eclipse [downloads](https://www.eclipse.org/downloads/packages/)
+page and get the right binary for your platform (Windows, macOS or
+GNU/Linux).
+
+The result is a file like `eclipse-inst-jre-mac64.dmg`
+
+Open/unpack it, start the `Eclipse Installer` application and select the
+**Eclipse IDE for Embedded C/C++ Developers**.
+
+![Eclipse Installer]({{ site.baseurl }}/assets/images/2026/eclipse-installer.png)
+
+Select an installation folder and start the install process.
+
+![ECDT Install]({{ site.baseurl }}/assets/images/2026/install-ecdt.png)
+
+## Manually download the Eclipse IDE for Embedded C/C++ Developers package
+
+If, for any reason, the **Installer** cannot be used, it is also possible to
+get the **Eclipse IDE for Embedded C/C++ Developers** package manually.
+
+Go to the
 Eclipse [downloads](https://www.eclipse.org/downloads/packages/)
 page and select the correct binary for your platform (Windows, macOS or
 GNU/Linux).
@@ -100,6 +129,8 @@ Marketplace, or the Eclipse **Install New Software** mechanism.
 
 For details, please check the separate
 [Alternate Installs]({{ site.baseurl }}/plugins/install-alternate/) page.
+
+![Global Tools Path]({{ site.baseurl }}/assets/images/2015/win-preferences-c-build-global-tools-path.png)
 
 ## Check/set the global tools paths
 

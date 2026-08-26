@@ -12,5 +12,8 @@ date: 2020-12-17 11:19:00 +0200
 ---
 
 ___
+More recent releases are available from the Eclipse
+[downloads](https://www.eclipse.org/downloads/packages/) pages.
+
 {% for post in site.posts %}{% if post.categories contains "releases" %}{% if post.categories contains "packages" %}
 * [{{ post.title }}]({{ site.baseurl }}{{ post.url }}){% endif %}{% endif %}{% endfor %}
